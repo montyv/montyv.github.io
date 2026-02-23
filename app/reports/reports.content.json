@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "manual",
+  "source": "app/reports/reports.content.json",
+  "title": "Reports",
+  "items": [
+    {
+      "id": "reports-1",
+      "text": "Fate and Transport Investigations Update for Chromium Contamination from Sandia Canyon, LA-UR-08-4702, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf",
+          "localFileName": "LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/reports/LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf",
+          "localHref": "/reports/LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Fate and Transport Investigations Update for Chromium Contamination from Sandia Canyon, LA-UR-08-4702, 2008. <a href=\"/reports/LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "reports-2",
+      "text": "Pajarito Canyon Investigation Report, LA-UR-08-5852, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "LA-UR-08-5852-Paj_Cyn_IR.pdf",
+          "localFileName": "LA-UR-08-5852-Paj_Cyn_IR.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/reports/LA-UR-08-5852-Paj_Cyn_IR.pdf",
+          "localHref": "/reports/LA-UR-08-5852-Paj_Cyn_IR.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Pajarito Canyon Investigation Report, LA-UR-08-5852, 2008. <a href=\"/reports/LA-UR-08-5852-Paj_Cyn_IR.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "reports-3",
+      "text": "Decision analysis for addressing groundwater contaminants from the radioactive liquid waste treatment facility released into Mortandad canyon, LA-UR-05-6397, 2005. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "LA-UR-05-6397 Decision Analysis-GWContaminants020106.pdf",
+          "localFileName": "LA-UR-05-6397 Decision Analysis-GWContaminants020106.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/reports/LA-UR-05-6397 Decision Analysis-GWContaminants020106.pdf",
+          "localHref": "/reports/LA-UR-05-6397%20Decision%20Analysis-GWContaminants020106.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Decision analysis for addressing groundwater contaminants from the radioactive liquid waste treatment facility released into Mortandad canyon, LA-UR-05-6397, 2005. <a href=\"/reports/LA-UR-05-6397%20Decision%20Analysis-GWContaminants020106.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    }
+  ],
+  "footerHtmlLines": [
+    "More reports are available at the <a href=\"https://eprr.lanl.gov/?utf8=%E2%9C%93&amp;search_field=all&amp;q=vesselinov\">LANL electronic public reading room</a>"
+  ]
+}

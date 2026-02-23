@@ -1,5 +1,0 @@
-docker run -it python-sitemap --domain http://monty.gitlab.io --images > sitemap-gitlab.xml
-docker run -it python-sitemap --domain http://montyv.github.io --images > sitemap-github-montyv.xml
-docker run -it python-sitemap --domain http://montyvesselinov.github.io --images > sitemap-github-montyvesselinov.xml
-sed -e "s/http:\/\/monty.gitlab.io/https:\/\/www.lanl.gov\/orgs\/ees\/staff\/monty/" sitemap-gitlab.xml > sitemap-lanl-long.xml
-sed -e "s/http:\/\/monty.gitlab.io/http:\/\/ees.lanl.gov\/staff\/monty/" sitemap-gitlab.xml > sitemap-lanl-short.xml

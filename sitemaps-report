@@ -1,4 +1,0 @@
-docker run -it python-sitemap --domain http://monty.gitlab.io --report
-docker run -it python-sitemap --domain http://montyv.github.io --report
-docker run -it python-sitemap --domain http://montyvesselinov.github.io --report
-

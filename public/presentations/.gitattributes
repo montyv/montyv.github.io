@@ -1,0 +1,9 @@
+Vesselinov[[:space:]]OMalley[[:space:]]Alexandrov[[:space:]]2018[[:space:]]Unsupervised[[:space:]]Machine[[:space:]]Learning[[:space:]]Based[[:space:]]on[[:space:]]Tensor[[:space:]]Factorization[[:space:]]interpore18.pdf filter=lfs diff=lfs merge=lfs -text
+vesselinov[[:space:]]et[[:space:]]al[[:space:]]2018[[:space:]]Unsupervised[[:space:]]Machine[[:space:]]Learning[[:space:]]Based[[:space:]]on[[:space:]]Non-negative[[:space:]]Tensor[[:space:]]Factorization[[:space:]]for[[:space:]]Analysis[[:space:]]of[[:space:]]Filed[[:space:]]Data[[:space:]]and[[:space:]]Simulation[[:space:]]Outputs[[:space:]]cmwr-ML-20180606.pdf filter=lfs diff=lfs merge=lfs -text
+vesselinov[[:space:]]2019[[:space:]]Unsupervised[[:space:]]Machine[[:space:]]Learning[[:space:]]Methods[[:space:]]for[[:space:]]Feature[[:space:]]Extraction[[:space:]]LA-UR-19-21450.pdf filter=lfs diff=lfs merge=lfs -text
+Vesselinov[[:space:]]2019[[:space:]]GeoScienceMLworkshop.pdf filter=lfs diff=lfs merge=lfs -text
+Vesselinov[[:space:]]2019[[:space:]]Physics-Informed[[:space:]]Machine[[:space:]]Learning[[:space:]]Methods[[:space:]]for[[:space:]]Data[[:space:]]Analytics[[:space:]]and[[:space:]]Model[[:space:]]Diagnostics.pdf filter=lfs diff=lfs merge=lfs -text
+Vesselinov[[:space:]]2019[[:space:]]Unsupervised[[:space:]]and[[:space:]]Physics-Informed[[:space:]]Machine[[:space:]]Learning[[:space:]]of[[:space:]]Big[[:space:]]Data.pdf filter=lfs diff=lfs merge=lfs -text
+Vesselinov[[:space:]]2019[[:space:]]Machine[[:space:]]learning[[:space:]]analyses[[:space:]]for[[:space:]]characterization[[:space:]]of[[:space:]]oil,[[:space:]]gas[[:space:]]and[[:space:]]water[[:space:]]production[[:space:]]from[[:space:]]unconventional[[:space:]]tight-rock[[:space:]]reservoirs.pdf filter=lfs diff=lfs merge=lfs -text
+Vesselinov[[:space:]]2021[[:space:]]GeoThermalCloud.pdf filter=lfs diff=lfs merge=lfs -text
+presentations/*.pdf filter=lfs diff=lfs merge=lfs -text

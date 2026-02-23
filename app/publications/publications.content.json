@@ -1,0 +1,1380 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "manual",
+  "source": "app/publications/publications.content.json",
+  "title": "Publications",
+  "items": [
+    {
+      "id": "papers-1",
+      "text": "Mudunuru, M., Ahmmed, B., Rau, E., Vesselinov, V.V., Karra, S., Machine Learning for Geothermal Resource Exploration in Tularosa Basin, New Mexico, Energies, 2023. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
+          "localFileName": "Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
+          "localHref": "/papers/Mudunuru%20et%20al%202023%20Machine%20Learning%20for%20Geothermal%20Resource%20Exploration%20in%20Tularosa%20Basin.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mudunuru, M., Ahmmed, B., Rau, E., Vesselinov, V.V., Karra, S., Machine Learning for Geothermal Resource Exploration in Tularosa Basin, New Mexico, Energies, 2023. <a href=\"/papers/Mudunuru%20et%20al%202023%20Machine%20Learning%20for%20Geothermal%20Resource%20Exploration%20in%20Tularosa%20Basin.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-2",
+      "text": "Solander, K.C., Talsma, C.J., Vesselinov, V.V., The drivers and predictability of wildfire re-burns in the western United States (US), Environ. Res.: Climate 2, 2023, 10.1088/2752-5295/acb079 PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Solander et al 2023 The drivers and predictability of wildfire re-burns in the western United States.pdf",
+          "localFileName": "Solander et al 2023 The drivers and predictability of wildfire re-burns in the western United States.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Solander et al 2023 The drivers and predictability of wildfire re-burns in the western United States.pdf",
+          "localHref": "/papers/Solander%20et%20al%202023%20The%20drivers%20and%20predictability%20of%20wildfire%20re-burns%20in%20the%20western%20United%20States.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Solander, K.C., Talsma, C.J., Vesselinov, V.V., The drivers and predictability of wildfire re-burns in the western United States (US), Environ. Res.: Climate 2, 2023, 10.1088/2752-5295/acb079 <a href=\"/papers/Solander%20et%20al%202023%20The%20drivers%20and%20predictability%20of%20wildfire%20re-burns%20in%20the%20western%20United%20States.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-3",
+      "text": "Mudunuru, M., Vesselinov, V.V., Ahmmed, B., Geothermalcloud: Machine learning for geothermal resource exploration, Journal of Machine Learning for Modeling and Computing, 10.1615/JMachLearnModelComput.2022046445, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
+          "localFileName": "Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
+          "localHref": "/papers/Mudunuru%20et%20al%202022%20Geothermalcloud%20-%20Machine%20learning%20for%20geothermal%20resource%20exploration.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mudunuru, M., Vesselinov, V.V., Ahmmed, B., Geothermalcloud: Machine learning for geothermal resource exploration, Journal of Machine Learning for Modeling and Computing, 10.1615/JMachLearnModelComput.2022046445, 2022. <a href=\"/papers/Mudunuru%20et%20al%202022%20Geothermalcloud%20-%20Machine%20learning%20for%20geothermal%20resource%20exploration.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-4",
+      "text": "Rupe, A., Vesselinov, V.V., Crutchfield, J.P., Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems, New Journal of Physics, 10.1088/1367-2630/ac95b7, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf",
+          "localFileName": "Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf",
+          "localHref": "/papers/Rupe%20et%20al%202022%20Nonequilibrium%20statistical%20mechanics%20and%20optimal%20prediction%20of%20partially-observed%20complex%20systems.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Rupe, A., Vesselinov, V.V., Crutchfield, J.P., Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems, New Journal of Physics, 10.1088/1367-2630/ac95b7, 2022. <a href=\"/papers/Rupe%20et%20al%202022%20Nonequilibrium%20statistical%20mechanics%20and%20optimal%20prediction%20of%20partially-observed%20complex%20systems.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-5",
+      "text": "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R., Discovering hidden geothermal signatures using non-negative matrix factorization with customized k-means clustering, Geothermics, 10.1016/j.geothermics.2022.102576, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
+          "localFileName": "Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202022%20Discovering%20Hidden%20Geothermal%20Signatures%20using%20Non-negative%20Matrix%20Factorization%20with%20Customized%20k-means%20Clustering.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R., Discovering hidden geothermal signatures using non-negative matrix factorization with customized k-means clustering, Geothermics, 10.1016/j.geothermics.2022.102576, 2022. <a href=\"/papers/Vesselinov%20et%20al%202022%20Discovering%20Hidden%20Geothermal%20Signatures%20using%20Non-negative%20Matrix%20Factorization%20with%20Customized%20k-means%20Clustering.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-6",
+      "text": "Ahmmed, B, Vesselinov, V.V., Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin, Renewable Energy, 10.1016/j.renene.2022.08.024, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
+          "localFileName": "Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
+          "localHref": "/papers/Ahmmed%20%26%20Vesselinov%202022%20Machine%20learning%20and%20shallow%20groundwater%20chemistry%20to%20identify%20geothermal%20prospects%20in%20the%20Great%20Basin.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Ahmmed, B, Vesselinov, V.V., Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin, Renewable Energy, 10.1016/j.renene.2022.08.024, 2022. <a href=\"/papers/Ahmmed%20%26%20Vesselinov%202022%20Machine%20learning%20and%20shallow%20groundwater%20chemistry%20to%20identify%20geothermal%20prospects%20in%20the%20Great%20Basin.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-7",
+      "text": "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R., Discovering the Hidden Geothermal Signatures of Southwest New Mexico, World Geothermal Congress, Reykjavik, Iceland, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
+          "localFileName": "Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202021%20Discovering%20the%20Hidden%20Geothermal%20Signatures%20of%20Southwest%20New%20Mexico.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R., Discovering the Hidden Geothermal Signatures of Southwest New Mexico, World Geothermal Congress, Reykjavik, Iceland, 2021. <a href=\"/papers/Vesselinov%20et%20al%202021%20Discovering%20the%20Hidden%20Geothermal%20Signatures%20of%20Southwest%20New%20Mexico.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-8",
+      "text": "Wu, H., O'Malley, D., Golden, J.K., Vesselinov, V.V., Inverse Analysis with Variational Autoencoders: A Comparison of Shallow and Deep Networks, Journal of Machine Learning for Modeling and Computing, 10.1615/JMachLearnModelComput.2022042093, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
+          "localFileName": "Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
+          "localHref": "/papers/Wu%20et%20al%202022%20Inverse%20Analysis%20with%20Variational%20Autoencoders%20A%20Comparison%20of%20Shallow%20and%20Deep%20Networks.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Wu, H., O'Malley, D., Golden, J.K., Vesselinov, V.V., Inverse Analysis with Variational Autoencoders: A Comparison of Shallow and Deep Networks, Journal of Machine Learning for Modeling and Computing, 10.1615/JMachLearnModelComput.2022042093, 2022. <a href=\"/papers/Wu%20et%20al%202022%20Inverse%20Analysis%20with%20Variational%20Autoencoders%20A%20Comparison%20of%20Shallow%20and%20Deep%20Networks.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-9",
+      "text": "O'Malley, D., Golden, J.K., Vesselinov, V.V., Learning to regularize with a variational autoencoder for hydrologic inverse analysis, arXiv:1906.02401v1, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
+          "localFileName": "O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
+          "localHref": "/papers/O%20G%20V%202019%20Learning%20to%20regularize%20with%20a%20variational%20autoencoder%20for%20hydrologic%20inverse%20analysis.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Golden, J.K., Vesselinov, V.V., Learning to regularize with a variational autoencoder for hydrologic inverse analysis, arXiv:1906.02401v1, 2021. <a href=\"/papers/O%20G%20V%202019%20Learning%20to%20regularize%20with%20a%20variational%20autoencoder%20for%20hydrologic%20inverse%20analysis.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-10",
+      "text": "Fleming, S.W., Watson, J.R., Ellenson, A., Cannon, A.J., Vesselinov, V.V., Machine learning in Earth and environmental science requires education and research policy reforms, 10.1038/s41561-021-00865-3, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf",
+          "localFileName": "Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf",
+          "localHref": "/papers/Fleming%20et%20al%202021%20Machine%20learning%20in%20Earth%20and%20environmental%20science%20requires%20education%20and%20research%20policy%20reforms.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Fleming, S.W., Watson, J.R., Ellenson, A., Cannon, A.J., Vesselinov, V.V., Machine learning in Earth and environmental science requires education and research policy reforms, 10.1038/s41561-021-00865-3, 2021. <a href=\"/papers/Fleming%20et%20al%202021%20Machine%20learning%20in%20Earth%20and%20environmental%20science%20requires%20education%20and%20research%20policy%20reforms.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-11",
+      "text": "Siler, D.L., Pepin, J.D., Vesselinov, V.V., et al., Machine learning to identify geologic factors associated with production in geothermal fields: A case-study using 3D geologic data, Brady geothermal field, Nevada, Geothermal Energy, 10.1186/s40517-021-00199-8, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
+          "localFileName": "Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
+          "localHref": "/papers/Siler%20et%20al%202021%20Machine%20learning%20to%20identify%20geologic%20factors%20associated%20with%20production%20in%20geothermal%20felds-%20a%20case%E2%80%91study%20using%203D%20geologic%20data%2C%20Brady%20geothermal%20feld%2C%20Nevada.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Siler, D.L., Pepin, J.D., Vesselinov, V.V., et al., Machine learning to identify geologic factors associated with production in geothermal fields: A case-study using 3D geologic data, Brady geothermal field, Nevada, Geothermal Energy, 10.1186/s40517-021-00199-8, 2021. <a href=\"/papers/Siler%20et%20al%202021%20Machine%20learning%20to%20identify%20geologic%20factors%20associated%20with%20production%20in%20geothermal%20felds-%20a%20case%E2%80%91study%20using%203D%20geologic%20data%2C%20Brady%20geothermal%20feld%2C%20Nevada.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-12",
+      "text": "Morra, G., Bozdag, E., Knepley, M., Rass, L., Vesselinov, V.V., A Tectonic Shift in Analytics and Computing Is Coming, AGU EOS, 10.1029/2021EO159258, 2021. 10.1029/2021EO159258, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf",
+          "localFileName": "Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf",
+          "localHref": "/papers/Morra%20et%20al%202021%20A%20Tectonic%20Shift%20in%20Analytics%20and%20Computing%20Is%20Coming.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Morra, G., Bozdag, E., Knepley, M., Rass, L., Vesselinov, V.V., A Tectonic Shift in Analytics and Computing Is Coming, AGU EOS, 10.1029/2021EO159258, 2021. <a href=\"https://doi.org/10.1029/2021EO159258\" target=\"_blank\">10.1029/2021EO159258</a>, 2021. <a href=\"/papers/Morra%20et%20al%202021%20A%20Tectonic%20Shift%20in%20Analytics%20and%20Computing%20Is%20Coming.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-13",
+      "text": "Fleming, S.W., Vesselinov, V.V., Goodbody, A.G., Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach, Journal of Hydrology, 10.1016/j.jhydrol.2021.126327, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
+          "localFileName": "Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
+          "localHref": "/papers/Fleming%20et%20al%202021%20Augmenting%20geophysical%20interpretation%20of%20data-driven%20operational%20water%20supply%20forecast%20modeling%20for%20a%20western%20US%20river%20using%20a%20hybrid%20machine%20learning%20approach.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Fleming, S.W., Vesselinov, V.V., Goodbody, A.G., Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach, Journal of Hydrology, 10.1016/j.jhydrol.2021.126327, 2021. <a href=\"/papers/Fleming%20et%20al%202021%20Augmenting%20geophysical%20interpretation%20of%20data-driven%20operational%20water%20supply%20forecast%20modeling%20for%20a%20western%20US%20river%20using%20a%20hybrid%20machine%20learning%20approach.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-14",
+      "text": "Ahmmed, B, Mudunuru, M.K., Karra, S., Vesselinov, V.V., Machine Learning to Discover Mineral Trapping Signatures due to CO2 Injection, International Journal of Greenhouse Gas Control, 10.1016/j.ijggc.2021.103382, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
+          "localFileName": "Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
+          "localHref": "/papers/Ahmmed%20et%20al%202021%20Machine%20learning%20to%20discover%20mineral%20trapping%20signatures%20due%20to%20CO2%20injection.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Ahmmed, B, Mudunuru, M.K., Karra, S., Vesselinov, V.V., Machine Learning to Discover Mineral Trapping Signatures due to CO2 Injection, International Journal of Greenhouse Gas Control, 10.1016/j.ijggc.2021.103382, 2021. <a href=\"/papers/Ahmmed%20et%20al%202021%20Machine%20learning%20to%20discover%20mineral%20trapping%20signatures%20due%20to%20CO2%20injection.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-15",
+      "text": "Ahmmed, B, Mudunuru, M.K., Karra, S., James, S.C., Vesselinov, V.V., A comparative study of machine learning models for predicting the state of reactive mixing, Journal of Computational Physics, 10.1016/j.jcp.2021.110147, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
+          "localFileName": "Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
+          "localHref": "/papers/Ahmmed%20et%20al%202021%20A%20comparative%20study%20of%20machine%20learning%20models%20for%20predicting%20the%20state%20of%20reactive%20mixing.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Ahmmed, B, Mudunuru, M.K., Karra, S., James, S.C., Vesselinov, V.V., A comparative study of machine learning models for predicting the state of reactive mixing, Journal of Computational Physics, 10.1016/j.jcp.2021.110147, 2021. <a href=\"/papers/Ahmmed%20et%20al%202021%20A%20comparative%20study%20of%20machine%20learning%20models%20for%20predicting%20the%20state%20of%20reactive%20mixing.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-16",
+      "text": "Mehana, M., Guiltinan, E., Vesselinov, V.V., Middleton, R., Hyman, J., Kang, Q., Viswanathan, H., Machine-Learning Predictions of the Shale Wells’ Performance, Journal of Natural Gas Science and Engineering, 10.1016/j.jngse.2021.103819, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
+          "localFileName": "Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
+          "localHref": "/papers/Mehana%20et%20al%202021%20Machine-Learning%20Predictions%20of%20the%20Shale%20Wells%20Performance.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mehana, M., Guiltinan, E., Vesselinov, V.V., Middleton, R., Hyman, J., Kang, Q., Viswanathan, H., Machine-Learning Predictions of the Shale Wells’ Performance, Journal of Natural Gas Science and Engineering, 10.1016/j.jngse.2021.103819, 2021. <a href=\"/papers/Mehana%20et%20al%202021%20Machine-Learning%20Predictions%20of%20the%20Shale%20Wells%20Performance.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-17",
+      "text": "Mudunuru, M.K., Viswanathan, H.S., Carey, J. W., Chen, L., Kang, Q., Karra, S., Vesselinov, V.V., Middleton, R.S., Johnson, P.A., Subsurface energy: Flow and reactive-transport in porous and fractured media, Handbook of Porous Materials (invited), World Scientific Publishers, 10.1142/9789811223419_0004, 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
+          "localFileName": "Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
+          "localHref": "/papers/Mudunuru%20et%20al%202020%20Subsurface%20energy%20Flow%20and%20reactive-transport%20in%20porous%20and%20fractured%20media.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mudunuru, M.K., Viswanathan, H.S., Carey, J. W., Chen, L., Kang, Q., Karra, S., Vesselinov, V.V., Middleton, R.S., Johnson, P.A., Subsurface energy: Flow and reactive-transport in porous and fractured media, Handbook of Porous Materials (invited), World Scientific Publishers, 10.1142/9789811223419_0004, 2020. <a href=\"/papers/Mudunuru%20et%20al%202020%20Subsurface%20energy%20Flow%20and%20reactive-transport%20in%20porous%20and%20fractured%20media.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-18",
+      "text": "Lopez, C.A, Vesselinov, V.V., Gnanakaran, S., Alexandrov, B.S., Unsupervised Machine Learning for Analysis of Coexisting Lipid Phases and Domain Growth in Biological Membranes, J. Chem. Theory Comput. 10.1021/acs.jctc.9b00074, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
+          "localFileName": "Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
+          "localHref": "/papers/Lopez%20et%20al%202019%20Unsupervised%20Machine%20Learning%20for%20Analysis%20of%20Phase%20Separation%20in%20Ternary%20Lipid%20Mixture.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lopez, C.A, Vesselinov, V.V., Gnanakaran, S., Alexandrov, B.S., Unsupervised Machine Learning for Analysis of Coexisting Lipid Phases and Domain Growth in Biological Membranes, J. Chem. Theory Comput. 10.1021/acs.jctc.9b00074, 2019. <a href=\"/papers/Lopez%20et%20al%202019%20Unsupervised%20Machine%20Learning%20for%20Analysis%20of%20Phase%20Separation%20in%20Ternary%20Lipid%20Mixture.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-19",
+      "text": "Vesselinov, V.V., Mudunuru, M., Karra, S., O'Malley, D., Alexandrov, B.S., Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing, Journal of Computational Physics, 10.1016/j.jcp.2019.05.039, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
+          "localFileName": "Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-Negative%20Tensor%20Factorization%20for%20Analyzing%20Reactive-Mixing.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Mudunuru, M., Karra, S., O'Malley, D., Alexandrov, B.S., Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing, Journal of Computational Physics, 10.1016/j.jcp.2019.05.039, 2019. <a href=\"/papers/Vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-Negative%20Tensor%20Factorization%20for%20Analyzing%20Reactive-Mixing.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-20",
+      "text": "Alexandrov, B.S., Stanev, V., Vesselinov, V.V., Rasmussen, K., Nonnegative tensor decomposition with custom clustering for microphase separation of block copolymers, Statistical Analysis and Data Mining, 10.1002/sam.11407, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
+          "localFileName": "Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
+          "localHref": "/papers/Alexandrov%20et%20al%202019%20Nonnegative%20tensor%20decomposition%20with%20custom%20clustering%20formicrophase%20separation%20of%20block%20copolymers.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Alexandrov, B.S., Stanev, V., Vesselinov, V.V., Rasmussen, K., Nonnegative tensor decomposition with custom clustering for microphase separation of block copolymers, Statistical Analysis and Data Mining, 10.1002/sam.11407, 2019. <a href=\"/papers/Alexandrov%20et%20al%202019%20Nonnegative%20tensor%20decomposition%20with%20custom%20clustering%20formicrophase%20separation%20of%20block%20copolymers.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-21",
+      "text": "Vesselinov, V.V., Alexandrov, B.S., O'Malley, D., Nonnegative Tensor Factorization for Contaminant Source Identification, Journal of Contaminant Hydrology, 10.1016/j.jconhyd.2018.11.010, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
+          "localFileName": "Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202018%20Nonnegative%20Tensor%20Factorization%20for%20Contaminant%20Source%20Identification.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Alexandrov, B.S., O'Malley, D., Nonnegative Tensor Factorization for Contaminant Source Identification, Journal of Contaminant Hydrology, 10.1016/j.jconhyd.2018.11.010, 2018. <a href=\"/papers/Vesselinov%20et%20al%202018%20Nonnegative%20Tensor%20Factorization%20for%20Contaminant%20Source%20Identification.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-22",
+      "text": "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B., Nonnegative/binary matrix factorization with a D-Wave quantum annealer, PlosOne, 10.1371/journal.pone.0206653, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley et al 2017 Nonnegative_binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "localFileName": "OMalley et al 2017 Nonnegative_binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley et al 2017 Nonnegative:binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "localHref": "/papers/OMalley%20et%20al%202017%20Nonnegative_binary%20matrix%20factorization%20with%20a%20D-Wave%20quantum%20annealer.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B., Nonnegative/binary matrix factorization with a D-Wave quantum annealer, PlosOne, 10.1371/journal.pone.0206653, 2018. <a href=\"/papers/OMalley%20et%20al%202017%20Nonnegative_binary%20matrix%20factorization%20with%20a%20D-Wave%20quantum%20annealer.pdf\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-23",
+      "text": "Telfeyan, K., Migdisov, A.A., Pandey, S., Vesselinov, V.V., Reimus, P.W., Long-term stability of dithionite in alkaline anaerobic aqueous solution, Applied Geochemistry, 10.1016/j.apgeochem.2018.12.015, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
+          "localFileName": "Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
+          "localHref": "/papers/Telfeyan%20et%20al%202018%20Long-term%20stability%20of%20dithionite%20in%20alkaline%20anaerobic%20aqueous%20solution.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Telfeyan, K., Migdisov, A.A., Pandey, S., Vesselinov, V.V., Reimus, P.W., Long-term stability of dithionite in alkaline anaerobic aqueous solution, Applied Geochemistry, 10.1016/j.apgeochem.2018.12.015, 2018. <a href=\"/papers/Telfeyan%20et%20al%202018%20Long-term%20stability%20of%20dithionite%20in%20alkaline%20anaerobic%20aqueous%20solution.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-24",
+      "text": "Stanev, V., Vesselinov, V.V., Kusne, A.G., Antoszewski, G., Takeuchi,I., Alexandrov, B.A., Unsupervised Phase Mapping of X-ray Diffraction Data by Nonnegative Matrix Factorization Integrated with Custom Clustering, Nature Computational Materials, 10.1038/s41524-018-0099-2, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
+          "localFileName": "Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
+          "localHref": "/papers/Stanev%20et%20al%202018%20Unsupervised%20phase%20mapping%20of%20X-ray%20diffraction%20data%20by%20nonnegative%20matrix%20factorization%20integrated%20with%20custom%20clustering.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Stanev, V., Vesselinov, V.V., Kusne, A.G., Antoszewski, G., Takeuchi,I., Alexandrov, B.A., Unsupervised Phase Mapping of X-ray Diffraction Data by Nonnegative Matrix Factorization Integrated with Custom Clustering, Nature Computational Materials, 10.1038/s41524-018-0099-2, 2018. <a href=\"/papers/Stanev%20et%20al%202018%20Unsupervised%20phase%20mapping%20of%20X-ray%20diffraction%20data%20by%20nonnegative%20matrix%20factorization%20integrated%20with%20custom%20clustering.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-25",
+      "text": "Iliev, F.L., Stanev, V.G., Vesselinov, V.V., Alexandrov, B.S., Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals PLoS ONE, 10.1371/journal.pone.0193974. 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
+          "localFileName": "Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
+          "localHref": "/papers/Iliev%20et%20al%202018%20Nonnegative%20Matrix%20Factorization%20for%20identification%20of%20unknown%20number%20of%20sources%20emitting%20delayed%20signals.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Iliev, F.L., Stanev, V.G., Vesselinov, V.V., Alexandrov, B.S., Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals PLoS ONE, 10.1371/journal.pone.0193974. 2018. <a href=\"/papers/Iliev%20et%20al%202018%20Nonnegative%20Matrix%20Factorization%20for%20identification%20of%20unknown%20number%20of%20sources%20emitting%20delayed%20signals.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-26",
+      "text": "Stanev, V.G., Iliev, F.L., Hansen, S.K., Vesselinov, V.V., Alexandrov, B.S., Identification of the release sources in advection-diffusion system by machine learning combined with Green function inverse method, Applied Mathematical Modelling, 10.1016/j.apm.2018.03.006, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
+          "localFileName": "Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
+          "localHref": "/papers/Stanev%20et%20al%202018%20Identification%20of%20release%20sources%20in%20advection-diffusion%20system%20by%20machine%20learning%20combined%20with%20Greens%20function%20inverse%20method.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Stanev, V.G., Iliev, F.L., Hansen, S.K., Vesselinov, V.V., Alexandrov, B.S., Identification of the release sources in advection-diffusion system by machine learning combined with Green function inverse method, Applied Mathematical Modelling, 10.1016/j.apm.2018.03.006, 2018. <a href=\"/papers/Stanev%20et%20al%202018%20Identification%20of%20release%20sources%20in%20advection-diffusion%20system%20by%20machine%20learning%20combined%20with%20Greens%20function%20inverse%20method.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-27",
+      "text": "Qian, E., Peherstorfer, B., O'Malley, D., Vesselinov, V.V., Wilcox, K., Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices, SIAM Journal on Uncertainty Quantification, 10.1137/17M1151006, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
+          "localFileName": "Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
+          "localHref": "/papers/Qian%20et%20al%202018%20Multifidelity%20Monte%20Carlo%20Estimation%20of%20Variance%20and%20Sensitivity%20Indices.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Qian, E., Peherstorfer, B., O'Malley, D., Vesselinov, V.V., Wilcox, K., Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices, SIAM Journal on Uncertainty Quantification, 10.1137/17M1151006, 2018. <a href=\"/papers/Qian%20et%20al%202018%20Multifidelity%20Monte%20Carlo%20Estimation%20of%20Variance%20and%20Sensitivity%20Indices.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-28",
+      "text": "Lu, Z., Vesselinov, V.V., Lei, H., Identifying Arbitrary Parameter Zonation using Multiple Level Set Functions, Journal of Computational Physics, 10.1016/j.jcp.2018.03.016, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
+          "localFileName": "Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
+          "localHref": "/papers/Lu%20et%20al%202018%20Identifying%20arbitrary%20parameter%20zonation%20using%20multiple%20level%20set%20functions.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lu, Z., Vesselinov, V.V., Lei, H., Identifying Arbitrary Parameter Zonation using Multiple Level Set Functions, Journal of Computational Physics, 10.1016/j.jcp.2018.03.016, 2018. <a href=\"/papers/Lu%20et%20al%202018%20Identifying%20arbitrary%20parameter%20zonation%20using%20multiple%20level%20set%20functions.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-29",
+      "text": "Hansen, S.K., He, J., Vesselinov, V.V., Characterizing the impact of model error in hydrologic time series recovery inverse problems, 10.1017/j.advwatres.2017.146.R2, Advances in Water Resources, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
+          "localFileName": "Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
+          "localHref": "/papers/Hansen%20et%20al%202018%20Characterizing%20the%20impact%20of%20model%20error%20in%20hydrologic%20time%20series%20recovery%20inverse%20problems.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., He, J., Vesselinov, V.V., Characterizing the impact of model error in hydrologic time series recovery inverse problems, 10.1017/j.advwatres.2017.146.R2, Advances in Water Resources, 2018. <a href=\"/papers/Hansen%20et%20al%202018%20Characterizing%20the%20impact%20of%20model%20error%20in%20hydrologic%20time%20series%20recovery%20inverse%20problems.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-30",
+      "text": "Lin, Y., O'Malley, D., Vesselinov, V.V., Guthrie, G.D, Coblentz, D., Randomization in Characterizing the Subsurface, SIAM News, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lin et al 2018 Randomization in Characterizing the Subsurface.pdf",
+          "localFileName": "Lin et al 2018 Randomization in Characterizing the Subsurface.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lin et al 2018 Randomization in Characterizing the Subsurface.pdf",
+          "localHref": "/papers/Lin%20et%20al%202018%20Randomization%20in%20Characterizing%20the%20Subsurface.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lin, Y., O'Malley, D., Vesselinov, V.V., Guthrie, G.D, Coblentz, D., Randomization in Characterizing the Subsurface, SIAM News, 2018. <a href=\"/papers/Lin%20et%20al%202018%20Randomization%20in%20Characterizing%20the%20Subsurface.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-31",
+      "text": "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V., Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields, Water Resources Research, 10.1002/2017WR020450, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
+          "localFileName": "Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
+          "localHref": "/papers/Hansen%20et%20al%202018%20Direct%20Breakthrough%20Curve%20Prediction%20from%20Statistics%20of%20Heterogeneous%20Conductivity%20Fields.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V., Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields, Water Resources Research, 10.1002/2017WR020450, 2018. <a href=\"/papers/Hansen%20et%20al%202018%20Direct%20Breakthrough%20Curve%20Prediction%20from%20Statistics%20of%20Heterogeneous%20Conductivity%20Fields.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-32",
+      "text": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs, Computational Methods in Water Resources (CMWR), Saint-Malo, France, 10.13140/RG.2.2.27777.92005, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
+          "localFileName": "vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
+          "localHref": "/papers/vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-negative%20Tensor%20Factorization%20for%20Analysis%20of%20Filed%20Data%20and%20Simulation%20Outputs%20cmwr18.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs, Computational Methods in Water Resources (CMWR), Saint-Malo, France, 10.13140/RG.2.2.27777.92005, 2018. <a href=\"/papers/vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-negative%20Tensor%20Factorization%20for%20Analysis%20of%20Filed%20Data%20and%20Simulation%20Outputs%20cmwr18.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-33",
+      "text": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.S., Contaminant source identification using semi-supervised machine learning, Journal of Contaminant Hydrology, 10.1016/j.jconhyd.2017.11.002, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
+          "localFileName": "Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
+          "localHref": "/papers/Vesselinov%202017%20Contaminant%20source%20identification%20using%20semi-supervised%20machine%20learning.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Alexandrov, B.S., Contaminant source identification using semi-supervised machine learning, Journal of Contaminant Hydrology, 10.1016/j.jconhyd.2017.11.002, 2017. <a href=\"/papers/Vesselinov%202017%20Contaminant%20source%20identification%20using%20semi-supervised%20machine%20learning.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-34",
+      "text": "Hansen, S.K., Pandey, S., Karra, S., Vesselinov, V.V., CHROTRAN 1.0: A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers, Geoscientific. Model Development, 10.5194/gmd-10-4525-2017, 10, 4525–4538, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
+          "localFileName": "Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
+          "localHref": "/papers/Hansen%20et%20al%202017%20CHROTRAN%201.0%20A%20mathematical%20and%20computational%20model%20for%20in%20situ%20heavy%20metal%20remediation%20in%20heterogeneous%20aquifers.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Pandey, S., Karra, S., Vesselinov, V.V., CHROTRAN 1.0: A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers, Geoscientific. Model Development, 10.5194/gmd-10-4525-2017, 10, 4525–4538, 2017. <a href=\"/papers/Hansen%20et%20al%202017%20CHROTRAN%201.0%20A%20mathematical%20and%20computational%20model%20for%20in%20situ%20heavy%20metal%20remediation%20in%20heterogeneous%20aquifers.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-35",
+      "text": "Lin, Y, Le, E.B, O'Malley, D., Vesselinov, V.V., Bui-Thanh, T., Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction, Water Resources Research, 10.1002/2016WR020299RRR, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
+          "localFileName": "Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
+          "localHref": "/papers/Lin%20et%20al%202017%20Large-Scale%20Inverse%20Model%20Analyses%20Employing%20Fast%20Randomized%20Data%20Reduction.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lin, Y, Le, E.B, O'Malley, D., Vesselinov, V.V., Bui-Thanh, T., Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction, Water Resources Research, 10.1002/2016WR020299RRR, 2017. <a href=\"/papers/Lin%20et%20al%202017%20Large-Scale%20Inverse%20Model%20Analyses%20Employing%20Fast%20Randomized%20Data%20Reduction.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-36",
+      "text": "Hansen, S.K., Vesselinov, V.V., Local equilibrium and retardation revisited, Groundwater, 10.1111/gwat.12551, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
+          "localFileName": "Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
+          "localHref": "/papers/Hansen%20et%20al%202018%20Local%20Equilibrium%20and%20Retardation%20Revisited.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Vesselinov, V.V., Local equilibrium and retardation revisited, Groundwater, 10.1111/gwat.12551, 2017. <a href=\"/papers/Hansen%20et%20al%202018%20Local%20Equilibrium%20and%20Retardation%20Revisited.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-37",
+      "text": "Hansen, S.K., Vesselinov, V.V., Reimus, P., Lu, Z., Inferring subsurface heterogeneity from push-drift tracer tests, Water Resources Research, 10.1002/2017WR020852R, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
+          "localFileName": "Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
+          "localHref": "/papers/Hansen%20et%20al%202017%20Inferring%20subsurface%20heterogeneity%20from%20push-drift%20tracer%20tests.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Vesselinov, V.V., Reimus, P., Lu, Z., Inferring subsurface heterogeneity from push-drift tracer tests, Water Resources Research, 10.1002/2017WR020852R, 2017. <a href=\"/papers/Hansen%20et%20al%202017%20Inferring%20subsurface%20heterogeneity%20from%20push-drift%20tracer%20tests.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-38",
+      "text": "Bakarji, J., Vesselinov, V.V., O’Malley, D., Agent-based Socio-hydrological Hybrid Modeling for Water Resource Management, Water Resources Management, 10.1007/s11269-017-1713-7, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
+          "localFileName": "Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
+          "localHref": "/papers/Bakarji%20et%20al%202017%20Agent-Based%20Socio-Hydrological%20Hybrid%20Modeling%20for%20Water%20Resource%20Management.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Bakarji, J., Vesselinov, V.V., O’Malley, D., Agent-based Socio-hydrological Hybrid Modeling for Water Resource Management, Water Resources Management, 10.1007/s11269-017-1713-7, 2017. <a href=\"/papers/Bakarji%20et%20al%202017%20Agent-Based%20Socio-Hydrological%20Hybrid%20Modeling%20for%20Water%20Resource%20Management.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-39",
+      "text": "Zhang, X., Sun, A.Y., Duncan, I.J., Vesselinov, V.V., Two-Stage Fracturing Wastewater Management in Shale Gas Development, Ind. Eng. Chem. Res., 10.1021/acs.iecr.6b03971, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
+          "localFileName": "Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
+          "localHref": "/papers/Zhang%20et%20al%202018%20Two-Stage%20Fracturing%20Wastewater%20Management%20in%20Shale%20Gas%20Development.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Zhang, X., Sun, A.Y., Duncan, I.J., Vesselinov, V.V., Two-Stage Fracturing Wastewater Management in Shale Gas Development, Ind. Eng. Chem. Res., 10.1021/acs.iecr.6b03971, 2017. <a href=\"/papers/Zhang%20et%20al%202018%20Two-Stage%20Fracturing%20Wastewater%20Management%20in%20Shale%20Gas%20Development.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-40",
+      "text": "Zhang, X., Vesselinov, V.V., Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus, Advances in Water Resources, 10.1016/j.advwatres.2016.12.017, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
+          "localFileName": "Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
+          "localHref": "/papers/Zhang%20Vesselinov%20Integrated%20Modeling%20Approach%20for%20Optimal%20Management%20of%20Water%2C%20Energy%20and%20Food%20Security%20Nexus%202017.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Zhang, X., Vesselinov, V.V., Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus, Advances in Water Resources, 10.1016/j.advwatres.2016.12.017, 2017. <a href=\"/papers/Zhang%20Vesselinov%20Integrated%20Modeling%20Approach%20for%20Optimal%20Management%20of%20Water%2C%20Energy%20and%20Food%20Security%20Nexus%202017.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-41",
+      "text": "O'Malley, D., Vesselinov, V.V., ToQ.jl: A high-level programming language for D-Wave machines based on Julia. IEEE High Performance Extreme Computing, 10.1109/HPEC.2016.7761616, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
+          "localFileName": "OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%20ToQ.jl%20A%20high-level%20programming%20language%20for%20D-Wave%20machines%20based%20on%20Julia%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Vesselinov, V.V., ToQ.jl: A high-level programming language for D-Wave machines based on Julia. IEEE High Performance Extreme Computing, 10.1109/HPEC.2016.7761616, 2016. <a href=\"/papers/OMalley%20Vesselinov%20ToQ.jl%20A%20high-level%20programming%20language%20for%20D-Wave%20machines%20based%20on%20Julia%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-42",
+      "text": "Lin, Y, O'Malley, D., Vesselinov, V.V., A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses, Water Resources Research, 10.1002/2016WR019028, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
+          "localFileName": "Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
+          "localHref": "/papers/Lin%20OMalley%20Vesselinov%20A%20computationally%20efficient%20parallel%20Levenberg-Marquardt%20algorithm%20for%20highly%20parameterized%20inverse%20model%20analyses%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lin, Y, O'Malley, D., Vesselinov, V.V., A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses, Water Resources Research, 10.1002/2016WR019028, 2016. <a href=\"/papers/Lin%20OMalley%20Vesselinov%20A%20computationally%20efficient%20parallel%20Levenberg-Marquardt%20algorithm%20for%20highly%20parameterized%20inverse%20model%20analyses%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-43",
+      "text": "Hansen, S.K., Berkowitz, B., Vesselinov, V.V., O'Malley, D., Karra, S., Push-pull tracer tests: their information content and use for characterizing non-Fickian, mobile-immobile behavior, Water Resources Research, 10.1002/2016WR018769RR, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
+          "localFileName": "Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
+          "localHref": "/papers/Hansen%20et%20al%20Push-pull%20tracer%20tests%20their%20information%20content%20and%20use%20for%20characterizing%20non-Fickian%2C%20mobile-immobile%20behavior%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Berkowitz, B., Vesselinov, V.V., O'Malley, D., Karra, S., Push-pull tracer tests: their information content and use for characterizing non-Fickian, mobile-immobile behavior, Water Resources Research, 10.1002/2016WR018769RR, 2016. <a href=\"/papers/Hansen%20et%20al%20Push-pull%20tracer%20tests%20their%20information%20content%20and%20use%20for%20characterizing%20non-Fickian%2C%20mobile-immobile%20behavior%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-44",
+      "text": "Zhang, X., Vesselinov, V.V., Energy-Water Nexus: Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy, Applied Energy, 10.1016/j.apenergy.2016.08.156, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
+          "localFileName": "Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
+          "localHref": "/papers/Zhang%20Vesselinov%20Energy-Water%20Nexus%20Balancing%20the%20Tradeoffs%20between%20Two-Level%20Decision%20Makers%20Applied%20Energy%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Zhang, X., Vesselinov, V.V., Energy-Water Nexus: Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy, Applied Energy, 10.1016/j.apenergy.2016.08.156, 2016. <a href=\"/papers/Zhang%20Vesselinov%20Energy-Water%20Nexus%20Balancing%20the%20Tradeoffs%20between%20Two-Level%20Decision%20Makers%20Applied%20Energy%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-45",
+      "text": "Hansen, S.K., Vesselinov, V.V., Contaminant point source localization error estimates as functions of data quantity and model quality, 10.1016/j.jconhyd.2016.09.003, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
+          "localFileName": "Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
+          "localHref": "/papers/Hansen%20Vesselinov%20Contaminant%20point%20source%20localization%20error%20estimates%20as%20functions%20of%20data%20quantity%20and%20model%20quality%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Vesselinov, V.V., Contaminant point source localization error estimates as functions of data quantity and model quality, 10.1016/j.jconhyd.2016.09.003, 2016. <a href=\"/papers/Hansen%20Vesselinov%20Contaminant%20point%20source%20localization%20error%20estimates%20as%20functions%20of%20data%20quantity%20and%20model%20quality%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-46",
+      "text": "Throckmorton, H., Newman, B., Heikoop, J., Perkins, G., Feng, X., Graham, D., O'Malley, D., Vesselinov, V.V., Young, J., Wullschleger, S., Wilson, C., Active layer hydrology in an arctic tundra ecosystem: quantifying water sources and cycling using water stable isotopes, Hydrological Processes, 10.1002/hyp.10883, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf",
+          "localFileName": "Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf",
+          "localHref": "/papers/Throckmorton%20et%20al%202016%20Active%20layer%20hydrology%20in%20an%20arctic%20tundra%20ecosystem%20quantifying%20water%20source%20and%20cycling%20using%20water%20stable%20isotopes.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Throckmorton, H., Newman, B., Heikoop, J., Perkins, G., Feng, X., Graham, D., O'Malley, D., Vesselinov, V.V., Young, J., Wullschleger, S., Wilson, C., Active layer hydrology in an arctic tundra ecosystem: quantifying water sources and cycling using water stable isotopes, Hydrological Processes, 10.1002/hyp.10883, 2016. <a href=\"/papers/Throckmorton%20et%20al%202016%20Active%20layer%20hydrology%20in%20an%20arctic%20tundra%20ecosystem%20quantifying%20water%20source%20and%20cycling%20using%20water%20stable%20isotopes.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-47",
+      "text": "Grasinger, M., O'Malley, D., Vesselinov, V.V., Karra, S., Decision Analysis for Robust CO2 Injection: Application of Bayesian-Information-Gap Decision Theory, International Journal of Greenhouse Gas Control, 10.1016/j.ijggc.2016.02.017, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Grasinger et al 2016 Decision analysis for robust CO2 injection_ Application of Bayesian-Information-Gap Decision Theory.pdf",
+          "localFileName": "Grasinger et al 2016 Decision analysis for robust CO2 injection_ Application of Bayesian-Information-Gap Decision Theory.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Grasinger et al 2016 Decision analysis for robust CO2 injection Application of Bayesian-Information-Gap Decision Theory.pdf",
+          "localHref": "/papers/Grasinger%20et%20al%202016%20Decision%20analysis%20for%20robust%20CO2%20injection_%20Application%20of%20Bayesian-Information-Gap%20Decision%20Theory.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Grasinger, M., O'Malley, D., Vesselinov, V.V., Karra, S., Decision Analysis for Robust CO2 Injection: Application of Bayesian-Information-Gap Decision Theory, International Journal of Greenhouse Gas Control, 10.1016/j.ijggc.2016.02.017, 2016. <a href=\"/papers/Grasinger%20et%20al%202016%20Decision%20analysis%20for%20robust%20CO2%20injection_%20Application%20of%20Bayesian-Information-Gap%20Decision%20Theory.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-48",
+      "text": "Mattis, S.A., Butler, T.D. Dawson, C.N., Estep, D., Vesselinov, V.V., Parameter estimation and prediction for groundwater contamination based on measure theory, Water Resources Research, 10.1002/2015WR017295, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
+          "localFileName": "Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
+          "localHref": "/papers/Mattis%20et%20al%202015%20Parameter%20estimation%20and%20prediction%20for%20groundwatercontamination%20based%20on%20measure%20theory.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mattis, S.A., Butler, T.D. Dawson, C.N., Estep, D., Vesselinov, V.V., Parameter estimation and prediction for groundwater contamination based on measure theory, Water Resources Research, 10.1002/2015WR017295, 2015. <a href=\"/papers/Mattis%20et%20al%202015%20Parameter%20estimation%20and%20prediction%20for%20groundwatercontamination%20based%20on%20measure%20theory.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-49",
+      "text": "O’Malley, D., Vesselinov, V.V., Bayesian-Information-Gap Decision Theory (BIG-DT) with an application to CO2 sequestration, Water Resources Research, 10.1002/2015WR017413, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
+          "localFileName": "OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%202015%20Bayesian%20information%20gap%20decision%20theory%20with%20an%20application%20to%20CO2%20sequestration.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., Bayesian-Information-Gap Decision Theory (BIG-DT) with an application to CO2 sequestration, Water Resources Research, 10.1002/2015WR017413, 2015. <a href=\"/papers/OMalley%20Vesselinov%202015%20Bayesian%20information%20gap%20decision%20theory%20with%20an%20application%20to%20CO2%20sequestration.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-50",
+      "text": "Lu, Z., Vesselinov, V.V., Analytical Sensitivity Analysis of Transient Groundwater Flow in a Bounded Model Domain using Adjoint Method, Water Resources Research, 10.1002/2014WR016819, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
+          "localFileName": "Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
+          "localHref": "/papers/Lu%20Vesselinov%202015%20Analytical%20sensitivity%20analysis%20of%20transient%20groundwater%20flow%20in%20a%20bounded%20model%20domain%20using%20the%20adjoint%20method.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lu, Z., Vesselinov, V.V., Analytical Sensitivity Analysis of Transient Groundwater Flow in a Bounded Model Domain using Adjoint Method, Water Resources Research, 10.1002/2014WR016819, 2015. <a href=\"/papers/Lu%20Vesselinov%202015%20Analytical%20sensitivity%20analysis%20of%20transient%20groundwater%20flow%20in%20a%20bounded%20model%20domain%20using%20the%20adjoint%20method.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-51",
+      "text": "Barajas-Solano, D. A., Wohlberg, B., Vesselinov, V.V., Tartakovsky, D. M., Linear Functional Minimization for Inverse Modeling, Water Resources Research, 10.1002/2014WR016179, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
+          "localFileName": "Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
+          "localHref": "/papers/Barajas%20et%20al%202015%20Linear%20functional%20minimization%20for%20inverse%20modeling.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Barajas-Solano, D. A., Wohlberg, B., Vesselinov, V.V., Tartakovsky, D. M., Linear Functional Minimization for Inverse Modeling, Water Resources Research, 10.1002/2014WR016179, 2015. <a href=\"/papers/Barajas%20et%20al%202015%20Linear%20functional%20minimization%20for%20inverse%20modeling.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-52",
+      "text": "O’Malley, D., Vesselinov, V.V., Cushman, J.H., Diffusive mixing and Tsallis entropy, Physical Review E, 10.1103/PhysRevE.91.042143, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf",
+          "localFileName": "OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%20Cushman%202015%20Diffusive%20mixing%20and%20Tsallis%20entropy.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., Cushman, J.H., Diffusive mixing and Tsallis entropy, Physical Review E, 10.1103/PhysRevE.91.042143, 2015. <a href=\"/papers/OMalley%20Vesselinov%20Cushman%202015%20Diffusive%20mixing%20and%20Tsallis%20entropy.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-53",
+      "text": "O’Malley, D., Vesselinov, V.V., A combined probabilistic/non-probabilistic decision analysis for contaminant remediation, Journal on Uncertainty Quantification, SIAM/ASA, 10.1137/140965132, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
+          "localFileName": "OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%202014%20A%20Combined%20Probabilistic%20Nonprobabilistic%20Decision%20Analysis%20for%20Contaminant%20Remediation.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., A combined probabilistic/non-probabilistic decision analysis for contaminant remediation, Journal on Uncertainty Quantification, SIAM/ASA, 10.1137/140965132, 2014. <a href=\"/papers/OMalley%20Vesselinov%202014%20A%20Combined%20Probabilistic%20Nonprobabilistic%20Decision%20Analysis%20for%20Contaminant%20Remediation.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-54",
+      "text": "Vesselinov, V.V., O'Malley, D., Katzman, D., Robust Decision Analysis for Environmental Management of Groundwater Contamination Sites, In Vulnerability, Uncertainty, and Risk Quantification, Mitigation, and Management (ed. Michael Beer, Siu-Kui Au, and Jim W. Hall), 2916 pp, ISBN: 9780784413609, 10.1061/9780784413609.197, 2014. Link",
+      "pdfLinks": [],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Katzman, D., Robust Decision Analysis for Environmental Management of Groundwater Contamination Sites, In Vulnerability, Uncertainty, and Risk Quantification, Mitigation, and Management (ed. Michael Beer, Siu-Kui Au, and Jim W. Hall), 2916 pp, ISBN: 9780784413609, 10.1061/9780784413609.197, 2014. <a href=\"http://ascelibrary.org/doi/abs/10.1061/9780784413609.197\" target=\"_blank\">Link</a>"
+      ]
+    },
+    {
+      "id": "papers-55",
+      "text": "O’Malley, D., Vesselinov, V.V., Cushman, J.H., A Method for Identifying Diffusive Trajectories with Stochastic Model, Journal of Statistical Physics, Springer, 10.1007/s10955-014-1035-6, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf",
+          "localFileName": "OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%20Cushman%202014%20A%20Method%20for%20Identifying%20Diffusive%20Trajectories%20with%20Stochastic%20Models.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., Cushman, J.H., A Method for Identifying Diffusive Trajectories with Stochastic Model, Journal of Statistical Physics, Springer, 10.1007/s10955-014-1035-6, 2014. <a href=\"/papers/OMalley%20Vesselinov%20Cushman%202014%20A%20Method%20for%20Identifying%20Diffusive%20Trajectories%20with%20Stochastic%20Models.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-56",
+      "text": "Alexandrov, B., Vesselinov, V.V., Blind source separation for groundwater level analysis based on non-negative matrix factorization, Water Resources Research, 10.1002/2013WR015037, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
+          "localFileName": "Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
+          "localHref": "/papers/Alexandrov%20%26%20Vesselinov%202014%20Blind%20source%20separation%20for%20groundwater%20pressure%20analysis%20based%20on%20nonnegative%20matrix%20factorization.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Alexandrov, B., Vesselinov, V.V., Blind source separation for groundwater level analysis based on non-negative matrix factorization, Water Resources Research, 10.1002/2013WR015037, 2014. <a href=\"/papers/Alexandrov%20%26%20Vesselinov%202014%20Blind%20source%20separation%20for%20groundwater%20pressure%20analysis%20based%20on%20nonnegative%20matrix%20factorization.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-57",
+      "text": "O’Malley, D., Vesselinov, V.V., Analytical solutions for anomalous dispersion transport, Advances in Water Resources, 10.1016/j.advwatres.2014.02.006, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf",
+          "localFileName": "OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%202014%20Analytical%20solutions%20for%20anomalous%20dispersion%20transport.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., Analytical solutions for anomalous dispersion transport, Advances in Water Resources, 10.1016/j.advwatres.2014.02.006, 2014. <a href=\"/papers/OMalley%20Vesselinov%202014%20Analytical%20solutions%20for%20anomalous%20dispersion%20transport.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-58",
+      "text": "Heikoop, J.M., Johnson, T.M., Birdsell, K.H., Longmire, P., Hickmott, D.D., Jacobs, E.P., Broxton, D.E., Katzman, D., Vesselinov, V.V., Ding, M., Vaniman, D.T., Reneau, S.L., Goering, T.J., Glessner, J., Basu, A., Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater, Chemical Geology, 10.1016/j.chemgeo.2014.02.022, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
+          "localFileName": "Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
+          "localHref": "/papers/Heikoop%20et%20al%202014%20Isotopic%20evidence%20for%20reduction%20of%20anthropogenic%20hexavalent%20chromium%20in%20Los%20Alamos%20National%20Laboratory%20groundwater.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Heikoop, J.M., Johnson, T.M., Birdsell, K.H., Longmire, P., Hickmott, D.D., Jacobs, E.P., Broxton, D.E., Katzman, D., Vesselinov, V.V., Ding, M., Vaniman, D.T., Reneau, S.L., Goering, T.J., Glessner, J., Basu, A., Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater, Chemical Geology, <a href=\"https://www.sciencedirect.com/science/article/pii/S0009254114001132\" target=\"_blank\">10.1016/j.chemgeo.2014.02.022</a>, 2014. <a href=\"/papers/Heikoop%20et%20al%202014%20Isotopic%20evidence%20for%20reduction%20of%20anthropogenic%20hexavalent%20chromium%20in%20Los%20Alamos%20National%20Laboratory%20groundwater.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-59",
+      "text": "Freedman, V.L., Chen, X., Finsterle, S., Freshley, M., Gorton, I., Gosink, L., Keating, E., Lansing, C., Moeglein W., Murray C., Pau, G., Porter, E., Purohit, S., Rockhold, M., Schuchardt, K., Sivaramakrishnan, C., Vesselinov, V.V., Waichler, S., A high-performance workflow system for subsurface simulation, Environmental Modelling & Software, 55, pp. 176-189, 10.1016/j.envsoft.2014.01.030, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
+          "localFileName": "Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
+          "localHref": "/papers/Freedman%20et%20al%202014%20A%20high-performance%20workflow%20system%20for%20subsurface%20simulation.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Freedman, V.L., Chen, X., Finsterle, S., Freshley, M., Gorton, I., Gosink, L., Keating, E., Lansing, C., Moeglein W., Murray C., Pau, G., Porter, E., Purohit, S., Rockhold, M., Schuchardt, K., Sivaramakrishnan, C., Vesselinov, V.V., Waichler, S., A high-performance workflow system for subsurface simulation, Environmental Modelling &amp; Software, 55, pp. 176-189, 10.1016/j.envsoft.2014.01.030, 2014. <a href=\"/papers/Freedman%20et%20al%202014%20A%20high-performance%20workflow%20system%20for%20subsurface%20simulation.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-60",
+      "text": "O’Malley, D., Vesselinov, V.V., Groundwater remediation using the information gap decision theory, Water Resources Research, 10.1002/2013WR014718, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
+          "localFileName": "OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
+          "localHref": "/papers/OMalley%20Vesselinov%202014%20Groundwater%20remediation%20using%20the%20information%20gap%20decision%20theory.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O’Malley, D., Vesselinov, V.V., Groundwater remediation using the information gap decision theory, Water Resources Research, 10.1002/2013WR014718, 2014. <a href=\"/papers/OMalley%20Vesselinov%202014%20Groundwater%20remediation%20using%20the%20information%20gap%20decision%20theory.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-61",
+      "text": "Harp, D.R., Vesselinov, V.V., Accounting for the influence of aquifer heterogeneity on spatial propagation of pumping drawdown, Journal of Water Resource and Hydraulic Engineering, 2(3), pp. 65-83, 2013. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2013 exp.pdf",
+          "localFileName": "Harp & Vesselinov 2013 exp.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2013 exp.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202013%20exp.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D.R., Vesselinov, V.V., Accounting for the influence of aquifer heterogeneity on spatial propagation of pumping drawdown, Journal of Water Resource and Hydraulic Engineering, 2(3), pp. 65-83, 2013. <a href=\"/papers/Harp%20%26%20Vesselinov%202013%20exp.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-62",
+      "text": "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D.R., Mishra, P., Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Waste Management Symposium 2013, Session 109: ER Challenges: Alternative Approaches for Achieving End State, Phoenix, AZ, http://wmsym.org, 2013. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
+          "localFileName": "Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202013%20Data%20and%20Model-Driven%20Decision%20Support%20for%20Environmental%20Management%20of%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D.R., Mishra, P., Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Waste Management Symposium 2013, Session 109: ER Challenges: Alternative Approaches for Achieving End State, Phoenix, AZ, http://wmsym.org, 2013. <a href=\"/papers/Vesselinov%20et%20al%202013%20Data%20and%20Model-Driven%20Decision%20Support%20for%20Environmental%20Management%20of%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-63",
+      "text": "Vesselinov, V.V., Pau, G., Finsterle, S, AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, Computational Methods in Water Resources (CMWR 2012), 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
+          "localFileName": "Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202012%20Agni%20-%20coupling%20model%20analysis%20tools%20and%20high-performance%20subsurface%20flow%20and%20transport%20simulators%20for%20risk%20and%20performance%20assessments.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Pau, G., Finsterle, S, AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, Computational Methods in Water Resources (CMWR 2012), 2012. <a href=\"/papers/Vesselinov%20et%20al%202012%20Agni%20-%20coupling%20model%20analysis%20tools%20and%20high-performance%20subsurface%20flow%20and%20transport%20simulators%20for%20risk%20and%20performance%20assessments.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-64",
+      "text": "Vesselinov, V.V., Harp, D., Adaptive hybrid optimization strategy for calibration and parameter estimation of physical models, Computers & Geosciences, 10.1016/j.cageo.2012.05.027, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
+          "localFileName": "Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
+          "localHref": "/papers/Vesselinov%20%26%20Harp%202012%20Adaptive%20hybrid%20optimization%20strategy%20for%20calibration%20and%20parameter%20estimation%20of%20physical%20process%20models.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Harp, D., Adaptive hybrid optimization strategy for calibration and parameter estimation of physical models, <em>Computers &amp; Geosciences</em>, 10.1016/j.cageo.2012.05.027, 2012. <a href=\"/papers/Vesselinov%20%26%20Harp%202012%20Adaptive%20hybrid%20optimization%20strategy%20for%20calibration%20and%20parameter%20estimation%20of%20physical%20process%20models.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-65",
+      "text": "Harp, D., Vesselinov, V.V., Contaminant remediation decision analysis using information gap theory, Stochastic Environmental Research and Risk Assessment (SERRA), 10.1007/s00477-012-0573-1, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
+          "localFileName": "Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202013%20Contaminant%20remediation%20decision%20analysis%20using%20information.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., Contaminant remediation decision analysis using information gap theory, <em>Stochastic Environmental Research and Risk Assessment (SERRA)</em>, 10.1007/s00477-012-0573-1, 2012. <a href=\"/papers/Harp%20%26%20Vesselinov%202013%20Contaminant%20remediation%20decision%20analysis%20using%20information.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-66",
+      "text": "Mishra, P.K., Gupta, H.V., Vesselinov, V.V.; On simulation and analysis of variable-rate pumping tests, Ground Water, 10.1111/j.1745-6584.2012.00961.x, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mishra et al 2012 Variable Rate GW.pdf",
+          "localFileName": "Mishra et al 2012 Variable Rate GW.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mishra et al 2012 Variable Rate GW.pdf",
+          "localHref": "/papers/Mishra%20et%20al%202012%20Variable%20Rate%20GW.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mishra, P.K., Gupta, H.V., Vesselinov, V.V.; On simulation and analysis of variable-rate pumping tests, Ground Water, 10.1111/j.1745-6584.2012.00961.x, 2012. <a href=\"/papers/Mishra%20et%20al%202012%20Variable%20Rate%20GW.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-67",
+      "text": "Mishra, P.K., Vesselinov, V.V., Kuhlmna, K.L.; Saturated–unsaturated flow in a compressible leaky-unconfined aquifer, Advances in Water Resources, 10.1016/j.advwatres.2012.03.007, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mishra et al 2012 Variable Rate GW.pdf",
+          "localFileName": "Mishra et al 2012 Variable Rate GW.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mishra et al 2012 Variable Rate GW.pdf",
+          "localHref": "/papers/Mishra%20et%20al%202012%20Variable%20Rate%20GW.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mishra, P.K., Vesselinov, V.V., Kuhlmna, K.L.; Saturated–unsaturated flow in a compressible leaky-unconfined aquifer, Advances in Water Resources, 10.1016/j.advwatres.2012.03.007, 2012. <a href=\"/papers/Mishra%20et%20al%202012%20Variable%20Rate%20GW.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-68",
+      "text": "Mishra, P.K., Vesselinov, V.V., Neuman, S.P.; Radial flow to a partially penetrating well with storage in an anisotropic confined aquifer, Journal of Hydrology, 10.1016/j.jhydrol.2012.05.010, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
+          "localFileName": "Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
+          "localHref": "/papers/Mishra%20et%20al%202012%20Leaky-unconfined%20aquifer%20AWR.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mishra, P.K., Vesselinov, V.V., Neuman, S.P.; Radial flow to a partially penetrating well with storage in an anisotropic confined aquifer, <em>Journal of Hydrology</em>, 10.1016/j.jhydrol.2012.05.010, 2012. <a href=\"/papers/Mishra%20et%20al%202012%20Leaky-unconfined%20aquifer%20AWR.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-69",
+      "text": "Harp, D., Vesselinov, V.V., An agent-based approach to global uncertainty and sensitivity analysis, Computers & Geosciences, 10.1016/j.cageo.2011.06.025, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2012 abagus.pdf",
+          "localFileName": "Harp & Vesselinov 2012 abagus.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2012 abagus.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202012%20abagus.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., An agent-based approach to global uncertainty and sensitivity analysis, <em>Computers &amp; Geosciences</em>, 10.1016/j.cageo.2011.06.025, 2012. <a href=\"/papers/Harp%20%26%20Vesselinov%202012%20abagus.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-70",
+      "text": "Harp, D., Vesselinov, V.V., Analysis of hydrogeological structure uncertainty by estimation of hydrogeological acceptance probability of geostatistical models, Special issue of Uncertainty Quantification (invited), Advances in Water Resources, 10.1016/j.advwatres.2011.06.007, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2012 geosampler.pdf",
+          "localFileName": "Harp & Vesselinov 2012 geosampler.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2012 geosampler.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202012%20geosampler.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., Analysis of hydrogeological structure uncertainty by estimation of hydrogeological acceptance probability of geostatistical models, Special issue of Uncertainty Quantification (invited), <em>Advances in Water Resources</em>, 10.1016/j.advwatres.2011.06.007, 2012. <a href=\"/papers/Harp%20%26%20Vesselinov%202012%20geosampler.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-71",
+      "text": "Mishra, P.K., Vesselinov, V.V., Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer, arXiv:1110.5940, 2011. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
+          "localFileName": "Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
+          "localHref": "/papers/Mishra%20%26%20Vesselinov%202011%20Unified%20Analytical%20Solution%20for%20Radial%20Flow%20to%20a%20Well%20in%20a%20Confined%20Aquifer.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mishra, P.K., Vesselinov, V.V., Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer, arXiv:1110.5940, 2011. <a href=\"/papers/Mishra%20%26%20Vesselinov%202011%20Unified%20Analytical%20Solution%20for%20Radial%20Flow%20to%20a%20Well%20in%20a%20Confined%20Aquifer.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-72",
+      "text": "Vesselinov, V.V., Harp, D., Decision support based on uncertainty quantification of model predictions of contaminant transport, CMWR 2010: XVIII International Conference on Water Resources, J. Carrera (Ed), CIMNE, Barcelona 2010. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Harp 2010 cmwr decision.pdf",
+          "localFileName": "Vesselinov & Harp 2010 cmwr decision.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov & Harp 2010 cmwr decision.pdf",
+          "localHref": "/papers/Vesselinov%20%26%20Harp%202010%20cmwr%20decision.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Harp, D., Decision support based on uncertainty quantification of model predictions of contaminant transport, CMWR 2010: XVIII International Conference on Water Resources, J. Carrera (Ed), CIMNE, Barcelona 2010. <a href=\"/papers/Vesselinov%20%26%20Harp%202010%20cmwr%20decision.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-73",
+      "text": "Harp, D., Vesselinov, V.V., Identification of Pumping Influences in Long-Term Water Level Fluctuations, Ground Water, 10.1111/j.1745-6584.2010.00725.x., 2010. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2010 gw.pdf",
+          "localFileName": "Harp & Vesselinov 2010 gw.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2010 gw.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202010%20gw.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., Identification of Pumping Influences in Long-Term Water Level Fluctuations, Ground Water, 10.1111/j.1745-6584.2010.00725.x., 2010. <a href=\"/papers/Harp%20%26%20Vesselinov%202010%20gw.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-74",
+      "text": "Morales-Casique, E, Neuman, S.P., Vesselinov, V.V., Maximum Likelihood Bayesian Averaging of air flow models in unsaturated fractured tuff using Occam and variance windows, Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman, vol. 24, 10.1007/s00477-010-0383-2, 2010. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Morales et al 2010 MLBA serra.pdf",
+          "localFileName": "Morales et al 2010 MLBA serra.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Morales et al 2010 MLBA serra.pdf",
+          "localHref": "/papers/Morales%20et%20al%202010%20MLBA%20serra.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Morales-Casique, E, Neuman, S.P., Vesselinov, V.V., Maximum Likelihood Bayesian Averaging of air flow models in unsaturated fractured tuff using Occam and variance windows, Special issue of <em>Stochastic Environmental Research and Risk Assessment</em> (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman, vol. 24, 10.1007/s00477-010-0383-2, 2010. <a href=\"/papers/Morales%20et%20al%202010%20MLBA%20serra.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-75",
+      "text": "Harp, D., Vesselinov, V.V., Stochastic inverse method for estimation of geostatistical representation of hydrogeologic stratigraphy using borehole logs and pressure, invited, Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman, vol. 24, 10.1007/s00477-010-0403-2, 2010. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp & Vesselinov 2010 SERRA.pdf",
+          "localFileName": "Harp & Vesselinov 2010 SERRA.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp & Vesselinov 2010 SERRA.pdf",
+          "localHref": "/papers/Harp%20%26%20Vesselinov%202010%20SERRA.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., Stochastic inverse method for estimation of geostatistical representation of hydrogeologic stratigraphy using borehole logs and pressure, invited, Special issue of<em> Stochastic Environmental Research and Risk Assessment</em> (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman, vol. 24, 10.1007/s00477-010-0403-2, 2010. <a href=\"/papers/Harp%20%26%20Vesselinov%202010%20SERRA.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-76",
+      "text": "Vrugt, J., Stauffer, P., Wöhling, Th., Robinson, B., Vesselinov, V.V., Inverse Modeling of Subsurface Flow and Transport Properties Using Recent Advances in Global Optimization, Parallel Computing and Sequential Data Assimilation, Vadose Zone Journal, pp 843-864, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vrugt et al 2007 VZJ.pdf",
+          "localFileName": "Vrugt et al 2007 VZJ.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vrugt et al 2007 VZJ.pdf",
+          "localHref": "/papers/Vrugt%20et%20al%202007%20VZJ.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vrugt, J., Stauffer, P., Wöhling, Th., Robinson, B., Vesselinov, V.V., Inverse Modeling of Subsurface Flow and Transport Properties Using Recent Advances in Global Optimization, Parallel Computing and Sequential Data Assimilation, <em>Vadose Zone Journal</em>, pp 843-864, 2008. <a href=\"/papers/Vrugt%20et%20al%202007%20VZJ.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-77",
+      "text": "Morales-Casique, E., Neuman, S.P., Vesselinov, V.V., Maximum likelihood Bayesian averaging of air flow models in unsaturated fractured tuff, pp.70-75, IAHS Publication 320, ISBN 978-1-901502-49-7, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Morales_et_al_on_ALRS.pdf",
+          "localFileName": "Morales_et_al_on_ALRS.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Morales_et_al_on_ALRS.pdf",
+          "localHref": "/papers/Morales_et_al_on_ALRS.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Morales-Casique, E., Neuman, S.P., Vesselinov, V.V., Maximum likelihood Bayesian averaging of air flow models in unsaturated fractured tuff, pp.70-75, <em>IAHS Publication 320</em>, ISBN 978-1-901502-49-7, 2008. <a href=\"/papers/Morales_et_al_on_ALRS.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-78",
+      "text": "Harp, D., Dai, Z., Wolfsberg, A., Vrugt, J., Robinson, B., Vesselinov, V.V., Aquifer structure identification using stochastic inversion. Geophysical Research Letters L08404, 10.1029/2008GL033585, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp et al 2008 GRL.pdf",
+          "localFileName": "Harp et al 2008 GRL.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp et al 2008 GRL.pdf",
+          "localHref": "/papers/Harp%20et%20al%202008%20GRL.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Dai, Z., Wolfsberg, A., Vrugt, J., Robinson, B., Vesselinov, V.V., Aquifer structure identification using stochastic inversion. <em>Geophysical Research Letters</em> L08404, 10.1029/2008GL033585, 2008. <a href=\"/papers/Harp%20et%20al%202008%20GRL.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-79",
+      "text": "Vesselinov, V.V., Uncertainties In Transient Capture-Zone Estimates, Computational Methods in Water Resources XVI, (edited by P. Binning, P. Engesgaard, H. Dahle, G. Pinder & W. Gray), Balkema, Rotterdam, ISBN 90-5809-124-4, pp. 307-314, 2006. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
+          "localFileName": "Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
+          "localHref": "/papers/Vesselinov%202006%20cmwr06%20Uncertainties%20In%20Transient%20Capture-Zone%20Estimates.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Uncertainties In Transient Capture-Zone Estimates, <em>Computational Methods in Water Resources XVI</em>, (edited by P. Binning, P. Engesgaard, H. Dahle, G. Pinder &amp; W. Gray), Balkema, Rotterdam, ISBN 90-5809-124-4, pp. 307-314, 2006. <a href=\"/papers/Vesselinov%202006%20cmwr06%20Uncertainties%20In%20Transient%20Capture-Zone%20Estimates.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-80",
+      "text": "Vrugt, J.A, Robinson, B.A., Vesselinov, V.V., Improved Inverse Modeling in Geophysics: Combined Parameter and State Estimation, Geophysical Research Letters, v.32, L18408, 10.1029/2005GL023940, 2005. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vrugt et al 2005 GRL.pdf",
+          "localFileName": "Vrugt et al 2005 GRL.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vrugt et al 2005 GRL.pdf",
+          "localHref": "/papers/Vrugt%20et%20al%202005%20GRL.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vrugt, J.A, Robinson, B.A., Vesselinov, V.V., Improved Inverse Modeling in Geophysics: Combined Parameter and State Estimation, <em>Geophysical Research Letters</em>, v.32, L18408, 10.1029/2005GL023940, 2005. <a href=\"/papers/Vrugt%20et%20al%202005%20GRL.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "papers-81",
+      "text": "Vesselinov, V.V., Estimation of parameter uncertainty using inverse model sensitivities, Computational Methods in Water Resources XV (CMWR 2004) (ed. Miller, C., Farthing, M.W., Gray, W.G., Pinder, G.), Elsevier, ISBN 0-444-51839-8, pp. 508-514, 10.1016/S0167-5648(04)80139-4, 2004. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
+          "localFileName": "Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
+          "localHref": "/papers/Vesselinov%202004%20Estimation%20of%20parameter%20uncertainty%20using%20inverse%20model%20sensitivities.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Estimation of parameter uncertainty using inverse model sensitivities, <em>Computational Methods in Water Resources XV</em> (CMWR 2004) (ed. Miller, C., Farthing, M.W., Gray, W.G., Pinder, G.), Elsevier, ISBN 0-444-51839-8, pp. 508-514, 10.1016/S0167-5648(04)80139-4, 2004. <a href=\"/papers/Vesselinov%202004%20Estimation%20of%20parameter%20uncertainty%20using%20inverse%20model%20sensitivities.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    }
+  ],
+  "footerHtmlLines": [
+    "More publications are available at <a href=\"http://scholar.google.com/citations?user=sIFHVvwAAAAJ&amp;hl=en\" target=\"_blank\">Google Scholar</a>, <a href=\"https://www.researchgate.net/profile/Velimir_Vesselinov\" target=\"_blank\">ResearchGate</a>, and <a href=\"https://lanl.academia.edu/monty\" target=\"_blank\">Academia.edu</a>."
+  ]
+}

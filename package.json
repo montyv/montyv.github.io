@@ -1,0 +1,34 @@
+{
+  "name": "montyv-github-io",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "predev": "node scripts/sync-legacy-public.mjs && node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
+    "dev": "node scripts/run-next-with-distdir.mjs dev",
+    "prebuild": "node scripts/sync-legacy-public.mjs && node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
+    "build": "node scripts/run-next-with-distdir.mjs build",
+    "start": "npx serve@latest out",
+    "preview": "npx serve@latest out",
+    "postbuild": "node scripts/cleanup-build-artifacts.mjs && next-sitemap"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "next": "^15.1.0",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "next-sitemap": "^4.2.3",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "about-me",
+    "title": "About me",
+    "file": "about-me.html"
+  },
+  {
+    "id": "work-experience",
+    "title": "Work Experience",
+    "file": "work-experience.html"
+  },
+  {
+    "id": "projects",
+    "title": "Projects",
+    "file": "projects.html"
+  },
+  {
+    "id": "patents-disclosures",
+    "title": "Patents / Disclosures",
+    "file": "patents-disclosures.html"
+  },
+  {
+    "id": "courses-workshops",
+    "title": "Courses & Workshops",
+    "file": "courses-workshops.html"
+  },
+  {
+    "id": "videos",
+    "title": "Videos",
+    "file": "videos.html"
+  },
+  {
+    "id": "art",
+    "title": "Art",
+    "file": "art.html"
+  },
+  {
+    "id": "research",
+    "title": "Research",
+    "file": "research.html"
+  },
+  {
+    "id": "codes",
+    "title": "Codes",
+    "file": "codes.html"
+  }
+]

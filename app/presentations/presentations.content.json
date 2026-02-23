@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "manual",
+  "source": "app/presentations/presentations.content.json",
+  "title": "Presentations",
+  "items": [
+    {
+      "id": "presentations-1",
+      "text": "Kliphuis, T.L., Bluehouse, M., Vesselinov, V.V., GeoTGO: Equitable and Inclusive Tool for Community-Based Geothermal, Stanford Geothermal Workshop, Stanford, CA, February 6-8, 2023. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Kliphuis et al 2023 GeoTGO Equitable and Inclusive Tool for Community-Based Geothermal.pdf",
+          "localFileName": "Kliphuis et al 2023 GeoTGO Equitable and Inclusive Tool for Community-Based Geothermal.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Kliphuis et al 2023 GeoTGO Equitable and Inclusive Tool for Community-Based Geothermal.pdf target=",
+          "localHref": "/presentations/Kliphuis%20et%20al%202023%20GeoTGO%20Equitable%20and%20Inclusive%20Tool%20for%20Community-Based%20Geothermal.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Kliphuis, T.L., Bluehouse, M., Vesselinov, V.V., GeoTGO: Equitable and Inclusive Tool for Community-Based Geothermal, Stanford Geothermal Workshop, Stanford, CA, February 6-8, 2023. <a href=\"/presentations/Kliphuis%20et%20al%202023%20GeoTGO%20Equitable%20and%20Inclusive%20Tool%20for%20Community-Based%20Geothermal.pdf\" _blank\"=\"\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-2",
+      "text": "Vesselinov, V.V., Kliphuis, T.L., Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Kliphuis 2022 Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process.pdf",
+          "localFileName": "Vesselinov & Kliphuis 2022 Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process.pdf",
+          "localHref": "/presentations/Vesselinov%20%26%20Kliphuis%202022%20Physics-Informed%20Machine%20Learning%20of%20Geothermal%2C%20Geomechanical%2C%20Geochemical%20Process.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Kliphuis, T.L., Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. <a href=\"/presentations/Vesselinov%20%26%20Kliphuis%202022%20Physics-Informed%20Machine%20Learning%20of%20Geothermal%2C%20Geomechanical%2C%20Geochemical%20Process.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-3",
+      "text": "Jafarov, E.E., Genet. H., Vesselinov, V.V., Briones, V., Rutter, R., Rogers, B.M., Natali, S., Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Jafarov et al 2022 Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model.pdf",
+          "localFileName": "Jafarov et al 2022 Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Jafarov et al 2022 Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model.pdf",
+          "localHref": "/presentations/Jafarov%20et%20al%202022%20Toward%20Automated%20Data-Model%20Calibration%20for%20the%20Arctic%20Terrestrial%20Ecosystem%20Model.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Jafarov, E.E., Genet. H., Vesselinov, V.V., Briones, V., Rutter, R., Rogers, B.M., Natali, S., Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. <a href=\"/presentations/Jafarov%20et%20al%202022%20Toward%20Automated%20Data-Model%20Calibration%20for%20the%20Arctic%20Terrestrial%20Ecosystem%20Model.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-4",
+      "text": "Vesselinov, V.V., Kliphuis, T.L., Novel machine learning methods and tools for geothermal and geochemical problems, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Kliphuis 2022 Novel machine learning methods and tools for geothermal and geochemical problems.pdf",
+          "localFileName": "Vesselinov & Kliphuis 2022 Novel machine learning methods and tools for geothermal and geochemical problems.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 Novel machine learning methods and tools for geothermal and geochemical problems.pdf",
+          "localHref": "/presentations/Vesselinov%20%26%20Kliphuis%202022%20Novel%20machine%20learning%20methods%20and%20tools%20for%20geothermal%20and%20geochemical%20problems.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Kliphuis, T.L., Novel machine learning methods and tools for geothermal and geochemical problems, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. <a href=\"/presentations/Vesselinov%20%26%20Kliphuis%202022%20Novel%20machine%20learning%20methods%20and%20tools%20for%20geothermal%20and%20geochemical%20problems.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-5",
+      "text": "Fleming, W.W., Vesselinov, V.V., Goodbody, A.G., Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting, with Applications to the Owyhee and Yellowstone Rivers_ Regression Using Climate Indices Derived from SNOTEL Data Using Nonnegative Matrix Factorization with k-Means Clustering, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Fleming et al 2022 Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting.pdf",
+          "localFileName": "Fleming et al 2022 Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Fleming et al 2022 Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting.pdf",
+          "localHref": "/presentations/Fleming%20et%20al%202022%20Practical%20Glass-Box%20Machine%20Learning%20for%20Seasonal%20Water%20Supply%20Forecasting.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Fleming, W.W., Vesselinov, V.V., Goodbody, A.G., Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting, with Applications to the Owyhee and Yellowstone Rivers_ Regression Using Climate Indices Derived from SNOTEL Data Using Nonnegative Matrix Factorization with k-Means Clustering, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16, 2022. <a href=\"/presentations/Fleming%20et%20al%202022%20Practical%20Glass-Box%20Machine%20Learning%20for%20Seasonal%20Water%20Supply%20Forecasting.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-6",
+      "text": "Vesselinov, V.V., Kliphuis, T.L., ChemML: Understanding groundwater flow and contaminant transport using machine learning, Frontiers in Hydrology Meeting, American Geophysical Union, San Juan, Puerto Rico, June 19-24, 2022. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf",
+          "localFileName": "Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf",
+          "localHref": "/presentations/Vesselinov%20%26%20Kliphuis%202022%20ChemML%20Understanding%20groundwater%20flow%20and%20contaminant%20transport%20using%20machine%20learning.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Kliphuis, T.L., ChemML: Understanding groundwater flow and contaminant transport using machine learning, Frontiers in Hydrology Meeting, American Geophysical Union, San Juan, Puerto Rico, June 19-24, 2022. <a href=\"/presentations/Vesselinov%20%26%20Kliphuis%202022%20ChemML%20Understanding%20groundwater%20flow%20and%20contaminant%20transport%20using%20machine%20learning.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-7",
+      "text": "Vesselinov, V.V., et al., Machine Learning to Characterize the State of Stress and its Influence on Geothermal Production, Geothermal Rising Conference, San Diego, CA, October 3-6, 2021.",
+      "pdfLinks": [],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Machine Learning to Characterize the State of Stress and its Influence on Geothermal Production, Geothermal Rising Conference, San Diego, CA, October 3-6, 2021."
+      ]
+    },
+    {
+      "id": "presentations-8",
+      "text": "Vesselinov, V.V., et al., Hidden geothermal signatures of the southwest New Mexico, World Geothermal Congress, Reykjavik, Iceland, May-Oct, 2021.",
+      "pdfLinks": [],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Hidden geothermal signatures of the southwest New Mexico, World Geothermal Congress, Reykjavik, Iceland, May-Oct, 2021."
+      ]
+    },
+    {
+      "id": "presentations-9",
+      "text": "Vesselinov, V.V., et al., SmartTensors: Unsupervised Machine Learning, JuliaCon, Boston, MA, July 28-30, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "SmartTensors_JuliaCon2021.pdf",
+          "localFileName": "SmartTensors_JuliaCon2021.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/SmartTensors_JuliaCon2021.pdf",
+          "localHref": "/presentations/SmartTensors_JuliaCon2021.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., SmartTensors: Unsupervised Machine Learning, JuliaCon, Boston, MA, July 28-30, 2021. <a href=\"/presentations/SmartTensors_JuliaCon2021.pdf\" target=\"_blank\">PDF</a> <br> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bdDRilsPsRY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+      ]
+    },
+    {
+      "id": "presentations-10",
+      "text": "Vesselinov, V.V., et al., GeoThermalCloud: Fusion of Big Data and Multi-Physics Models, JuliaCon, Boston, MA, July 28-30, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "GeoThermalCloud_JuliaCon2021.pdf",
+          "localFileName": "GeoThermalCloud_JuliaCon2021.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/GeoThermalCloud_JuliaCon2021.pdf",
+          "localHref": "/presentations/GeoThermalCloud_JuliaCon2021.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., GeoThermalCloud: Fusion of Big Data and Multi-Physics Models, JuliaCon, Boston, MA, July 28-30, 2021. <a href=\"/presentations/GeoThermalCloud_JuliaCon2021.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-11",
+      "text": "Vesselinov, V.V., et al., ML4Geo: Machine Learning for Geosciences, JuliaCon, Boston, MA, July 28-30, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "ML4Geo_JuliaCon2021.pdf",
+          "localFileName": "ML4Geo_JuliaCon2021.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/ML4Geo_JuliaCon2021.pdf",
+          "localHref": "/presentations/ML4Geo_JuliaCon2021.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., ML4Geo: Machine Learning for Geosciences, JuliaCon, Boston, MA, July 28-30, 2021. <a href=\"/presentations/ML4Geo_JuliaCon2021.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-12",
+      "text": "Vesselinov, V.V., et al., GeoThermalCloud: Cloud Fusion of Big Data and Multi-Physics Models using Machine Learning for Discovery, Exploration and Development of Hidden Geothermal Resources, Department of Energy, Geothermal Office, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2021 GeoThermalCloud.pdf",
+          "localFileName": "Vesselinov 2021 GeoThermalCloud.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2021 GeoThermalCloud.pdf",
+          "localHref": "/presentations/Vesselinov%202021%20GeoThermalCloud.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., GeoThermalCloud: Cloud Fusion of Big Data and Multi-Physics Models using Machine Learning for Discovery, Exploration and Development of Hidden Geothermal Resources, Department of Energy, Geothermal Office, 2021. <a href=\"/presentations/Vesselinov%202021%20GeoThermalCloud.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-13",
+      "text": "Vesselinov, V.V., et al., Unsupervised and Physics-Informed Machine learning in Geosciences, Baylor University, Texas, 2021. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2021 Unsupervised and Physics-Informed Machine learning in Geosciences Baylor.pdf",
+          "localFileName": "Vesselinov 2021 Unsupervised and Physics-Informed Machine learning in Geosciences Baylor.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2021 Unsupervised and Physics-Informed Machine learning in Geosciences Baylor.pdf",
+          "localHref": "/presentations/Vesselinov%202021%20Unsupervised%20and%20Physics-Informed%20Machine%20learning%20in%20Geosciences%20Baylor.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Unsupervised and Physics-Informed Machine learning in Geosciences, Baylor University, Texas, 2021. <a href=\"/presentations/Vesselinov%202021%20Unsupervised%20and%20Physics-Informed%20Machine%20learning%20in%20Geosciences%20Baylor.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-14",
+      "text": "Vesselinov, V.V., et al., Machine learning for geothermal resource analysis and exploration, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15, 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2020 Machine Learning for Geothermal Resource Analysis and Exploration CMWR.pdf",
+          "localFileName": "Vesselinov 2020 Machine Learning for Geothermal Resource Analysis and Exploration CMWR.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Machine Learning for Geothermal Resource Analysis and Exploration CMWR.pdf",
+          "localHref": "/presentations/Vesselinov%202020%20Machine%20Learning%20for%20Geothermal%20Resource%20Analysis%20and%20Exploration%20CMWR.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Machine learning for geothermal resource analysis and exploration, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15, 2020. <a href=\"/presentations/Vesselinov%202020%20Machine%20Learning%20for%20Geothermal%20Resource%20Analysis%20and%20Exploration%20CMWR.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-15",
+      "text": "Vesselinov, V.V., Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15, 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2020 Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning CMWR.pdf",
+          "localFileName": "Vesselinov 2020 Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning CMWR.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning CMWR.pdf",
+          "localHref": "/presentations/Vesselinov%202020%20Predicting%20oil%20and%20gas%20production%20from%20unconventional%20tight-rock%20reservoirs%20using%20machine%20learning%20CMWR.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15, 2020. <a href=\"/presentations/Vesselinov%202020%20Predicting%20oil%20and%20gas%20production%20from%20unconventional%20tight-rock%20reservoirs%20using%20machine%20learning%20CMWR.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-16",
+      "text": "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs, Machine Learning in Oil & Gas Conference, November 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs.pdf",
+          "localFileName": "Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs.pdf",
+          "localHref": "/presentations/Vesselinov%202020%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20Analyses%20for%20Characterization%20of%20Energy%20Production%20from%20Unconventional%20Reservoirs.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs, Machine Learning in Oil &amp; Gas Conference, November 2020. <a href=\"/presentations/Vesselinov%202020%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20Analyses%20for%20Characterization%20of%20Energy%20Production%20from%20Unconventional%20Reservoirs.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-17",
+      "text": "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data, Bureau of Economic Geology, University of Austin, Texas, 2020. PDF YouTube",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data Austin.pdf",
+          "localFileName": "Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data Austin.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data Austin.pdf",
+          "localHref": "/presentations/Vesselinov%202020%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20of%20Big%20and%20Noisy%20Data%20Austin.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data, Bureau of Economic Geology, University of Austin, Texas, 2020. <a href=\"/presentations/Vesselinov%202020%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20of%20Big%20and%20Noisy%20Data%20Austin.pdf\" target=\"_blank\">PDF</a> <a href=\"https://youtu.be/rV2rM4X5_co\" target=\"_blank\">YouTube</a> <br> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rV2rM4X5_co\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+      ]
+    },
+    {
+      "id": "presentations-18",
+      "text": "Vesselinov, V.V., et al., Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning, Geothermal Workshop, Stanford, CA, 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2020 Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning LA-UR-20-21322.pdf",
+          "localFileName": "Vesselinov 2020 Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning LA-UR-20-21322.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning LA-UR-20-21322.pdf",
+          "localHref": "/presentations/Vesselinov%202020%20Discovering%20Hidden%20Geothermal%20Signatures%20using%20Unsupervised%20Machine%20Learning%20LA-UR-20-21322.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning, Geothermal Workshop, Stanford, CA, 2020. <a href=\"/presentations/Vesselinov%202020%20Discovering%20Hidden%20Geothermal%20Signatures%20using%20Unsupervised%20Machine%20Learning%20LA-UR-20-21322.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-19",
+      "text": "Mudunuru, M.K, Vesselinov, V.V., et al., Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration, Geothermal Workshop, Stanford, CA, 2020. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Mudunuru 2020 Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration LA-UR-20-21367.pdf",
+          "localFileName": "Mudunuru 2020 Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration LA-UR-20-21367.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Mudunuru 2020 Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration LA-UR-20-21367.pdf",
+          "localHref": "/presentations/Mudunuru%202020%20Site-Scale%20and%20Regional-Scale%20Modeling%20for%20Geothermal%20Resource%20Analysis%20and%20Exploration%20LA-UR-20-21367.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Mudunuru, M.K, Vesselinov, V.V., et al., Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration, Geothermal Workshop, Stanford, CA, 2020. <a href=\"/presentations/Mudunuru%202020%20Site-Scale%20and%20Regional-Scale%20Modeling%20for%20Geothermal%20Resource%20Analysis%20and%20Exploration%20LA-UR-20-21367.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-20",
+      "text": "Vesselinov, V.V., Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs, AGU Fall Meeting, San Francisco, CA, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs.pdf",
+          "localFileName": "Vesselinov 2019 Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20Machine%20learning%20analyses%20for%20characterization%20of%20oil%2C%20gas%20and%20water%20production%20from%20unconventional%20tight-rock%20reservoirs.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs, AGU Fall Meeting, San Francisco, CA, 2019. <a href=\"/presentations/Vesselinov%202019%20Machine%20learning%20analyses%20for%20characterization%20of%20oil%2C%20gas%20and%20water%20production%20from%20unconventional%20tight-rock%20reservoirs.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-21",
+      "text": "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning of Big Data, Workshop: Applications of Big Data and High-Performance Computing in Earth Sciences, AGU Fall Meeting, San Francisco, CA, 2019, (invited). PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 Unsupervised and Physics-Informed Machine Learning of Big Data.pdf",
+          "localFileName": "Vesselinov 2019 Unsupervised and Physics-Informed Machine Learning of Big Data.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Unsupervised and Physics-Informed Machine Learning of Big Data.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20of%20Big%20Data.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Unsupervised and Physics-Informed Machine Learning of Big Data, Workshop: Applications of Big Data and High-Performance Computing in Earth Sciences, AGU Fall Meeting, San Francisco, CA, 2019, (invited). <a href=\"/presentations/Vesselinov%202019%20Unsupervised%20and%20Physics-Informed%20Machine%20Learning%20of%20Big%20Data.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-22",
+      "text": "Vesselinov, V.V., Unsupervised Machine Learning: Nonnegative Matrix Tensor Decompositions, MIT, Boston, MA, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 Unsupervised Machine Learning Nonnegative Matrix Tensor Decompositions.pdf",
+          "localFileName": "Vesselinov 2019 Unsupervised Machine Learning Nonnegative Matrix Tensor Decompositions.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Unsupervised Machine Learning Nonnegative Matrix Tensor Decompositions.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20Unsupervised%20Machine%20Learning%20Nonnegative%20Matrix%20Tensor%20Decompositions.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Unsupervised Machine Learning: Nonnegative Matrix Tensor Decompositions, MIT, Boston, MA, 2019. <a href=\"/presentations/Vesselinov%202019%20Unsupervised%20Machine%20Learning%20Nonnegative%20Matrix%20Tensor%20Decompositions.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-23",
+      "text": "Vesselinov, V.V., Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics, M3 NASA DRIVE Workshop, Los Alamos, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics.pdf",
+          "localFileName": "Vesselinov 2019 Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20Physics-Informed%20Machine%20Learning%20Methods%20for%20Data%20Analytics%20and%20Model%20Diagnostics.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics, M3 NASA DRIVE Workshop, Los Alamos, 2019. <a href=\"/presentations/Vesselinov%202019%20Physics-Informed%20Machine%20Learning%20Methods%20for%20Data%20Analytics%20and%20Model%20Diagnostics.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-24",
+      "text": "Vesselinov, V.V., Machine Learning Analyses of Climate Data and Models, 11th World Congress of European Water Resources Association (EWRA), Madrid, Spain, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 Machine Learning Analyses of Climate Data and Models EWRA.pdf",
+          "localFileName": "Vesselinov 2019 Machine Learning Analyses of Climate Data and Models EWRA.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Machine Learning Analyses of Climate Data and Models EWRA.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20Machine%20Learning%20Analyses%20of%20Climate%20Data%20and%20Models%20EWRA.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Machine Learning Analyses of Climate Data and Models, 11th World Congress of European Water Resources Association (EWRA), Madrid, Spain, 2019. <a href=\"/presentations/Vesselinov%202019%20Machine%20Learning%20Analyses%20of%20Climate%20Data%20and%20Models%20EWRA.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-25",
+      "text": "Vesselinov, V.V., Novel Unsupervised Machine Learning Methods for Data Analytics and Model Diagnostics, Machine Learning in Solid Earth Geoscience, Santa Fe, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2019 GeoScienceMLworkshop.pdf",
+          "localFileName": "Vesselinov 2019 GeoScienceMLworkshop.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 GeoScienceMLworkshop.pdf",
+          "localHref": "/presentations/Vesselinov%202019%20GeoScienceMLworkshop.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Novel Unsupervised Machine Learning Methods for Data Analytics and Model Diagnostics, Machine Learning in Solid Earth Geoscience, Santa Fe, 2019. <a href=\"/presentations/Vesselinov%202019%20GeoScienceMLworkshop.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-26",
+      "text": "Vesselinov, V.V., Unsupervised Machine Learning Methods for Feature Extraction, New Mexico Big Data & Analytics Summit, nmbdas.com, Albuquerque, 2019. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov 2019 Unsupervised Machine Learning Methods for Feature Extraction LA-UR-19-21450.pdf",
+          "localFileName": "vesselinov 2019 Unsupervised Machine Learning Methods for Feature Extraction LA-UR-19-21450.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2019 Unsupervised Machine Learning Methods for Feature Extraction LA-UR-19-21450.pdf",
+          "localHref": "/presentations/vesselinov%202019%20Unsupervised%20Machine%20Learning%20Methods%20for%20Feature%20Extraction%20LA-UR-19-21450.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Unsupervised Machine Learning Methods for Feature Extraction, New Mexico Big Data &amp; Analytics Summit, <a href=\"http://nmbdas.com\">nmbdas.com</a>, Albuquerque, 2019. <a href=\"/presentations/vesselinov%202019%20Unsupervised%20Machine%20Learning%20Methods%20for%20Feature%20Extraction%20LA-UR-19-21450.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-27",
+      "text": "Vesselinov, V.V., Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models, AGU Fall meeting, Washington D.C., 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models LA-UR-18-31366.pdf",
+          "localFileName": "Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models LA-UR-18-31366.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models LA-UR-18-31366.pdf",
+          "localHref": "/presentations/Vesselinov%202018%20Novel%20Machine%20Learning%20Methods%20for%20Extraction%20of%20Features%20Characterizing%20Datasets%20and%20Models%20LA-UR-18-31366.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models, AGU Fall meeting, Washington D.C., 2018. <a href=\"/presentations/Vesselinov%202018%20Novel%20Machine%20Learning%20Methods%20for%20Extraction%20of%20Features%20Characterizing%20Datasets%20and%20Models%20LA-UR-18-31366.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-28",
+      "text": "Vesselinov, V.V., Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models, Recent Advances in Machine Learning and Computational Methods for Geoscience, Institute for Mathematics and its Applications, University of Minnesota, 10.13140/RG.2.2.16024.03848, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models LA-UR-18-30987.pdf",
+          "localFileName": "Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models LA-UR-18-30987.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models LA-UR-18-30987.pdf",
+          "localHref": "/presentations/Vesselinov%202018%20Novel%20Machine%20Learning%20Methods%20for%20Extraction%20of%20Features%20Characterizing%20Complex%20Datasets%20and%20Models%20LA-UR-18-30987.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models, Recent Advances in Machine Learning and Computational Methods for Geoscience, Institute for Mathematics and its Applications, University of Minnesota, 10.13140/RG.2.2.16024.03848, 2018. <a href=\"/presentations/Vesselinov%202018%20Novel%20Machine%20Learning%20Methods%20for%20Extraction%20of%20Features%20Characterizing%20Complex%20Datasets%20and%20Models%20LA-UR-18-30987.pdf\" target=\"_blank\">PDF</a> <br> <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xPOkeLMJywE?start=139\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>"
+      ]
+    },
+    {
+      "id": "presentations-29",
+      "text": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning based on Nonnegative Matrix/Tensor Factorization, World Congress on Computational Mechanics (WCCM), New York, NY, 2018 (invited)",
+      "pdfLinks": [],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning based on Nonnegative Matrix/Tensor Factorization, World Congress on Computational Mechanics (WCCM), New York, NY, 2018 (invited)"
+      ]
+    },
+    {
+      "id": "presentations-30",
+      "text": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs, Computational Methods in Water Resources (CMWR), Saint-Malo, France, 10.13140/RG.2.2.27777.92005, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr-ML-20180606.pdf",
+          "localFileName": "vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr-ML-20180606.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr-ML-20180606.pdf",
+          "localHref": "/presentations/vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-negative%20Tensor%20Factorization%20for%20Analysis%20of%20Filed%20Data%20and%20Simulation%20Outputs%20cmwr-ML-20180606.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov, Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs, Computational Methods in Water Resources (CMWR), Saint-Malo, France, 10.13140/RG.2.2.27777.92005, 2018. <a href=\"/presentations/vesselinov%20et%20al%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Non-negative%20Tensor%20Factorization%20for%20Analysis%20of%20Filed%20Data%20and%20Simulation%20Outputs%20cmwr-ML-20180606.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-31",
+      "text": "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B., Nonnegative/binary matrix factorization with a D-Wave quantum annealer PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "localFileName": "OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf",
+          "localHref": "/presentations/OMalley%20et%20al%202017%20Nonnegative%20binary%20matrix%20factorization%20with%20a%20D-Wave%20quantum%20annealer.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B., Nonnegative/binary matrix factorization with a D-Wave quantum annealer <a href=\"/presentations/OMalley%20et%20al%202017%20Nonnegative%20binary%20matrix%20factorization%20with%20a%20D-Wave%20quantum%20annealer.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-32",
+      "text": "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Novel Robust Machine Learning Methods for Identification and Extraction of Unknown Features in Complex Real-world Data Sets, Society for Industrial and Applied Mathematics (SIAM) Uncertainty Quantification, Garden Grove, CA, 2018, (invited).",
+      "pdfLinks": [],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Novel Robust Machine Learning Methods for Identification and Extraction of Unknown Features in Complex Real-world Data Sets, Society for Industrial and Applied Mathematics (SIAM) Uncertainty Quantification, Garden Grove, CA, 2018, (invited)."
+      ]
+    },
+    {
+      "id": "presentations-33",
+      "text": "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Unsupervised Machine Learning Based on Tensor Factorization, International Society for Porous Media (INTERPORE), New Orleans, LA, 10.13140/RG.2.2.15195.00807, 2018. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov OMalley Alexandrov 2018 Unsupervised Machine Learning Based on Tensor Factorization interpore18.pdf",
+          "localFileName": "Vesselinov OMalley Alexandrov 2018 Unsupervised Machine Learning Based on Tensor Factorization interpore18.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov OMalley Alexandrov 2018 Unsupervised Machine Learning Based on Tensor Factorization interpore18.pdf",
+          "localHref": "/presentations/Vesselinov%20OMalley%20Alexandrov%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Tensor%20Factorization%20interpore18.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Unsupervised Machine Learning Based on Tensor Factorization, International Society for Porous Media (INTERPORE), New Orleans, LA, 10.13140/RG.2.2.15195.00807, 2018. <a href=\"/presentations/Vesselinov%20OMalley%20Alexandrov%202018%20Unsupervised%20Machine%20Learning%20Based%20on%20Tensor%20Factorization%20interpore18.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-34",
+      "text": "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Uncertainty quantification and experimental design based on unsupervised machine learning identification of contaminant sources and groundwater types using hydrogeochemical data, AGU Fall Meeting, New Orleans, LA, 2017 PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov et al 2017 Unsupervised Machine Learning based on Nonnegative Factorization agu2017-ML-20171206.pdf",
+          "localFileName": "vesselinov et al 2017 Unsupervised Machine Learning based on Nonnegative Factorization agu2017-ML-20171206.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov et al 2017 Unsupervised Machine Learning based on Nonnegative Factorization agu2017-ML-20171206.pdf",
+          "localHref": "/presentations/vesselinov%20et%20al%202017%20Unsupervised%20Machine%20Learning%20based%20on%20Nonnegative%20Factorization%20agu2017-ML-20171206.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Uncertainty quantification and experimental design based on unsupervised machine learning identification of contaminant sources and groundwater types using hydrogeochemical data, AGU Fall Meeting, New Orleans, LA, 2017 <a href=\"/presentations/vesselinov%20et%20al%202017%20Unsupervised%20Machine%20Learning%20based%20on%20Nonnegative%20Factorization%20agu2017-ML-20171206.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-35",
+      "text": "O'Malley, D., Vesselinov, V.V., Quo vadis: Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer, AGU Fall Meeting, New Orleans, LA, 10.13140/RG.2.2.10161.84320, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "OMalley Vesselinov 2017 Quo vadis - Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer.pdf",
+          "localFileName": "OMalley Vesselinov 2017 Quo vadis - Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/OMalley Vesselinov 2017 Quo vadis - Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer.pdf",
+          "localHref": "/presentations/OMalley%20Vesselinov%202017%20Quo%20vadis%20-%20Hydrologic%20inverse%20analyses%20using%20high-performance%20computing%20and%20a%20D-Wave%20quantum%20annealer.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Vesselinov, V.V., Quo vadis: Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer, AGU Fall Meeting, New Orleans, LA, 10.13140/RG.2.2.10161.84320, 2017. <a href=\"/presentations/OMalley%20Vesselinov%202017%20Quo%20vadis%20-%20Hydrologic%20inverse%20analyses%20using%20high-performance%20computing%20and%20a%20D-Wave%20quantum%20annealer.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-36",
+      "text": "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B., Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, SIAM Conference on Computational Science and Engineering, Atlanta, GA, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "lin Hydraulic Inverse Modeling TV SIAM CSE 2017.pdf",
+          "localFileName": "lin Hydraulic Inverse Modeling TV SIAM CSE 2017.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/lin Hydraulic Inverse Modeling TV SIAM CSE 2017.pdf",
+          "localHref": "/presentations/lin%20Hydraulic%20Inverse%20Modeling%20TV%20SIAM%20CSE%202017.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B., Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, SIAM Conference on Computational Science and Engineering, Atlanta, GA, 2017. <a href=\"/presentations/lin%20Hydraulic%20Inverse%20Modeling%20TV%20SIAM%20CSE%202017.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-37",
+      "text": "Vesselinov, V.V., O'Malley, D., Katzman, D., Decision Analyses for Groundwater Remediation, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.33273.11367, 2017. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov Decision Analyses for Groundwater Remediation LA-UR-17-21909 wmsym2017.pdf",
+          "localFileName": "vesselinov Decision Analyses for Groundwater Remediation LA-UR-17-21909 wmsym2017.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov Decision Analyses for Groundwater Remediation LA-UR-17-21909 wmsym2017.pdf",
+          "localHref": "/presentations/vesselinov%20Decision%20Analyses%20for%20Groundwater%20Remediation%20LA-UR-17-21909%20wmsym2017.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Katzman, D., Decision Analyses for Groundwater Remediation, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.33273.11367, 2017. <a href=\"/presentations/vesselinov%20Decision%20Analyses%20for%20Groundwater%20Remediation%20LA-UR-17-21909%20wmsym2017.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-38",
+      "text": "Vesselinov, V.V., O'Malley, D., Model Analyses of Complex Systems Behavior using MADS, AGU Fall Meeting, San Francisco, CA, 10.13140/RG.2.2.33902.25921, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov omalley MADS LA-UR-16-29120 agu2016.pdf",
+          "localFileName": "vesselinov omalley MADS LA-UR-16-29120 agu2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov omalley MADS LA-UR-16-29120 agu2016.pdf",
+          "localHref": "/presentations/vesselinov%20omalley%20MADS%20LA-UR-16-29120%20agu2016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Model Analyses of Complex Systems Behavior using MADS, AGU Fall Meeting, San Francisco, CA, 10.13140/RG.2.2.33902.25921, 2016. <a href=\"/presentations/vesselinov%20omalley%20MADS%20LA-UR-16-29120%20agu2016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-39",
+      "text": "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Moore, B., Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity, AGU Fall Meeting, San Francisco, CA, 2016, (invited). PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov omalley Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity AGU 2016.pdf",
+          "localFileName": "vesselinov omalley Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov omalley Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity AGU 2016.pdf",
+          "localHref": "/presentations/vesselinov%20omalley%20Reduced%20Order%20Models%20for%20Decision%20Analysis%20and%20Upscaling%20of%20Aquifer%20Heterogeneity%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Alexandrov, B., Moore, B., Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity, AGU Fall Meeting, San Francisco, CA, 2016, (invited). <a href=\"/presentations/vesselinov%20omalley%20Reduced%20Order%20Models%20for%20Decision%20Analysis%20and%20Upscaling%20of%20Aquifer%20Heterogeneity%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-40",
+      "text": "He, J., Hansen, S.K., Vesselinov, V.V., Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy, AGU Fall Meeting, San Francisco, CA, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "hansen et al Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy AGU 2016.pdf",
+          "localFileName": "hansen et al Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/hansen et al Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy AGU 2016.pdf",
+          "localHref": "/presentations/hansen%20et%20al%20Analysis%20of%20Hydrologic%20Time%20Series%20Reconstruction%20Uncertainty%20due%20to%20Inverse%20Model%20Inadequacy%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "He, J., Hansen, S.K., Vesselinov, V.V., Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy, AGU Fall Meeting, San Francisco, CA, 2016. <a href=\"/presentations/hansen%20et%20al%20Analysis%20of%20Hydrologic%20Time%20Series%20Reconstruction%20Uncertainty%20due%20to%20Inverse%20Model%20Inadequacy%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-41",
+      "text": "Lu, Z., Vesselinov, V.V., Lei, H., Identifying Aquifer Heterogeneities using the Level Set Method, AGU Fall Meeting, San Francisco, CA, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "zhiming et al Identifying Aquifer Heterogeneities using the Level Set Method AGU 2016.pdf",
+          "localFileName": "zhiming et al Identifying Aquifer Heterogeneities using the Level Set Method AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/zhiming et al Identifying Aquifer Heterogeneities using the Level Set Method AGU 2016.pdf",
+          "localHref": "/presentations/zhiming%20et%20al%20Identifying%20Aquifer%20Heterogeneities%20using%20the%20Level%20Set%20Method%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lu, Z., Vesselinov, V.V., Lei, H., Identifying Aquifer Heterogeneities using the Level Set Method, AGU Fall Meeting, San Francisco, CA, 2016. <a href=\"/presentations/zhiming%20et%20al%20Identifying%20Aquifer%20Heterogeneities%20using%20the%20Level%20Set%20Method%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-42",
+      "text": "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V., Prediction of Breakthrough Curves for Conservative and Reactive Transport, AGU Fall Meeting, San Francisco, CA, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "hansen et al Prediction of Breakthrough Curves for Conservative and Reactive Transport AGU 2016.pdf",
+          "localFileName": "hansen et al Prediction of Breakthrough Curves for Conservative and Reactive Transport AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/hansen et al Prediction of Breakthrough Curves for Conservative and Reactive Transport AGU 2016.pdf",
+          "localHref": "/presentations/hansen%20et%20al%20Prediction%20of%20Breakthrough%20Curves%20for%20Conservative%20and%20Reactive%20Transport%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V., Prediction of Breakthrough Curves for Conservative and Reactive Transport, AGU Fall Meeting, San Francisco, CA, 2016. <a href=\"/presentations/hansen%20et%20al%20Prediction%20of%20Breakthrough%20Curves%20for%20Conservative%20and%20Reactive%20Transport%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-43",
+      "text": "Zhang, X., Vesselinov, V.V., Bi-Level Decision Making for Supporting Energy and Water Nexus, AGU Fall Meeting, San Francisco, CA, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "zhang vesselinov Bi-Level Decision Making for Supporting Energy and Water Nexus AGU 2016.pdf",
+          "localFileName": "zhang vesselinov Bi-Level Decision Making for Supporting Energy and Water Nexus AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/zhang vesselinov Bi-Level Decision Making for Supporting Energy and Water Nexus AGU 2016.pdf",
+          "localHref": "/presentations/zhang%20vesselinov%20Bi-Level%20Decision%20Making%20for%20Supporting%20Energy%20and%20Water%20Nexus%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Zhang, X., Vesselinov, V.V., Bi-Level Decision Making for Supporting Energy and Water Nexus, AGU Fall Meeting, San Francisco, CA, 2016. <a href=\"/presentations/zhang%20vesselinov%20Bi-Level%20Decision%20Making%20for%20Supporting%20Energy%20and%20Water%20Nexus%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-44",
+      "text": "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B., Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, AGU Fall Meeting, San Francisco, CA, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "lin et al Hydraulic Inverse Modeling TV AGU 2016.pdf",
+          "localFileName": "lin et al Hydraulic Inverse Modeling TV AGU 2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/lin et al Hydraulic Inverse Modeling TV AGU 2016.pdf",
+          "localHref": "/presentations/lin%20et%20al%20Hydraulic%20Inverse%20Modeling%20TV%20AGU%202016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B., Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, AGU Fall Meeting, San Francisco, CA, 2016. <a href=\"/presentations/lin%20et%20al%20Hydraulic%20Inverse%20Modeling%20TV%20AGU%202016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-45",
+      "text": "Vesselinov, V.V., O'Malley, D., Katzman, D., ZEM: Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.29917.67041, 2016. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov ZEM LA-UR-16-21469 wmsym2016.pdf",
+          "localFileName": "vesselinov ZEM LA-UR-16-21469 wmsym2016.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov ZEM LA-UR-16-21469 wmsym2016.pdf",
+          "localHref": "/presentations/vesselinov%20ZEM%20LA-UR-16-21469%20wmsym2016.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Katzman, D., ZEM: Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.29917.67041, 2016. <a href=\"/presentations/vesselinov%20ZEM%20LA-UR-16-21469%20wmsym2016.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-46",
+      "text": "Vesselinov, V.V., O'Malley, D., Katzman, D., Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.23206.78404, 2015. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf",
+          "localFileName": "vesselinov wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf",
+          "localHref": "/presentations/vesselinov%20wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., O'Malley, D., Katzman, D., Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory, Waste Management Symposium, Phoenix, AZ, 10.13140/RG.2.2.23206.78404, 2015. <a href=\"/presentations/vesselinov%20wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-47",
+      "text": "O'Malley, D., Vesselinov, V.V., Bayesian Information-Gap (BIG) Decision Analysis Applied to a Geologic CO2 Sequestration Problem, AGU Fall Meeting, San Francisco, CA, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "omalley_biguq_LAUR_14-28376.pdf",
+          "localFileName": "omalley_biguq_LAUR_14-28376.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/omalley_biguq_LAUR_14-28376.pdf",
+          "localHref": "/presentations/omalley_biguq_LAUR_14-28376.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "O'Malley, D., Vesselinov, V.V., Bayesian Information-Gap (BIG) Decision Analysis Applied to a Geologic CO2 Sequestration Problem, AGU Fall Meeting, San Francisco, CA, 2014. <a href=\"/presentations/omalley_biguq_LAUR_14-28376.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-48",
+      "text": "Cushman, J.H., Vesselinov, V.V., O'Malley, D., Random dispersion coefficients and Tsallis entropy, AGU Fall Meeting, San Francisco, CA, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "omalley_tsallisentropy_LAUR_14-29018.pdf",
+          "localFileName": "omalley_tsallisentropy_LAUR_14-29018.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf",
+          "localHref": "/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Cushman, J.H., Vesselinov, V.V., O'Malley, D., Random dispersion coefficients and Tsallis entropy, AGU Fall Meeting, San Francisco, CA, 2014. <a href=\"/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-49",
+      "text": "Bakarji, J., O'Malley, D., Vesselinov, V.V., A Social Dynamics Dependent Water Supply Well Contamination Model, LANL Postdoc Research Conference, 10.13140/RG.2.2.17963.90407, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Bakarji 2014 Social Dynamics Dependent Water Supply Well Contamination Model LAUR_14-24002.pdf",
+          "localFileName": "Bakarji 2014 Social Dynamics Dependent Water Supply Well Contamination Model LAUR_14-24002.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Bakarji 2014 Social Dynamics Dependent Water Supply Well Contamination Model LAUR_14-24002.pdf",
+          "localHref": "/presentations/Bakarji%202014%20Social%20Dynamics%20Dependent%20Water%20Supply%20Well%20Contamination%20Model%20LAUR_14-24002.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Bakarji, J., O'Malley, D., Vesselinov, V.V., A Social Dynamics Dependent Water Supply Well Contamination Model, LANL Postdoc Research Conference, 10.13140/RG.2.2.17963.90407, 2014. <a href=\"/presentations/Bakarji%202014%20Social%20Dynamics%20Dependent%20Water%20Supply%20Well%20Contamination%20Model%20LAUR_14-24002.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-50",
+      "text": "Vesselinov, V.V., Alexandrov, B.A, Model-free Source Identification, AGU Fall Meeting, San Francisco, CA, 2014. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov Blind Source Separation agu2014-LA-UR-14-29163.pdf",
+          "localFileName": "vesselinov Blind Source Separation agu2014-LA-UR-14-29163.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov Blind Source Separation agu2014-LA-UR-14-29163.pdf",
+          "localHref": "/presentations/vesselinov%20Blind%20Source%20Separation%20agu2014-LA-UR-14-29163.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Alexandrov, B.A, Model-free Source Identification, AGU Fall Meeting, San Francisco, CA, 2014. <a href=\"/presentations/vesselinov%20Blind%20Source%20Separation%20agu2014-LA-UR-14-29163.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-51",
+      "text": "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D., Mishra, P., Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Session 109: Environmental Restoration Challenges: Alternative Approaches for Achieving End State, Waste Management Symposium, Phoenix, AZ, February 28, 10.13140/RG.2.2.10414.15686, 2013. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf",
+          "localFileName": "vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf",
+          "localHref": "/presentations/vesselinov%202013%20Data%20and%20Model-Driven%20Decision%20Support%20for%20Environmental%20Management%20of%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory%20LA-UR-13-21534.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D., Mishra, P., Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Session 109: Environmental Restoration Challenges: Alternative Approaches for Achieving End State, Waste Management Symposium, Phoenix, AZ, February 28, 10.13140/RG.2.2.10414.15686, 2013. <a href=\"/presentations/vesselinov%202013%20Data%20and%20Model-Driven%20Decision%20Support%20for%20Environmental%20Management%20of%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory%20LA-UR-13-21534.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-52",
+      "text": "Vesselinov, V.V., Harp, D., Katzman, D., Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications, H32F: Uncertainty Quantification and Parameter Estimation: Impacts on Risk and Decision Making, AGU Fall meeting, San Francisco, December 3-7, 10.13140/RG.2.2.17125.04321, LA-UR-13-20189, 2012, (invited). PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf",
+          "localFileName": "vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf",
+          "localHref": "/presentations/vesselinov%202012%20Model-driven%20decision%20support%20for%20monitoring%20network%20design%20based%20on%20analysis%20of%20data%20and%20model%20uncertainties%20LA-UR-13-20189.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Harp, D., Katzman, D., Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications, H32F: Uncertainty Quantification and Parameter Estimation: Impacts on Risk and Decision Making, AGU Fall meeting, San Francisco, December 3-7, 10.13140/RG.2.2.17125.04321, LA-UR-13-20189, 2012, (invited). <a href=\"/presentations/vesselinov%202012%20Model-driven%20decision%20support%20for%20monitoring%20network%20design%20based%20on%20analysis%20of%20data%20and%20model%20uncertainties%20LA-UR-13-20189.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-53",
+      "text": "Vesselinov, V.V., et al., AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, XIX International Conference on Computational Methods in Water Resources (CMWR 2012), University of Illinois at Urbana-Champaign, June 17-22, 2012. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "LA-UR-12-22187 agni cmwr 20120614.pdf",
+          "localFileName": "LA-UR-12-22187 agni cmwr 20120614.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LA-UR-12-22187 agni cmwr 20120614.pdf",
+          "localHref": "/presentations/LA-UR-12-22187%20agni%20cmwr%2020120614.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, XIX International Conference on Computational Methods in Water Resources (CMWR 2012), University of Illinois at Urbana-Champaign, June 17-22, 2012. <a href=\"/presentations/LA-UR-12-22187%20agni%20cmwr%2020120614.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-54",
+      "text": "Leif Zinn-Bjorkman, L., Numerical Optimization using the Levenberg-Marquardt Algorithm, EES-16 Seminar Series, LA-UR-11-12010, 10.13140/RG.2.2.11253.01760, 2011. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf",
+          "localFileName": "Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf",
+          "localHref": "/presentations/Leif%202011%20Numerical%20Optimization%20using%20the%20Levenberg-Marquardt%20Algorithm%20LA-UR-11-12010.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Leif Zinn-Bjorkman, L., Numerical Optimization using the Levenberg-Marquardt Algorithm, EES-16 Seminar Series, LA-UR-11-12010, 10.13140/RG.2.2.11253.01760, 2011. <a href=\"/presentations/Leif%202011%20Numerical%20Optimization%20using%20the%20Levenberg-Marquardt%20Algorithm%20LA-UR-11-12010.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-55",
+      "text": "Harp, D., Vesselinov, V.V., Recent developments in MADS algorithms: ABAGUS and Squads, EES-16 Seminar Series, LA-UR-11-11957, 10.13140/RG.2.2.35579.98082, 2011. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf",
+          "localFileName": "Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf",
+          "localHref": "/presentations/Harp%20Vesselinov%202011%20Recent%20developments%20in%20MADS%20algorithms%20ABAGUS%20and%20Squads.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Harp, D., Vesselinov, V.V., Recent developments in MADS algorithms: ABAGUS and Squads, EES-16 Seminar Series, LA-UR-11-11957, 10.13140/RG.2.2.35579.98082, 2011. <a href=\"/presentations/Harp%20Vesselinov%202011%20Recent%20developments%20in%20MADS%20algorithms%20ABAGUS%20and%20Squads.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-56",
+      "text": "Vesselinov, V.V., et al., Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL), Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford, April 13-14, 10.13140/RG.2.2.12091.87846, 2010. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "LANL EM Modeling 20100413.pdf",
+          "localFileName": "LANL EM Modeling 20100413.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LANL EM Modeling 20100413.pdf",
+          "localHref": "/presentations/LANL%20EM%20Modeling%2020100413.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., et al., Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL), Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford, April 13-14, 10.13140/RG.2.2.12091.87846, 2010. <a href=\"/presentations/LANL%20EM%20Modeling%2020100413.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-57",
+      "text": "Vesselinov, V.V., Harp, D., Koch, R., Birdsell, K., Katzman, K., Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping, AGU Meeting, San Francisco, CA, December 15-19, 10.13140/RG.2.2.25513.65126, 2008. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf",
+          "localFileName": "vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf",
+          "localHref": "/presentations/vesselinov%20LA-UR-08-0655%20agu08%20hydro%20tomography%2020090203.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Harp, D., Koch, R., Birdsell, K., Katzman, K., Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping, AGU Meeting, San Francisco, CA, December 15-19, 10.13140/RG.2.2.25513.65126, 2008. <a href=\"/presentations/vesselinov%20LA-UR-08-0655%20agu08%20hydro%20tomography%2020090203.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    },
+    {
+      "id": "presentations-58",
+      "text": "Vesselinov, V.V., Uncertainties in Transient Capture-Zone Estimates, CMWR 2006 XVI International Conference on Computational Methods in Water Resources, Copenhagen, Denmark, June 18-22, 10.13140/RG.2.2.28869.09446, 2006. PDF",
+      "pdfLinks": [
+        {
+          "fileName": "vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf",
+          "localFileName": "vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf",
+          "originalHref": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf",
+          "localHref": "/presentations/vesselinov%20LA-UR-06-2305%20cmwr06%20transeint%20capture%20zone%20060622.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false,
+      "htmlLines": [
+        "Vesselinov, V.V., Uncertainties in Transient Capture-Zone Estimates, CMWR 2006 XVI International Conference on Computational Methods in Water Resources, Copenhagen, Denmark, June 18-22, 10.13140/RG.2.2.28869.09446, 2006. <a href=\"/presentations/vesselinov%20LA-UR-06-2305%20cmwr06%20transeint%20capture%20zone%20060622.pdf\" target=\"_blank\">PDF</a>"
+      ]
+    }
+  ],
+  "footerHtmlLines": [
+    "More presentations are available at <a href=\"https://www.slideshare.net/VelimirmontyVesselin\">SlideShare.net</a>, <a href=\"https://www.researchgate.net/profile/Velimir_Vesselinov\" target=\"_blank\">ResearchGate</a>, and <a href=\"https://lanl.academia.edu/monty\" target=\"_blank\">Academia.edu</a>."
+  ]
+}
