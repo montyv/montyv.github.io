@@ -46,3 +46,6 @@ rmIfExists("app/home/home.sections.generated.ts.tmp");
 
 // Content index generated JSON (created during prebuild)
 walkAndRemove("app", (name) => name.endsWith(".legacy.generated.json") || name.endsWith(".pdf.generated.json"));
+
+// Generated legacy public sync output
+rmIfExists("public/legacy/index.html");
