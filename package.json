@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "predev": "node scripts/sync-legacy-public.mjs && node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
+    "predev": "node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
     "dev": "node scripts/run-next-with-distdir.mjs dev",
-    "prebuild": "node scripts/sync-legacy-public.mjs && node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
+    "prebuild": "node scripts/generate-content-index.mjs && node scripts/generate-home-sections.mjs",
     "build": "node scripts/run-next-with-distdir.mjs build",
     "start": "npx serve@latest out",
     "preview": "npx serve@latest out",

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { homeContentIndex as homeContentIndexData } from "./home/home.sections";
+import { homeContentIndex as homeContentIndexData } from "./home/home.sections.generated";
 import { ObfuscatedEmailLink } from "./components/ObfuscatedEmailLink";
 
 type LegacyHomeSection = Readonly<{
@@ -22,9 +22,9 @@ const homeIndex = homeContentIndexData as LegacyHomeIndex;
 
 const sectionHtml = (section: LegacyHomeSection): string => {
   if (Array.isArray(section.htmlLines) && section.htmlLines.length) {
-    return section.htmlLines.join("\n");
+    return section.htmlLines.join("\n").replace(/\r\n/g, "\n").trim();
   }
-  return section.html ?? "";
+  return (section.html ?? "").replace(/\r\n/g, "\n").trim();
 };
 
 const sectionsForCards = homeIndex.sections ?? [];
@@ -72,7 +72,7 @@ export default function HomePage() {
 
           <section className="rounded-lg border border-slate-800 p-5">
             <div className="mt-3 grid gap-3 text-sm text-slate-200">
-              <h2>EnviTrace LLC</h2>
+              <h2 className="text-base font-semibold">EnviTrace LLC</h2>
               <p>Co-Founder, CTO, and CSO</p>
               <p>Developer of AI/ML methods and tools</p>
               <p>Santa Fe, New Mexico, USA</p>
@@ -163,7 +163,7 @@ export default function HomePage() {
                 <summary className="cursor-pointer select-none text-base font-semibold text-slate-100">
                   {section.title}
                 </summary>
-                <div className="legacy-content mt-4">
+                <div className="legacy-content mt-4" suppressHydrationWarning>
                   <div
                     suppressHydrationWarning
                     dangerouslySetInnerHTML={{ __html: sectionHtml(section) }}

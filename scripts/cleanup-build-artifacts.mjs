@@ -41,11 +41,12 @@ const walkAndRemove = (dirRel, predicate) => {
 };
 
 // Home sections generated TS (created during prebuild)
-rmIfExists("app/home/home.sections.generated.ts");
+// NOTE: Do not delete this file here; it is imported by app code and removing it
+// breaks dev typechecking / builds after running `npm run build`.
 rmIfExists("app/home/home.sections.generated.ts.tmp");
 
 // Content index generated JSON (created during prebuild)
 walkAndRemove("app", (name) => name.endsWith(".legacy.generated.json") || name.endsWith(".pdf.generated.json"));
 
 // Generated legacy public sync output
-rmIfExists("public/legacy/index.html");
+// NOTE: Keep public/legacy/index.html; it is a public route on the site.

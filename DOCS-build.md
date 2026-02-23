@@ -41,3 +41,11 @@ When PDF parsing is enabled, the generator tries to extract a better title/autho
 - Export build: `npm run build`
 
 Note: `npm run build` runs the index generation in `prebuild`.
+
+## Home sections (editable HTML)
+
+The home page expandable sections are sourced from editable files under `app/home/sections/*.html` and the index `app/home/sections/sections.json`.
+
+- `scripts/generate-home-sections.mjs` reads those files and generates `app/home/home.sections.generated.ts` used by the homepage.
+- Do **not** regenerate `app/home/sections/*.html` from legacy sources during normal workflow.
+  - `scripts/migrate-home-sections-to-html.mjs` is a one-time migration helper and will **not overwrite** existing section HTML or `sections.json`.
