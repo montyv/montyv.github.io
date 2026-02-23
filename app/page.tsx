@@ -110,7 +110,7 @@ export default function HomePage() {
                   {section.title}
                 </summary>
                 <div className="legacy-content mt-4">
-                  <div dangerouslySetInnerHTML={{ __html: sectionHtml(section) }} />
+                  <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: sectionHtml(section) }} />
                 </div>
               </details>
             ))}
