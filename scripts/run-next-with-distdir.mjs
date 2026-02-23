@@ -10,12 +10,8 @@ if (!command) {
 }
 
 const env = { ...process.env };
+// Ensure builds/dev are not affected by any globally-set NEXT_DIST_DIR.
 delete env.NEXT_DIST_DIR;
-// Always isolate dev/build outputs so they can run simultaneously.
-// (If you ever need a custom folder, edit this script or the npm script.)
-if (command === "dev") {
-  env.NEXT_DIST_DIR = ".next-dev";
-}
 
 const nextBin = path.join(process.cwd(), "node_modules", "next", "dist", "bin", "next");
 const child = spawn(process.execPath, [nextBin, command, ...extraArgs], {

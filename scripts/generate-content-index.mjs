@@ -1,7 +1,20 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import * as cheerio from "cheerio";
-import pdf from "pdf-parse";
+
+const parseFlagValues = new Set(["1", "true", "yes", "on"]);
+const shouldParsePdfs =
+  process.argv.includes("--parse-pdfs") ||
+  parseFlagValues.has(String(process.env.PARSE_PDFS ?? "").toLowerCase()) ||
+  parseFlagValues.has(String(process.env.npm_config_parse_pdfs ?? "").toLowerCase());
+
+let pdfParsePromise = null;
+const getPdfParse = async () => {
+  if (!pdfParsePromise) {
+    pdfParsePromise = import("pdf-parse").then((m) => m.default ?? m);
+  }
+  return pdfParsePromise;
+};
 
 const repoRoot = process.cwd();
 
@@ -224,6 +237,7 @@ const guessAuthorsFromText = (text) => {
 };
 
 const tryParsePdf = async (filePath, { maxPages = 1 } = {}) => {
+  const pdf = await getPdfParse();
   const buffer = await fs.readFile(filePath);
   const data = await pdf(buffer, { max: maxPages });
 
@@ -244,6 +258,47 @@ const tryParsePdf = async (filePath, { maxPages = 1 } = {}) => {
     title,
     authors: guessedAuthors,
   };
+};
+
+const readJsonIfExists = async (absPath) => {
+  try {
+    const raw = await fs.readFile(absPath, "utf8");
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+};
+
+const itemHtml = (item) => {
+  if (!item) return "";
+  if (Array.isArray(item.htmlLines) && item.htmlLines.length) return item.htmlLines.join("\n");
+  return item.html ?? "";
+};
+
+const pdfKeysFromIndex = (index) => {
+  const keys = new Set();
+  const items = index?.items ?? [];
+  for (const item of items) {
+    for (const link of item?.pdfLinks ?? []) {
+      const candidates = [link?.localFileName, link?.fileName, link?.originalHref, link?.localHref];
+      for (const c of candidates) {
+        const k = normalizePdfKey(c);
+        if (k) keys.add(k);
+      }
+    }
+
+    // Defensive: if pdfLinks are missing, try to extract PDF hrefs from html/htmlLines.
+    const html = itemHtml(item);
+    if (html) {
+      const matches = html.match(/href\s*=\s*\"([^\"]+\.pdf[^\"]*)\"/gi) ?? [];
+      for (const m of matches) {
+        const href = m.replace(/^href\s*=\s*\"/i, "").replace(/\"$/i, "");
+        const k = normalizePdfKey(href);
+        if (k) keys.add(k);
+      }
+    }
+  }
+  return keys;
 };
 
 const listFiles = async (publicDir, exts) => {
@@ -496,7 +551,7 @@ const renderPdfHtml = ({ title, authors, year, href }) => {
   return parts.join(" ");
 };
 
-const generatePdfExtractedIndex = async ({ title, pdfFolderKey, legacyIndex }) => {
+const generatePdfExtractedIndex = async ({ title, pdfFolderKey, referencedPdfKeys }) => {
   let fileNames;
   try {
     fileNames = await listPdfFiles(pdfFolderKey);
@@ -511,21 +566,7 @@ const generatePdfExtractedIndex = async ({ title, pdfFolderKey, legacyIndex }) =
     };
   }
 
-  const linked = new Set();
-  for (const item of legacyIndex.items ?? []) {
-    for (const link of item.pdfLinks ?? []) {
-      const keys = [
-        link?.localFileName,
-        link?.fileName,
-        link?.originalHref,
-        link?.localHref,
-      ];
-      for (const k of keys) {
-        const key = normalizePdfKey(k);
-        if (key) linked.add(key);
-      }
-    }
-  }
+  const linked = referencedPdfKeys ?? new Set();
 
   const unlinkedFiles = fileNames.filter((name) => {
     const key = normalizePdfKey(name);
@@ -539,12 +580,14 @@ const generatePdfExtractedIndex = async ({ title, pdfFolderKey, legacyIndex }) =
     const year = pdfFolderKey === "presentations" ? yearFromFilename(fileName) : null;
 
     let meta = { title: null, authors: null };
-    try {
-      const maxPages = pdfFolderKey === "reports" ? 3 : 1;
-      meta = await tryParsePdf(filePath, { maxPages });
-    } catch {
-      // ignore parse errors; fall back to filename-based title
-      meta = { title: null, authors: null };
+    if (shouldParsePdfs) {
+      try {
+        const maxPages = pdfFolderKey === "reports" ? 3 : 1;
+        meta = await tryParsePdf(filePath, { maxPages });
+      } catch {
+        // ignore parse errors; fall back to filename-based title
+        meta = { title: null, authors: null };
+      }
     }
 
     const resolvedTitle = meta.title ?? titleFromFilename(fileName);
@@ -614,6 +657,9 @@ const main = async () => {
     const legacyOutFile = path.join(outDir, `${topic.key}.legacy.generated.json`);
     const pdfOutFile = path.join(outDir, `${topic.key}.pdf.generated.json`);
 
+    const curatedContentFile = path.join(outDir, `${topic.key}.content.json`);
+    const overridesFile = path.join(outDir, `${topic.key}.overrides.json`);
+
     // Remove deprecated outputs from older generator versions (kept here to reduce confusion).
     const deprecated = [
       path.join(outDir, `${topic.key}.generated.json`),
@@ -634,9 +680,24 @@ const main = async () => {
     await writeIndexFile(legacyOutFile, legacyIndex);
     console.log(`Generated legacy ${topic.title} entries (${legacyIndex.items.length}) -> ${path.relative(repoRoot, legacyOutFile)}`);
 
-    const pdfIndex = await generatePdfExtractedIndex({ title: topic.title, pdfFolderKey: topic.pdfFolderKey, legacyIndex });
+    const curatedIndex = (await readJsonIfExists(curatedContentFile)) ?? { items: [] };
+    const overridesIndex = (await readJsonIfExists(overridesFile)) ?? { items: [] };
+
+    const referencedPdfKeys = new Set([
+      ...pdfKeysFromIndex(legacyIndex),
+      ...pdfKeysFromIndex(curatedIndex),
+      ...pdfKeysFromIndex(overridesIndex),
+    ]);
+
+    const pdfIndex = await generatePdfExtractedIndex({
+      title: topic.title,
+      pdfFolderKey: topic.pdfFolderKey,
+      referencedPdfKeys,
+    });
     await writeIndexFile(pdfOutFile, pdfIndex);
-    console.log(`Generated PDF-extracted ${topic.title} entries (${pdfIndex.items.length}) -> ${path.relative(repoRoot, pdfOutFile)}`);
+    console.log(
+      `Generated PDF-extracted ${topic.title} entries (${pdfIndex.items.length}) -> ${path.relative(repoRoot, pdfOutFile)}${shouldParsePdfs ? "" : " (filename-only; set PARSE_PDFS=1 or --parse-pdfs for metadata)"}`,
+    );
   }
 };
 
