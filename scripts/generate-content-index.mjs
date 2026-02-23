@@ -275,6 +275,83 @@ const itemHtml = (item) => {
   return item.html ?? "";
 };
 
+const normalizeForLooseTextMatch = (value) => {
+  if (!value) return "";
+  return String(value)
+    .normalize("NFKC")
+    .replace(/\u00a0/g, " ")
+    .replace(/&amp;|&/gi, " and ")
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .toLowerCase()
+    .replace(/\bpdf\b/g, " ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+};
+
+const htmlToLooseText = (html) => {
+  if (!html || typeof html !== "string") return "";
+  try {
+    const $ = cheerio.load(`<div>${html}</div>`);
+    return normalizeWhitespace($("div").text());
+  } catch {
+    // Fallback: very cheap tag stripping.
+    return normalizeWhitespace(String(html).replace(/<[^>]*>/g, " "));
+  }
+};
+
+const coreTitleFromFilename = (fileName) => {
+  const t = titleFromFilename(fileName);
+  // If there's a year in the filename, treat anything after it as the core title.
+  const m = t.match(/(?:^|\s)((?:19|20)\d{2})\s+(.+)$/);
+  if (m?.[2]) return m[2].trim();
+  return t;
+};
+
+const referencedTextBlobFromIndexes = (indexes) => {
+  const parts = [];
+  for (const index of indexes ?? []) {
+    for (const item of index?.items ?? []) {
+      const rawText = item?.text ?? "";
+      const rawHtml = itemHtml(item);
+      const htmlText = rawHtml ? htmlToLooseText(rawHtml) : "";
+
+      const normText = normalizeForLooseTextMatch(rawText);
+      const normHtmlText = normalizeForLooseTextMatch(htmlText);
+
+      if (normText.length >= 16) parts.push(normText);
+      if (normHtmlText.length >= 16) parts.push(normHtmlText);
+    }
+
+    // Footer HTML can also contain PDF links/titles.
+    if (Array.isArray(index?.footerHtmlLines) && index.footerHtmlLines.length) {
+      const footer = index.footerHtmlLines.join("\n");
+      const normFooter = normalizeForLooseTextMatch(htmlToLooseText(footer));
+      if (normFooter.length >= 16) parts.push(normFooter);
+    }
+    if (typeof index?.footerHtml === "string" && index.footerHtml) {
+      const normFooter = normalizeForLooseTextMatch(htmlToLooseText(index.footerHtml));
+      if (normFooter.length >= 16) parts.push(normFooter);
+    }
+  }
+  return parts.join("\n");
+};
+
+const isPdfLikelyReferencedByText = ({ fileName, referencedTextBlob }) => {
+  const blob = referencedTextBlob ?? "";
+  if (!blob) return false;
+
+  const candidates = [coreTitleFromFilename(fileName), titleFromFilename(fileName), fileName?.replace(/\.pdf$/i, "")];
+  for (const c of candidates) {
+    const norm = normalizeForLooseTextMatch(c);
+    // Avoid accidental matches on short/ambiguous tokens.
+    if (!norm || norm.length < 18) continue;
+    if (blob.includes(norm)) return true;
+  }
+
+  return false;
+};
+
 const pdfKeysFromIndex = (index) => {
   const keys = new Set();
   const items = index?.items ?? [];
@@ -551,7 +628,7 @@ const renderPdfHtml = ({ title, authors, year, href }) => {
   return parts.join(" ");
 };
 
-const generatePdfExtractedIndex = async ({ title, pdfFolderKey, referencedPdfKeys }) => {
+const generatePdfExtractedIndex = async ({ title, pdfFolderKey, referencedPdfKeys, referencedTextBlob }) => {
   let fileNames;
   try {
     fileNames = await listPdfFiles(pdfFolderKey);
@@ -570,7 +647,11 @@ const generatePdfExtractedIndex = async ({ title, pdfFolderKey, referencedPdfKey
 
   const unlinkedFiles = fileNames.filter((name) => {
     const key = normalizePdfKey(name);
-    return key ? !linked.has(key) : true;
+    if (key && linked.has(key)) return false;
+    // Secondary defense: if curated/legacy/override content references the title but forgot pdfLinks,
+    // don't emit it in the helper output.
+    if (isPdfLikelyReferencedByText({ fileName: name, referencedTextBlob })) return false;
+    return true;
   });
 
   const items = [];
@@ -689,10 +770,13 @@ const main = async () => {
       ...pdfKeysFromIndex(overridesIndex),
     ]);
 
+    const referencedTextBlob = referencedTextBlobFromIndexes([legacyIndex, curatedIndex, overridesIndex]);
+
     const pdfIndex = await generatePdfExtractedIndex({
       title: topic.title,
       pdfFolderKey: topic.pdfFolderKey,
       referencedPdfKeys,
+      referencedTextBlob,
     });
     await writeIndexFile(pdfOutFile, pdfIndex);
     console.log(
