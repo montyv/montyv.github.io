@@ -1,31 +1,9 @@
 import Link from "next/link";
-import * as cheerio from "cheerio";
 
+import contentData from "./publications.content.json";
 import legacyData from "./publications.legacy.generated.json";
 import pdfData from "./publications.pdf.generated.json";
 import overridesData from "./publications.overrides.json";
-
-const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
-
-const highlightMyNameHtml = (html: string): string => {
-  if (!html) return html;
-
-  const $ = cheerio.load(`<div id="root">${html}</div>`);
-  const root = $("#root");
-
-  const textNodes = root.find("*").addBack().contents().toArray().filter((n) => n.type === "text");
-
-  for (const node of textNodes) {
-    const text = (node as unknown as { data?: string }).data ?? "";
-
-    const nextText = text.replace(/\bVesselinov\b/gi, (match) => `<span class="${HIGHLIGHT_CLASS}">${match}</span>`);
-    if (nextText !== text) {
-      $(node).replaceWith(nextText);
-    }
-  }
-
-  return root.html() ?? html;
-};
 
 type PdfLink = {
   fileName: string;
@@ -55,13 +33,9 @@ type CuratedIndex = {
 };
 
 const legacyIndex = legacyData as CuratedIndex;
+const contentIndex = contentData as CuratedIndex;
 const pdfIndex = pdfData as CuratedIndex;
 const overridesIndex = overridesData as CuratedIndex;
-
-const itemHtml = (item: CuratedItem): string => {
-  if (Array.isArray(item.htmlLines) && item.htmlLines.length) return item.htmlLines.join("\n");
-  return item.html ?? "";
-};
 
 const footerHtml = (index: CuratedIndex): string | null => {
   if (Array.isArray(index.footerHtmlLines) && index.footerHtmlLines.length) return index.footerHtmlLines.join("\n");
@@ -93,8 +67,21 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
-const footer = footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
+const mergedItems = mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const footer = footerHtml(contentIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
+
+const itemDisplayText = (item: CuratedItem): string => {
+  return String(item.text ?? "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\s+PDF\.?$/i, "")
+    .trim();
+};
+
+const itemDisplayHref = (item: CuratedItem): string | null => {
+  const first = item.pdfLinks?.[0];
+  return first?.localHref ?? first?.originalHref ?? null;
+};
 
 export default function PublicationsPage() {
   return (
@@ -103,7 +90,7 @@ export default function PublicationsPage() {
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Publications</h1>
           <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}, overrides: {overridesIndex.items.length}).
+            {mergedItems.length} entries (content: {contentIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
           </p>
         </div>
         <nav className="flex gap-3 text-sm">
@@ -119,10 +106,17 @@ export default function PublicationsPage() {
       <div className="mt-8 space-y-4">
         {mergedItems.map((item) => (
           <div key={itemKey(item)} className="rounded-lg border border-slate-800 p-4">
-            <div
-              className="text-sm leading-relaxed"
-              dangerouslySetInnerHTML={{ __html: highlightMyNameHtml(itemHtml(item)) }}
-            />
+            <div className="text-sm leading-relaxed text-slate-200">
+              {itemDisplayText(item)}
+              {itemDisplayHref(item) ? (
+                <>
+                  {" "}
+                  <a href={itemDisplayHref(item) ?? undefined} target="_blank" rel="noreferrer">
+                    PDF
+                  </a>
+                </>
+              ) : null}
+            </div>
             {item.missingLocalPdf ? (
               <div className="mt-2 text-xs text-slate-400">PDF missing locally (link kept as-is)</div>
             ) : null}
@@ -133,7 +127,7 @@ export default function PublicationsPage() {
       {footer ? (
         <div
           className="mt-8 text-sm text-slate-300"
-          dangerouslySetInnerHTML={{ __html: highlightMyNameHtml(footer) }}
+          dangerouslySetInnerHTML={{ __html: footer }}
         />
       ) : null}
     </main>

@@ -10,6 +10,16 @@
     "file": "work-experience.html"
   },
   {
+    "id": "research",
+    "title": "Research",
+    "file": "research.html"
+  },
+  {
+    "id": "codes",
+    "title": "Codes",
+    "file": "codes.html"
+  },
+  {
     "id": "projects",
     "title": "Projects",
     "file": "projects.html"
@@ -33,15 +43,5 @@
     "id": "art",
     "title": "Art",
     "file": "art.html"
-  },
-  {
-    "id": "research",
-    "title": "Research",
-    "file": "research.html"
-  },
-  {
-    "id": "codes",
-    "title": "Codes",
-    "file": "codes.html"
   }
 ]

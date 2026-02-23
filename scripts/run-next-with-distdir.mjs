@@ -10,8 +10,15 @@ if (!command) {
 }
 
 const env = { ...process.env };
-// Ensure builds/dev are not affected by any globally-set NEXT_DIST_DIR.
-delete env.NEXT_DIST_DIR;
+// Use isolated dist dirs for dev/build to avoid cross-run conflicts.
+// Allow explicit override via env for advanced usage.
+if (!env.NEXT_DIST_DIR) {
+  if (command === "dev") {
+    env.NEXT_DIST_DIR = ".next-dev";
+  } else if (command === "build") {
+    env.NEXT_DIST_DIR = ".next-build";
+  }
+}
 
 const nextBin = path.join(process.cwd(), "node_modules", "next", "dist", "bin", "next");
 const child = spawn(process.execPath, [nextBin, command, ...extraArgs], {
