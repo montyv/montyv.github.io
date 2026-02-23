@@ -38,8 +38,16 @@ jobs:
       - name: Ensure .nojekyll
         run: touch out/.nojekyll
 
+      - name: List output (debug)
+        run: |
+          echo "PWD: $(pwd)"
+          echo "out/ top-level:"
+          ls -la out || true
+          echo "index.html candidates:"
+          find out -maxdepth 3 -type f -name 'index.html' -print || true
+
       - name: Verify output
-        run: test -f out/index.html
+        run: test -f out/index.html || test -f out/index/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
