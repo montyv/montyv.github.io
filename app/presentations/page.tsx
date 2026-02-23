@@ -17,7 +17,7 @@ const highlightMyNameHtml = (html: string): string => {
 
   for (const node of textNodes) {
     const text = (node as unknown as { data?: string }).data ?? "";
-    const nextText = text.replace(/\bVesselinov\b/gi, (match) => `<span class="${HIGHLIGHT_CLASS}">${match}</span>`);
+    const nextText = text.replace(/Vesselinov,\s*V\.V\.,|\bVesselinov\b/gi, (match) => `<span class="${HIGHLIGHT_CLASS}">${match}</span>`);
     if (nextText !== text) {
       $(node).replaceWith(nextText);
     }

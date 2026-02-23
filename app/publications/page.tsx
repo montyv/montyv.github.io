@@ -5,6 +5,8 @@ import legacyData from "./publications.legacy.generated.json";
 import pdfData from "./publications.pdf.generated.json";
 import overridesData from "./publications.overrides.json";
 
+const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
+
 type PdfLink = {
   fileName: string;
   localFileName: string | null;
@@ -83,6 +85,20 @@ const itemDisplayHref = (item: CuratedItem): string | null => {
   return first?.localHref ?? first?.originalHref ?? null;
 };
 
+const renderHighlightedText = (text: string) => {
+  const parts = text.split(/(Vesselinov,\s*V\.V\.,|Vesselinov)/gi);
+  return parts.map((part, idx) => {
+    if (/^Vesselinov,\s*V\.V\.,$/i.test(part) || /^Vesselinov$/i.test(part)) {
+      return (
+        <span key={`h-${idx}`} className={HIGHLIGHT_CLASS}>
+          {part}
+        </span>
+      );
+    }
+    return <span key={`t-${idx}`}>{part}</span>;
+  });
+};
+
 export default function PublicationsPage() {
   return (
     <main className="py-10">
@@ -107,7 +123,7 @@ export default function PublicationsPage() {
         {mergedItems.map((item) => (
           <div key={itemKey(item)} className="rounded-lg border border-slate-800 p-4">
             <div className="text-sm leading-relaxed text-slate-200">
-              {itemDisplayText(item)}
+              {renderHighlightedText(itemDisplayText(item))}
               {itemDisplayHref(item) ? (
                 <>
                   {" "}
