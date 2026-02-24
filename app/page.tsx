@@ -72,13 +72,6 @@ export default function HomePage() {
 
           <section className="rounded-lg border border-slate-800 p-5">
             <div className="mt-3 grid gap-3 text-sm text-slate-200">
-              <h2 className="text-base font-semibold">EnviTrace LLC</h2>
-              <p>Co-Founder, CTO, and CSO</p>
-              <p>Developer of AI/ML methods and tools</p>
-              <p>Santa Fe, New Mexico, USA</p>
-              <p>
-                Cell: <a href="tel:+15054734150">+1 (505) 473-4150</a>
-              </p>
               <p>
                 Email:{" "}
                 <ObfuscatedEmailLink
@@ -91,11 +84,11 @@ export default function HomePage() {
               <p>
                 Web:{" "}
                 <a
-                  href="https://monty.gitlab.io"
+                  href="https://montyv.github.io"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  monty.gitlab.io
+                  montyv.github.io
                 </a>
                 ,{" "}
                 <a
@@ -107,6 +100,20 @@ export default function HomePage() {
                 </a>
               </p>
               <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs">
+                <a
+                  href="https://scholar.google.com/citations?user=sIFHVvwAAAAJ&hl"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Google Scholar
+                </a>
+                <a
+                  href="https://orcid.org/0000-0002-6222-0530"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ORCID
+                </a>
                 <a
                   href="https://www.linkedin.com/in/montyvesselinov"
                   target="_blank"
