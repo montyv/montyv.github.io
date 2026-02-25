@@ -11,7 +11,7 @@
     "build": "node scripts/run-next-with-distdir.mjs build",
     "start": "npx serve@latest out",
     "preview": "npx serve@latest out",
-    "postbuild": "node scripts/cleanup-build-artifacts.mjs && next-sitemap"
+    "postbuild": "node scripts/cleanup-build-artifacts.mjs && node scripts/sync-next-build-to-out.mjs && next-sitemap && node scripts/copy-sitemap-to-out.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
