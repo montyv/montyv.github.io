@@ -10,14 +10,13 @@ if (!command) {
 }
 
 const env = { ...process.env };
-// Use isolated dist dir only for dev to avoid collisions with local builds.
-// For production builds/export, keep Next defaults to ensure stable `out/` output.
-if (!env.NEXT_DIST_DIR && command === "dev") {
-  env.NEXT_DIST_DIR = ".next-dev";
-}
-
-if (command === "build" && env.NEXT_DIST_DIR === ".next-build") {
-  delete env.NEXT_DIST_DIR;
+// Keep dev/build caches isolated so parallel or alternating runs do not interfere.
+if (!env.NEXT_DIST_DIR) {
+  if (command === "dev") {
+    env.NEXT_DIST_DIR = ".next-dev";
+  } else if (command === "build") {
+    env.NEXT_DIST_DIR = ".next-build";
+  }
 }
 
 const nextBin = path.join(process.cwd(), "node_modules", "next", "dist", "bin", "next");
