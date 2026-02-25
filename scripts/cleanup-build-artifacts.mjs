@@ -46,7 +46,7 @@ const walkAndRemove = (dirRel, predicate) => {
 rmIfExists("app/home/home.sections.generated.ts.tmp");
 
 // Content index generated JSON (created during prebuild)
-walkAndRemove("app", (name) => name.endsWith(".legacy.generated.json") || name.endsWith(".pdf.generated.json"));
+// NOTE: Keep these files; app routes may read them at runtime/dev fallback.
 
 // Generated legacy public sync output
 // NOTE: Keep public/legacy/index.html; it is a public route on the site.

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import * as cheerio from "cheerio";
+import fs from "node:fs";
+import path from "node:path";
 
-import legacyData from "./presentations.legacy.generated.json";
-import pdfData from "./presentations.pdf.generated.json";
 import overridesData from "./presentations.overrides.json";
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
@@ -53,8 +53,25 @@ type CuratedIndex = {
   footerHtmlLines?: string[];
 };
 
-const legacyIndex = legacyData as CuratedIndex;
-const pdfIndex = pdfData as CuratedIndex;
+const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
+  try {
+    const abs = path.join(process.cwd(), "app", "presentations", fileName);
+    const raw = fs.readFileSync(abs, "utf8");
+    return JSON.parse(raw) as CuratedIndex;
+  } catch {
+    return {
+      schemaVersion: 1,
+      generatedAt: "missing",
+      source: `app/presentations/${fileName}`,
+      title,
+      items: [],
+      footerHtml: null,
+    };
+  }
+};
+
+const legacyIndex = readGeneratedIndex("presentations.legacy.generated.json", "Presentations");
+const pdfIndex = readGeneratedIndex("presentations.pdf.generated.json", "Presentations");
 const overridesIndex = overridesData as CuratedIndex;
 
 const itemHtml = (item: CuratedItem): string => {

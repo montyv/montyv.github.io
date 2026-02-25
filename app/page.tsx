@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { homeContentIndex as homeContentIndexData } from "./home/home.sections.generated";
+import { readHomeIndexFromSource } from "./home/readHomeSectionsFromSource";
 import { ObfuscatedEmailLink } from "./components/ObfuscatedEmailLink";
 
 type LegacyHomeSection = Readonly<{
@@ -18,8 +19,6 @@ type LegacyHomeIndex = Readonly<{
   sections: readonly LegacyHomeSection[];
 }>;
 
-const homeIndex = homeContentIndexData as LegacyHomeIndex;
-
 const sectionHtml = (section: LegacyHomeSection): string => {
   if (Array.isArray(section.htmlLines) && section.htmlLines.length) {
     return section.htmlLines.join("\n").replace(/\r\n/g, "\n").trim();
@@ -27,9 +26,14 @@ const sectionHtml = (section: LegacyHomeSection): string => {
   return (section.html ?? "").replace(/\r\n/g, "\n").trim();
 };
 
-const sectionsForCards = homeIndex.sections ?? [];
-
 export default function HomePage() {
+  const homeIndex =
+    process.env.NODE_ENV === "development"
+      ? readHomeIndexFromSource() ?? (homeContentIndexData as LegacyHomeIndex)
+      : (homeContentIndexData as LegacyHomeIndex);
+
+  const sectionsForCards = homeIndex.sections ?? [];
+
   return (
     <main className="py-10">
       <section className="grid gap-8 md:grid-cols-[1.15fr_0.85fr] md:items-start">

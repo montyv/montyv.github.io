@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-02-24T14:28:26.648Z",
+  "source": "public\\papers",
+  "title": "Publications",
+  "items": [
+    {
+      "id": "papers-pdf-Hyun et al 2002.pdf",
+      "text": "Hyun et al 2002",
+      "html": "Hyun et al 2002 <a href=\"/papers/Hyun%20et%20al%202002.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Hyun et al 2002.pdf",
+          "localFileName": "Hyun et al 2002.pdf",
+          "originalHref": "/papers/Hyun%20et%20al%202002.pdf",
+          "localHref": "/papers/Hyun%20et%20al%202002.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Keating 2002 model coupling GW.pdf",
+      "text": "Keating 2002 model coupling GW",
+      "html": "Keating 2002 model coupling GW <a href=\"/papers/Keating%202002%20model%20coupling%20GW.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Keating 2002 model coupling GW.pdf",
+          "localFileName": "Keating 2002 model coupling GW.pdf",
+          "originalHref": "/papers/Keating%202002%20model%20coupling%20GW.pdf",
+          "localHref": "/papers/Keating%202002%20model%20coupling%20GW.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Miller et al.pdf",
+      "text": "Miller et al",
+      "html": "Miller et al <a href=\"/papers/Miller%20et%20al.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Miller et al.pdf",
+          "localFileName": "Miller et al.pdf",
+          "originalHref": "/papers/Miller%20et%20al.pdf",
+          "localHref": "/papers/Miller%20et%20al.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Mishra et al 2012 Confined aquifer JH.pdf",
+      "text": "Mishra et al 2012 Confined aquifer JH",
+      "html": "Mishra et al 2012 Confined aquifer JH <a href=\"/papers/Mishra%20et%20al%202012%20Confined%20aquifer%20JH.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Mishra et al 2012 Confined aquifer JH.pdf",
+          "localFileName": "Mishra et al 2012 Confined aquifer JH.pdf",
+          "originalHref": "/papers/Mishra%20et%20al%202012%20Confined%20aquifer%20JH.pdf",
+          "localHref": "/papers/Mishra%20et%20al%202012%20Confined%20aquifer%20JH.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Talsma et al 2022 Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised.pdf",
+      "text": "Talsma et al 2022 Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised",
+      "html": "Talsma et al 2022 Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised <a href=\"/papers/Talsma%20et%20al%202022%20Characterizing%20Drought%20Behavior%20in%20the%20Colorado%20River%20Basin%20Using%20Unsupervised.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Talsma et al 2022 Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised.pdf",
+          "localFileName": "Talsma et al 2022 Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised.pdf",
+          "originalHref": "/papers/Talsma%20et%20al%202022%20Characterizing%20Drought%20Behavior%20in%20the%20Colorado%20River%20Basin%20Using%20Unsupervised.pdf",
+          "localHref": "/papers/Talsma%20et%20al%202022%20Characterizing%20Drought%20Behavior%20in%20the%20Colorado%20River%20Basin%20Using%20Unsupervised.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov & Neuman 2000.pdf",
+      "text": "Vesselinov & Neuman 2000",
+      "html": "Vesselinov &amp; Neuman 2000 <a href=\"/papers/Vesselinov%20%26%20Neuman%202000.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov & Neuman 2000.pdf",
+          "localFileName": "Vesselinov & Neuman 2000.pdf",
+          "originalHref": "/papers/Vesselinov%20%26%20Neuman%202000.pdf",
+          "localHref": "/papers/Vesselinov%20%26%20Neuman%202000.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov 2004 inverse sensitivities.pdf",
+      "text": "Vesselinov 2004 inverse sensitivities",
+      "html": "Vesselinov 2004 inverse sensitivities <a href=\"/papers/Vesselinov%202004%20inverse%20sensitivities.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2004 inverse sensitivities.pdf",
+          "localFileName": "Vesselinov 2004 inverse sensitivities.pdf",
+          "originalHref": "/papers/Vesselinov%202004%20inverse%20sensitivities.pdf",
+          "localHref": "/papers/Vesselinov%202004%20inverse%20sensitivities.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov 2006 transient capture zones IAHS304-19-144.pdf",
+      "text": "Vesselinov 2006 transient capture zones IAHS304 19 144",
+      "html": "Vesselinov 2006 transient capture zones IAHS304 19 144 <a href=\"/papers/Vesselinov%202006%20transient%20capture%20zones%20IAHS304-19-144.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov 2006 transient capture zones IAHS304-19-144.pdf",
+          "localFileName": "Vesselinov 2006 transient capture zones IAHS304-19-144.pdf",
+          "originalHref": "/papers/Vesselinov%202006%20transient%20capture%20zones%20IAHS304-19-144.pdf",
+          "localHref": "/papers/Vesselinov%202006%20transient%20capture%20zones%20IAHS304-19-144.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov and Robinson 2005 Delineation of capture zones in transient groundwater flow systems ModelCARE.pdf",
+      "text": "Vesselinov and Robinson 2005 Delineation of capture zones in transient groundwater flow systems ModelCARE",
+      "html": "Vesselinov and Robinson 2005 Delineation of capture zones in transient groundwater flow systems ModelCARE <a href=\"/papers/Vesselinov%20and%20Robinson%202005%20Delineation%20of%20capture%20zones%20in%20transient%20groundwater%20flow%20systems%20ModelCARE.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov and Robinson 2005 Delineation of capture zones in transient groundwater flow systems ModelCARE.pdf",
+          "localFileName": "Vesselinov and Robinson 2005 Delineation of capture zones in transient groundwater flow systems ModelCARE.pdf",
+          "originalHref": "/papers/Vesselinov%20and%20Robinson%202005%20Delineation%20of%20capture%20zones%20in%20transient%20groundwater%20flow%20systems%20ModelCARE.pdf",
+          "localHref": "/papers/Vesselinov%20and%20Robinson%202005%20Delineation%20of%20capture%20zones%20in%20transient%20groundwater%20flow%20systems%20ModelCARE.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov et al 2001 part 1.pdf",
+      "text": "Vesselinov et al 2001 part 1",
+      "html": "Vesselinov et al 2001 part 1 <a href=\"/papers/Vesselinov%20et%20al%202001%20part%201.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2001 part 1.pdf",
+          "localFileName": "Vesselinov et al 2001 part 1.pdf",
+          "originalHref": "/papers/Vesselinov%20et%20al%202001%20part%201.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202001%20part%201.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov et al 2001 part 2.pdf",
+      "text": "Vesselinov et al 2001 part 2",
+      "html": "Vesselinov et al 2001 part 2 <a href=\"/papers/Vesselinov%20et%20al%202001%20part%202.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2001 part 2.pdf",
+          "localFileName": "Vesselinov et al 2001 part 2.pdf",
+          "originalHref": "/papers/Vesselinov%20et%20al%202001%20part%202.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202001%20part%202.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov et al 2015 Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory.pdf",
+      "text": "Vesselinov et al 2015 Model Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory",
+      "html": "Vesselinov et al 2015 Model Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory <a href=\"/papers/Vesselinov%20et%20al%202015%20Model-Assisted%20Decision%20Analyses%20Related%20to%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov et al 2015 Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory.pdf",
+          "localFileName": "Vesselinov et al 2015 Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory.pdf",
+          "originalHref": "/papers/Vesselinov%20et%20al%202015%20Model-Assisted%20Decision%20Analyses%20Related%20to%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory.pdf",
+          "localHref": "/papers/Vesselinov%20et%20al%202015%20Model-Assisted%20Decision%20Analyses%20Related%20to%20a%20Chromium%20Plume%20at%20Los%20Alamos%20National%20Laboratory.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Vesselinov OMalley Katzman 2016 ZEM Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making.pdf",
+      "text": "Vesselinov OMalley Katzman 2016 ZEM Integrated Framework for Real Time Data and Model Analyses for Robust Environmental Management Decision Making",
+      "html": "Vesselinov OMalley Katzman 2016 ZEM Integrated Framework for Real Time Data and Model Analyses for Robust Environmental Management Decision Making <a href=\"/papers/Vesselinov%20OMalley%20Katzman%202016%20ZEM%20Integrated%20Framework%20for%20Real-Time%20Data%20and%20Model%20Analyses%20for%20Robust%20Environmental%20Management%20Decision%20Making.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Vesselinov OMalley Katzman 2016 ZEM Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making.pdf",
+          "localFileName": "Vesselinov OMalley Katzman 2016 ZEM Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making.pdf",
+          "originalHref": "/papers/Vesselinov%20OMalley%20Katzman%202016%20ZEM%20Integrated%20Framework%20for%20Real-Time%20Data%20and%20Model%20Analyses%20for%20Robust%20Environmental%20Management%20Decision%20Making.pdf",
+          "localHref": "/papers/Vesselinov%20OMalley%20Katzman%202016%20ZEM%20Integrated%20Framework%20for%20Real-Time%20Data%20and%20Model%20Analyses%20for%20Robust%20Environmental%20Management%20Decision%20Making.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    },
+    {
+      "id": "papers-pdf-Zyvoloski & Vesselinov 2006 grid GW.pdf",
+      "text": "Zyvoloski & Vesselinov 2006 grid GW",
+      "html": "Zyvoloski &amp; Vesselinov 2006 grid GW <a href=\"/papers/Zyvoloski%20%26%20Vesselinov%202006%20grid%20GW.pdf\" target=\"_blank\" rel=\"noreferrer\">PDF</a>",
+      "pdfLinks": [
+        {
+          "fileName": "Zyvoloski & Vesselinov 2006 grid GW.pdf",
+          "localFileName": "Zyvoloski & Vesselinov 2006 grid GW.pdf",
+          "originalHref": "/papers/Zyvoloski%20%26%20Vesselinov%202006%20grid%20GW.pdf",
+          "localHref": "/papers/Zyvoloski%20%26%20Vesselinov%202006%20grid%20GW.pdf",
+          "localExists": true
+        }
+      ],
+      "missingLocalPdf": false
+    }
+  ],
+  "footerHtml": null
+}

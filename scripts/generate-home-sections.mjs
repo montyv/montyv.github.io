@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -12,7 +13,7 @@ const readJson = async (filePath) => {
   return JSON.parse(raw);
 };
 
-const main = async () => {
+const generate = async () => {
   const index = await readJson(sectionsIndexPath);
   if (!Array.isArray(index)) {
     throw new Error(`Expected ${sectionsIndexPath} to be an array`);
@@ -58,7 +59,75 @@ const main = async () => {
   console.log(`[home] wrote ${path.relative(repoRoot, outPath)} (${sections.length} sections)`);
 };
 
-main().catch((err) => {
+const args = new Set(process.argv.slice(2));
+const watchMode = args.has("--watch");
+
+const watchAndGenerate = async () => {
+  await generate();
+
+  let timer = null;
+  let running = false;
+  let rerun = false;
+
+  const schedule = () => {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(async () => {
+      if (running) {
+        rerun = true;
+        return;
+      }
+
+      running = true;
+      do {
+        rerun = false;
+        try {
+          await generate();
+        } catch (err) {
+          // eslint-disable-next-line no-console
+          console.error(err);
+        }
+      } while (rerun);
+      running = false;
+    }, 120);
+  };
+
+  const watcher = fsSync.watch(
+    sectionsDir,
+    { recursive: true },
+    (eventType, fileName) => {
+      const file = String(fileName ?? "");
+      const shouldRegenerate = !file || file.endsWith(".html") || file === "sections.json";
+      if (!shouldRegenerate) return;
+
+      // eslint-disable-next-line no-console
+      console.log(
+        file
+          ? `[home] change detected (${eventType}): ${file}`
+          : `[home] change detected (${eventType})`,
+      );
+      schedule();
+    },
+  );
+
+  // eslint-disable-next-line no-console
+  console.log("[home] watching app/home/sections/*.html and sections.json");
+
+  const stop = () => {
+    watcher.close();
+    if (timer) clearTimeout(timer);
+  };
+
+  process.on("SIGINT", () => {
+    stop();
+    process.exit(0);
+  });
+  process.on("SIGTERM", () => {
+    stop();
+    process.exit(0);
+  });
+};
+
+(watchMode ? watchAndGenerate() : generate()).catch((err) => {
   // eslint-disable-next-line no-console
   console.error(err);
   process.exitCode = 1;

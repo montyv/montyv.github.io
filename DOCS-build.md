@@ -40,7 +40,12 @@ When PDF parsing is enabled, the generator tries to extract a better title/autho
 - Dev: `npm run dev`
 - Export build: `npm run build`
 
-Note: `npm run build` runs the index generation in `prebuild`.
+Index generation for publications/presentations/reports JSON is **explicit-only**.
+
+- Generate legacy + PDF index JSON files: `npm run generate:indexes`
+- Generate with PDF metadata parsing: `npm run generate:indexes:pdf`
+
+`npm run dev` and `npm run build` do **not** auto-generate these JSON files.
 
 ## Home sections (editable HTML)
 

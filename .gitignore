@@ -31,9 +31,6 @@ app/publications/publications.generated.json
 app/home/home.sections.generated.ts
 app/home/home.sections.generated.ts.tmp
 
-app/**/**/*.legacy.generated.json
-app/**/**/*.pdf.generated.json
-
 # Next.js build caches (we use custom distDir)
 .next-dev/
 .next-build/

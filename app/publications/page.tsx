@@ -1,8 +1,8 @@
 import Link from "next/link";
+import fs from "node:fs";
+import path from "node:path";
 
 import contentData from "./publications.content.json";
-import legacyData from "./publications.legacy.generated.json";
-import pdfData from "./publications.pdf.generated.json";
 import overridesData from "./publications.overrides.json";
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
@@ -34,9 +34,26 @@ type CuratedIndex = {
   footerHtmlLines?: string[];
 };
 
-const legacyIndex = legacyData as CuratedIndex;
+const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
+  try {
+    const abs = path.join(process.cwd(), "app", "publications", fileName);
+    const raw = fs.readFileSync(abs, "utf8");
+    return JSON.parse(raw) as CuratedIndex;
+  } catch {
+    return {
+      schemaVersion: 1,
+      generatedAt: "missing",
+      source: `app/publications/${fileName}`,
+      title,
+      items: [],
+      footerHtml: null,
+    };
+  }
+};
+
+const legacyIndex = readGeneratedIndex("publications.legacy.generated.json", "Publications");
 const contentIndex = contentData as CuratedIndex;
-const pdfIndex = pdfData as CuratedIndex;
+const pdfIndex = readGeneratedIndex("publications.pdf.generated.json", "Publications");
 const overridesIndex = overridesData as CuratedIndex;
 
 const footerHtml = (index: CuratedIndex): string | null => {

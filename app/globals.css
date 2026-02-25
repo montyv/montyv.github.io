@@ -10,6 +10,39 @@
   a {
     @apply text-slate-200 underline underline-offset-2 hover:text-white;
   }
+
+  h1 {
+    @apply mt-8 text-3xl font-bold leading-tight;
+  }
+
+  h2 {
+    @apply mt-7 text-2xl font-semibold leading-tight;
+  }
+
+  h3 {
+    @apply mt-6 text-xl font-semibold leading-snug;
+  }
+
+  h4 {
+    @apply mt-5 text-lg font-semibold leading-snug;
+  }
+
+  h5 {
+    @apply mt-4 text-base font-semibold leading-snug;
+  }
+
+  h6 {
+    @apply mt-4 text-sm font-semibold leading-snug;
+  }
+
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child {
+    @apply mt-0;
+  }
 }
 
 @layer components {
@@ -19,7 +52,15 @@
 
   .legacy-content img {
     max-width: 100%;
+  }
+
+  .legacy-content img:not([height]):not([width]) {
     height: auto;
+  }
+
+  .legacy-content img[height],
+  .legacy-content img[width] {
+    width: auto;
   }
 
   .legacy-content table {
@@ -44,6 +85,17 @@
     @apply mt-1;
   }
 
+  .legacy-content svg {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 0.35rem;
+    color: inherit;
+  }
+
+  .legacy-content svg path {
+    fill: currentColor;
+  }
+
   .legacy-content iframe {
     width: 420px;
     max-width: 100%;
@@ -51,6 +103,18 @@
     display: block;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
+  }
+
+  .legacy-content .legacy-plot {
+    @apply my-3 rounded-md bg-slate-300/30 p-3;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .legacy-content .legacy-plot img {
+    display: inline-block;
+    vertical-align: middle;
   }
 
   @media (min-width: 768px) {
