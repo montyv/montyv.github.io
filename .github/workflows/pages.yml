@@ -49,6 +49,11 @@ jobs:
       - name: Verify output
         run: test -f out/index.html || test -f out/index/index.html
 
+      - name: List output before upload (debug)
+        run: |
+          echo "Final out/ contents before artifact upload:"
+          ls -la out
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
