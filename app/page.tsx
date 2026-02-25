@@ -66,12 +66,6 @@ export default function HomePage() {
             >
               <div className="font-medium">Reports</div>
             </Link>
-            <a
-              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
-              href="/legacy/index.html"
-            >
-              <div className="font-medium">Legacy homepage</div>
-            </a>
           </nav>
 
           <section className="rounded-lg border border-slate-800 p-5">
