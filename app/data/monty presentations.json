@@ -1,0 +1,458 @@
+[
+  {
+    "authors": "Kliphuis, T.L., Bluehouse, M., Vesselinov, V.V.",
+    "title": "GeoTGO: Equitable and Inclusive Tool for Community-Based Geothermal",
+    "source": "Stanford Geothermal Workshop, Stanford, CA, February 6-8",
+    "doi": null,
+    "year": 2023,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Kliphuis et al 2023 GeoTGO Equitable and Inclusive Tool for Community-Based Geothermal.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Kliphuis, T.L.",
+    "source": "ChemML: Understanding groundwater flow and contaminant transport using machine learning, Frontiers in Hydrology Meeting, American Geophysical Union, San Juan, Puerto Rico, June 19-24",
+    "doi": null,
+    "year": 2022,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf"
+  },
+  {
+    "authors": "Ahmmed & Vesselinov",
+    "title": "Machine Learning for Small, Uncertain, and Sparse Data Sets",
+    "source": null,
+    "year": 2022,
+    "url": "https://montyv.github.io/presentations/Ahmmed%20%26%20Vesselinov%202022%20Machine%20Learning%20for%20Small%2C%20Uncertain%2C%20and%20Sparse%20Data%20Sets.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Kliphuis, T.L.",
+    "source": "Novel machine learning methods and tools for geothermal and geochemical problems, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16",
+    "doi": null,
+    "year": 2022,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 Novel machine learning methods and tools for geothermal and geochemical problems.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Kliphuis, T.L.",
+    "source": "Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16",
+    "doi": null,
+    "year": 2022,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process.pdf"
+  },
+  {
+    "authors": "Fleming, W.W., Vesselinov, V.V., Goodbody, A.G.",
+    "source": "Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting, with Applications to the Owyhee and Yellowstone Rivers_ Regression Using Climate Indices Derived from SNOTEL Data Using Nonnegative Matrix Factorization with k-Means Clustering, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16",
+    "doi": null,
+    "year": 2022,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Fleming et al 2022 Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting.pdf"
+  },
+  {
+    "authors": "Jafarov, E.E., Genet. H., Vesselinov, V.V., Briones, V., Rutter, R., Rogers, B.M., Natali, S.",
+    "source": "Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model, American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16",
+    "doi": null,
+    "year": 2022,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Jafarov et al 2022 Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "GeoThermalCloud: Cloud Fusion of Big Data and Multi-Physics Models using Machine Learning for Discovery, Exploration and Development of Hidden Geothermal Resources, Department of Energy, Geothermal Office",
+    "doi": null,
+    "year": 2021,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2021 GeoThermalCloud.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "GeoThermalCloud: Fusion of Big Data and Multi-Physics Models, JuliaCon, Boston, MA, July 28-30",
+    "doi": null,
+    "year": 2021,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/GeoThermalCloud_JuliaCon2021.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Hidden geothermal signatures of the southwest New Mexico, World Geothermal Congress, Reykjavik, Iceland, May-Oct",
+    "doi": null,
+    "year": 2021,
+    "url": null
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Machine Learning to Characterize the State of Stress and its Influence on Geothermal Production, Geothermal Rising Conference, San Diego, CA, October 3-6",
+    "doi": null,
+    "year": 2021,
+    "url": null
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "ML4Geo: Machine Learning for Geosciences, JuliaCon, Boston, MA, July 28-30",
+    "doi": null,
+    "year": 2021,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/ML4Geo_JuliaCon2021.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "SmartTensors: Unsupervised Machine Learning, JuliaCon, Boston, MA, July 28-30",
+    "doi": null,
+    "year": 2021,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/SmartTensors_JuliaCon2021.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Unsupervised and Physics-Informed Machine learning in Geosciences, Baylor University, Texas",
+    "doi": null,
+    "year": 2021,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2021 Unsupervised and Physics-Informed Machine learning in Geosciences Baylor.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning, Geothermal Workshop, Stanford, CA",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning LA-UR-20-21322.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Machine learning for geothermal resource analysis and exploration, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Machine Learning for Geothermal Resource Analysis and Exploration CMWR.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning, XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA, December 13-15",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning CMWR.pdf"
+  },
+  {
+    "authors": "Mudunuru, M.K, Vesselinov, V.V., et al.",
+    "source": "Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration, Geothermal Workshop, Stanford, CA",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Mudunuru 2020 Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration LA-UR-20-21367.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs, Machine Learning in Oil & Gas Conference",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data, Bureau of Economic Geology, University of Austin, Texas",
+    "doi": null,
+    "year": 2020,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data Austin.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Machine Learning Analyses of Climate Data and Models, 11th World Congress of European Water Resources Association (EWRA), Madrid, Spain",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Machine Learning Analyses of Climate Data and Models EWRA.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Novel Unsupervised Machine Learning Methods for Data Analytics and Model Diagnostics, Machine Learning in Solid Earth Geoscience, Santa Fe",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 GeoScienceMLworkshop.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics, M3 NASA DRIVE Workshop, Los Alamos",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Unsupervised and Physics-Informed Machine Learning of Big Data, Workshop: Applications of Big Data and High-Performance Computing in Earth Sciences, AGU Fall Meeting, San Francisco, CA (invited)",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Unsupervised and Physics-Informed Machine Learning of Big Data.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Unsupervised Machine Learning Methods for Feature Extraction, New Mexico Big Data & Analytics Summit, nmbdas.com, Albuquerque",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2019 Unsupervised Machine Learning Methods for Feature Extraction LA-UR-19-21450.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Unsupervised Machine Learning: Nonnegative Matrix Tensor Decompositions, MIT, Boston, MA",
+    "doi": null,
+    "year": 2019,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2019 Unsupervised Machine Learning Nonnegative Matrix Tensor Decompositions.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models, Recent Advances in Machine Learning and Computational Methods for Geoscience, Institute for Mathematics and its Applications, University of Minnesota",
+    "doi": "10.13140/RG.2.2.16024.03848",
+    "year": 2018,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models LA-UR-18-30987.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models, AGU Fall meeting, Washington D.C.",
+    "doi": null,
+    "year": 2018,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models LA-UR-18-31366.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.",
+    "source": "Novel Robust Machine Learning Methods for Identification and Extraction of Unknown Features in Complex Real-world Data Sets, Society for Industrial and Applied Mathematics (SIAM) Uncertainty Quantification, Garden Grove, CA (invited)",
+    "doi": null,
+    "year": 2018,
+    "url": null
+  },
+  {
+    "authors": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov",
+    "source": "Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs, Computational Methods in Water Resources (CMWR), Saint-Malo, France",
+    "doi": "10.13140/RG.2.2.27777.92005",
+    "year": 2018,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr-ML-20180606.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov",
+    "source": "Unsupervised Machine Learning based on Nonnegative Matrix/Tensor Factorization, World Congress on Computational Mechanics (WCCM), New York, NY (invited)",
+    "doi": null,
+    "year": 2018,
+    "url": null
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.",
+    "source": "Unsupervised Machine Learning Based on Tensor Factorization, International Society for Porous Media (INTERPORE), New Orleans, LA",
+    "doi": "10.13140/RG.2.2.15195.00807",
+    "year": 2018,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov OMalley Alexandrov 2018 Unsupervised Machine Learning Based on Tensor Factorization interpore18.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Katzman, D.",
+    "source": "Decision Analyses for Groundwater Remediation, Waste Management Symposium, Phoenix, AZ",
+    "doi": "10.13140/RG.2.2.33273.11367",
+    "year": 2017,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov Decision Analyses for Groundwater Remediation LA-UR-17-21909 wmsym2017.pdf"
+  },
+  {
+    "authors": "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B.",
+    "source": "Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, SIAM Conference on Computational Science and Engineering, Atlanta, GA",
+    "doi": null,
+    "year": 2017,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/lin Hydraulic Inverse Modeling TV SIAM CSE 2017.pdf"
+  },
+  {
+    "authors": "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B.",
+    "source": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
+    "doi": null,
+    "year": 2017,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf"
+  },
+  {
+    "authors": "O'Malley, D., Vesselinov, V.V.",
+    "source": "Quo vadis: Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer, AGU Fall Meeting, New Orleans, LA",
+    "doi": "10.13140/RG.2.2.10161.84320",
+    "year": 2017,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/OMalley Vesselinov 2017 Quo vadis - Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.",
+    "source": "Uncertainty quantification and experimental design based on unsupervised machine learning identification of contaminant sources and groundwater types using hydrogeochemical data, AGU Fall Meeting, New Orleans, LA",
+    "doi": null,
+    "year": 2017,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov et al 2017 Unsupervised Machine Learning based on Nonnegative Factorization agu2017-ML-20171206.pdf"
+  },
+  {
+    "authors": "He, J., Hansen, S.K., Vesselinov, V.V.",
+    "source": "Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/hansen et al Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy AGU 2016.pdf"
+  },
+  {
+    "authors": "Zhang, X., Vesselinov, V.V.",
+    "source": "Bi-Level Decision Making for Supporting Energy and Water Nexus, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/zhang vesselinov Bi-Level Decision Making for Supporting Energy and Water Nexus AGU 2016.pdf"
+  },
+  {
+    "authors": "Lin, Y., Vesselinov, V.V., O'Malley, D., Wohlberg, B.",
+    "source": "Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/lin et al Hydraulic Inverse Modeling TV AGU 2016.pdf"
+  },
+  {
+    "authors": "Lu, Z., Vesselinov, V.V., Lei, H.",
+    "source": "Identifying Aquifer Heterogeneities using the Level Set Method, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/zhiming et al Identifying Aquifer Heterogeneities using the Level Set Method AGU 2016.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D.",
+    "source": "Model Analyses of Complex Systems Behavior using MADS, AGU Fall Meeting, San Francisco, CA",
+    "doi": "10.13140/RG.2.2.33902.25921",
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov omalley MADS LA-UR-16-29120 agu2016.pdf"
+  },
+  {
+    "authors": "omalley vesselinov Groundwater Remediation using Bayesian Information-Gap Decision Theory AGU",
+    "title": "omalley vesselinov Groundwater Remediation using Bayesian Information-Gap Decision Theory AGU 2016",
+    "source": null,
+    "year": 2016,
+    "url": "https://montyv.github.io/presentations/omalley%20vesselinov%20Groundwater%20Remediation%20using%20Bayesian%20Information-Gap%20Decision%20Theory%20AGU%202016.pdf"
+  },
+  {
+    "authors": "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V.",
+    "source": "Prediction of Breakthrough Curves for Conservative and Reactive Transport, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/hansen et al Prediction of Breakthrough Curves for Conservative and Reactive Transport AGU 2016.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.",
+    "source": "Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity, AGU Fall Meeting, San Francisco, CA (invited)",
+    "doi": null,
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov omalley Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity AGU 2016.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Katzman, D.",
+    "source": "ZEM: Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making, Waste Management Symposium, Phoenix, AZ",
+    "doi": "10.13140/RG.2.2.29917.67041",
+    "year": 2016,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov ZEM LA-UR-16-21469 wmsym2016.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., O'Malley, D., Katzman, D.",
+    "source": "Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory, Waste Management Symposium, Phoenix, AZ",
+    "doi": "10.13140/RG.2.2.23206.78404",
+    "year": 2015,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf"
+  },
+  {
+    "authors": "Bakarji, J., O'Malley, D., Vesselinov, V.V.",
+    "source": "A Social Dynamics Dependent Water Supply Well Contamination Model, LANL Postdoc Research Conference",
+    "doi": "10.13140/RG.2.2.17963.90407",
+    "year": 2014,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Bakarji 2014 Social Dynamics Dependent Water Supply Well Contamination Model LAUR_14-24002.pdf"
+  },
+  {
+    "authors": "O'Malley, D., Vesselinov, V.V.",
+    "source": "Bayesian Information-Gap (BIG) Decision Analysis Applied to a Geologic CO2 Sequestration Problem, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2014,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/omalley_biguq_LAUR_14-28376.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Alexandrov, B.A",
+    "source": "Model-free Source Identification, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2014,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov Blind Source Separation agu2014-LA-UR-14-29163.pdf"
+  },
+  {
+    "authors": "Cushman, J.H., Vesselinov, V.V., O'Malley, D.",
+    "source": "Random dispersion coefficients and Tsallis entropy, AGU Fall Meeting, San Francisco, CA",
+    "doi": null,
+    "year": 2014,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf"
+  },
+  {
+    "authors": "vesselinov agu",
+    "title": "0304mads ascem big split",
+    "source": null,
+    "year": 2013,
+    "url": "https://montyv.github.io/presentations/vesselinov%20agu20130304mads_ascem_big_split%20LA-UR-12-26681.pdf"
+  },
+  {
+    "authors": "vesselinov wmsym",
+    "title": "0304splitanimations-",
+    "source": null,
+    "year": 2013,
+    "url": "https://montyv.github.io/presentations/vesselinov%20wmsym20130304splitanimations-LA-UR-13-21534.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D., Mishra, P.",
+    "source": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Session 109: Environmental Restoration Challenges: Alternative Approaches for Achieving End State, Waste Management Symposium, Phoenix, AZ, February 28",
+    "doi": "10.13140/RG.2.2.10414.15686",
+    "year": 2013,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf"
+  },
+  {
+    "authors": "vesselinov LA-UR-12-22187 agni cmwr",
+    "title": "0614",
+    "source": null,
+    "year": 2012,
+    "url": "https://montyv.github.io/presentations/vesselinov%20LA-UR-12-22187%20agni%20cmwr%2020120614.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, XIX International Conference on Computational Methods in Water Resources (CMWR 2012), University of Illinois at Urbana-Champaign, June 17-22",
+    "doi": null,
+    "year": 2012,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LA-UR-12-22187 agni cmwr 20120614.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Harp, D., Katzman, D.",
+    "source": "Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications, H32F: Uncertainty Quantification and Parameter Estimation: Impacts on Risk and Decision Making, AGU Fall meeting, San Francisco, December 3-7 (invited)",
+    "doi": "10.13140/RG.2.2.17125.04321",
+    "year": 2012,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf"
+  },
+  {
+    "authors": "Leif Zinn-Bjorkman, L.",
+    "source": "Numerical Optimization using the Levenberg-Marquardt Algorithm, EES-16 Seminar Series, LA-UR-11-12010",
+    "doi": "10.13140/RG.2.2.11253.01760",
+    "year": 2011,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf"
+  },
+  {
+    "authors": "Harp, D., Vesselinov, V.V.",
+    "source": "Recent developments in MADS algorithms: ABAGUS and Squads, EES-16 Seminar Series, LA-UR-11-11957",
+    "doi": "10.13140/RG.2.2.35579.98082",
+    "year": 2011,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf"
+  },
+  {
+    "authors": "vesselinov LANL EM Modeling",
+    "title": "0413",
+    "source": null,
+    "year": 2010,
+    "url": "https://montyv.github.io/presentations/vesselinov%20LANL%20EM%20Modeling%2020100413%20LA-UR%2010-02613.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., et al.",
+    "source": "Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL), Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford, April 13-14",
+    "doi": "10.13140/RG.2.2.12091.87846",
+    "year": 2010,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LANL EM Modeling 20100413.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V., Harp, D., Koch, R., Birdsell, K., Katzman, K.",
+    "source": "Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping, AGU Meeting, San Francisco, CA, December 15-19",
+    "doi": "10.13140/RG.2.2.25513.65126",
+    "year": 2008,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf"
+  },
+  {
+    "authors": "Vesselinov, V.V.",
+    "source": "Uncertainties in Transient Capture-Zone Estimates, CMWR 2006 XVI International Conference on Computational Methods in Water Resources, Copenhagen, Denmark, June 18-22",
+    "doi": "10.13140/RG.2.2.28869.09446",
+    "year": 2006,
+    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf"
+  },
+  {
+    "authors": null,
+    "title": "omalley sensitivityanalysis LAUR 13-29246",
+    "source": null,
+    "year": null,
+    "url": "https://montyv.github.io/presentations/omalley_sensitivityanalysis_LAUR_13-29246.pdf"
+  }
+]

@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "sync:catalog": "node scripts/sync-monty-catalog.mjs",
+    "sync:catalog:scholar": "node scripts/sync-monty-catalog.mjs --sync-scholar",
     "generate:indexes": "node scripts/generate-content-index.mjs",
     "generate:indexes:pdf": "node scripts/generate-content-index.mjs --parse-pdfs",
     "predev": "node scripts/generate-home-sections.mjs",

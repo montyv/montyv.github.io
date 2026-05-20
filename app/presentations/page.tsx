@@ -3,6 +3,8 @@ import * as cheerio from "cheerio";
 import fs from "node:fs";
 import path from "node:path";
 
+import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import contentData from "./presentations.content.json";
 import overridesData from "./presentations.overrides.json";
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
@@ -26,33 +28,6 @@ const highlightMyNameHtml = (html: string): string => {
   return root.html() ?? html;
 };
 
-type PdfLink = {
-  fileName: string;
-  localFileName: string | null;
-  originalHref: string;
-  localHref: string | null;
-  localExists: boolean;
-};
-
-type CuratedItem = {
-  id?: string;
-  text: string;
-  html?: string;
-  htmlLines?: string[];
-  pdfLinks: PdfLink[];
-  missingLocalPdf: boolean;
-};
-
-type CuratedIndex = {
-  schemaVersion?: number;
-  generatedAt: string;
-  source: string;
-  title: string;
-  items: CuratedItem[];
-  footerHtml?: string | null;
-  footerHtmlLines?: string[];
-};
-
 const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
   try {
     const abs = path.join(process.cwd(), "app", "presentations", fileName);
@@ -71,6 +46,12 @@ const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
 };
 
 const legacyIndex = readGeneratedIndex("presentations.legacy.generated.json", "Presentations");
+const contentIndex = contentData as CuratedIndex;
+const rawIndex = loadCanonicalCatalogIndex({
+  title: "Presentations",
+  dataFileName: "monty presentations.json",
+  pdfFolderKey: "presentations",
+});
 const pdfIndex = readGeneratedIndex("presentations.pdf.generated.json", "Presentations");
 const overridesIndex = overridesData as CuratedIndex;
 
@@ -90,7 +71,7 @@ const itemPrimaryHref = (item: CuratedItem): string | null => {
 };
 
 const itemKey = (item: CuratedItem): string => {
-  return itemPrimaryHref(item) ?? item.id ?? item.html ?? item.text;
+  return itemPrimaryHref(item) ?? normalizeCatalogItemKey(item);
 };
 
 const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
@@ -109,8 +90,8 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
-const footer = footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
+const mergedItems = mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], rawIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const footer = footerHtml(contentIndex) ?? footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
 
 export default function PresentationsPage() {
   return (
@@ -119,7 +100,7 @@ export default function PresentationsPage() {
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Presentations</h1>
           <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}, overrides: {overridesIndex.items.length}).
+            {mergedItems.length} entries (content: {contentIndex.items.length}, raw: {rawIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
           </p>
         </div>
         <nav className="flex gap-3 text-sm">

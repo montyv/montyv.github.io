@@ -2,37 +2,11 @@ import Link from "next/link";
 import fs from "node:fs";
 import path from "node:path";
 
+import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
 import contentData from "./publications.content.json";
 import overridesData from "./publications.overrides.json";
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
-
-type PdfLink = {
-  fileName: string;
-  localFileName: string | null;
-  originalHref: string;
-  localHref: string | null;
-  localExists: boolean;
-};
-
-type CuratedItem = {
-  id?: string;
-  text: string;
-  html?: string;
-  htmlLines?: string[];
-  pdfLinks: PdfLink[];
-  missingLocalPdf: boolean;
-};
-
-type CuratedIndex = {
-  schemaVersion?: number;
-  generatedAt: string;
-  source: string;
-  title: string;
-  items: CuratedItem[];
-  footerHtml?: string | null;
-  footerHtmlLines?: string[];
-};
 
 const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
   try {
@@ -53,6 +27,11 @@ const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
 
 const legacyIndex = readGeneratedIndex("publications.legacy.generated.json", "Publications");
 const contentIndex = contentData as CuratedIndex;
+const rawIndex = loadCanonicalCatalogIndex({
+  title: "Publications",
+  dataFileName: "monty publications.json",
+  pdfFolderKey: "papers",
+});
 const pdfIndex = readGeneratedIndex("publications.pdf.generated.json", "Publications");
 const overridesIndex = overridesData as CuratedIndex;
 
@@ -67,7 +46,7 @@ const itemPrimaryHref = (item: CuratedItem): string | null => {
 };
 
 const itemKey = (item: CuratedItem): string => {
-  return itemPrimaryHref(item) ?? item.id ?? item.html ?? item.text;
+  return itemPrimaryHref(item) ?? normalizeCatalogItemKey(item);
 };
 
 const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
@@ -86,8 +65,8 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
-const footer = footerHtml(contentIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
+const mergedItems = mergeItems([contentIndex.items ?? [], rawIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const footer = footerHtml(contentIndex) ?? footerHtml(rawIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
 
 const itemDisplayText = (item: CuratedItem): string => {
   return String(item.text ?? "")
@@ -100,6 +79,10 @@ const itemDisplayText = (item: CuratedItem): string => {
 const itemDisplayHref = (item: CuratedItem): string | null => {
   const first = item.pdfLinks?.[0];
   return first?.localHref ?? first?.originalHref ?? null;
+};
+
+const itemLinkLabel = (item: CuratedItem): string => {
+  return item.linkLabel ?? "PDF";
 };
 
 const renderHighlightedText = (text: string) => {
@@ -123,7 +106,7 @@ export default function PublicationsPage() {
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Publications</h1>
           <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (content: {contentIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
+            {mergedItems.length} entries (content: {contentIndex.items.length}, raw: {rawIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
           </p>
         </div>
         <nav className="flex gap-3 text-sm">
@@ -145,7 +128,7 @@ export default function PublicationsPage() {
                 <>
                   {" "}
                   <a href={itemDisplayHref(item) ?? undefined} target="_blank" rel="noreferrer">
-                    PDF
+                    {itemLinkLabel(item)}
                   </a>
                 </>
               ) : null}
