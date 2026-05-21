@@ -17,7 +17,7 @@
   },
   {
     "authors": "Elchin E. Jafarov, Hélène Genet, Velimir V. Vesselinov, Valeria Briones, Aiza Kabeer, Andrew L. Mullen, Benjamin Maglio, Tobey Carman, Ruth Rutter, Joy Clein, Chu-Chun Chang, Dogukan Teber, Trevor Smith, Joshua M. Rady, Christina Schädel, Jennifer D. Watts, Brendan M. Rogers, Susan M. Natali",
-    "title": "Estimation of above- and below-ground ecosystem parameters  for DVM-DOS-TEM v0.7.0 using MADS v1.7.3",
+    "title": "Estimation of above- and below-ground ecosystem parameters for DVM-DOS-TEM v0.7.0 using MADS v1.7.3",
     "source": "Geoscientific Model Development",
     "doi": "10.5194/gmd-18-3857-2025",
     "year": 2025,
@@ -182,6 +182,14 @@
     "doi": "10.1190/image2022-w8-01.1",
     "year": 2022,
     "url": "https://doi.org/10.1190/image2022-w8-01.1"
+  },
+  {
+    "authors": null,
+    "title": "Machine learning and a process model to better characterize hidden geothermal resources",
+    "source": "GRC Transactions, Reno, Nevada, June 2022",
+    "doi": null,
+    "year": 2022,
+    "url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources"
   },
   {
     "authors": "Ahmmed, B, Mudunuru, M.K., Karra, S., James, S.C., Vesselinov, V.V.",
