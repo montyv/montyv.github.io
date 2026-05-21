@@ -2,7 +2,7 @@ import Link from "next/link";
 import fs from "node:fs";
 import path from "node:path";
 
-import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, sortCatalogItems, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
 import contentData from "./publications.content.json";
 import overridesData from "./publications.overrides.json";
 
@@ -65,7 +65,7 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([contentIndex.items ?? [], rawIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const mergedItems = sortCatalogItems(mergeItems([contentIndex.items ?? [], rawIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
 const footer = footerHtml(contentIndex) ?? footerHtml(rawIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
 
 const itemDisplayText = (item: CuratedItem): string => {

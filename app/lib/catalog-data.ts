@@ -247,6 +247,33 @@ export const normalizeCatalogItemKey = (item: Pick<CuratedItem, "text" | "html" 
   return text || `id:${item.id ?? "unknown"}`;
 };
 
+const itemSortableText = (item: Pick<CuratedItem, "text" | "html" | "htmlLines">): string => {
+  if (item.text) return item.text;
+  if (Array.isArray(item.htmlLines) && item.htmlLines.length) return item.htmlLines.join(" ");
+  return item.html ?? "";
+};
+
+export const catalogItemYear = (item: Pick<CuratedItem, "text" | "html" | "htmlLines">): number => {
+  const matches = itemSortableText(item).match(/(?:19|20)\d{2}/g) ?? [];
+  const years = matches
+    .map((match) => Number(match))
+    .filter((year) => Number.isFinite(year));
+
+  return years.length ? Math.max(...years) : 0;
+};
+
+export const sortCatalogItems = <T extends CuratedItem>(items: T[]): T[] => {
+  return [...items].sort((left, right) => {
+    const yearDiff = catalogItemYear(right) - catalogItemYear(left);
+    if (yearDiff !== 0) return yearDiff;
+
+    const textDiff = normalizeWhitespace(left.text).localeCompare(normalizeWhitespace(right.text));
+    if (textDiff !== 0) return textDiff;
+
+    return normalizeCatalogItemKey(left).localeCompare(normalizeCatalogItemKey(right));
+  });
+};
+
 export const loadCanonicalCatalogIndex = ({ title, dataFileName, pdfFolderKey }: LoadCanonicalCatalogIndexOptions): CuratedIndex => {
   const abs = path.join(process.cwd(), "app", "data", dataFileName);
   const pdfLookup = buildPdfLookup(pdfFolderKey);

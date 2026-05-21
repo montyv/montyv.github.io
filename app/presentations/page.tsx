@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 import fs from "node:fs";
 import path from "node:path";
 
-import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, sortCatalogItems, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
 import contentData from "./presentations.content.json";
 import overridesData from "./presentations.overrides.json";
 
@@ -90,7 +90,7 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], rawIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const mergedItems = sortCatalogItems(mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], rawIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
 const footer = footerHtml(contentIndex) ?? footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
 
 export default function PresentationsPage() {
