@@ -2,23 +2,39 @@
   {
     "authors": "Kliphuis, T.L., Jasperson, H., Vesselinov, V.V.",
     "title": "Mapping geothermal resources using AI/ML",
-    "source": "2024 New Mexico Geological Society Annual Spring Meeting",
+    "source": "New Mexico Geological Society Annual Spring Meeting",
     "doi": "10.56577/SM-2024.2983",
     "year": 2024,
     "url": "https://nmgs.nmt.edu/meeting/abstracts/view.cfm?aid=2983"
   },
   {
-    "authors": "Kliphuis, T.L., Yang, R., Markowitz, A., Vesselinov, V.V.",
+    "authors": "Kliphuis, T.L., Vesselinov, V.V.",
     "title": "GAIA: Cloud Framework for Geospatial Artificial Intelligence Analyses",
-    "source": null,
+    "source": "HydroML 2025, University of California, Irvine",
     "doi": "10.13140/RG.2.2.34045.88806",
     "year": 2025,
     "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.34045.88806"
   },
   {
+    "authors": "Vesselinov, V.V., Yang, R., Markowitz, A., Kliphuis, T.L.",
+    "title": "GeoDAWN & GeoFLIGHT to GeoTGo: From complex data to defensible decisions related to geothermal prospectivity",
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
+    "doi": "10.13140/RG.2.2.14194.82881",
+    "year": 2025,
+    "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.14194.82881"
+  },
+  {
+    "authors": "Yang, R., Markowitz, A., Kliphuis, T.L., Abuamoud, R., Ben Ayed, S., Vesselinov, V.V.",
+    "title": "UrbanAI Transforming Urban Energy Planning Using Artificial Intelligence",
+    "source": "Machine Learning in Solid Earth Geoscience, Santa Fe, New Mexico",
+    "doi": "10.13140/RG.2.2.15584.19201",
+    "year": 2025,
+    "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.15584.19201"
+  },
+  {
     "authors": "Vesselinov, V.V., Kliphuis, T.L.",
     "title": "Machine Learning Estimates of Geothermal and Critical Mineral Prospectivity of the Great Basin",
-    "source": null,
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
     "doi": "10.13140/RG.2.2.11951.19360",
     "year": 2026,
     "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.11951.19360"
@@ -39,10 +55,17 @@
     "year": 2022,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf"
   },
+   {
+    "authors": "Ahmmed, M., Vesselinov, V.V.",
+    "title": "Machine learning and a process model to better characterize hidden geothermal resources",
+    "source": "Geothermal Rising Conference (GRC), Reno, Nevada",
+    "year": 2022,
+    "url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources"
+  },
   {
     "authors": "Ahmmed, M., Vesselinov, V.V.",
     "title": "Machine Learning for Small, Uncertain, and Sparse Data Sets",
-    "source": null,
+    "source": "American Geophysical Union, Fall Meeting, Chicago, IL, December 12-16",
     "year": 2022,
     "url": "https://montyv.github.io/presentations/Ahmmed%20%26%20Vesselinov%202022%20Machine%20Learning%20for%20Small%2C%20Uncertain%2C%20and%20Sparse%20Data%20Sets.pdf"
   },
@@ -305,6 +328,7 @@
   {
     "authors": "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B.",
     "title": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
+    "source": "PlosOne",
     "doi": null,
     "year": 2017,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf"
@@ -437,94 +461,81 @@
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf"
   },
   {
-    "authors": "vesselinov agu",
-    "title": "0304mads ascem big split",
-    "source": null,
-    "year": 2013,
+    "authors": "Vesselinov, V.V.",
+    "title": "MADS & ASCEM",
+	"source": "AGU Fall Meeting, San Francisco, CA",
+    "year": 2012,
     "url": "https://montyv.github.io/presentations/vesselinov%20agu20130304mads_ascem_big_split%20LA-UR-12-26681.pdf"
   },
   {
-    "authors": "vesselinov wmsym",
-    "title": "0304splitanimations-",
-    "source": null,
-    "year": 2013,
-    "url": "https://montyv.github.io/presentations/vesselinov%20wmsym20130304splitanimations-LA-UR-13-21534.pdf"
-  },
-  {
     "authors": "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D., Mishra, P.",
-    "source": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL), Session 109: Environmental Restoration Challenges: Alternative Approaches for Achieving End State, Waste Management Symposium, Phoenix, AZ, February 28",
+    "title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
+    "source": "Session 109: Environmental Restoration Challenges: Alternative Approaches for Achieving End State, Waste Management Symposium, Phoenix, AZ, February 28",
     "doi": "10.13140/RG.2.2.10414.15686",
     "year": 2013,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf"
   },
   {
-    "authors": "vesselinov LA-UR-12-22187 agni cmwr",
-    "title": "0614",
-    "source": null,
-    "year": 2012,
-    "url": "https://montyv.github.io/presentations/vesselinov%20LA-UR-12-22187%20agni%20cmwr%2020120614.pdf"
-  },
-  {
     "authors": "Vesselinov, V.V., et al.",
-    "source": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments, XIX International Conference on Computational Methods in Water Resources (CMWR 2012), University of Illinois at Urbana-Champaign, June 17-22",
+    "title": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments",
+    "source": "XIX International Conference on Computational Methods in Water Resources (CMWR 2012), University of Illinois at Urbana-Champaign, June 17-22",
     "doi": null,
     "year": 2012,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LA-UR-12-22187 agni cmwr 20120614.pdf"
   },
   {
     "authors": "Vesselinov, V.V., Harp, D., Katzman, D.",
-    "source": "Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications, H32F: Uncertainty Quantification and Parameter Estimation: Impacts on Risk and Decision Making, AGU Fall meeting, San Francisco, December 3-7 (invited)",
+    "title": "Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications",
+    "source": "H32F: Uncertainty Quantification and Parameter Estimation: Impacts on Risk and Decision Making, AGU Fall meeting, San Francisco, December 3-7 (invited)",
     "doi": "10.13140/RG.2.2.17125.04321",
     "year": 2012,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf"
   },
   {
     "authors": "Leif Zinn-Bjorkman, L.",
-    "source": "Numerical Optimization using the Levenberg-Marquardt Algorithm, EES-16 Seminar Series, LA-UR-11-12010",
+    "title": "Numerical Optimization using the Levenberg-Marquardt Algorithm",
+    "source": "EES-16 Seminar Series, LA-UR-11-12010",
     "doi": "10.13140/RG.2.2.11253.01760",
     "year": 2011,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf"
   },
   {
     "authors": "Harp, D., Vesselinov, V.V.",
-    "source": "Recent developments in MADS algorithms: ABAGUS and Squads, EES-16 Seminar Series, LA-UR-11-11957",
+    "title": "Recent developments in MADS algorithms: ABAGUS and Squads",
+    "source": "EES-16 Seminar Series, LA-UR-11-11957",
     "doi": "10.13140/RG.2.2.35579.98082",
     "year": 2011,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf"
   },
   {
-    "authors": "vesselinov LANL EM Modeling",
-    "title": "0413",
-    "source": null,
+    "authors": "Vesselinov, V.V., et al.",
+    "title": "Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL)",
+    "source": "Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford, April 13-14",
+    "doi": "10.13140/RG.2.2.12091.87846",
     "year": 2010,
     "url": "https://montyv.github.io/presentations/vesselinov%20LANL%20EM%20Modeling%2020100413%20LA-UR%2010-02613.pdf"
   },
   {
-    "authors": "Vesselinov, V.V., et al.",
-    "source": "Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL), Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford, April 13-14",
-    "doi": "10.13140/RG.2.2.12091.87846",
-    "year": 2010,
-    "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/LANL EM Modeling 20100413.pdf"
-  },
-  {
     "authors": "Vesselinov, V.V., Harp, D., Koch, R., Birdsell, K., Katzman, K.",
-    "source": "Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping, AGU Meeting, San Francisco, CA, December 15-19",
+    "title": "Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping",
+    "source": "AGU Meeting, San Francisco, CA, December 15-19",
     "doi": "10.13140/RG.2.2.25513.65126",
     "year": 2008,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf"
   },
   {
     "authors": "Vesselinov, V.V.",
-    "source": "Uncertainties in Transient Capture-Zone Estimates, CMWR 2006 XVI International Conference on Computational Methods in Water Resources, Copenhagen, Denmark, June 18-22",
-    "doi": "10.13140/RG.2.2.28869.09446",
+    "title": "Uncertainties in Transient Capture-Zone Estimates",
+	"source": "Conference on Computational Methods in Water Resources (CMWR), Copenhagen, Denmark",
+    "doi": null,
     "year": 2006,
     "url": "https://gitlab.com/monty/monty.gitlab.io/raw/master/presentations/vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf"
   },
   {
-    "authors": null,
-    "title": "omalley sensitivityanalysis LAUR 13-29246",
-    "source": null,
-    "year": null,
+    "authors": "O'Malley, D., Vesselinov, V.V.",
+    "title": "What Matters When and Where For Anomalous Dispersion/Diffusion",
+    "source": "AGU Fall Meeting, San Francisco, CA",
+    "year": "2013",
     "url": "https://montyv.github.io/presentations/omalley_sensitivityanalysis_LAUR_13-29246.pdf"
   }
 ]
