@@ -12,6 +12,15 @@
     ]
   },
   {
+    "authors": "V. Vesselinov, H. Jasperson, T. Kliphuis",
+    "title": "Laying the groundwork for a greener future: ML for characterizing and managing geologic reservoirs",
+    "year": 2024,
+    "url": "https://montyv.github.io/presentations/vesselinov 2024 Laying the groundwork for a greener future ML for characterizing and managing geologic reservoirs.pdf",
+    "envitrace_labels": [
+		"geoml",
+		"smarttensors"]
+  },
+  {
     "authors": "T. Kliphuis, V. Vesselinov",
     "title": "GAIA: Cloud Framework for Geospatial Artificial Intelligence Analyses",
     "source": "HydroML 2025, University of California, Irvine",
@@ -22,6 +31,17 @@
       "gaia",
       "geoml"
     ]
+  },
+  {
+    "authors": "V. Vesselinov, T. Kliphuis",
+    "title": "When Earth Meets AI",
+    "source": "RealmIQ El Sailon, Santa Fe, New Mexico",
+    "year": 2025,
+    "url": "https://montyv.github.io/presentations/vesselinov kliphuis 2025 When Earth meets AI.pdf",
+    "envitrace_labels": [
+		"geoml",
+		"smarttensors"
+	]
   },
   {
     "authors": "V. Vesselinov, R. Yang, A. Markowitz, T. Kliphuis",
@@ -711,8 +731,8 @@
   {
     "authors": "V. Vesselinov, D. Katzman, D. Broxton, K. Birdsell, S. Reneau, D. Vaniman, P. Longmire, J. Fabryka-Martin, J. Heikoop, M. Ding, D. Hickmott, E. Jacobs, T. Goering, D. Harp, P. Mishra",
     "title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
-	"source": "Waste Management Symposium",
-	"doi": "10.13140/RG.2.2.10414.15686",
+    "source": "Waste Management Symposium",
+    "doi": "10.13140/RG.2.2.10414.15686",
     "year": 2013,
     "url": "https://montyv.github.io/presentations/vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf",
     "envitrace_labels": [
