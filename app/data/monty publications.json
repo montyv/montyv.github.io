@@ -1,22 +1,31 @@
 [
   {
-    "authors": "Markowitz, A., Abuaamoud, R., Ben Ayed, S., Rupe, A., Yang, R., Kliphuis, T., Vesselinov, V.",
+    "authors": "A. Markowitz, R. Abuaamoud, S. Ben Ayed, A. Rupe, R. Yang, T. Kliphuis, V. Vesselinov",
     "title": "AI-augmented geothermal model for scalable energy uncertainties in buildings",
     "source": "Scientific Reports",
     "doi": "10.1038/s41598-026-40837-4",
     "year": 2026,
-    "url": "https://doi.org/10.1038/s41598-026-40837-4"
+    "url": "https://doi.org/10.1038/s41598-026-40837-4",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Lara, P., Ranasinghe, N.R., Vesselinov, V.V., Johnson, C.W.",
+    "authors": "P. Lara, N.R. Ranasinghe, V.V. Vesselinov, C.W. Johnson",
     "title": "Deep-Embedded-Clustering of Microseismicity Identifies Multiple Failure Mechanisms at The Geysers Geothermal Field",
     "source": "Geophysics (submitted)",
     "doi": "10.22541/essoar.177265440.06972526/v1",
     "year": 2026,
-    "url": "https://doi.org/10.22541/essoar.177265440.06972526/v1"
+    "url": "https://doi.org/10.22541/essoar.177265440.06972526/v1",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "lapis"
+    ]
   },
   {
-    "authors": "Jafarov, E.E., Genet, H., Vesselinov, V.V., Briones, V., Kabeer, A., Mullen, A.L., Maglio, B., Carman, T., Rutter, R., Clein, J., Chang, C.-C., Teber, D., Smith, T., Rady, J.M., Schädel, C., Watts, J.D., Rogers, B.M., Natali, S.M.",
+    "authors": "E.E. Jafarov, H. Genet, V.V. Vesselinov, V. Briones, A. Kabeer, A.L. Mullen, B. Maglio, T. Carman, R. Rutter, J. Clein, C.-C. Chang, D. Teber, T. Smith, J.M. Rady, C. Schädel, J.D. Watts, B.M. Rogers, S.M. Natali",
     "title": "Estimation of above- and below-ground ecosystem parameters for DVM-DOS-TEM v0.7.0 using MADS v1.7.3",
     "source": "Geoscientific Model Development",
     "doi": "10.5194/gmd-18-3857-2025",
@@ -24,46 +33,68 @@
     "url": "https://doi.org/10.5194/gmd-18-3857-2025"
   },
   {
-    "authors": "Kliphuis, T.L., Markowitz, A., Yang, R., Vesselinov, V.V.",
+    "authors": "T.L. Kliphuis, A. Markowitz, R. Yang, V.V. Vesselinov",
     "title": "GeoDAWN To GeoTGo: From Complex Data To Decisions Related To Geothermal Prospectivity",
     "source": "Stanford Geothermal Workshop, Stanford, CA",
     "doi": null,
     "year": 2025,
-    "url": "https://montyv.github.io/papers/Kliphuis 2025 GeoDAWN To GeoTGo From Complex Data To Decisions Related To Geothermal"
+    "url": "https://montyv.github.io/papers/Kliphuis 2025 GeoDAWN To GeoTGo From Complex Data To Decisions Related To Geothermal",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Jasperson, H., Kliphuis, T.L.",
+    "authors": "V.V. Vesselinov, H. Jasperson, T.L. Kliphuis",
     "title": "Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive Geothermal Development",
     "source": "Stanford Geothermal Workshop, Stanford, CA",
     "doi": null,
     "year": 2024,
-    "url": "https://montyv.github.io/papers/Vesselinov 2024 Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2024 Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Kliphuis, T.L.",
+    "authors": "V.V. Vesselinov, T.L. Kliphuis",
     "title": "ChemML: Physics-Informed AI/ML of Geochemical Datasets for Characterization, Parameterization, and Prediction of Contaminant Transport and Remediation Processes",
     "source": "DOE",
     "year": 2023,
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K5pN4JAAAAAJ&citation_for_view=K5pN4JAAAAAJ:9yKSN-GCB0IC"
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K5pN4JAAAAAJ&citation_for_view=K5pN4JAAAAAJ:9yKSN-GCB0IC",
+    "envitrace_labels": [
+      "chemml",
+      "geoml",
+      "waste"
+    ]
   },
   {
-    "authors": "O'Malley, D., Greer, S.Y., Pachalieva, A., Hao, W., Harp, D., Vesselinov, V.V.",
+    "authors": "D. O'Malley, S.Y. Greer, A. Pachalieva, W. Hao, D. Harp, V.V. Vesselinov",
     "title": "DPFEHM: a differentiable subsurface physics simulator",
     "source": "Journal of Open Source Software",
     "doi": "10.21105/joss.04560",
     "year": 2023,
-    "url": "https://doi.org/10.21105/joss.04560"
+    "url": "https://doi.org/10.21105/joss.04560",
+    "envitrace_labels": [
+      "carbon",
+      "geoml",
+      "hydrogen"
+    ]
   },
   {
-    "authors": "Mudunuru, M., Ahmmed, B., Rau, E., Vesselinov, V.V., Karra, S.",
+    "authors": "M. Mudunuru, B. Ahmmed, E. Rau, V.V. Vesselinov, S. Karra",
     "title": "Machine Learning for Geothermal Resource Exploration in Tularosa Basin, New Mexico",
-	"source": "Energies",
+    "source": "Energies",
     "doi": "10.3390/en16073098",
     "year": 2023,
-    "url": "https://montyv.github.io/papers/Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf"
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Solander, K.C., Talsma, C.J., Vesselinov, V.V.",
+    "authors": "K.C. Solander, C.J. Talsma, V.V. Vesselinov",
     "title": "The drivers and predictability of wildfire re-burns in the western United States (US)",
     "source": "Environ. Res.: Climate 2",
     "doi": "10.1088/2752-5295/acb079",
@@ -72,66 +103,97 @@
   },
   {
     "title": "A Progress Report on GeoThermalCloud: Framework An Open-Source Machine Learning Based Tool for Discovery, Exploration, and Development of Hidden Geothermal Resources",
-    "authors": "Ahmmed, B., Mudunuru, M.K., Frash, L.P., Vesselinov, V.V.",
+    "authors": "B. Ahmmed, M.K. Mudunuru, L.P. Frash, V.V. Vesselinov",
     "source": "Stanford Geothermal Workshop, Stanford, CA",
     "year": "2022",
-    "url": "https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2023/Ahmmed1.pdf"
+    "url": "https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2023/Ahmmed1.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Bennett, J., Ogland-Hand, J., Cox, K., Johnson, P., Middleton, E., Pompilio, A., Samal, S., Talsma, C., Vesselinov, V.V., Ellett, K., Middleton, R.",
+    "authors": "J. Bennett, J. Ogland-Hand, K. Cox, P. Johnson, E. Middleton, A. Pompilio, S. Samal, C. Talsma, V.V. Vesselinov, K. Ellett, R. Middleton",
     "title": "Beam Me Up SCO2TPRO: A Comparison to the FE/NETL CO2 Saline Storage Cost Model and Updates on Tool Development",
     "source": "SSRN Electronic Journal",
     "doi": "10.2139/ssrn.4275200",
     "year": 2022,
-    "url": "https://doi.org/10.2139/ssrn.4275200"
+    "url": "https://doi.org/10.2139/ssrn.4275200",
+    "envitrace_labels": [
+      "carbon"
+    ]
   },
   {
-    "authors": "Talsma, C.J., Bennett, K.E., Vesselinov, V.V.",
+    "authors": "C.J. Talsma, K.E. Bennett, V.V. Vesselinov",
     "title": "Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised Machine Learning",
     "source": "Earth and Space Science",
     "doi": "10.1029/2021ea002086",
     "year": 2022,
-    "url": "https://doi.org/10.1029/2021ea002086"
+    "url": "https://doi.org/10.1029/2021ea002086",
+    "envitrace_labels": [
+      "wefx"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R.",
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
     "title": "Discovering hidden geothermal signatures using non-negative matrix factorization with customized k-means clustering",
     "source": "Geothermics",
     "doi": "10.1016/j.geothermics.2022.102576",
     "year": 2022,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R.",
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
     "title": "GeoThermalCloud: Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources",
     "source": "Stanford Geothermal Workshop, Stanford, CA",
     "doi": null,
     "year": 2022,
-    "url": "https://montyv.github.io/papers/Vesselinov 2022 GeoThermalCloud Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2022 GeoThermalCloud Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Mudunuru, M., Vesselinov, V.V., Ahmmed, B.",
+    "authors": "M. Mudunuru, V.V. Vesselinov, B. Ahmmed",
     "title": "GeoThermalCloud: Machine learning for geothermal resource exploration",
     "source": "Journal of Machine Learning for Modeling and Computing",
     "doi": "10.1615/JMachLearnModelComput.2022046445",
     "year": 2022,
-    "url": "https://montyv.github.io/papers/Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf"
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Wu, H., O'Malley, D., Golden, J.K., Vesselinov, V.V.",
+    "authors": "H. Wu, D. O'Malley, J.K. Golden, V.V. Vesselinov",
     "title": "Inverse Analysis with Variational Autoencoders: A Comparison of Shallow and Deep Networks",
     "source": "Journal of Machine Learning for Modeling and Computing",
     "doi": "10.1615/JMachLearnModelComput.2022042093",
     "year": 2022,
-    "url": "https://montyv.github.io/papers/Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf"
+    "url": "https://montyv.github.io/papers/Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Ahmmed, B, Vesselinov, V.V.",
+    "authors": "B. Ahmmed, V.V. Vesselinov",
     "title": "Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin",
     "source": "Renewable Energy",
     "doi": "10.1016/j.renene.2022.08.024",
     "year": 2022,
-    "url": "https://montyv.github.io/papers/Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf"
+    "url": "https://montyv.github.io/papers/Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "geoml",
+      "geotgo"
+    ]
   },
   {
     "authors": "V. Vesselinov, M. Mudunuru, B. Ahmmed, S. Karra, D. O'Malley",
@@ -139,42 +201,57 @@
     "source": "Machine Learning Applications in Subsurface Energy Resource Management",
     "doi": "10.1201/9781003207009-6",
     "year": 2022,
-    "url": "https://doi.org/10.1201/9781003207009-6"
+    "url": "https://doi.org/10.1201/9781003207009-6",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Rupe, A., Vesselinov, V.V., Crutchfield, J.P.",
-	"title": "Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems",
+    "authors": "A. Rupe, V.V. Vesselinov, J.P. Crutchfield",
+    "title": "Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems",
     "source": "New Journal of Physics",
     "doi": "10.1088/1367-2630/ac95b7",
     "year": 2022,
     "url": "https://montyv.github.io/papers/Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf"
   },
   {
-    "authors": "Ahmmed, B., Vesselinov, V.V., Mudunuru, M.K.",
+    "authors": "B. Ahmmed, V.V. Vesselinov, M.K. Mudunuru",
     "title": "SmartTensors: Unsupervised and physics-informed machine learning framework for the geoscience applications",
     "source": "Second International Meeting for Applied Geoscience & Energy",
     "doi": "10.1190/image2022-w8-01.1",
     "year": 2022,
-    "url": "https://doi.org/10.1190/image2022-w8-01.1"
+    "url": "https://doi.org/10.1190/image2022-w8-01.1",
+    "envitrace_labels": [
+      "geoml",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Ahmmed, M., Vesselinov, V.V.",
+    "authors": "M. Ahmmed, V.V. Vesselinov",
     "title": "Machine learning and a process model to better characterize hidden geothermal resources",
     "source": "GRC Transactions, Reno, Nevada, June 2022",
     "doi": null,
     "year": 2022,
-    "url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources"
+    "url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Ahmmed, B, Mudunuru, M.K., Karra, S., James, S.C., Vesselinov, V.V.",
+    "authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, S.C. James, V.V. Vesselinov",
     "title": "A comparative study of machine learning models for predicting the state of reactive mixing",
     "source": "Journal of Computational Physics",
     "doi": "10.1016/j.jcp.2021.110147",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf"
+    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
+    "envitrace_labels": [
+      "chemml"
+    ]
   },
   {
-    "authors": "Morra, G., Bozdag, E., Knepley, M., Rass, L., Vesselinov, V.V.",
+    "authors": "G. Morra, E. Bozdag, M. Knepley, L. Rass, V.V. Vesselinov",
     "title": "A Tectonic Shift in Analytics and Computing Is Coming",
     "source": "AGU EOS",
     "doi": "10.1029/2021EO159258",
@@ -182,31 +259,43 @@
     "url": "https://montyv.github.io/papers/Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf"
   },
   {
-    "authors": "Fleming, S.W., Vesselinov, V.V., Goodbody, A.G.",
+    "authors": "S.W. Fleming, V.V. Vesselinov, A.G. Goodbody",
     "title": "Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach",
     "source": "Journal of Hydrology",
     "doi": "10.1016/j.jhydrol.2021.126327",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf"
+    "url": "https://montyv.github.io/papers/Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
+    "envitrace_labels": [
+      "wefx",
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Ahmmed, B., Mudunuru, M., Karra, S., Middleton, R.",
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
     "title": "Discovering the Hidden Geothermal Signatures of Southwest New Mexico",
     "source": "World Geothermal Congress, Reykjavik, Iceland",
     "doi": null,
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "O'Malley, D., Golden, J.K., Vesselinov, V.V.",
+    "authors": "D. O'Malley, J.K. Golden, V.V. Vesselinov",
     "title": "Learning to regularize with a variational autoencoder for hydrologic inverse analysis",
     "source": "arXiv",
     "doi": "arXiv:1906.02401v1",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf"
+    "url": "https://montyv.github.io/papers/O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Fleming, S.W., Watson, J.R., Ellenson, A., Cannon, A.J., Vesselinov, V.V.",
+    "authors": "S.W. Fleming, J.R. Watson, A. Ellenson, A.J. Cannon, V.V. Vesselinov",
     "title": "Machine learning in Earth and environmental science requires education and research policy reforms",
     "source": "Nature Geoscience",
     "doi": "10.1038/s41561-021-00865-3",
@@ -214,239 +303,353 @@
     "url": "https://montyv.github.io/papers/Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf"
   },
   {
-    "authors": "Ahmmed, B, Mudunuru, M.K., Karra, S., Vesselinov, V.V.",
+    "authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, V.V. Vesselinov",
     "title": "Machine Learning to Discover Mineral Trapping Signatures due to CO2 Injection",
     "source": "International Journal of Greenhouse Gas Control",
     "doi": "10.1016/j.ijggc.2021.103382",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf"
+    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "chemml"
+    ]
   },
   {
-    "authors": "Siler, D.L., Pepin, J.D., Vesselinov, V.V., et al.",
+    "authors": "D.L. Siler, J.D. Pepin, V.V. Vesselinov, et al.",
     "title": "Machine learning to identify geologic factors associated with production in geothermal fields: A case-study using 3D geologic data, Brady geothermal field, Nevada",
     "source": "Geothermal Energy",
     "doi": "10.1186/s40517-021-00199-8",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf"
+    "url": "https://montyv.github.io/papers/Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ]
   },
   {
-    "authors": "Mehana, M., Guiltinan, E., Vesselinov, V.V., Middleton, R., Hyman, J., Kang, Q., Viswanathan, H.",
+    "authors": "M. Mehana, E. Guiltinan, V.V. Vesselinov, R. Middleton, J. Hyman, Q. Kang, H. Viswanathan",
     "title": "Machine-Learning Predictions of the Shale Wells’ Performance",
     "source": "Journal of Natural Gas Science and Engineering",
     "doi": "10.1016/j.jngse.2021.103819",
     "year": 2021,
-    "url": "https://montyv.github.io/papers/Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf"
+    "url": "https://montyv.github.io/papers/Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
+    "envitrace_labels": [
+      "petroai",
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Mudunuru, M.K., Ahmmed, B., Karra, S., Middleton, R.S.",
+    "authors": "V.V. Vesselinov, M.K. Mudunuru, B. Ahmmed, S. Karra, R.S. Middleton",
     "title": "Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning",
     "source": "Stanford Geothermal Workshop",
     "doi": null,
     "year": 2020,
-    "url": "https://montyv.github.io/papers/Vesselinov 2020 Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2020 Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Mudunuru, M.K., Viswanathan, H.S., Carey, J. W., Chen, L., Kang, Q., Karra, S., Vesselinov, V.V., Middleton, R.S., Johnson, P.A.",
+    "authors": "M.K. Mudunuru, H.S. Viswanathan, J. W. Carey, L. Chen, Q. Kang, S. Karra, V.V. Vesselinov, R.S. Middleton, P.A. Johnson",
     "title": "Subsurface energy: Flow and reactive-transport in porous and fractured media",
     "source": "Handbook of Porous Materials (invited), World Scientific Publishers",
     "doi": "10.1142/9789811223419_0004",
     "year": 2020,
-    "url": "https://montyv.github.io/papers/Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf"
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "chemml",
+      "geoml",
+      "hydrogen"
+    ]
   },
   {
-    "authors": "Alexandrov, B.S., Stanev, V., Vesselinov, V.V., Rasmussen, K.",
+    "authors": "B.S. Alexandrov, V. Stanev, V.V. Vesselinov, K. Rasmussen",
     "title": "Nonnegative tensor decomposition with custom clustering for microphase separation of block copolymers",
     "source": "Statistical Analysis and Data Mining",
     "doi": "10.1002/sam.11407",
     "year": 2019,
-    "url": "https://montyv.github.io/papers/Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf"
+    "url": "https://montyv.github.io/papers/Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Mudunuru, M., Karra, S., O'Malley, D., Alexandrov, B.S.",
+    "authors": "V.V. Vesselinov, M. Mudunuru, S. Karra, D. O'Malley, B.S. Alexandrov",
     "title": "Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing",
     "source": "Journal of Computational Physics",
     "doi": "10.1016/j.jcp.2019.05.039",
     "year": 2019,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Lopez, C.A, Vesselinov, V.V., Gnanakaran, S., Alexandrov, B.S.",
+    "authors": "C.A. Lopez, V.V. Vesselinov, S. Gnanakaran, B.S. Alexandrov",
     "title": "Unsupervised Machine Learning for Analysis of Coexisting Lipid Phases and Domain Growth in Biological Membranes",
     "source": "J. Chem. Theory Comput.",
     "doi": "10.1021/acs.jctc.9b00074",
     "year": 2019,
-    "url": "https://montyv.github.io/papers/Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf"
+    "url": "https://montyv.github.io/papers/Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Hansen, S.K., He, J., Vesselinov, V.V.",
+    "authors": "S.K. Hansen, J. He, V.V. Vesselinov",
     "title": "Characterizing the impact of model error in hydrologic time series recovery inverse problems",
     "source": "Advances in Water Resources",
     "doi": "10.1017/j.advwatres.2017.146.R2",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Hansen, S.K., Haslauer, C.P., Cirpka, O.A., Vesselinov, V.V.",
+    "authors": "S.K. Hansen, C.P. Haslauer, O.A. Cirpka, V.V. Vesselinov",
     "title": "Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields",
     "source": "Water Resources Research",
     "doi": "10.1002/2017WR020450",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Stanev, V.G., Iliev, F.L., Hansen, S.K., Vesselinov, V.V., Alexandrov, B.S.",
+    "authors": "V.G. Stanev, F.L. Iliev, S.K. Hansen, V.V. Vesselinov, B.S. Alexandrov",
     "title": "Identification of the release sources in advection-diffusion system by machine learning combined with Green function inverse method",
     "source": "Applied Mathematical Modelling",
     "doi": "10.1016/j.apm.2018.03.006",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf"
+    "url": "https://montyv.github.io/papers/Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ]
   },
   {
-    "authors": "Lu, Z., Vesselinov, V.V., Lei, H.",
+    "authors": "Z. Lu, V.V. Vesselinov, H. Lei",
     "title": "Identifying Arbitrary Parameter Zonation using Multiple Level Set Functions",
     "source": "Journal of Computational Physics",
     "doi": "10.1016/j.jcp.2018.03.016",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf"
+    "url": "https://montyv.github.io/papers/Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "wells"
+    ]
   },
   {
-    "authors": "Telfeyan, K., Migdisov, A.A., Pandey, S., Vesselinov, V.V., Reimus, P.W.",
+    "authors": "K. Telfeyan, A.A. Migdisov, S. Pandey, V.V. Vesselinov, P.W. Reimus",
     "title": "Long-term stability of dithionite in alkaline anaerobic aqueous solution",
     "source": "Applied Geochemistry",
     "doi": "10.1016/j.apgeochem.2018.12.015",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf"
+    "url": "https://montyv.github.io/papers/Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ]
   },
   {
-    "authors": "Qian, E., Peherstorfer, B., O'Malley, D., Vesselinov, V.V., Wilcox, K.",
+    "authors": "E. Qian, B. Peherstorfer, D. O'Malley, V.V. Vesselinov, K. Wilcox",
     "title": "Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices",
     "source": "SIAM Journal on Uncertainty Quantification",
     "doi": "10.1137/17M1151006",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf"
+    "url": "https://montyv.github.io/papers/Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Iliev, F.L., Stanev, V.G., Vesselinov, V.V., Alexandrov, B.S.",
+    "authors": "F.L. Iliev, V.G. Stanev, V.V. Vesselinov, B.S. Alexandrov",
     "title": "Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals",
     "source": "PLoS ONE",
     "doi": "10.1371/journal.pone.0193974",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf"
+    "url": "https://montyv.github.io/papers/Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Alexandrov, B.S., O'Malley, D.",
+    "authors": "V.V. Vesselinov, B.S. Alexandrov, D. O'Malley",
     "title": "Nonnegative Tensor Factorization for Contaminant Source Identification",
     "source": "Journal of Contaminant Hydrology",
     "doi": "10.1016/j.jconhyd.2018.11.010",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ]
   },
   {
-    "authors": "O'Malley, D., Vesselinov, V.V., Alexandrov, B.S., Alexandrov, L.B.",
+    "authors": "D. O'Malley, V.V. Vesselinov, B.S. Alexandrov, L.B. Alexandrov",
     "title": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
     "source": "PlosOne",
     "doi": "10.1371/journal.pone.0206653",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/OMalley et al 2017 Nonnegative:binary matrix factorization with a D-Wave quantum annealer.pdf"
+    "url": "https://montyv.github.io/papers/OMalley et al 2017 Nonnegative:binary matrix factorization with a D-Wave quantum annealer.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Lin, Y., O'Malley, D., Vesselinov, V.V., Guthrie, G.D, Coblentz, D.",
+    "authors": "Y. Lin, D. O'Malley, V.V. Vesselinov, G.D Guthrie, D. Coblentz",
     "title": "Randomization in Characterizing the Subsurface",
     "source": "SIAM News",
     "doi": null,
     "year": 2018,
-    "url": "https://www.siam.org/publications/siam-news/articles/randomization-in-characterizing-the-subsurface"
+    "url": "https://www.siam.org/publications/siam-news/articles/randomization-in-characterizing-the-subsurface",
+    "envitrace_labels": [
+      "geoml",
+      "hydrogen",
+      "mads",
+      "minerals"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Mudunuru. M., Karra, S., O'Malley, D., Alexandrov",
+    "authors": "V.V. Vesselinov, Karra Mudunuru. M., O'Malley S., Alexandrov D.",
     "title": "Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs",
     "source": "Computational Methods in Water Resources (CMWR), Saint-Malo, France",
     "doi": "10.13140/RG.2.2.27777.92005",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf"
+    "url": "https://montyv.github.io/papers/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Stanev, V., Vesselinov, V.V., Kusne, A.G., Antoszewski, G., Takeuchi,I., Alexandrov, B.A.",
+    "authors": "V. Stanev, V.V. Vesselinov, A.G. Kusne, G. Antoszewski, I. Takeuchi, B.A. Alexandrov",
     "title": "Unsupervised Phase Mapping of X-ray Diffraction Data by Nonnegative Matrix Factorization Integrated with Custom Clustering",
     "source": "Nature Computational Materials",
     "doi": "10.1038/s41524-018-0099-2",
     "year": 2018,
-    "url": "https://montyv.github.io/papers/Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf"
+    "url": "https://montyv.github.io/papers/Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
+    "envitrace_labels": [
+      "minerals",
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Bakarji, J., Vesselinov, V.V., O’Malley, D.",
+    "authors": "J. Bakarji, V.V. Vesselinov, D. O’Malley",
     "title": "Agent-based Socio-hydrological Hybrid Modeling for Water Resource Management",
     "source": "Water Resources Management",
     "doi": "10.1007/s11269-017-1713-7",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf"
+    "url": "https://montyv.github.io/papers/Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wefx"
+    ]
   },
   {
-    "authors": "Hansen, S.K., Pandey, S., Karra, S., Vesselinov, V.V.",
+    "authors": "S.K. Hansen, S. Pandey, S. Karra, V.V. Vesselinov",
     "title": "CHROTRAN 1.0: A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers",
     "source": "Geoscientific Model Development",
     "doi": "10.5194/gmd-10-4525-2017",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., O'Malley, D., Alexandrov, B.S.",
+    "authors": "V.V. Vesselinov, D. O'Malley, B.S. Alexandrov",
     "title": "Contaminant source identification using semi-supervised machine learning",
     "source": "Journal of Contaminant Hydrology",
     "doi": "10.1016/j.jconhyd.2017.11.002",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ]
   },
   {
-    "authors": "Hansen, S.K., Vesselinov, V.V., Reimus, P., Lu, Z.",
+    "authors": "S.K. Hansen, V.V. Vesselinov, P. Reimus, Z. Lu",
     "title": "Inferring subsurface heterogeneity from push-drift tracer tests",
     "source": "Water Resources Research",
     "doi": "10.1002/2017WR020852R",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Zhang, X., Vesselinov, V.V.",
+    "authors": "X. Zhang, V.V. Vesselinov",
     "title": "Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus",
     "source": "Advances in Water Resources",
     "doi": "10.1016/j.advwatres.2016.12.017",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf"
+    "url": "https://montyv.github.io/papers/Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
+    "envitrace_labels": [
+      "wefx"
+    ]
   },
   {
-    "authors": "Lin, Y, Le, E.B, O'Malley, D., Vesselinov, V.V., Bui-Thanh, T.",
+    "authors": "Y. Lin, E.B. Le, D. O'Malley, V.V. Vesselinov, T. Bui-Thanh",
     "title": "Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction",
     "source": "Water Resources Research",
     "doi": "10.1002/2016WR020299RRR",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf"
+    "url": "https://montyv.github.io/papers/Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Hansen, S.K., Vesselinov, V.V.",
+    "authors": "S.K. Hansen, V.V. Vesselinov",
     "title": "Local equilibrium and retardation revisited",
     "source": "Groundwater",
     "doi": "10.1111/gwat.12551",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
+    "envitrace_labels": [
+      "chemml"
+    ]
   },
   {
-    "authors": "Zhang, X., Sun, A.Y., Duncan, I.J., Vesselinov, V.V.",
+    "authors": "X. Zhang, A.Y. Sun, I.J. Duncan, V.V. Vesselinov",
     "title": "Two-Stage Fracturing Wastewater Management in Shale Gas Development",
     "source": "Ind. Eng. Chem. Res.",
     "doi": "10.1021/acs.iecr.6b03971",
     "year": 2017,
-    "url": "https://montyv.github.io/papers/Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf"
+    "url": "https://montyv.github.io/papers/Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
+    "envitrace_labels": [
+      "petroai",
+      "waste",
+      "wefx"
+    ]
   },
   {
-    "authors": "Lin, Y, O'Malley, D., Vesselinov, V.V.",
+    "authors": "Y. Lin, D. O'Malley, V.V. Vesselinov",
     "title": "A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses",
     "source": "Water Resources Research",
     "doi": "10.1002/2016WR019028",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf"
+    "url": "https://montyv.github.io/papers/Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Throckmorton, H., Newman, B., Heikoop, J., Perkins, G., Feng, X., Graham, D., O'Malley, D., Vesselinov, V.V., Young, J., Wullschleger, S., Wilson, C.",
+    "authors": "H. Throckmorton, B. Newman, J. Heikoop, G. Perkins, X. Feng, D. Graham, D. O'Malley, V.V. Vesselinov, J. Young, S. Wullschleger, C. Wilson",
     "title": "Active layer hydrology in an arctic tundra ecosystem: quantifying water sources and cycling using water stable isotopes",
     "source": "Hydrological Processes",
     "doi": "10.1002/hyp.10883",
@@ -454,63 +657,90 @@
     "url": "https://montyv.github.io/papers/Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf"
   },
   {
-    "authors": "Hansen, S.K., Vesselinov, V.V.",
+    "authors": "S.K. Hansen, V.V. Vesselinov",
     "title": "Contaminant point source localization error estimates as functions of data quantity and model quality",
     "source": "Journal of Contaminant Hydrology",
     "doi": "10.1016/j.jconhyd.2016.09.003",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf"
+    "url": "https://montyv.github.io/papers/Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Grasinger, M., O'Malley, D., Vesselinov, V.V., Karra, S.",
+    "authors": "M. Grasinger, D. O'Malley, V.V. Vesselinov, S. Karra",
     "title": "Decision Analysis for Robust CO2 Injection: Application of Bayesian-Information-Gap Decision Theory",
     "source": "International Journal of Greenhouse Gas Control",
     "doi": "10.1016/j.ijggc.2016.02.017",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/Grasinger et al 2016 Decision analysis for robust CO2 injection Application of Bayesian-Information-Gap Decision Theory.pdf"
+    "url": "https://montyv.github.io/papers/Grasinger et al 2016 Decision analysis for robust CO2 injection Application of Bayesian-Information-Gap Decision Theory.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "mads"
+    ]
   },
   {
-    "authors": "Zhang, X., Vesselinov, V.V.",
+    "authors": "X. Zhang, V.V. Vesselinov",
     "title": "Energy-Water Nexus: Balancing the Tradeoffs between Two-Level Decision Makers",
     "source": "Applied Energy",
     "doi": "10.1016/j.apenergy.2016.08.156",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf"
+    "url": "https://montyv.github.io/papers/Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
+    "envitrace_labels": [
+      "wefx"
+    ]
   },
   {
-    "authors": "Hansen, S.K., Berkowitz, B., Vesselinov, V.V., O'Malley, D., Karra, S.",
+    "authors": "S.K. Hansen, B. Berkowitz, V.V. Vesselinov, D. O'Malley, S. Karra",
     "title": "Push-pull tracer tests: their information content and use for characterizing non-Fickian, mobile-immobile behavior",
     "source": "Water Resources Research",
     "doi": "10.1002/2016WR018769RR",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf"
+    "url": "https://montyv.github.io/papers/Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "wells"
+    ]
   },
   {
-    "authors": "O'Malley, D., Vesselinov, V.V.",
+    "authors": "D. O'Malley, V.V. Vesselinov",
     "title": "ToQ.jl: A high-level programming language for D-Wave machines based on Julia",
     "source": "IEEE High Performance Extreme Computing",
     "doi": "10.1109/HPEC.2016.7761616",
     "year": 2016,
-    "url": "https://montyv.github.io/papers/OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf"
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ]
   },
   {
-    "authors": "Lu, Z., Vesselinov, V.V.",
+    "authors": "Z. Lu, V.V. Vesselinov",
     "title": "Analytical Sensitivity Analysis of Transient Groundwater Flow in a Bounded Model Domain using Adjoint Method",
     "source": "Water Resources Research",
     "doi": "10.1002/2014WR016819",
     "year": 2015,
-    "url": "https://montyv.github.io/papers/Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf"
+    "url": "https://montyv.github.io/papers/Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V.",
+    "authors": "D. O’Malley, V.V. Vesselinov",
     "title": "Bayesian-Information-Gap Decision Theory (BIG-DT) with an application to CO2 sequestration",
     "source": "Water Resources Research",
     "doi": "10.1002/2015WR017413",
     "year": 2015,
-    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf"
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "mads"
+    ]
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V., Cushman, J.H.",
+    "authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
     "title": "Diffusive mixing and Tsallis entropy",
     "source": "Physical Review E",
     "doi": "10.1103/PhysRevE.91.042143",
@@ -518,39 +748,55 @@
     "url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf"
   },
   {
-    "authors": "Barajas-Solano, D. A., Wohlberg, B., Vesselinov, V.V., Tartakovsky, D. M.",
+    "authors": "D. A. Barajas-Solano, B. Wohlberg, V.V. Vesselinov, D. M. Tartakovsky",
     "title": "Linear Functional Minimization for Inverse Modeling",
     "source": "Water Resources Research",
     "doi": "10.1002/2014WR016179",
     "year": 2015,
-    "url": "https://montyv.github.io/papers/Barajas et al 2015 Linear functional minimization for inverse modeling.pdf"
+    "url": "https://montyv.github.io/papers/Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Mattis, S.A., Butler, T.D. Dawson, C.N., Estep, D., Vesselinov, V.V.",
+    "authors": "S.A. Mattis, T.D. Dawson Butler, Estep C.N., Vesselinov D., V.V.",
     "title": "Parameter estimation and prediction for groundwater contamination based on measure theory",
     "source": "Water Resources Research",
     "doi": "10.1002/2015WR017295",
     "year": 2015,
-    "url": "https://montyv.github.io/papers/Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf"
+    "url": "https://montyv.github.io/papers/Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V.",
+    "authors": "D. O’Malley, V.V. Vesselinov",
     "title": "A combined probabilistic/non-probabilistic decision analysis for contaminant remediation",
     "source": "Journal on Uncertainty Quantification, SIAM/ASA",
     "doi": "10.1137/140965132",
     "year": 2014,
-    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf"
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Freedman, V.L., Chen, X., Finsterle, S., Freshley, M., Gorton, I., Gosink, L., Keating, E., Lansing, C., Moeglein W., Murray C., Pau, G., Porter, E., Purohit, S., Rockhold, M., Schuchardt, K., Sivaramakrishnan, C., Vesselinov, V.V., Waichler, S.",
+    "authors": "V.L. Freedman, X. Chen, S. Finsterle, M. Freshley, I. Gorton, L. Gosink, E. Keating, C. Lansing, Murray C. Moeglein W., G. Pau, E. Porter, S. Purohit, M. Rockhold, K. Schuchardt, C. Sivaramakrishnan, V.V. Vesselinov, S. Waichler",
     "title": "A high-performance workflow system for subsurface simulation",
     "source": "Environmental Modelling & Software",
     "doi": "10.1016/j.envsoft.2014.01.030",
     "year": 2014,
-    "url": "https://montyv.github.io/papers/Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf"
+    "url": "https://montyv.github.io/papers/Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "hydrogen",
+      "mads"
+    ]
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V., Cushman, J.H.",
+    "authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
     "title": "A Method for Identifying Diffusive Trajectories with Stochastic Model",
     "source": "Journal of Statistical Physics, Springer",
     "doi": "10.1007/s10955-014-1035-6",
@@ -558,7 +804,7 @@
     "url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf"
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V.",
+    "authors": "D. O’Malley, V.V. Vesselinov",
     "title": "Analytical solutions for anomalous dispersion transport",
     "source": "Advances in Water Resources",
     "doi": "10.1016/j.advwatres.2014.02.006",
@@ -566,197 +812,283 @@
     "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf"
   },
   {
-    "authors": "Alexandrov, B., Vesselinov, V.V.",
+    "authors": "B. Alexandrov, V.V. Vesselinov",
     "title": "Blind source separation for groundwater level analysis based on non-negative matrix factorization",
     "source": "Water Resources Research",
     "doi": "10.1002/2013WR015037",
     "year": 2014,
-    "url": "https://montyv.github.io/papers/Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf"
+    "url": "https://montyv.github.io/papers/Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
+    "envitrace_labels": [
+      "smarttensors",
+      "wells"
+    ]
   },
   {
-    "authors": "O’Malley, D., Vesselinov, V.V.",
+    "authors": "D. O’Malley, V.V. Vesselinov",
     "title": "Groundwater remediation using the information gap decision theory",
     "source": "Water Resources Research",
     "doi": "10.1002/2013WR014718",
     "year": 2014,
-    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf"
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Heikoop, J.M., Johnson, T.M., Birdsell, K.H., Longmire, P., Hickmott, D.D., Jacobs, E.P., Broxton, D.E., Katzman, D., Vesselinov, V.V., Ding, M., Vaniman, D.T., Reneau, S.L., Goering, T.J., Glessner, J., Basu, A.",
+    "authors": "J.M. Heikoop, T.M. Johnson, K.H. Birdsell, P. Longmire, D.D. Hickmott, E.P. Jacobs, D.E. Broxton, D. Katzman, V.V. Vesselinov, M. Ding, D.T. Vaniman, S.L. Reneau, T.J. Goering, J. Glessner, A. Basu",
     "title": "Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater",
     "source": "Chemical Geology",
     "doi": "10.1016/j.chemgeo.2014.02.022",
     "year": 2014,
-    "url": "https://montyv.github.io/papers/Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf"
+    "url": "https://montyv.github.io/papers/Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., O'Malley, D., Katzman, D.",
+    "authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
     "title": "Robust Decision Analysis for Environmental Management of Groundwater Contamination Sites",
     "source": "Vulnerability, Uncertainty, and Risk Quantification, Mitigation, and Management",
     "doi": "10.1061/9780784413609.197",
     "year": 2014,
-    "url": "http://ascelibrary.org/doi/abs/10.1061/9780784413609.197"
+    "url": "http://ascelibrary.org/doi/abs/10.1061/9780784413609.197",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Harp, D.R., Vesselinov, V.V.",
+    "authors": "D.R. Harp, V.V. Vesselinov",
     "title": "Accounting for the influence of aquifer heterogeneity on spatial propagation of pumping drawdown",
     "source": "Journal of Water Resource and Hydraulic Engineering",
     "doi": null,
     "year": 2013,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 exp.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 exp.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Katzman, D., Broxton, D., Birdsell, K., Reneau, S., Vaniman, D., Longmire, P., Fabryka-Martin, J., Heikoop, J., Ding, M., Hickmott, D., Jacobs, E., Goering, T., Harp, D.R., Mishra, P.",
+    "authors": "V.V. Vesselinov, D. Katzman, D. Broxton, K. Birdsell, S. Reneau, D. Vaniman, P. Longmire, J. Fabryka-Martin, J. Heikoop, M. Ding, D. Hickmott, E. Jacobs, T. Goering, D.R. Harp, P. Mishra",
     "title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
     "source": "Waste Management Symposium, Phoenix, AZ",
     "doi": null,
     "year": 2013,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Harp, D.",
+    "authors": "V.V. Vesselinov, D. Harp",
     "title": "Adaptive hybrid optimization strategy for calibration and parameter estimation of physical models",
     "source": "Computers & Geosciences",
     "doi": "10.1016/j.cageo.2012.05.027",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Pau, G., Finsterle, S",
+    "authors": "V.V. Vesselinov, G. Pau, . Finsterle",
     "title": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments",
     "source": "Computational Methods in Water Resources (CMWR)",
     "doi": null,
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Harp, D., Vesselinov, V.V.",
+    "authors": "D. Harp, V.V. Vesselinov",
     "title": "An agent-based approach to global uncertainty and sensitivity analysis",
     "source": "Computers & Geosciences",
     "doi": "10.1016/j.cageo.2011.06.025",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 abagus.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 abagus.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Harp, D., Vesselinov, V.V.",
+    "authors": "D. Harp, V.V. Vesselinov",
     "title": "Analysis of hydrogeological structure uncertainty by estimation of hydrogeological acceptance probability of geostatistical models",
     "source": "Special issue of Uncertainty Quantification (invited), Advances in Water Resources",
     "doi": "10.1016/j.advwatres.2011.06.007",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 geosampler.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 geosampler.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Harp, D., Vesselinov, V.V.",
+    "authors": "D. Harp, V.V. Vesselinov",
     "title": "Contaminant remediation decision analysis using information gap theory",
     "source": "Stochastic Environmental Research and Risk Assessment (SERRA)",
     "doi": "10.1007/s00477-012-0573-1",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Mishra, P.K., Gupta, H.V., Vesselinov, V.V.",
+    "authors": "P.K. Mishra, H.V. Gupta, V.V. Vesselinov",
     "title": "On simulation and analysis of variable-rate pumping tests",
     "source": "Ground Water",
     "doi": "10.1111/j.1745-6584.2012.00961.x",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Mishra et al 2012 Variable Rate GW.pdf"
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Variable Rate GW.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Mishra, P.K., Vesselinov, V.V., Neuman, S.P.",
+    "authors": "P.K. Mishra, V.V. Vesselinov, S.P. Neuman",
     "title": "Radial flow to a partially penetrating well with storage in an anisotropic confined aquifer",
     "source": "Journal of Hydrology",
     "doi": "10.1016/j.jhydrol.2012.05.010",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Mishra et al 2012 Confined aquifer JH.pdf"
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Confined aquifer JH.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Mishra, P.K., Vesselinov, V.V., Kuhlmna, K.L.",
+    "authors": "P.K. Mishra, V.V. Vesselinov, K.L. Kuhlmna",
     "title": "Saturated–unsaturated flow in a compressible leaky-unconfined aquifer",
     "source": "Advances in Water Resources",
     "doi": "10.1016/j.advwatres.2012.03.007",
     "year": 2012,
-    "url": "https://montyv.github.io/papers/Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf"
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Mishra, P.K., Vesselinov, V.V.",
+    "authors": "P.K. Mishra, V.V. Vesselinov",
     "title": "Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer",
     "source": "arXiv",
     "doi": "arXiv:1110.5940",
     "year": 2011,
-    "url": "https://montyv.github.io/papers/Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf"
+    "url": "https://montyv.github.io/papers/Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V., Harp, D.",
+    "authors": "V.V. Vesselinov, D. Harp",
     "title": "Decision support based on uncertainty quantification of model predictions of contaminant transport",
     "source": "Computational Methods in Water Resources (CMWR), Barcelona, Spain",
     "doi": null,
     "year": 2010,
-    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2010 cmwr decision.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2010 cmwr decision.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ]
   },
   {
-    "authors": "Harp, D., Vesselinov, V.V.",
+    "authors": "D. Harp, V.V. Vesselinov",
     "title": "Identification of Pumping Influences in Long-Term Water Level Fluctuations",
     "source": "Ground Water",
     "doi": "10.1111/j.1745-6584.2010.00725.x",
     "year": 2010,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 gw.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 gw.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Morales-Casique, E, Neuman, S.P., Vesselinov, V.V.",
+    "authors": "E. Morales-Casique, S.P. Neuman, V.V. Vesselinov",
     "title": "Maximum Likelihood Bayesian Averaging of air flow models in unsaturated fractured tuff using Occam and variance windows",
-	"source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
+    "source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
     "doi": "10.1007/s00477-010-0383-2",
     "year": 2010,
-    "url": "https://montyv.github.io/papers/Morales et al 2010 MLBA serra.pdf"
+    "url": "https://montyv.github.io/papers/Morales et al 2010 MLBA serra.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Harp, D., Vesselinov, V.V.",
+    "authors": "D. Harp, V.V. Vesselinov",
     "title": "Stochastic inverse method for estimation of geostatistical representation of hydrogeologic stratigraphy using borehole logs and pressure",
     "source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
     "doi": "10.1007/s00477-010-0403-2",
     "year": 2010,
-    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 SERRA.pdf"
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 SERRA.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V.",
+    "authors": "V.V. Vesselinov",
     "title": "Uncertainties in Transient Capture-Zone Estimates of Groundwater Supply Wells",
     "source": "Journal of Contemporary Water Research & Education",
     "doi": "10.1111/j.1936-704X.2007.mp137001001.x",
     "year": 2007,
-    "url": "https://doi.org/10.1111/j.1936-704X.2007.mp137001001.x"
+    "url": "https://doi.org/10.1111/j.1936-704X.2007.mp137001001.x",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V.",
+    "authors": "V.V. Vesselinov",
     "title": "Uncertainties In Transient Capture-Zone Estimates",
     "source": "Computational Methods in Water Resources (CMWR)",
-	"ISBN": "90-5809-124-4",
+    "ISBN": "90-5809-124-4",
     "doi": null,
     "year": 2006,
-    "url": "https://montyv.github.io/papers/Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ]
   },
   {
-    "authors": "Vrugt, J.A, Robinson, B.A., Vesselinov, V.V.",
+    "authors": "J.A. Vrugt, B.A. Robinson, V.V. Vesselinov",
     "title": "Improved Inverse Modeling in Geophysics: Combined Parameter and State Estimation",
     "source": "Geophysical Research Letters",
     "doi": "10.1029/2005GL023940",
     "year": 2005,
-    "url": "https://montyv.github.io/papers/Vrugt et al 2005 GRL.pdf"
+    "url": "https://montyv.github.io/papers/Vrugt et al 2005 GRL.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   },
   {
-    "authors": "Keating, E.H., Robinson, B.A., Vesselinov, V.V.",
+    "authors": "E.H. Keating, B.A. Robinson, V.V. Vesselinov",
     "title": "Development and Application of Numerical Models to Estimate Fluxes through the Regional Aquifer beneath the Pajarito Plateau",
     "source": "Vadose Zone Journal",
     "doi": "10.2136/vzj2004.0101",
     "year": 2005,
-    "url": "https://montyv.github.io/papers/Vrugt et al 2007 VZJ.pdf"
+    "url": "https://montyv.github.io/papers/Vrugt et al 2007 VZJ.pdf",
+    "envitrace_labels": [
+      "wells"
+    ]
   },
   {
-    "authors": "Vesselinov, V.V.",
+    "authors": "V.V. Vesselinov",
     "title": "Estimation of parameter uncertainty using inverse model sensitivities",
     "source": "Computational Methods in Water Resources (CMWR), Elsevier",
     "ISBN": "0-444-51839-8",
     "doi": "10.1016/S0167-5648(04)80139-4",
     "year": 2004,
-    "url": "https://montyv.github.io/papers/Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf"
+    "url": "https://montyv.github.io/papers/Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
+    "envitrace_labels": [
+      "mads"
+    ]
   }
 ]
