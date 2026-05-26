@@ -34,6 +34,7 @@ export type RawCatalogEntry = {
   title?: string | null;
   source?: string | null;
   abstract?: string | null;
+  needs_review?: boolean | null;
   doi?: string | null;
   ISBN?: string | null;
   isbn?: string | null;
