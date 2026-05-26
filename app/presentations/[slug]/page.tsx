@@ -22,7 +22,15 @@ const findEntry = (slug: string): RawCatalogEntry | undefined => {
   return entries().find((entry) => catalogEntrySlug(entry) === slug);
 };
 
+const entryAbstract = (entry: RawCatalogEntry): string | null => {
+  const abstract = String(entry.abstract ?? "").replace(/\s+/g, " ").trim();
+  return abstract || null;
+};
+
 const entryDescription = (entry: RawCatalogEntry): string => {
+  const abstract = entryAbstract(entry);
+  if (abstract) return abstract;
+
   const parts = [entry.authors, entry.source, catalogEntryYearValue(entry) ? String(catalogEntryYearValue(entry)) : null]
     .filter(Boolean)
     .map((value) => String(value).trim());
@@ -64,11 +72,13 @@ export default async function PresentationDetailPage({ params }: { params: Promi
   const link = catalogEntryLink(entry);
   const isbn = catalogEntryIsbn(entry);
   const year = catalogEntryYearValue(entry);
+  const abstract = entryAbstract(entry);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CreativeWork",
     name: title,
     headline: title,
+    ...(abstract ? { description: abstract } : {}),
     url: canonicalUrl(`${PAGE_PATH}/${slug}`),
     creator: entry.authors
       ? entry.authors.split(/\s*,\s*/).filter(Boolean).map((name) => ({ "@type": "Person", name }))
@@ -108,7 +118,14 @@ export default async function PresentationDetailPage({ params }: { params: Promi
 
       <section className="mt-8 rounded-lg border border-slate-800 p-5 text-sm text-slate-200">
         <div className="space-y-3">
-          <p>{entryDescription(entry)}</p>
+          {abstract ? (
+            <>
+              <h2 className="text-base font-semibold tracking-tight text-slate-100">Summary</h2>
+              <p>{abstract}</p>
+            </>
+          ) : (
+            <p>{entryDescription(entry)}</p>
+          )}
           {link?.href ? (
             <p>
               <a href={link.href} target="_blank" rel="noreferrer" className="hover:underline">
