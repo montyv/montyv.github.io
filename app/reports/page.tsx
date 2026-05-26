@@ -8,12 +8,15 @@ import { catalogEntrySlug, loadCanonicalCatalogIndex, loadCanonicalRawCatalogEnt
 import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 
 const reportsDescription = "Technical reports and related downloadable documents by Velimir V. Vesselinov.";
+const REPORTS_OG_IMAGE = "/reports/opengraph-image";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Reports",
   titleText: "Reports | Velimir V. Vesselinov (monty)",
   description: reportsDescription,
   pathname: "/reports",
+  imagePath: REPORTS_OG_IMAGE,
+  imageAlt: "Reports by Velimir V. Vesselinov",
   keywords: ["Velimir V. Vesselinov reports", "technical reports", "research reports"],
 });
 

@@ -50,11 +50,20 @@ const checks = [
     ],
   },
   {
+    file: path.join("app", "reports", "page.tsx"),
+    required: [
+      { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
+      { test: /imagePath:\s*REPORTS_OG_IMAGE/, message: "must use reports OG image" },
+      { test: /buildCollectionPageJsonLd\(/, message: "must include collection JSON-LD" },
+    ],
+  },
+  {
     file: path.join("app", "reports", "[slug]", "page.tsx"),
     required: [
       { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
       { test: /openGraphType:\s*"article"/, message: "must set article Open Graph type" },
       { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
+      { test: /imagePath:\s*`\$\{PAGE_PATH\}\/\$\{slug\}\/opengraph-image`/, message: "must use per-report OG image" },
     ],
   },
   {
