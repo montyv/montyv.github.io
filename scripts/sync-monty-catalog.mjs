@@ -3,8 +3,11 @@ import path from "node:path";
 
 const repoRoot = process.cwd();
 
-const PUBLICATIONS_FILE = path.join(repoRoot, "app", "data", "monty publications.json");
-const PRESENTATIONS_FILE = path.join(repoRoot, "app", "data", "monty presentations.json");
+const SHARED_DATA_DIR = process.env.MONTY_CATALOG_DATA_DIR
+  ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR)
+  : path.resolve(repoRoot, "..", "EnviTraceJS", "data");
+const PUBLICATIONS_FILE = path.join(SHARED_DATA_DIR, "monty publications.json");
+const PRESENTATIONS_FILE = path.join(SHARED_DATA_DIR, "monty presentations.json");
 const PAPERS_DIR = path.join(repoRoot, "public", "papers");
 const PRESENTATIONS_DIR = path.join(repoRoot, "public", "presentations");
 const SCHOLAR_URL = "https://scholar.google.com/citations?hl=en&user=sIFHVvwAAAAJ&view_op=list_works&sortby=pubdate";

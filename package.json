@@ -9,7 +9,7 @@
     "generate:indexes:pdf": "node scripts/generate-content-index.mjs --parse-pdfs",
     "predev": "node scripts/generate-home-sections.mjs",
     "dev": "node scripts/run-next-with-distdir.mjs dev",
-    "prebuild": "node scripts/generate-home-sections.mjs",
+    "prebuild": "node scripts/warn-missing-envitrace-catalog.mjs && node scripts/generate-home-sections.mjs",
     "build": "node scripts/run-next-with-distdir.mjs build",
     "start": "npx serve@latest out",
     "preview": "npx serve@latest out",

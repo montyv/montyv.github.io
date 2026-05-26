@@ -7,7 +7,8 @@ This site is a static Next.js export (`output: "export"`).
 Generated indexes are built from:
 
 - `legacy/index.html` (legacy lists)
-- `app/<topic>/<topic>.content.json` (curated/manual list)
+- `../EnviTraceJS/data/monty publications.json` and `../EnviTraceJS/data/monty presentations.json` (shared canonical lists used directly by the Next.js pages)
+- `app/<topic>/<topic>.content.json` (older curated/manual list; no longer the primary source for publications/presentations pages)
 - `app/<topic>/<topic>.overrides.json` (manual override list)
 - PDFs in `public/<folderKey>/*.pdf`
 
@@ -40,7 +41,13 @@ When PDF parsing is enabled, the generator tries to extract a better title/autho
 - Dev: `npm run dev`
 - Export build: `npm run build`
 
-Index generation for publications/presentations/reports JSON is **explicit-only**.
+Index generation for legacy/PDF helper JSON is **explicit-only**.
+
+The publications and presentations page builds now read the shared Monty JSON files from the sibling `EnviTraceJS/data/` directory during `npm run build`.
+
+If the sibling EnviTraceJS repo or either shared JSON file is missing, `npm run build` prints a warning before continuing.
+
+`npm run sync:catalog` and `npm run sync:catalog:scholar` also write to the shared `EnviTraceJS/data/` Monty JSON files now, not to local `app/data/` copies.
 
 - Generate legacy + PDF index JSON files: `npm run generate:indexes`
 - Generate with PDF metadata parsing: `npm run generate:indexes:pdf`

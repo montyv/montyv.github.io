@@ -45,6 +45,11 @@ type LoadCanonicalCatalogIndexOptions = {
   pdfFolderKey: string;
 };
 
+type ResolvedCatalogDataPath = {
+  absPath: string;
+  source: string;
+};
+
 const normalizeWhitespace = (value: string | null | undefined): string => {
   return String(value ?? "").replace(/\s+/g, " ").trim();
 };
@@ -274,13 +279,33 @@ export const sortCatalogItems = <T extends CuratedItem>(items: T[]): T[] => {
   });
 };
 
+const resolveCanonicalCatalogDataPath = (dataFileName: string): ResolvedCatalogDataPath | null => {
+  const envDir = process.env.MONTY_CATALOG_DATA_DIR;
+  const candidatePaths = [
+    envDir ? path.resolve(envDir, dataFileName) : null,
+    path.resolve(process.cwd(), "..", "EnviTraceJS", "data", dataFileName),
+  ].filter((value): value is string => Boolean(value));
+
+  for (const candidatePath of candidatePaths) {
+    if (fs.existsSync(candidatePath)) {
+      const relative = path.relative(process.cwd(), candidatePath).replace(/\\/g, "/");
+      return {
+        absPath: candidatePath,
+        source: relative || candidatePath.replace(/\\/g, "/"),
+      };
+    }
+  }
+
+  return null;
+};
+
 export const loadCanonicalCatalogIndex = ({ title, dataFileName, pdfFolderKey }: LoadCanonicalCatalogIndexOptions): CuratedIndex => {
-  const abs = path.join(process.cwd(), "app", "data", dataFileName);
+  const resolved = resolveCanonicalCatalogDataPath(dataFileName);
   const pdfLookup = buildPdfLookup(pdfFolderKey);
 
   let entries: RawCatalogEntry[] = [];
   try {
-    entries = JSON.parse(fs.readFileSync(abs, "utf8")) as RawCatalogEntry[];
+    entries = resolved ? (JSON.parse(fs.readFileSync(resolved.absPath, "utf8")) as RawCatalogEntry[]) : [];
   } catch {
     entries = [];
   }
@@ -305,7 +330,7 @@ export const loadCanonicalCatalogIndex = ({ title, dataFileName, pdfFolderKey }:
   return {
     schemaVersion: 1,
     generatedAt: "canonical-data",
-    source: `app/data/${dataFileName}`,
+    source: resolved?.source ?? `missing:${dataFileName}`,
     title,
     items,
   };

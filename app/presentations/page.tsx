@@ -4,7 +4,6 @@ import fs from "node:fs";
 import path from "node:path";
 
 import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, sortCatalogItems, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
-import contentData from "./presentations.content.json";
 import overridesData from "./presentations.overrides.json";
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
@@ -46,8 +45,7 @@ const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
 };
 
 const legacyIndex = readGeneratedIndex("presentations.legacy.generated.json", "Presentations");
-const contentIndex = contentData as CuratedIndex;
-const rawIndex = loadCanonicalCatalogIndex({
+const canonicalIndex = loadCanonicalCatalogIndex({
   title: "Presentations",
   dataFileName: "monty presentations.json",
   pdfFolderKey: "presentations",
@@ -90,8 +88,8 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = sortCatalogItems(mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], rawIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
-const footer = footerHtml(contentIndex) ?? footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
+const mergedItems = sortCatalogItems(mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
+const footer = footerHtml(canonicalIndex) ?? footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
 
 export default function PresentationsPage() {
   return (
@@ -100,7 +98,7 @@ export default function PresentationsPage() {
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Presentations</h1>
           <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (content: {contentIndex.items.length}, raw: {rawIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
+            {mergedItems.length} entries (canonical: {canonicalIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
           </p>
         </div>
         <nav className="flex gap-3 text-sm">
