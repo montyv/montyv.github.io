@@ -52,6 +52,7 @@ type PageMetadataOptions = {
   socialDescription?: string;
   pathname: string;
   imagePath?: string;
+  imageAlt?: string;
   openGraphType?: "website" | "article";
   keywords?: string[];
   index?: boolean;
@@ -64,12 +65,13 @@ export const buildPageMetadata = ({
   socialDescription,
   pathname,
   imagePath = DEFAULT_OG_IMAGE,
+  imageAlt = DEFAULT_OG_IMAGE_ALT,
   openGraphType = "website",
   keywords,
   index = true,
 }: PageMetadataOptions): Metadata => {
   const canonical = canonicalUrl(pathname);
-  const image = { url: assetUrl(imagePath), alt: DEFAULT_OG_IMAGE_ALT };
+  const image = { url: assetUrl(imagePath), alt: imageAlt };
 
   return {
     title,

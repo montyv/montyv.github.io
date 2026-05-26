@@ -120,6 +120,12 @@ export default function HomePage() {
             >
               <div className="font-medium">Reports</div>
             </Link>
+            <Link
+              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
+              href="/software"
+            >
+              <div className="font-medium">Software</div>
+            </Link>
           </nav>
 
           <section className="rounded-lg border border-slate-800 p-5">

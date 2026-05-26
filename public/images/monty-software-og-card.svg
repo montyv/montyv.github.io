@@ -1,0 +1,24 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Software by Velimir V. Vesselinov</title>
+  <desc id="desc">Open-source software catalog featuring SmartTensors, MADS, WELLS, and related scientific AI and geoscience tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="110" x2="1020" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1060" height="490" rx="28" fill="url(#accent)" stroke="#94A3B8" stroke-opacity="0.4"/>
+
+  <text x="120" y="210" fill="#E2E8F0" font-size="38" font-family="'Segoe UI', Tahoma, sans-serif">Velimir V. Vesselinov</text>
+  <text x="120" y="290" fill="#F8FAFC" font-size="74" font-weight="700" font-family="'Segoe UI', Tahoma, sans-serif">Software Catalog</text>
+  <text x="120" y="358" fill="#CBD5E1" font-size="34" font-family="'Segoe UI', Tahoma, sans-serif">SmartTensors · MADS · WELLS · Open-source scientific tools</text>
+
+  <rect x="120" y="415" width="300" height="66" rx="12" fill="#0F172A" stroke="#38BDF8"/>
+  <text x="150" y="458" fill="#E2E8F0" font-size="32" font-family="'Segoe UI', Tahoma, sans-serif">montyv.github.io</text>
+</svg>

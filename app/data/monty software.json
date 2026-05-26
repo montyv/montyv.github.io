@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "smarttensors",
+    "name": "SmartTensors",
+    "summary": "Framework for unsupervised, supervised, and physics-informed machine learning with matrix/tensor factorization methods.",
+    "description": "SmartTensors is a framework for science-informed ML/AI using methods such as NMFk and NTFk for feature extraction, model diagnostics, and robust analyses of complex datasets.",
+    "category": "AI/ML Framework",
+    "status": "Active",
+    "year": 2021,
+    "website": "https://smarttensors.com",
+    "repository": "https://github.com/SmartTensors",
+    "docs": "https://github.com/orgs/SmartTensors",
+    "logo": "/logos/SmartTensorsNew.png",
+    "tags": ["Machine Learning", "Physics-Informed AI", "Tensor Factorization", "Julia"],
+    "featured": true
+  },
+  {
+    "slug": "mads",
+    "name": "MADS",
+    "summary": "Model Analysis and Decision Support framework for calibration, uncertainty quantification, and diagnostics.",
+    "description": "MADS is an open-source high-performance framework for model inversion, uncertainty quantification, sensitivity analysis, and decision support across environmental and geoscience applications.",
+    "category": "Model Diagnostics",
+    "status": "Active",
+    "year": 2010,
+    "website": "https://madsjulia.github.io",
+    "repository": "https://github.com/madsjulia",
+    "docs": "https://madsjulia.github.io/Mads.jl",
+    "logo": "/logos/mads_white_swan_logo_big_text.png",
+    "tags": ["Model Analysis", "Uncertainty Quantification", "Calibration", "HPC", "Julia"],
+    "featured": true
+  },
+  {
+    "slug": "wells",
+    "name": "WELLS",
+    "summary": "Analytical simulator for multi-well pumping drawdown analysis in confined, unconfined, and leaky aquifers.",
+    "description": "WELLS simulates pumping and injection well effects using analytical solutions and superposition to support aquifer test interpretation and groundwater decision support.",
+    "category": "Hydrology Modeling",
+    "status": "Active",
+    "year": 2010,
+    "website": "https://github.com/madsjulia/Wells.jl",
+    "repository": "https://github.com/madsjulia/Wells.jl",
+    "logo": "/logos/wells_logo.png",
+    "tags": ["Groundwater", "Aquifer Tests", "Analytical Solutions", "Julia"],
+    "featured": true
+  },
+  {
+    "slug": "regae-jl",
+    "name": "RegAE.jl",
+    "summary": "Regularized inverse analysis using variational autoencoders for high-dimensional parameter fields.",
+    "description": "RegAE.jl provides a VAE-based approach for regularizing inverse problems and reducing parameter-space complexity while preserving coherent structures.",
+    "category": "Inverse Modeling",
+    "status": "Active",
+    "year": 2020,
+    "repository": "https://github.com/madsjulia/RegAE.jl",
+    "tags": ["Inverse Problems", "Variational Autoencoder", "Regularization", "Julia"],
+    "featured": false
+  },
+  {
+    "slug": "physicsinformedml-jl",
+    "name": "PhysicsInformedML.jl",
+    "summary": "Physics-informed machine learning subroutines for integrating scientific constraints into ML workflows.",
+    "description": "PhysicsInformedML.jl contains reusable subroutines for incorporating physical constraints into learning pipelines and model diagnostics.",
+    "category": "AI/ML Toolkit",
+    "status": "Active",
+    "year": 2021,
+    "repository": "https://github.com/SmartTensors/PhysicsInformedML.jl",
+    "tags": ["Physics-Informed AI", "Scientific ML", "Julia"],
+    "featured": false
+  },
+  {
+    "slug": "svr-jl",
+    "name": "SVR.jl",
+    "summary": "Support Vector Regression tools for data-driven regression analysis.",
+    "description": "SVR.jl provides support vector regression utilities used in model analysis and data-driven prediction workflows.",
+    "category": "Data Analytics",
+    "status": "Active",
+    "year": 2019,
+    "repository": "https://github.com/madsjulia/SVR.jl",
+    "tags": ["Support Vector Regression", "Data Analytics", "Julia"],
+    "featured": false
+  }
+]

@@ -39,6 +39,22 @@ const checks = [
       { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
     ],
   },
+  {
+    file: path.join("app", "software", "page.tsx"),
+    required: [
+      { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
+      { test: /buildCollectionPageJsonLd\(/, message: "must include collection JSON-LD" },
+      { test: /imagePath:\s*SOFTWARE_OG_IMAGE/, message: "must use software OG image" },
+    ],
+  },
+  {
+    file: path.join("app", "software", "[slug]", "page.tsx"),
+    required: [
+      { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
+      { test: /"@type"\s*:\s*"SoftwareApplication"/, message: "must include SoftwareApplication JSON-LD" },
+      { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
+    ],
+  },
 ];
 
 const issues = [];
