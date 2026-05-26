@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import contentData from "./reports.content.json";
 import overridesData from "./reports.overrides.json";
-import { loadCanonicalCatalogIndex, type CuratedIndex, type CuratedItem } from "../lib/catalog-data";
+import { catalogEntrySlug, loadCanonicalCatalogIndex, loadCanonicalRawCatalogEntries, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem } from "../lib/catalog-data";
 import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 
 const reportsDescription = "Technical reports and related downloadable documents by Velimir V. Vesselinov.";
@@ -43,8 +43,10 @@ const canonicalIndex = loadCanonicalCatalogIndex({
   dataFileName: "monty reports.json",
   pdfFolderKey: "reports",
 });
+const canonicalEntries = loadCanonicalRawCatalogEntries("monty reports.json");
 const pdfIndex = readGeneratedIndex("reports.pdf.generated.json", "Reports");
 const overridesIndex = overridesData as CuratedIndex;
+const canonicalDetailHrefById = new Map(canonicalEntries.map((entry, index) => [`reports-data-${index + 1}`, `/reports/${catalogEntrySlug(entry)}`]));
 
 const footerHtml = (index: CuratedIndex): string | null => {
   if (Array.isArray(index.footerHtmlLines) && index.footerHtmlLines.length) return index.footerHtmlLines.join("\n");
@@ -57,7 +59,7 @@ const itemPrimaryHref = (item: CuratedItem): string | null => {
 };
 
 const itemKey = (item: CuratedItem): string => {
-  return itemPrimaryHref(item) ?? item.id ?? item.html ?? item.text;
+  return itemPrimaryHref(item) ?? normalizeCatalogItemKey(item);
 };
 
 const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
@@ -155,6 +157,13 @@ export default function ReportsPage() {
                 </>
               ) : null}
             </div>
+            {item.id && canonicalDetailHrefById.get(item.id) ? (
+              <div className="mt-2 text-sm">
+                <Link className="hover:underline" href={canonicalDetailHrefById.get(item.id) ?? "/reports"}>
+                  Details
+                </Link>
+              </div>
+            ) : null}
             {item.missingLocalPdf ? (
               <div className="mt-2 text-xs text-slate-400">PDF missing locally (link kept as-is)</div>
             ) : null}
