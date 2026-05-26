@@ -16,11 +16,28 @@ const checks = [
     ],
   },
   {
+    file: path.join("app", "publications", "page.tsx"),
+    required: [
+      { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
+      { test: /imagePath:\s*PUBLICATIONS_OG_IMAGE/, message: "must use publications OG image" },
+      { test: /buildCollectionPageJsonLd\(/, message: "must include collection JSON-LD" },
+    ],
+  },
+  {
     file: path.join("app", "publications", "[slug]", "page.tsx"),
     required: [
       { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
       { test: /openGraphType:\s*"article"/, message: "must set article Open Graph type" },
       { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
+      { test: /imagePath:\s*`\$\{PAGE_PATH\}\/\$\{slug\}\/opengraph-image`/, message: "must use per-publication OG image" },
+    ],
+  },
+  {
+    file: path.join("app", "presentations", "page.tsx"),
+    required: [
+      { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
+      { test: /imagePath:\s*PRESENTATIONS_OG_IMAGE/, message: "must use presentations OG image" },
+      { test: /buildCollectionPageJsonLd\(/, message: "must include collection JSON-LD" },
     ],
   },
   {
@@ -29,6 +46,7 @@ const checks = [
       { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
       { test: /openGraphType:\s*"article"/, message: "must set article Open Graph type" },
       { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
+      { test: /imagePath:\s*`\$\{PAGE_PATH\}\/\$\{slug\}\/opengraph-image`/, message: "must use per-presentation OG image" },
     ],
   },
   {
@@ -44,7 +62,7 @@ const checks = [
     required: [
       { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
       { test: /buildCollectionPageJsonLd\(/, message: "must include collection JSON-LD" },
-      { test: /imagePath:\s*SOFTWARE_OG_IMAGE/, message: "must use software OG image" },
+      { test: /imagePath:\s*SOFTWARE_OG_IMAGE_PATH/, message: "must use software OG image" },
     ],
   },
   {
@@ -53,6 +71,7 @@ const checks = [
       { test: /buildPageMetadata\(/, message: "must use shared metadata builder" },
       { test: /"@type"\s*:\s*"SoftwareApplication"/, message: "must include SoftwareApplication JSON-LD" },
       { test: /url:\s*canonicalUrl\(/, message: "must use canonicalUrl in JSON-LD" },
+      { test: /imagePath:\s*softwareOgImagePath\(/, message: "must use per-software OG image" },
     ],
   },
 ];

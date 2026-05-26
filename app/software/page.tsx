@@ -3,9 +3,9 @@ import Link from "next/link";
 
 import { buildCollectionPageJsonLd, buildPageMetadata, canonicalUrl } from "../lib/seo";
 import { loadSoftwareEntries } from "../lib/software-data";
+import { SOFTWARE_OG_IMAGE_PATH } from "./software-og";
 
 const PAGE_PATH = "/software";
-const SOFTWARE_OG_IMAGE = "/images/monty-software-og-card.svg";
 const softwareDescription =
   "Software and computational tools by Velimir V. Vesselinov, including SmartTensors, MADS, WELLS, and related open-source projects.";
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = buildPageMetadata({
   titleText: "Software | Velimir V. Vesselinov (monty)",
   description: softwareDescription,
   pathname: PAGE_PATH,
-  imagePath: SOFTWARE_OG_IMAGE,
+  imagePath: SOFTWARE_OG_IMAGE_PATH,
   imageAlt: "Software catalog by Velimir V. Vesselinov",
   keywords: [
     "Velimir V. Vesselinov software",
@@ -68,6 +68,16 @@ export default function SoftwarePage() {
       <section className="mt-8 grid gap-4 md:grid-cols-2">
         {software.map((entry) => (
           <article key={entry.slug} className="rounded-lg border border-slate-800 p-5">
+            {entry.logo ? (
+              <div className="mb-4 flex h-16 items-center">
+                <img
+                  src={entry.logo}
+                  alt={entry.logoAlt ?? `${entry.name} logo`}
+                  className="max-h-14 w-auto object-contain"
+                />
+              </div>
+            ) : null}
+
             <div className="flex items-start justify-between gap-3">
               <h2 className="text-lg font-semibold tracking-tight">
                 <Link className="hover:underline" href={`${PAGE_PATH}/${entry.slug}`}>
@@ -84,6 +94,14 @@ export default function SoftwarePage() {
             ) : null}
 
             <p className="mt-3 text-sm leading-relaxed text-slate-200">{entry.summary}</p>
+
+            {entry.highlights?.length ? (
+              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-slate-300">
+                {entry.highlights.slice(0, 2).map((highlight) => (
+                  <li key={`${entry.slug}-${highlight}`}>{highlight}</li>
+                ))}
+              </ul>
+            ) : null}
 
             {entry.tags?.length ? (
               <div className="mt-3 flex flex-wrap gap-2">

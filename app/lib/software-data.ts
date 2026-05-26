@@ -13,8 +13,24 @@ export type SoftwareEntry = {
   repository?: string;
   docs?: string;
   logo?: string;
+  logoAlt?: string;
   tags?: string[];
+  details?: string[];
+  highlights?: string[];
+  media?: SoftwareMedia[];
+  links?: SoftwareLink[];
   featured?: boolean;
+};
+
+export type SoftwareMedia = {
+  src: string;
+  alt: string;
+  caption?: string;
+};
+
+export type SoftwareLink = {
+  label: string;
+  href: string;
 };
 
 const DATA_FILE = path.join(process.cwd(), "app", "data", "monty software.json");
@@ -34,6 +50,52 @@ const toNumberValue = (value: unknown): number | undefined => {
   return undefined;
 };
 
+const toStringArray = (value: unknown): string[] | undefined => {
+  if (!Array.isArray(value)) return undefined;
+
+  const normalized = value
+    .map((item) => toStringValue(item))
+    .filter((item): item is string => Boolean(item));
+
+  return normalized.length ? normalized : undefined;
+};
+
+const toLinksArray = (value: unknown): SoftwareLink[] | undefined => {
+  if (!Array.isArray(value)) return undefined;
+
+  const normalized = value
+    .map((item) => {
+      if (!item || typeof item !== "object") return null;
+      const record = item as Record<string, unknown>;
+      const label = toStringValue(record.label);
+      const href = toStringValue(record.href);
+      if (!label || !href) return null;
+      return { label, href };
+    })
+    .filter((item): item is SoftwareLink => Boolean(item));
+
+  return normalized.length ? normalized : undefined;
+};
+
+const toMediaArray = (value: unknown): SoftwareMedia[] | undefined => {
+  if (!Array.isArray(value)) return undefined;
+
+  const normalized = value
+    .map((item) => {
+      if (!item || typeof item !== "object") return null;
+      const record = item as Record<string, unknown>;
+      const src = toStringValue(record.src);
+      const alt = toStringValue(record.alt);
+      if (!src || !alt) return null;
+      const caption = toStringValue(record.caption);
+      const media: SoftwareMedia = caption ? { src, alt, caption } : { src, alt };
+      return media;
+    })
+    .filter((item): item is SoftwareMedia => Boolean(item));
+
+  return normalized.length ? normalized : undefined;
+};
+
 const normalizeEntry = (item: unknown): SoftwareEntry | null => {
   if (!item || typeof item !== "object") return null;
   const record = item as Record<string, unknown>;
@@ -43,9 +105,7 @@ const normalizeEntry = (item: unknown): SoftwareEntry | null => {
   const summary = toStringValue(record.summary);
   if (!slug || !name || !summary) return null;
 
-  const tags = Array.isArray(record.tags)
-    ? record.tags.map((tag) => toStringValue(tag)).filter((tag): tag is string => Boolean(tag))
-    : undefined;
+  const tags = toStringArray(record.tags);
 
   return {
     slug,
@@ -59,7 +119,12 @@ const normalizeEntry = (item: unknown): SoftwareEntry | null => {
     repository: toStringValue(record.repository),
     docs: toStringValue(record.docs),
     logo: toStringValue(record.logo),
+    logoAlt: toStringValue(record.logoAlt),
     tags,
+    details: toStringArray(record.details),
+    highlights: toStringArray(record.highlights),
+    media: toMediaArray(record.media),
+    links: toLinksArray(record.links),
     featured: Boolean(record.featured),
   };
 };

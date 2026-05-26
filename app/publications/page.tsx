@@ -8,12 +8,15 @@ import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 import overridesData from "./publications.overrides.json";
 
 const publicationsDescription = "Peer-reviewed publications, articles, and linked scholarly work by Velimir V. Vesselinov.";
+const PUBLICATIONS_OG_IMAGE = "/publications/opengraph-image";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Publications",
   titleText: "Publications | Velimir V. Vesselinov (monty)",
   description: publicationsDescription,
   pathname: "/publications",
+  imagePath: PUBLICATIONS_OG_IMAGE,
+  imageAlt: "Publications by Velimir V. Vesselinov",
   keywords: ["Velimir V. Vesselinov publications", "scientific publications", "geoscience", "AI/ML research"],
 });
 

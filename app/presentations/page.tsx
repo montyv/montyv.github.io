@@ -9,12 +9,15 @@ import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 import overridesData from "./presentations.overrides.json";
 
 const presentationsDescription = "Conference talks, invited presentations, and slides by Velimir V. Vesselinov.";
+const PRESENTATIONS_OG_IMAGE = "/presentations/opengraph-image";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Presentations",
   titleText: "Presentations | Velimir V. Vesselinov (monty)",
   description: presentationsDescription,
   pathname: "/presentations",
+  imagePath: PRESENTATIONS_OG_IMAGE,
+  imageAlt: "Presentations by Velimir V. Vesselinov",
   keywords: ["Velimir V. Vesselinov presentations", "conference talks", "AI/ML", "geoscience presentations"],
 });
 

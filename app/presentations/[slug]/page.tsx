@@ -58,6 +58,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       titleText: "Presentation | Velimir V. Vesselinov (monty)",
       description: "Presentation details.",
       pathname: `${PAGE_PATH}/${slug}`,
+      imagePath: `${PAGE_PATH}/opengraph-image`,
+      imageAlt: "Presentations by Velimir V. Vesselinov",
       index: false,
     });
   }
@@ -72,6 +74,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description,
     socialDescription,
     pathname: `${PAGE_PATH}/${slug}`,
+    imagePath: `${PAGE_PATH}/${slug}/opengraph-image`,
+    imageAlt: `${title} presentation Open Graph card`,
     openGraphType: "article",
   });
 }

@@ -21,14 +21,14 @@ type LegacyHomeIndex = Readonly<{
   sections: readonly LegacyHomeSection[];
 }>;
 
-const homeDescription = "Velimir V. Vesselinov's research profile, publications, presentations, reports, software-adjacent work, and science-informed AI/ML projects.";
+const homeDescription = "Velimir V. Vesselinov's research profile, software catalog, publications, presentations, reports, and science-informed AI/ML projects.";
 
 export const metadata: Metadata = buildPageMetadata({
   title: { absolute: SITE_NAME },
   titleText: SITE_NAME,
   description: homeDescription,
   pathname: "/",
-  keywords: ["Velimir V. Vesselinov", "monty", "AI/ML", "geoscience", "publications", "presentations"],
+  keywords: ["Velimir V. Vesselinov", "monty", "AI/ML", "geoscience", "software", "publications", "presentations"],
 });
 
 const sectionHtml = (section: LegacyHomeSection): string => {

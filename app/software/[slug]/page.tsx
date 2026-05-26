@@ -5,17 +5,17 @@ import { notFound } from "next/navigation";
 import {
   METADATA_DESCRIPTION_MAX_LENGTH,
   SOCIAL_DESCRIPTION_MAX_LENGTH,
+  assetUrl,
   buildPageMetadata,
   canonicalUrl,
   truncateMetadataText,
 } from "../../lib/seo";
 import { getSoftwareBySlug, loadSoftwareEntries } from "../../lib/software-data";
+import { softwareOgImagePath } from "../software-og";
 
 type SoftwareDetailPageProps = {
   params: Promise<{ slug: string }>;
 };
-
-const SOFTWARE_OG_IMAGE = "/images/monty-software-og-card.svg";
 
 const buildSoftwareDescription = (name: string, summary: string, category?: string): string => {
   const details = [summary, category ? `Category: ${category}.` : null].filter(Boolean).join(" ").trim();
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: SoftwareDetailPageProps): Pro
       description: "The requested software entry could not be found.",
       pathname: "/software",
       index: false,
-      imagePath: SOFTWARE_OG_IMAGE,
+      imagePath: softwareOgImagePath("not-found"),
       imageAlt: "Software catalog by Velimir V. Vesselinov",
     });
   }
@@ -52,8 +52,8 @@ export async function generateMetadata({ params }: SoftwareDetailPageProps): Pro
     description,
     socialDescription,
     pathname: `/software/${software.slug}`,
-    imagePath: SOFTWARE_OG_IMAGE,
-    imageAlt: `${software.name} software entry by Velimir V. Vesselinov`,
+    imagePath: softwareOgImagePath(software.slug),
+    imageAlt: `${software.name} Open Graph card`,
     openGraphType: "article",
     keywords: [software.name, software.category ?? "software", ...(software.tags ?? [])],
   });
@@ -67,30 +67,37 @@ export default async function SoftwareDetailPage({ params }: SoftwareDetailPageP
     notFound();
   }
 
+  const allLinks = [
+    software.website ? { label: "Website", href: software.website } : null,
+    software.repository ? { label: "Repository", href: software.repository } : null,
+    software.docs ? { label: "Documentation", href: software.docs } : null,
+    ...(software.links ?? []),
+  ].filter((link): link is { label: string; href: string } => Boolean(link));
+
+  const externalLinks = Array.from(
+    new Map(allLinks.map((link) => [link.href, link])).values(),
+  );
+
   const softwareJsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: software.name,
     description: software.description ?? software.summary,
     applicationCategory: software.category,
-    softwareVersion: software.year ? String(software.year) : undefined,
+    datePublished: software.year ? `${software.year}-01-01` : undefined,
     operatingSystem: "Cross-platform",
     url: canonicalUrl(`/software/${software.slug}`),
-    image: software.logo ? canonicalUrl(software.logo) : undefined,
-    sameAs: [software.website, software.repository, software.docs].filter(Boolean),
+    image: software.logo ? assetUrl(software.logo) : undefined,
+    screenshot: software.media?.length ? software.media.map((item) => assetUrl(item.src)) : undefined,
+    sameAs: externalLinks.map((link) => link.href),
     keywords: software.tags?.join(", "),
+    featureList: software.highlights,
     creator: {
       "@type": "Person",
       name: "Velimir V. Vesselinov",
       url: canonicalUrl("/"),
     },
   };
-
-  const externalLinks = [
-    software.website ? { label: "Website", href: software.website } : null,
-    software.repository ? { label: "Repository", href: software.repository } : null,
-    software.docs ? { label: "Documentation", href: software.docs } : null,
-  ].filter((link): link is { label: string; href: string } => Boolean(link));
 
   return (
     <main className="py-10">
@@ -109,21 +116,70 @@ export default async function SoftwareDetailPage({ params }: SoftwareDetailPageP
       </nav>
 
       <article className="rounded-lg border border-slate-800 p-6">
-        <header className="space-y-2">
-          <h1 className="text-2xl font-semibold tracking-tight">{software.name}</h1>
-          {(software.category || software.year || software.status) && (
-            <p className="text-sm text-slate-300">
-              {[software.category, software.year ? String(software.year) : null, software.status]
-                .filter(Boolean)
-                .join(" • ")}
-            </p>
-          )}
-        </header>
+        <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr] md:items-start">
+          <div>
+            <header className="space-y-2">
+              <h1 className="text-2xl font-semibold tracking-tight">{software.name}</h1>
+              {(software.category || software.year || software.status) && (
+                <p className="text-sm text-slate-300">
+                  {[software.category, software.year ? String(software.year) : null, software.status]
+                    .filter(Boolean)
+                    .join(" • ")}
+                </p>
+              )}
+            </header>
 
-        <p className="mt-4 leading-relaxed text-slate-200">{software.description ?? software.summary}</p>
+            <p className="mt-4 leading-relaxed text-slate-200">{software.description ?? software.summary}</p>
+
+            {software.details?.length ? (
+              <div className="mt-5 space-y-3 text-sm leading-relaxed text-slate-300">
+                {software.details.map((detail) => (
+                  <p key={detail}>{detail}</p>
+                ))}
+              </div>
+            ) : null}
+          </div>
+
+          {software.logo ? (
+            <div className="rounded-lg border border-slate-800 bg-slate-900/30 p-5">
+              <div className="flex min-h-40 items-center justify-center">
+                <img
+                  src={software.logo}
+                  alt={software.logoAlt ?? `${software.name} logo`}
+                  className="max-h-32 w-auto object-contain"
+                />
+              </div>
+            </div>
+          ) : null}
+        </div>
+
+        {software.highlights?.length ? (
+          <section className="mt-6">
+            <h2 className="text-lg font-semibold tracking-tight">Capabilities</h2>
+            <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-300">
+              {software.highlights.map((highlight) => (
+                <li key={highlight}>{highlight}</li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
+        {software.media?.length ? (
+          <section className="mt-6">
+            <h2 className="text-lg font-semibold tracking-tight">Images</h2>
+            <div className="mt-4 grid gap-4 md:grid-cols-2">
+              {software.media.map((item) => (
+                <figure key={`${item.src}-${item.alt}`} className="rounded-lg border border-slate-800 bg-slate-900/20 p-4">
+                  <img src={item.src} alt={item.alt} className="h-auto w-full object-contain" />
+                  {item.caption ? <figcaption className="mt-3 text-xs leading-relaxed text-slate-400">{item.caption}</figcaption> : null}
+                </figure>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {software.tags?.length ? (
-          <div className="mt-5 flex flex-wrap gap-2">
+          <div className="mt-6 flex flex-wrap gap-2">
             {software.tags.map((tag) => (
               <span key={`${software.slug}-${tag}`} className="rounded border border-slate-700 px-2 py-1 text-xs text-slate-300">
                 {tag}

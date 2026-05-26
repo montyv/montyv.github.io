@@ -11,7 +11,47 @@
     "repository": "https://github.com/SmartTensors",
     "docs": "https://github.com/orgs/SmartTensors",
     "logo": "/logos/SmartTensorsNew.png",
+    "logoAlt": "SmartTensors logo",
     "tags": ["Machine Learning", "Physics-Informed AI", "Tensor Factorization", "Julia"],
+    "details": [
+      "SmartTensors is a general framework for unsupervised, supervised, and physics-informed machine learning using nonnegative matrix and tensor decomposition algorithms.",
+      "The framework includes NMFk and NTFk methods for extracting hidden features, spatial footprints, and temporal signatures from complex datasets with minimal prior assumptions.",
+      "SmartTensors algorithms are written in Julia and can be integrated with Flux.jl, TensorFlow, PyTorch, MXNet, and MATLAB.",
+      "SmartTensors has been supported for commercial deployment through the DOE Technology Commercialization Fund."
+    ],
+    "highlights": [
+      "NMFk and NTFk for nonnegative matrix and tensor factorization",
+      "Feature extraction, anomaly detection, image recognition, and model diagnostics",
+      "Designed for science-informed AI and reduced-order modeling workflows"
+    ],
+    "media": [
+      {
+        "src": "/logos/nmfk-logo.png",
+        "alt": "NMFk logo"
+      },
+      {
+        "src": "/logos/ntfk-logo.png",
+        "alt": "NTFk logo"
+      }
+    ],
+    "links": [
+      {
+        "label": "Julia language",
+        "href": "https://julialang.org"
+      },
+      {
+        "label": "Flux.jl",
+        "href": "https://github.com/FluxML"
+      },
+      {
+        "label": "TensorFlow",
+        "href": "https://www.tensorflow.org"
+      },
+      {
+        "label": "PyTorch",
+        "href": "https://pytorch.org"
+      }
+    ],
     "featured": true
   },
   {
@@ -26,7 +66,37 @@
     "repository": "https://github.com/madsjulia",
     "docs": "https://madsjulia.github.io/Mads.jl",
     "logo": "/logos/mads_white_swan_logo_big_text.png",
+    "logoAlt": "MADS logo",
     "tags": ["Model Analysis", "Uncertainty Quantification", "Calibration", "HPC", "Julia"],
+    "details": [
+      "MADS, or Model Analysis and Decision Support, is an integrated open-source high-performance computational framework for data and model analysis.",
+      "It has been tested on multi-processor clusters and cloud environments and provides adaptive workflows that reduce manual setup for complex analyses.",
+      "MADS can couple to external simulators through template and instruction files and also includes built-in analytical groundwater and contaminant-transport simulators.",
+      "The framework has been used for environmental site characterization, source identification, uncertainty quantification, model calibration, and monitoring optimization."
+    ],
+    "highlights": [
+      "Sensitivity analysis, parameter estimation, inversion, and calibration",
+      "Uncertainty quantification, model selection, and surrogate modeling",
+      "Machine learning, blind source separation, and decision analysis"
+    ],
+    "links": [
+      {
+        "label": "MADS website",
+        "href": "http://madsjulia.github.io"
+      },
+      {
+        "label": "MADS documentation",
+        "href": "https://madsjulia.github.io/Mads.jl"
+      },
+      {
+        "label": "LANL C archive",
+        "href": "http://madsc.lanl.gov"
+      },
+      {
+        "label": "LANL Python archive",
+        "href": "http://madspy.lanl.gov"
+      }
+    ],
     "featured": true
   },
   {
@@ -40,7 +110,40 @@
     "website": "https://github.com/madsjulia/Wells.jl",
     "repository": "https://github.com/madsjulia/Wells.jl",
     "logo": "/logos/wells_logo.png",
+    "logoAlt": "WELLS logo",
     "tags": ["Groundwater", "Aquifer Tests", "Analytical Solutions", "Julia"],
+    "details": [
+      "WELLS simulates drawdowns caused by multiple pumping or injecting wells using analytical solutions in both C and Julia implementations.",
+      "It can represent confined, unconfined, and leaky aquifers and uses superposition to account for transient pumping schedules and multiple well sources.",
+      "WELLS can also account for non-pumping water-level trends and early-time behavior using exponential functions for transmissivity and storativity effects.",
+      "Model inversion of WELLS predictions can be performed with MADS for calibration and uncertainty analysis."
+    ],
+    "highlights": [
+      "Confined, unconfined, and leaky aquifer solutions",
+      "Fully and partially penetrating pumping and observation wells",
+      "Transient pumping rates with step-change and linear-change options"
+    ],
+    "media": [
+      {
+        "src": "/codes/wells/r15-v04-dcmp-clr.png",
+        "alt": "WELLS simulated drawdowns at R-15 caused by pumping at PM-2, PM-3, PM-4, and PM-5",
+        "caption": "Example WELLS drawdown decomposition for pumping influences observed at R-15."
+      }
+    ],
+    "links": [
+      {
+        "label": "WELLS GitLab archive",
+        "href": "http://wells.gitlab.io"
+      },
+      {
+        "label": "Harp and Vesselinov 2013",
+        "href": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp%20%26%20Vesselinov%202013%20exp.pdf"
+      },
+      {
+        "label": "Harp and Vesselinov 2010a",
+        "href": "https://gitlab.com/monty/monty.gitlab.io/raw/master/papers/Harp%20%26%20Vesselinov%202010%20gw.pdf"
+      }
+    ],
     "featured": true
   },
   {
@@ -52,7 +155,25 @@
     "status": "Active",
     "year": 2020,
     "repository": "https://github.com/madsjulia/RegAE.jl",
+    "docs": "https://github.com/madsjulia/RegAE.jl",
     "tags": ["Inverse Problems", "Variational Autoencoder", "Regularization", "Julia"],
+    "details": [
+      "RegAE.jl provides an efficient way to regularize inverse problems where parameter fields are high-dimensional and exhibit coherent structures.",
+      "The approach leverages a variational autoencoder to learn useful regularization behavior from unconditioned realizations without requiring prior knowledge of the governing physics.",
+      "By easing the regularization process and reducing the dimensionality of the optimized parameter space, RegAE.jl can make inverse analyses more computationally tractable.",
+      "Adjoint methods and automatic differentiation can be used to further reduce computational cost during inverse analysis workflows."
+    ],
+    "highlights": [
+      "VAE-based regularization for inverse problems",
+      "Handles coherent high-dimensional parameter fields",
+      "Supports lower-cost optimization through dimensionality reduction"
+    ],
+    "links": [
+      {
+        "label": "RegAE.jl repository",
+        "href": "https://github.com/madsjulia/RegAE.jl"
+      }
+    ],
     "featured": false
   },
   {
@@ -64,7 +185,24 @@
     "status": "Active",
     "year": 2021,
     "repository": "https://github.com/SmartTensors/PhysicsInformedML.jl",
+    "docs": "https://github.com/SmartTensors/PhysicsInformedML.jl",
     "tags": ["Physics-Informed AI", "Scientific ML", "Julia"],
+    "details": [
+      "PhysicsInformedML.jl packages reusable subroutines for bringing scientific and physical constraints into machine learning workflows.",
+      "It complements broader SmartTensors-style workflows by helping combine data-driven learning with domain knowledge and model diagnostics.",
+      "The package is designed for Julia-based scientific ML pipelines where interpretability and physical consistency matter."
+    ],
+    "highlights": [
+      "Reusable physics-informed ML building blocks",
+      "Supports science-informed diagnostics and workflow integration",
+      "Designed for Julia scientific machine learning pipelines"
+    ],
+    "links": [
+      {
+        "label": "PhysicsInformedML.jl repository",
+        "href": "https://github.com/SmartTensors/PhysicsInformedML.jl"
+      }
+    ],
     "featured": false
   },
   {
@@ -76,7 +214,24 @@
     "status": "Active",
     "year": 2019,
     "repository": "https://github.com/madsjulia/SVR.jl",
+    "docs": "https://github.com/madsjulia/SVR.jl",
     "tags": ["Support Vector Regression", "Data Analytics", "Julia"],
+    "details": [
+      "SVR.jl provides support vector regression capabilities for data-driven regression analysis and predictive modeling workflows.",
+      "It fits naturally within the broader MADS and scientific data analytics ecosystem for surrogate modeling and structured regression tasks.",
+      "The package offers a lightweight Julia-based option for teams needing interpretable regression utilities alongside other analytical workflows."
+    ],
+    "highlights": [
+      "Support vector regression for predictive modeling",
+      "Useful for surrogate modeling and data-driven analysis",
+      "Lightweight Julia package for regression workflows"
+    ],
+    "links": [
+      {
+        "label": "SVR.jl repository",
+        "href": "https://github.com/madsjulia/SVR.jl"
+      }
+    ],
     "featured": false
   }
 ]
