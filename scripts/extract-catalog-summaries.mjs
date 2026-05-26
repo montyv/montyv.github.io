@@ -10,6 +10,7 @@ const dataDir = process.env.MONTY_CATALOG_DATA_DIR
 
 const args = new Set(process.argv.slice(2));
 const write = args.has("--write");
+const pruneInvalid = args.has("--prune-invalid");
 const topicArg = [...args].find((arg) => arg.startsWith("--topic="));
 const limitArg = [...args].find((arg) => arg.startsWith("--limit="));
 const topicFilter = topicArg ? topicArg.split("=")[1] : null;
@@ -116,6 +117,7 @@ const readPdfText = async (absPath, maxPages) => {
 const normalizePdfText = (value) => {
   return String(value ?? "")
     .replace(/\r/g, "\n")
+    .replace(/(\w)-\s*\n\s*(\w)/g, "$1$2")
     .replace(/[ \t]+/g, " ")
     .replace(/\n{2,}/g, "\n")
     .split("\n")
@@ -133,6 +135,57 @@ const isLikelyHeading = (line) => {
   return letters >= 8 && uppers / letters > 0.75;
 };
 
+const isLikelyBoilerplate = (line) => {
+  return /^(contents|references|acknowledg(e)?ments?|supplementary material|table of contents)$/i.test(line)
+    || /copyright|all rights reserved|approved for public release|distribution is unlimited/i.test(line)
+    || /los alamos national laboratory|envitrace llc|researchgate|www\.|http/i.test(line)
+    || /doi[:\s]|arxiv/i.test(line)
+    || /^[\d\s.()/:;,-]+$/.test(line);
+};
+
+const cleanChunk = (chunk) => {
+  const lines = String(chunk ?? "")
+    .split("\n")
+    .map((line) => normalizeWhitespace(line))
+    .filter(Boolean)
+    .filter((line) => !isLikelyBoilerplate(line))
+    .map((line) => line
+      .replace(/^[:;.,\-–—\s]+/, "")
+      .replace(/\b(\d{1,3})\s+(?=[a-zA-Z])/g, "")
+      .replace(/\b\d{1,3}(?=[A-Z][a-z])/g, "")
+      .replace(/(?<=[a-z])\d{1,3}(?=[A-Z])/g, " ")
+      .replace(/\b[a-z]\s*[-‐]\s*/gi, "")
+      .replace(/\b[A-Za-z]*\d+[A-Za-z]+\b/g, "")
+      .replace(/\s*©.*$/i, "")
+      .replace(/electronic supplementary material.*$/i, "")
+      .replace(/the online version of this article.*$/i, "")
+      .replace(/\b\w+conference\b.*$/i, "")
+      .replace(/\b[A-Z]{2,}\d+[–-]?\d*\b/g, "")
+      .trim());
+
+  return normalizeWhitespace(lines.join(" "));
+};
+
+const hasExtractionArtifacts = (summary, topicId) => {
+  const text = normalizeWhitespace(summary);
+  if (!text) return true;
+  if (text.length < 90) return true;
+  if (/^[:;.,\-–—]/.test(text)) return true;
+  if (/●||||⬤/.test(text)) return true;
+  if (/@|https?:\/\/|www\./i.test(text)) return true;
+  if (/\.\.\./.test(text)) return true;
+  if (!/[.!?]$/.test(text)) return true;
+  if (/\b\d{1,3}\s+[A-Za-z]\b/.test(text)) return true;
+  if (/\b\d{1,3}[A-Z][a-z]+\b/.test(text)) return true;
+  if (/\b\d{4}[^.?!]*\b\d{4}\b/.test(text)) return true;
+  if (/copyright|all rights reserved|supplementary material|proceedings /i.test(text)) return true;
+  if (/event for |learning objectives|submitter |presenters |mccormick place/i.test(text)) return true;
+  if (/(^|\s)(contents|references)(\s|$)/i.test(text)) return true;
+  if (topicId === "presentations" && !/[.!?]/.test(text)) return true;
+  if (topicId === "presentations" && /questions that have driven us|machine learning for geosciences|tool for community-based geothermal/i.test(text)) return true;
+  return false;
+};
+
 const pickSectionChunk = (text, markers) => {
   for (const marker of markers) {
     const matches = [...text.matchAll(marker)];
@@ -147,12 +200,13 @@ const pickSectionChunk = (text, markers) => {
       for (const line of lines) {
         if (!line) continue;
         if (!out.length && /^[:.\-–—\s]+$/.test(line)) continue;
+        if (isLikelyBoilerplate(line)) continue;
         if (out.length >= 2 && isLikelyHeading(line)) break;
         out.push(line.replace(/^[-*•]\s*/, ""));
         if (out.join(" ").length >= 1200) break;
       }
 
-      const chunk = out.join(" ").replace(/\s+/g, " ").trim();
+      const chunk = cleanChunk(out.join(" "));
       if (chunk.length >= 120) return chunk;
     }
   }
@@ -173,20 +227,21 @@ const fallbackChunk = (text, title, topicId) => {
     if (/@/.test(clean)) continue;
     if (/^(copyright|doi|arxiv|researchgate|scientific reports|los alamos national laboratory|envitrace llc)$/i.test(clean)) continue;
     if (titleNorm && (clean.toLowerCase() === titleNorm || clean.toLowerCase().includes(titleNorm))) continue;
+    if (isLikelyBoilerplate(clean)) continue;
     candidates.push(clean);
     if (candidates.join(" ").length >= 1200) break;
   }
 
   if (topicId === "presentations") {
     const preferred = candidates.filter((line) => /\b(goal|goals|objective|objectives|question|questions|challenge|challenges|problem|problems|approach|framework|tool|tools|method|methods|model|models|analysis|decision|prospectivity|geothermal|machine learning|artificial intelligence|community)\b/i.test(line));
-    if (preferred.length) return preferred.slice(0, 3).join(" ").trim();
+    if (preferred.length) return cleanChunk(preferred.slice(0, 3).join(" "));
   }
 
-  return candidates.slice(0, 3).join(" ").trim();
+  return cleanChunk(candidates.slice(0, 3).join(" "));
 };
 
-const toSummary = (chunk) => {
-  const text = normalizeWhitespace(chunk)
+const toSummary = (chunk, topicId) => {
+  const text = cleanChunk(chunk)
     .replace(/^(abstract|summary|executive summary|introduction)\s*[:.-]?\s*/i, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -204,7 +259,9 @@ const toSummary = (chunk) => {
   }
 
   const summary = normalizeWhitespace((picked.length ? picked.join(" ") : text).slice(0, 520));
-  return summary.length >= 80 ? summary : null;
+  if (summary.length < 80) return null;
+  if (hasExtractionArtifacts(summary, topicId)) return null;
+  return summary;
 };
 
 const extractSummary = (rawText, topic, title) => {
@@ -212,10 +269,12 @@ const extractSummary = (rawText, topic, title) => {
   if (!text) return null;
 
   const section = pickSectionChunk(text, topic.markers);
-  const summaryFromSection = toSummary(section);
+  const summaryFromSection = toSummary(section, topic.id);
   if (summaryFromSection) return summaryFromSection;
 
-  return toSummary(fallbackChunk(text, title, topic.id));
+  if (topic.id === "presentations") return null;
+
+  return toSummary(fallbackChunk(text, title, topic.id), topic.id);
 };
 
 for (const topic of topics) {
@@ -226,10 +285,16 @@ for (const topic of topics) {
   let missingPdf = 0;
   let failedExtract = 0;
   let parseFailed = 0;
+  let pruned = 0;
   let processed = 0;
   const samples = [];
 
   for (const entry of items) {
+    if (pruneInvalid && entry.abstract && hasExtractionArtifacts(entry.abstract, topic.id)) {
+      delete entry.abstract;
+      pruned += 1;
+    }
+
     if (processed >= limit) break;
 
     const pdfEntry = resolveEntryPdf(entry, pdfEntries);
@@ -265,7 +330,7 @@ for (const topic of topics) {
     await fs.promises.writeFile(dataFile, `${JSON.stringify(items, null, 2)}\n`, "utf8");
   }
 
-  console.log(`[${topic.id}] processed=${processed} updated=${updated} missingPdf=${missingPdf} parseFailed=${parseFailed} failedExtract=${failedExtract} mode=${write ? "write" : "dry-run"}`);
+  console.log(`[${topic.id}] processed=${processed} updated=${updated} pruned=${pruned} missingPdf=${missingPdf} parseFailed=${parseFailed} failedExtract=${failedExtract} mode=${write ? "write" : "dry-run"}`);
   for (const sample of samples) {
     console.log(`[${topic.id}] sample: ${sample.title} -> ${sample.abstract}`);
   }
