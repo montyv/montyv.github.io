@@ -4,6 +4,9 @@ export const SITE_URL = (process.env.SITE_URL || "https://montyv.github.io").rep
 export const SITE_NAME = "Velimir V. Vesselinov (monty)";
 export const PERSON_NAME = "Velimir V. Vesselinov";
 export const DEFAULT_OG_IMAGE = "/images/monty20210529-body.jpg";
+export const DEFAULT_OG_IMAGE_ALT = "Portrait of Velimir V. Vesselinov (monty)";
+export const METADATA_DESCRIPTION_MAX_LENGTH = 160;
+export const SOCIAL_DESCRIPTION_MAX_LENGTH = 220;
 
 export const PERSON_SAME_AS = [
   "https://scholar.google.com/citations?user=sIFHVvwAAAAJ&hl",
@@ -35,12 +38,21 @@ export const toAbsoluteUrl = (value?: string | null): string | undefined => {
   return assetUrl(value);
 };
 
+export const truncateMetadataText = (value: string, maxLength: number): string => {
+  const normalized = String(value).replace(/\s+/g, " ").trim();
+  if (normalized.length <= maxLength) return normalized;
+  if (maxLength <= 3) return normalized.slice(0, maxLength);
+  return `${normalized.slice(0, maxLength - 3).replace(/[\s,;:.!?-]+$/g, "")}...`;
+};
+
 type PageMetadataOptions = {
   title: Metadata["title"];
   titleText: string;
   description: string;
+  socialDescription?: string;
   pathname: string;
   imagePath?: string;
+  openGraphType?: "website" | "article";
   keywords?: string[];
   index?: boolean;
 };
@@ -49,13 +61,15 @@ export const buildPageMetadata = ({
   title,
   titleText,
   description,
+  socialDescription,
   pathname,
   imagePath = DEFAULT_OG_IMAGE,
+  openGraphType = "website",
   keywords,
   index = true,
 }: PageMetadataOptions): Metadata => {
   const canonical = canonicalUrl(pathname);
-  const image = assetUrl(imagePath);
+  const image = { url: assetUrl(imagePath), alt: DEFAULT_OG_IMAGE_ALT };
 
   return {
     title,
@@ -66,17 +80,17 @@ export const buildPageMetadata = ({
     },
     openGraph: {
       title: titleText,
-      description,
+      description: socialDescription ?? description,
       url: canonical,
       siteName: SITE_NAME,
       locale: "en_US",
-      type: "website",
+      type: openGraphType,
       images: [image],
     },
     twitter: {
       card: "summary_large_image",
       title: titleText,
-      description,
+      description: socialDescription ?? description,
       images: [image],
     },
     robots: {

@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { buildPageMetadata, canonicalUrl } from "../../lib/seo";
+import {
+  buildPageMetadata,
+  canonicalUrl,
+  METADATA_DESCRIPTION_MAX_LENGTH,
+  SOCIAL_DESCRIPTION_MAX_LENGTH,
+  truncateMetadataText,
+} from "../../lib/seo";
 import {
   catalogEntryIsbn,
   catalogEntryLink,
@@ -31,7 +37,9 @@ const entryDescription = (entry: RawCatalogEntry): string => {
   const abstract = entryAbstract(entry);
   if (abstract) return abstract;
 
-  const parts = [entry.authors, entry.source, catalogEntryYearValue(entry) ? String(catalogEntryYearValue(entry)) : null]
+  const isbn = catalogEntryIsbn(entry);
+  const identifier = isbn ? `ISBN ${isbn}` : entry.doi ? `DOI ${entry.doi}` : null;
+  const parts = [entry.authors, entry.source, catalogEntryYearValue(entry) ? String(catalogEntryYearValue(entry)) : null, identifier]
     .filter(Boolean)
     .map((value) => String(value).trim());
   return parts.length ? parts.join(". ") : "Publication details.";
@@ -55,11 +63,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   const title = catalogEntryTitle(entry) || "Publication";
+  const fullDescription = entryDescription(entry);
+  const description = truncateMetadataText(fullDescription, METADATA_DESCRIPTION_MAX_LENGTH);
+  const socialDescription = truncateMetadataText(fullDescription, SOCIAL_DESCRIPTION_MAX_LENGTH);
   return buildPageMetadata({
     title,
     titleText: `${title} | Velimir V. Vesselinov (monty)`,
-    description: entryDescription(entry),
+    description,
+    socialDescription,
     pathname: `${PAGE_PATH}/${slug}`,
+    openGraphType: "article",
   });
 }
 

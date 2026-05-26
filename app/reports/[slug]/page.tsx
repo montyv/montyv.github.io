@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { buildPageMetadata, canonicalUrl } from "../../lib/seo";
+import {
+  buildPageMetadata,
+  canonicalUrl,
+  METADATA_DESCRIPTION_MAX_LENGTH,
+  SOCIAL_DESCRIPTION_MAX_LENGTH,
+  truncateMetadataText,
+} from "../../lib/seo";
 import {
   catalogEntryLink,
   catalogEntrySlug,
@@ -53,11 +59,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   const title = catalogEntryTitle(entry) || "Report";
+  const fullDescription = entryDescription(entry);
+  const description = truncateMetadataText(fullDescription, METADATA_DESCRIPTION_MAX_LENGTH);
+  const socialDescription = truncateMetadataText(fullDescription, SOCIAL_DESCRIPTION_MAX_LENGTH);
   return buildPageMetadata({
     title,
     titleText: `${title} | Velimir V. Vesselinov (monty)`,
-    description: entryDescription(entry),
+    description,
+    socialDescription,
     pathname: `${PAGE_PATH}/${slug}`,
+    openGraphType: "article",
   });
 }
 
