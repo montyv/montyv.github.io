@@ -10,6 +10,7 @@ const dataDir = process.env.MONTY_CATALOG_DATA_DIR
 const requiredFiles = [
   "monty publications.json",
   "monty presentations.json",
+  "monty reports.json",
 ];
 
 const missingFiles = requiredFiles.filter((fileName) => !fs.existsSync(path.join(dataDir, fileName)));
@@ -18,5 +19,5 @@ if (missingFiles.length > 0) {
   const target = dataDir.replace(/\\/g, "/");
   const details = missingFiles.join(", ");
   // eslint-disable-next-line no-console
-  console.warn(`[build] Warning: shared EnviTraceJS catalog data not found at ${target} (${details}). montyv.github.io publications/presentations will build without the shared Monty JSON source.`);
+  console.warn(`[build] Warning: shared EnviTraceJS catalog data not found at ${target} (${details}). montyv.github.io publications/presentations/reports will build without the shared Monty JSON source.`);
 }

@@ -1,37 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import fs from "node:fs";
 import path from "node:path";
 import contentData from "./reports.content.json";
 import overridesData from "./reports.overrides.json";
+import { loadCanonicalCatalogIndex, type CuratedIndex, type CuratedItem } from "../lib/catalog-data";
+import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
+
+const reportsDescription = "Technical reports and related downloadable documents by Velimir V. Vesselinov.";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Reports",
+  titleText: "Reports | Velimir V. Vesselinov (monty)",
+  description: reportsDescription,
+  pathname: "/reports",
+  keywords: ["Velimir V. Vesselinov reports", "technical reports", "research reports"],
+});
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
-
-type PdfLink = {
-  fileName: string;
-  localFileName: string | null;
-  originalHref: string;
-  localHref: string | null;
-  localExists: boolean;
-};
-
-type CuratedItem = {
-  id?: string;
-  text: string;
-  html?: string;
-  htmlLines?: string[];
-  pdfLinks: PdfLink[];
-  missingLocalPdf: boolean;
-};
-
-type CuratedIndex = {
-  schemaVersion?: number;
-  generatedAt: string;
-  source: string;
-  title: string;
-  items: CuratedItem[];
-  footerHtml?: string | null;
-  footerHtmlLines?: string[];
-};
 
 const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
   try {
@@ -52,6 +38,11 @@ const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
 
 const legacyIndex = readGeneratedIndex("reports.legacy.generated.json", "Reports");
 const contentIndex = contentData as CuratedIndex;
+const canonicalIndex = loadCanonicalCatalogIndex({
+  title: "Reports",
+  dataFileName: "monty reports.json",
+  pdfFolderKey: "reports",
+});
 const pdfIndex = readGeneratedIndex("reports.pdf.generated.json", "Reports");
 const overridesIndex = overridesData as CuratedIndex;
 
@@ -85,8 +76,8 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = mergeItems([contentIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
-const footer = footerHtml(contentIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
+const mergedItems = mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
+const footer = footerHtml(contentIndex) ?? footerHtml(canonicalIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
 
 const itemDisplayText = (item: CuratedItem): string => {
   return String(item.text ?? "")
@@ -100,6 +91,18 @@ const itemDisplayHref = (item: CuratedItem): string | null => {
   const first = item.pdfLinks?.[0];
   return first?.localHref ?? first?.originalHref ?? null;
 };
+
+const reportsJsonLd = buildCollectionPageJsonLd({
+  name: "Reports",
+  description: reportsDescription,
+  pathname: "/reports",
+  itemType: "Report",
+  items: mergedItems.map((item) => ({
+    name: itemDisplayText(item),
+    url: itemDisplayHref(item),
+    itemType: "Report",
+  })),
+});
 
 const renderHighlightedText = (text: string) => {
   const parts = text.split(/(Vesselinov,\s*V\.V\.,|Vesselinov)/gi);
@@ -118,12 +121,15 @@ const renderHighlightedText = (text: string) => {
 export default function ReportsPage() {
   return (
     <main className="py-10">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reportsJsonLd) }}
+      />
       <header className="flex items-baseline justify-between gap-4">
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Reports</h1>
-          <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (content: {contentIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
-          </p>
+          <p className="text-sm text-slate-300">{mergedItems.length} entries.</p>
         </div>
         <nav className="flex gap-3 text-sm">
           <Link className="text-slate-200 hover:underline" href="/">

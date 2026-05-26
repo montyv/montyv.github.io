@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { buildPageMetadata } from "../lib/seo";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Legacy Homepage",
+  titleText: "Legacy Homepage | Velimir V. Vesselinov (monty)",
+  description: "Archived entry point for older links into the Velimir V. Vesselinov site.",
+  pathname: "/legacy",
+  index: false,
+});
 
 export default function LegacyPage() {
   return (

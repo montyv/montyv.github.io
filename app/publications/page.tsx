@@ -1,9 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import fs from "node:fs";
 import path from "node:path";
 
-import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, sortCatalogItems, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { catalogEntrySlug, loadCanonicalCatalogIndex, loadCanonicalRawCatalogEntries, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 import overridesData from "./publications.overrides.json";
+
+const publicationsDescription = "Peer-reviewed publications, articles, and linked scholarly work by Velimir V. Vesselinov.";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Publications",
+  titleText: "Publications | Velimir V. Vesselinov (monty)",
+  description: publicationsDescription,
+  pathname: "/publications",
+  keywords: ["Velimir V. Vesselinov publications", "scientific publications", "geoscience", "AI/ML research"],
+});
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
 
@@ -30,8 +42,10 @@ const canonicalIndex = loadCanonicalCatalogIndex({
   dataFileName: "monty publications.json",
   pdfFolderKey: "papers",
 });
+const canonicalEntries = loadCanonicalRawCatalogEntries("monty publications.json");
 const pdfIndex = readGeneratedIndex("publications.pdf.generated.json", "Publications");
 const overridesIndex = overridesData as CuratedIndex;
+const canonicalDetailHrefById = new Map(canonicalEntries.map((entry, index) => [`papers-data-${index + 1}`, `/publications/${catalogEntrySlug(entry)}`]));
 
 const footerHtml = (index: CuratedIndex): string | null => {
   if (Array.isArray(index.footerHtmlLines) && index.footerHtmlLines.length) return index.footerHtmlLines.join("\n");
@@ -63,7 +77,7 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = sortCatalogItems(mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
+const mergedItems = mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
 const footer = footerHtml(canonicalIndex) ?? footerHtml(overridesIndex) ?? footerHtml(legacyIndex);
 
 const itemDisplayText = (item: CuratedItem): string => {
@@ -83,6 +97,18 @@ const itemLinkLabel = (item: CuratedItem): string => {
   return item.linkLabel ?? "PDF";
 };
 
+const publicationsJsonLd = buildCollectionPageJsonLd({
+  name: "Publications",
+  description: publicationsDescription,
+  pathname: "/publications",
+  itemType: "ScholarlyArticle",
+  items: mergedItems.map((item) => ({
+    name: itemDisplayText(item),
+    url: itemDisplayHref(item),
+    itemType: "ScholarlyArticle",
+  })),
+});
+
 const renderHighlightedText = (text: string) => {
   const parts = text.split(/(Vesselinov,\s*V\.V\.,|Vesselinov)/gi);
   return parts.map((part, idx) => {
@@ -100,12 +126,15 @@ const renderHighlightedText = (text: string) => {
 export default function PublicationsPage() {
   return (
     <main className="py-10">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(publicationsJsonLd) }}
+      />
       <header className="flex items-baseline justify-between gap-4">
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Publications</h1>
-          <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (canonical: {canonicalIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
-          </p>
+          <p className="text-sm text-slate-300">{mergedItems.length} entries.</p>
         </div>
         <nav className="flex gap-3 text-sm">
           <Link className="text-slate-200 hover:underline" href="/">
@@ -122,6 +151,12 @@ export default function PublicationsPage() {
           <div key={itemKey(item)} className="rounded-lg border border-slate-800 p-4">
             <div className="text-sm leading-relaxed text-slate-200">
               {renderHighlightedText(itemDisplayText(item))}
+              {item.id && canonicalDetailHrefById.get(item.id) ? (
+                <>
+                  {" "}
+                  <Link href={canonicalDetailHrefById.get(item.id) ?? "/publications"}>Details</Link>
+                </>
+              ) : null}
               {itemDisplayHref(item) ? (
                 <>
                   {" "}

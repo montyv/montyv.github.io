@@ -1,10 +1,22 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import * as cheerio from "cheerio";
 import fs from "node:fs";
 import path from "node:path";
 
-import { loadCanonicalCatalogIndex, normalizeCatalogItemKey, sortCatalogItems, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { catalogEntrySlug, loadCanonicalCatalogIndex, loadCanonicalRawCatalogEntries, normalizeCatalogItemKey, type CuratedIndex, type CuratedItem, type PdfLink } from "../lib/catalog-data";
+import { buildCollectionPageJsonLd, buildPageMetadata } from "../lib/seo";
 import overridesData from "./presentations.overrides.json";
+
+const presentationsDescription = "Conference talks, invited presentations, and slides by Velimir V. Vesselinov.";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Presentations",
+  titleText: "Presentations | Velimir V. Vesselinov (monty)",
+  description: presentationsDescription,
+  pathname: "/presentations",
+  keywords: ["Velimir V. Vesselinov presentations", "conference talks", "AI/ML", "geoscience presentations"],
+});
 
 const HIGHLIGHT_CLASS = "inline-block rounded bg-slate-100 px-1 font-semibold text-slate-900";
 
@@ -50,8 +62,10 @@ const canonicalIndex = loadCanonicalCatalogIndex({
   dataFileName: "monty presentations.json",
   pdfFolderKey: "presentations",
 });
+const canonicalEntries = loadCanonicalRawCatalogEntries("monty presentations.json");
 const pdfIndex = readGeneratedIndex("presentations.pdf.generated.json", "Presentations");
 const overridesIndex = overridesData as CuratedIndex;
+const canonicalDetailHrefById = new Map(canonicalEntries.map((entry, index) => [`presentations-data-${index + 1}`, `/presentations/${catalogEntrySlug(entry)}`]));
 
 const itemHtml = (item: CuratedItem): string => {
   if (Array.isArray(item.htmlLines) && item.htmlLines.length) return item.htmlLines.join("\n");
@@ -88,18 +102,31 @@ const mergeItems = (lists: CuratedItem[][]): CuratedItem[] => {
   return out;
 };
 
-const mergedItems = sortCatalogItems(mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]));
+const mergedItems = mergeItems([canonicalIndex.items ?? [], overridesIndex.items ?? [], legacyIndex.items ?? [], pdfIndex.items ?? []]);
 const footer = footerHtml(canonicalIndex) ?? footerHtml(legacyIndex) ?? footerHtml(overridesIndex);
+
+const presentationsJsonLd = buildCollectionPageJsonLd({
+  name: "Presentations",
+  description: presentationsDescription,
+  pathname: "/presentations",
+  items: mergedItems.map((item) => ({
+    name: itemHtml(item).replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim(),
+    url: itemPrimaryHref(item),
+  })),
+});
 
 export default function PresentationsPage() {
   return (
     <main className="py-10">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(presentationsJsonLd) }}
+      />
       <header className="flex items-baseline justify-between gap-4">
         <div className="space-y-1">
           <h1 className="text-2xl font-semibold tracking-tight">Presentations</h1>
-          <p className="text-sm text-slate-300">
-            {mergedItems.length} entries (canonical: {canonicalIndex.items.length}, overrides: {overridesIndex.items.length}, legacy: {legacyIndex.items.length}, PDF: {pdfIndex.items.length}).
-          </p>
+          <p className="text-sm text-slate-300">{mergedItems.length} entries.</p>
         </div>
         <nav className="flex gap-3 text-sm">
           <Link className="text-slate-200 hover:underline" href="/">
@@ -118,6 +145,13 @@ export default function PresentationsPage() {
               className="text-sm leading-relaxed"
               dangerouslySetInnerHTML={{ __html: highlightMyNameHtml(itemHtml(item)) }}
             />
+            {item.id && canonicalDetailHrefById.get(item.id) ? (
+              <div className="mt-2 text-sm">
+                <Link className="hover:underline" href={canonicalDetailHrefById.get(item.id) ?? "/presentations"}>
+                  Details
+                </Link>
+              </div>
+            ) : null}
             {item.missingLocalPdf ? (
               <div className="mt-2 text-xs text-slate-400">PDF missing locally (link kept as-is)</div>
             ) : null}

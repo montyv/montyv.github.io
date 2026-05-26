@@ -1,8 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { homeContentIndex as homeContentIndexData } from "./home/home.sections.generated";
 import { readHomeIndexFromSource } from "./home/readHomeSectionsFromSource";
 import { ObfuscatedEmailLink } from "./components/ObfuscatedEmailLink";
+import { DEFAULT_OG_IMAGE, PERSON_NAME, PERSON_SAME_AS, SITE_NAME, buildPageMetadata, canonicalUrl, assetUrl } from "./lib/seo";
 
 type LegacyHomeSection = Readonly<{
   id: string;
@@ -19,6 +21,16 @@ type LegacyHomeIndex = Readonly<{
   sections: readonly LegacyHomeSection[];
 }>;
 
+const homeDescription = "Velimir V. Vesselinov's research profile, publications, presentations, reports, software-adjacent work, and science-informed AI/ML projects.";
+
+export const metadata: Metadata = buildPageMetadata({
+  title: { absolute: SITE_NAME },
+  titleText: SITE_NAME,
+  description: homeDescription,
+  pathname: "/",
+  keywords: ["Velimir V. Vesselinov", "monty", "AI/ML", "geoscience", "publications", "presentations"],
+});
+
 const sectionHtml = (section: LegacyHomeSection): string => {
   if (Array.isArray(section.htmlLines) && section.htmlLines.length) {
     return section.htmlLines.join("\n").replace(/\r\n/g, "\n").trim();
@@ -33,9 +45,46 @@ export default function HomePage() {
       : (homeContentIndexData as LegacyHomeIndex);
 
   const sectionsForCards = homeIndex.sections ?? [];
+  const homeJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": canonicalUrl("/#profile"),
+        url: canonicalUrl("/"),
+        name: SITE_NAME,
+        description: homeDescription,
+        mainEntity: {
+          "@id": canonicalUrl("/#person"),
+        },
+      },
+      {
+        "@type": "Person",
+        "@id": canonicalUrl("/#person"),
+        name: PERSON_NAME,
+        alternateName: "monty",
+        url: canonicalUrl("/"),
+        image: assetUrl(DEFAULT_OG_IMAGE),
+        description: homeDescription,
+        sameAs: PERSON_SAME_AS,
+      },
+      {
+        "@type": "WebSite",
+        "@id": canonicalUrl("/#website"),
+        url: canonicalUrl("/"),
+        name: SITE_NAME,
+        description: homeDescription,
+      },
+    ],
+  };
 
   return (
     <main className="py-10">
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
       <section className="grid gap-8 md:grid-cols-[1.15fr_0.85fr] md:items-start">
         <div className="space-y-5">
           <header className="space-y-2">
@@ -44,6 +93,11 @@ export default function HomePage() {
             </h1>
             <p className="text-slate-300">
               Innovating the Future with Science-Informed AI/ML
+            </p>
+            <p className="max-w-3xl text-sm leading-relaxed text-slate-300">
+              Research profile for Velimir V. Vesselinov featuring publications, presentations, reports,
+              and linked scientific work across geoscience, uncertainty quantification, and AI/ML-enabled
+              decision support.
             </p>
           </header>
 

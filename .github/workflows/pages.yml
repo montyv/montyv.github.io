@@ -21,6 +21,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout shared EnviTraceJS catalog data
+        uses: actions/checkout@v4
+        with:
+          repository: EnviTrace/EnviTraceJS
+          ref: main
+          path: EnviTraceJS
+          sparse-checkout: |
+            data/monty publications.json
+            data/monty presentations.json
+            data/monty reports.json
+          sparse-checkout-cone-mode: false
+          token: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN != '' && secrets.ENVITRACEJS_REPO_READ_TOKEN || github.token }}
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -34,6 +47,7 @@ jobs:
         run: npm run build
         env:
           SITE_URL: https://montyv.github.io
+          MONTY_CATALOG_DATA_DIR: ${{ github.workspace }}/EnviTraceJS/data
 
       - name: Ensure .nojekyll
         run: touch out/.nojekyll

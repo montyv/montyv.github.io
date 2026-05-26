@@ -29,11 +29,13 @@ export type CuratedIndex = {
   footerHtmlLines?: string[];
 };
 
-type RawCatalogEntry = {
+export type RawCatalogEntry = {
   authors?: string | null;
   title?: string | null;
   source?: string | null;
   doi?: string | null;
+  ISBN?: string | null;
+  isbn?: string | null;
   year?: number | string | null;
   date?: number | string | null;
   url?: string | null;
@@ -52,6 +54,29 @@ type ResolvedCatalogDataPath = {
 
 const normalizeWhitespace = (value: string | null | undefined): string => {
   return String(value ?? "").replace(/\s+/g, " ").trim();
+};
+
+const normalizeIsbn = (value: string | null | undefined): string | null => {
+  const normalized = normalizeWhitespace(value);
+  return normalized || null;
+};
+
+const slugify = (value: string | null | undefined): string => {
+  return normalizeWhitespace(value)
+    .toLowerCase()
+    .replace(/&amp;|&/g, " and ")
+    .replace(/[\u2010-\u2015\u2212]/g, "-")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .replace(/-{2,}/g, "-");
+};
+
+const stableShortHash = (value: string): string => {
+  let hash = 5381;
+  for (let index = 0; index < value.length; index += 1) {
+    hash = ((hash << 5) + hash + value.charCodeAt(index)) >>> 0;
+  }
+  return hash.toString(36);
 };
 
 const normalizeForKey = (value: string | null | undefined): string => {
@@ -144,11 +169,16 @@ const entryTitle = (entry: RawCatalogEntry): string | null => {
   return source || null;
 };
 
+export const catalogEntryTitle = (entry: RawCatalogEntry): string | null => {
+  return entryTitle(entry);
+};
+
 const formatPublicationText = (entry: RawCatalogEntry): string => {
   const parts: string[] = [];
   const authors = normalizeWhitespace(entry.authors);
   const title = normalizeWhitespace(entry.title);
   const source = normalizeWhitespace(entry.source);
+  const isbn = normalizeIsbn(typeof entry.ISBN === "string" ? entry.ISBN : typeof entry.isbn === "string" ? entry.isbn : null);
   const doi = normalizeWhitespace(entry.doi);
   const year = normalizeYear(entry.year ?? entry.date);
 
@@ -163,7 +193,11 @@ const formatPublicationText = (entry: RawCatalogEntry): string => {
     parts.push(source);
   }
 
-  if (doi) parts.push(doi);
+  if (isbn) {
+    parts.push(`ISBN ${isbn}`);
+  } else if (doi) {
+    parts.push(doi);
+  }
   if (year) parts.push(String(year));
 
   return parts.join(", ");
@@ -193,6 +227,9 @@ const preferredUrl = (entry: RawCatalogEntry): { href: string; label: string } |
     };
   }
 
+  const isbn = normalizeIsbn(typeof entry.ISBN === "string" ? entry.ISBN : typeof entry.isbn === "string" ? entry.isbn : null);
+  if (isbn) return null;
+
   const doi = normalizeWhitespace(entry.doi);
   if (!doi) return null;
 
@@ -200,6 +237,34 @@ const preferredUrl = (entry: RawCatalogEntry): { href: string; label: string } |
     href: `https://doi.org/${doi}`,
     label: "DOI",
   };
+};
+
+export const catalogEntryLink = (entry: RawCatalogEntry): { href: string; label: string } | null => {
+  return preferredUrl(entry);
+};
+
+export const catalogEntryYearValue = (entry: RawCatalogEntry): number | null => {
+  return normalizeYear(entry.year ?? entry.date);
+};
+
+export const catalogEntryIsbn = (entry: RawCatalogEntry): string | null => {
+  return normalizeIsbn(typeof entry.ISBN === "string" ? entry.ISBN : typeof entry.isbn === "string" ? entry.isbn : null);
+};
+
+export const catalogEntrySlug = (entry: RawCatalogEntry): string => {
+  const title = entryTitle(entry) || "item";
+  const year = catalogEntryYearValue(entry);
+  const seed = [
+    normalizeWhitespace(entry.authors),
+    normalizeWhitespace(entry.title),
+    normalizeWhitespace(entry.source),
+    normalizeWhitespace(entry.doi),
+    normalizeWhitespace(entry.url),
+    year ? String(year) : "",
+  ].join("|");
+  const base = (slugify(title).slice(0, 72).replace(/-+$/g, "") || "item");
+  const yearSuffix = year ? `-${year}` : "";
+  return `${base}${yearSuffix}-${stableShortHash(seed)}`;
 };
 
 const resolvePrimaryLink = (
@@ -297,6 +362,18 @@ const resolveCanonicalCatalogDataPath = (dataFileName: string): ResolvedCatalogD
   }
 
   return null;
+};
+
+export const loadCanonicalRawCatalogEntries = (dataFileName: string): RawCatalogEntry[] => {
+  const resolved = resolveCanonicalCatalogDataPath(dataFileName);
+  if (!resolved) return [];
+
+  try {
+    const parsed = JSON.parse(fs.readFileSync(resolved.absPath, "utf8")) as RawCatalogEntry[];
+    return Array.isArray(parsed) ? parsed.filter((entry) => Boolean(entryTitle(entry))) : [];
+  } catch {
+    return [];
+  }
 };
 
 export const loadCanonicalCatalogIndex = ({ title, dataFileName, pdfFolderKey }: LoadCanonicalCatalogIndexOptions): CuratedIndex => {
