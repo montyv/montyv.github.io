@@ -79,57 +79,72 @@ export default function HomePage() {
   };
 
   return (
-    <main className="py-10">
+    <main className="py-8 md:py-10">
       <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
-      <section className="grid gap-8 md:grid-cols-[1.15fr_0.85fr] md:items-start">
-        <div className="space-y-5">
-          <header className="space-y-2">
-            <h1 className="text-3xl font-semibold tracking-tight">
-              Velimir ("monty") Vesselinov{" "}
-            </h1>
-            <p className="text-slate-300">
-              Innovating the Future with Science-Informed AI/ML
-            </p>
-            <p className="max-w-3xl text-sm leading-relaxed text-slate-300">
-              Research profile for Velimir V. Vesselinov featuring publications, presentations, reports,
-              and linked scientific work across geoscience, uncertainty quantification, and AI/ML-enabled
-              decision support.
-            </p>
+      <section className="grid gap-6 lg:grid-cols-[1.18fr_0.82fr] lg:items-stretch">
+        <div className="page-panel flex flex-col gap-6">
+          <header className="space-y-4">
+            <div className="hero-kicker">Research Profile</div>
+            <div className="space-y-3">
+              <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-slate-50 md:text-5xl">
+                Velimir ("monty") Vesselinov
+              </h1>
+              <p className="max-w-2xl text-lg text-cyan-100/90 md:text-xl">
+                Science-informed AI/ML, geoscience modeling, uncertainty quantification, and open scientific software.
+              </p>
+              <p className="max-w-3xl text-sm leading-relaxed text-slate-300 md:text-base">
+                Research profile for Velimir V. Vesselinov featuring publications, presentations, reports,
+                software, and linked scientific work across geoscience, uncertainty quantification, and
+                AI/ML-enabled decision support.
+              </p>
+            </div>
           </header>
 
-          <nav className="grid gap-3 sm:grid-cols-2">
-            <Link
-              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
-              href="/publications"
-            >
-              <div className="font-medium">Publications</div>
-            </Link>
-            <Link
-              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
-              href="/presentations"
-            >
-              <div className="font-medium">Presentations</div>
-            </Link>
-            <Link
-              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
-              href="/reports"
-            >
-              <div className="font-medium">Reports</div>
-            </Link>
-            <Link
-              className="rounded-lg border border-slate-800 p-4 hover:bg-slate-900/40"
-              href="/software"
-            >
-              <div className="font-medium">Software</div>
-            </Link>
+          <div className="flex flex-wrap gap-2">
+            <span className="metric-chip">40+ years in science and engineering</span>
+            <span className="metric-chip">130+ research publications</span>
+            <span className="metric-chip">Open-source scientific software</span>
+          </div>
+
+          <nav className="grid gap-3 md:grid-cols-2">
+            {[
+              {
+                href: "/software",
+                title: "Software",
+                description: "SmartTensors, MADS, WELLS, and other scientific tools.",
+              },
+              {
+                href: "/publications",
+                title: "Publications",
+                description: "Peer-reviewed articles, papers, and scholarly output.",
+              },
+              {
+                href: "/presentations",
+                title: "Presentations",
+                description: "Talks, invited lectures, slide decks, and conference materials.",
+              },
+              {
+                href: "/reports",
+                title: "Reports",
+                description: "Technical reports and downloadable research documents.",
+              },
+            ].map((item) => (
+              <Link key={item.href} className="nav-card" href={item.href}>
+                <div className="text-xs uppercase tracking-[0.22em] text-slate-400">Explore</div>
+                <div className="mt-2 font-[family-name:var(--display-font)] text-2xl text-slate-50">
+                  {item.title}
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-slate-300">{item.description}</p>
+              </Link>
+            ))}
           </nav>
 
-          <section className="rounded-lg border border-slate-800 p-5">
-            <div className="mt-3 grid gap-3 text-sm text-slate-200">
+          <section className="page-panel p-5">
+            <div className="grid gap-3 text-sm text-slate-200">
               <p>
                 Email:{" "}
                 <ObfuscatedEmailLink
@@ -205,30 +220,58 @@ export default function HomePage() {
           </section>
         </div>
 
-        <div className="space-y-3">
-          <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/20">
+        <div className="page-panel flex flex-col gap-5">
+          <div className="overflow-hidden rounded-[1.6rem] border border-cyan-200/10 bg-slate-900/20">
             <img
               src="/images/monty20210529-body.jpg"
               alt="Velimir V. Vesselinov"
-              className="h-[420px] w-full object-cover object-top"
+              className="h-[420px] w-full object-cover object-top md:h-[520px]"
             />
+          </div>
+          <div className="rounded-[1.4rem] border border-slate-700/40 bg-slate-900/35 p-5">
+            <div className="text-xs uppercase tracking-[0.24em] text-amber-300">Focus Areas</div>
+            <div className="mt-3 grid gap-3 text-sm text-slate-300">
+              <p>Machine learning and artificial intelligence for earth and environmental systems.</p>
+              <p>Model diagnostics, uncertainty quantification, inverse analysis, and decision support.</p>
+              <p>Scientific software development spanning hydrology, geoscience, and high-performance computing.</p>
+            </div>
           </div>
         </div>
       </section>
 
       {sectionsForCards.length ? (
-        <section className="mt-10">
-          <div className="grid gap-3">
-            {sectionsForCards.map((section) => (
+        <section className="mt-8 md:mt-10">
+          <div className="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <div className="hero-kicker">Archive</div>
+              <h2 className="mt-3 text-3xl text-slate-50">Browse Sections</h2>
+            </div>
+            <p className="max-w-xl text-right text-sm text-slate-400">
+              Expand the sections below to explore background, research directions, projects, software, workshops, and archival materials.
+            </p>
+          </div>
+          <div className="grid gap-4">
+            {sectionsForCards.map((section, index) => (
               <details
                 key={section.id}
                 data-home-section={section.id}
-                className="rounded-lg border border-slate-800 p-5"
+                className="section-disclosure"
               >
-                <summary className="cursor-pointer select-none text-base font-semibold text-slate-100">
-                  {section.title}
+                <summary className="section-summary">
+                  <div className="section-summary-row">
+                    <div className="flex items-center gap-4">
+                      <span className="section-index">{String(index + 1).padStart(2, "0")}</span>
+                      <div>
+                        <div className="text-xs uppercase tracking-[0.22em] text-slate-500">Section</div>
+                        <div className="font-[family-name:var(--display-font)] text-2xl text-slate-50">
+                          {section.title}
+                        </div>
+                      </div>
+                    </div>
+                    <span className="section-toggle">Open</span>
+                  </div>
                 </summary>
-                <div className="legacy-content mt-4" suppressHydrationWarning>
+                <div className="legacy-content border-t border-slate-800/70 px-5 pb-5 pt-4 md:px-6 md:pb-6" suppressHydrationWarning>
                   <div
                     suppressHydrationWarning
                     dangerouslySetInnerHTML={{ __html: sectionHtml(section) }}
