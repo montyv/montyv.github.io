@@ -97,7 +97,7 @@ export default function HomePage() {
                 Science-informed AI/ML, geoscience modeling, uncertainty quantification, and open scientific software.
               </p>
               <p className="max-w-3xl text-sm leading-relaxed text-slate-300 md:text-base">
-                Research profile for Velimir V. Vesselinov featuring publications, presentations, reports,
+                Research profile featuring publications, presentations, reports,
                 software, and linked scientific work across geoscience, uncertainty quantification, and
                 AI/ML-enabled decision support.
               </p>
