@@ -24,6 +24,8 @@ jobs:
           lfs: true
 
       - name: Checkout shared EnviTraceJS catalog data
+        id: checkout_envitrace
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: EnviTrace/EnviTraceJS
@@ -34,6 +36,10 @@ jobs:
             data/monty presentations.json
             data/monty reports.json
           sparse-checkout-cone-mode: false
+
+      - name: Warn when shared EnviTraceJS catalog data is unavailable
+        if: steps.checkout_envitrace.outcome == 'failure'
+        run: echo "Shared EnviTraceJS catalog checkout was not available in CI; continuing without the shared Monty JSON source."
 
       - name: Setup Node
         uses: actions/setup-node@v4

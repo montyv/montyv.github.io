@@ -42,6 +42,8 @@ jobs:
 
       - name: Checkout shared EnviTraceJS catalog data
         if: steps.github_mirror_config.outputs.enabled == 'true'
+        id: checkout_envitrace_mirror
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: EnviTrace/EnviTraceJS
@@ -52,6 +54,10 @@ jobs:
             data/monty presentations.json
             data/monty reports.json
           sparse-checkout-cone-mode: false
+
+      - name: Warn when shared EnviTraceJS catalog data is unavailable
+        if: steps.github_mirror_config.outputs.enabled == 'true' && steps.checkout_envitrace_mirror.outcome == 'failure'
+        run: echo "Shared EnviTraceJS catalog checkout was not available in CI; continuing without the shared Monty JSON source."
 
       - name: Setup Node
         if: steps.github_mirror_config.outputs.enabled == 'true'
