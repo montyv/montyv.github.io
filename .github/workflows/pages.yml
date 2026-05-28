@@ -27,6 +27,8 @@ jobs:
         id: checkout_envitrace
         continue-on-error: true
         uses: actions/checkout@v4
+        env:
+          ENVITRACEJS_REPO_READ_TOKEN: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN }}
         with:
           repository: EnviTrace/EnviTraceJS
           ref: main
@@ -36,6 +38,7 @@ jobs:
             data/monty presentations.json
             data/monty reports.json
           sparse-checkout-cone-mode: false
+          token: ${{ env.ENVITRACEJS_REPO_READ_TOKEN != '' && env.ENVITRACEJS_REPO_READ_TOKEN || github.token }}
 
       - name: Warn when shared EnviTraceJS catalog data is unavailable
         if: steps.checkout_envitrace.outcome == 'failure'
@@ -46,6 +49,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: npm ci

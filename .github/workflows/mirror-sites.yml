@@ -45,6 +45,8 @@ jobs:
         id: checkout_envitrace_mirror
         continue-on-error: true
         uses: actions/checkout@v4
+        env:
+          ENVITRACEJS_REPO_READ_TOKEN: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN }}
         with:
           repository: EnviTrace/EnviTraceJS
           ref: main
@@ -54,6 +56,7 @@ jobs:
             data/monty presentations.json
             data/monty reports.json
           sparse-checkout-cone-mode: false
+          token: ${{ env.ENVITRACEJS_REPO_READ_TOKEN != '' && env.ENVITRACEJS_REPO_READ_TOKEN || github.token }}
 
       - name: Warn when shared EnviTraceJS catalog data is unavailable
         if: steps.github_mirror_config.outputs.enabled == 'true' && steps.checkout_envitrace_mirror.outcome == 'failure'
