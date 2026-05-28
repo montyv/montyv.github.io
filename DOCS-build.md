@@ -54,6 +54,27 @@ If the sibling EnviTraceJS repo or any shared JSON file is missing, `npm run bui
 
 `npm run dev` and `npm run build` do **not** auto-generate these JSON files.
 
+## Deployment
+
+- `.github/workflows/pages.yml` deploys the canonical GitHub Pages site for `montyv.github.io`.
+- `.github/workflows/mirror-sites.yml` handles the mirror targets:
+  - Builds a static export for `https://montyvesselinov.github.io` and pushes `out/` into `montyvesselinov/montyvesselinov.github.io`.
+  - Pushes the source branch to `monty/monty.gitlab.io`, where `.gitlab-ci.yml` builds and publishes `https://monty.gitlab.io`.
+- `.gitlab-ci.yml` defaults `SITE_URL` to `https://monty.gitlab.io`; override the CI variable only if the GitLab Pages URL changes.
+
+### Required GitHub Actions configuration
+
+- Repository secret `MONTYVESS_GITHUB_PAT`: PAT with contents write access to the external GitHub repo.
+- Repository secret `GITLAB_PUSH_TOKEN`: GitLab token with write access to the target project.
+- The workflow currently targets branch `main` on both mirror repositories. If either target uses a different default branch, update `.github/workflows/mirror-sites.yml` before enabling the job.
+
+### Required target-repo setup
+
+- Initialize the external GitHub Pages repo and make sure its `main` branch already exists.
+- Configure that GitHub Pages repo to publish from the same branch that the workflow pushes.
+- Create the GitLab project before enabling mirroring from GitHub Actions.
+- Enable Git LFS on the GitLab project so mirrored PDFs remain downloadable.
+
 ## Home sections (editable HTML)
 
 The home page expandable sections are sourced from editable files under `app/home/sections/*.html` and the index `app/home/sections/sections.json`.

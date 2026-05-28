@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Checkout shared EnviTraceJS catalog data
         uses: actions/checkout@v4
@@ -32,7 +34,6 @@ jobs:
             data/monty presentations.json
             data/monty reports.json
           sparse-checkout-cone-mode: false
-          token: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN != '' && secrets.ENVITRACEJS_REPO_READ_TOKEN || github.token }}
 
       - name: Setup Node
         uses: actions/setup-node@v4

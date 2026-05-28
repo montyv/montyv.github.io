@@ -1,0 +1,143 @@
+name: Publish Site Mirrors
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-mirrors
+  cancel-in-progress: false
+
+env:
+  MONTYVESS_GITHUB_REPO: montyvesselinov/montyvesselinov.github.io
+  MONTYVESS_GITHUB_BRANCH: main
+  GITLAB_PROJECT_PATH: monty/monty.gitlab.io
+  GITLAB_TARGET_BRANCH: main
+
+jobs:
+  publish-montyvesselinov-github-io:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Check external GitHub mirror configuration
+        id: github_mirror_config
+        shell: bash
+        env:
+          TARGET_TOKEN: ${{ secrets.MONTYVESS_GITHUB_PAT }}
+        run: |
+          if [ -n "$TARGET_TOKEN" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "MONTYVESS_GITHUB_PAT is not configured; skipping montyvesselinov.github.io publish."
+          fi
+
+      - name: Checkout shared EnviTraceJS catalog data
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: EnviTrace/EnviTraceJS
+          ref: main
+          path: EnviTraceJS
+          sparse-checkout: |
+            data/monty publications.json
+            data/monty presentations.json
+            data/monty reports.json
+          sparse-checkout-cone-mode: false
+
+      - name: Setup Node
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        run: npm ci
+
+      - name: Build export for montyvesselinov.github.io
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        run: npm run build
+        env:
+          SITE_URL: https://montyvesselinov.github.io
+          MONTY_CATALOG_DATA_DIR: ${{ github.workspace }}/EnviTraceJS/data
+
+      - name: Ensure .nojekyll
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        run: touch out/.nojekyll
+
+      - name: Verify output
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        run: test -f out/index.html || test -f out/index/index.html
+
+      - name: Publish export to external GitHub repo
+        if: steps.github_mirror_config.outputs.enabled == 'true'
+        shell: bash
+        env:
+          TARGET_REPO: ${{ env.MONTYVESS_GITHUB_REPO }}
+          TARGET_BRANCH: ${{ env.MONTYVESS_GITHUB_BRANCH }}
+          TARGET_TOKEN: ${{ secrets.MONTYVESS_GITHUB_PAT }}
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch "$TARGET_BRANCH" "https://x-access-token:$TARGET_TOKEN@github.com/$TARGET_REPO.git" published-site
+          rsync -av --delete --exclude '.git' out/ published-site/
+          cd published-site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git status --short | grep . >/dev/null; then
+            git add -A
+            git commit -m "Deploy ${GITHUB_REPOSITORY}@${GITHUB_SHA}"
+            git push origin "HEAD:$TARGET_BRANCH"
+          else
+            echo "No changes to publish."
+          fi
+
+  mirror-source-to-gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Check GitLab mirror configuration
+        id: gitlab_mirror_config
+        shell: bash
+        env:
+          GITLAB_PUSH_TOKEN: ${{ secrets.GITLAB_PUSH_TOKEN }}
+        run: |
+          if [ -n "$GITLAB_PUSH_TOKEN" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "GITLAB_PUSH_TOKEN is not configured; skipping GitLab mirror push."
+          fi
+
+      - name: Push source branch to GitLab mirror
+        if: steps.gitlab_mirror_config.outputs.enabled == 'true'
+        shell: bash
+        env:
+          GITLAB_PROJECT_PATH: ${{ env.GITLAB_PROJECT_PATH }}
+          GITLAB_TARGET_BRANCH: ${{ env.GITLAB_TARGET_BRANCH }}
+          GITLAB_PUSH_TOKEN: ${{ secrets.GITLAB_PUSH_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add gitlab "https://oauth2:${GITLAB_PUSH_TOKEN}@gitlab.com/${GITLAB_PROJECT_PATH}.git"
+          git push gitlab "HEAD:${GITLAB_TARGET_BRANCH}"
+
+          if git lfs version >/dev/null 2>&1; then
+            git lfs push --all gitlab
+          fi
