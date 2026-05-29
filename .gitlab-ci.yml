@@ -25,13 +25,22 @@ pages:
       else
         export ENVITRACEJS_REPO_URL="https://github.com/EnviTrace/EnviTraceJS.git"
       fi
-    - git clone --depth 1 --filter=blob:none --sparse "$ENVITRACEJS_REPO_URL" EnviTraceJS
-    - cd EnviTraceJS
-    - git sparse-checkout set --no-cone "data/monty publications.json" "data/monty presentations.json" "data/monty reports.json"
-    - cd "$CI_PROJECT_DIR"
+    - |
+      if git clone --depth 1 --filter=blob:none --sparse "$ENVITRACEJS_REPO_URL" EnviTraceJS; then
+        cd EnviTraceJS
+        git sparse-checkout set --no-cone "data/monty publications.json" "data/monty presentations.json" "data/monty reports.json"
+        cd "$CI_PROJECT_DIR"
+      else
+        echo "Shared EnviTraceJS catalog checkout unavailable in GitLab CI; continuing without shared Monty JSON source."
+      fi
   script:
     - npm ci --prefer-offline
-    - SITE_URL="${SITE_URL:-https://monty.gitlab.io}" MONTY_CATALOG_DATA_DIR="$CI_PROJECT_DIR/EnviTraceJS/data" npm run build
+    - |
+      if [ -d "$CI_PROJECT_DIR/EnviTraceJS/data" ]; then
+        SITE_URL="${SITE_URL:-https://monty.gitlab.io}" MONTY_CATALOG_DATA_DIR="$CI_PROJECT_DIR/EnviTraceJS/data" npm run build
+      else
+        SITE_URL="${SITE_URL:-https://monty.gitlab.io}" npm run build
+      fi
     - test -f out/index.html || test -f out/index/index.html
     - touch out/.nojekyll
     - rm -rf public
