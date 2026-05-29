@@ -14,9 +14,9 @@ concurrency:
 
 env:
   MONTYVESS_GITHUB_REPO: montyvesselinov/montyvesselinov.github.io
-  MONTYVESS_GITHUB_BRANCH: main
+  MONTYVESS_GITHUB_BRANCH: master
   GITLAB_PROJECT_PATH: monty/monty.gitlab.io
-  GITLAB_TARGET_BRANCH: main
+  GITLAB_TARGET_BRANCH: master
 
 jobs:
   publish-montyvesselinov-github-io:

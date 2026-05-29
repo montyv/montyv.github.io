@@ -67,11 +67,11 @@ If the sibling EnviTraceJS repo or any shared JSON file is missing, `npm run bui
 - Repository secret `MONTYVESS_GITHUB_PAT`: PAT with contents write access to the external GitHub repo.
 - Repository secret `GITLAB_PUSH_TOKEN`: GitLab token with write access to the target project.
 - Optional repository secret `ENVITRACEJS_REPO_READ_TOKEN`: GitHub token with read access to `EnviTrace/EnviTraceJS` if you want CI builds to include the shared Monty catalog JSON from that private repo instead of falling back to the reduced local build.
-- The workflow currently targets branch `main` on both mirror repositories. If either target uses a different default branch, update `.github/workflows/mirror-sites.yml` before enabling the job.
+- The workflow currently targets branch `master` on both mirror repositories because `montyvesselinov/montyvesselinov.github.io` and `monty/monty.gitlab.io` both use `master` as their default branch.
 
 ### Required target-repo setup
 
-- Initialize the external GitHub Pages repo and make sure its `main` branch already exists.
+- Initialize the external GitHub Pages repo and make sure its `master` branch already exists.
 - Configure that GitHub Pages repo to publish from the same branch that the workflow pushes.
 - Create the GitLab project before enabling mirroring from GitHub Actions.
 - Enable Git LFS on the GitLab project so mirrored PDFs remain downloadable.
