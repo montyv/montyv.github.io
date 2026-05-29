@@ -18,9 +18,7 @@ pages:
     - if: '$CI_COMMIT_BRANCH == "main"'
   before_script:
     - apt-get update
-    - apt-get install -y git git-lfs
-    - git lfs install
-    - git lfs pull
+    - apt-get install -y git
     - |
       if [ -n "$ENVITRACEJS_REPO_READ_TOKEN" ]; then
         export ENVITRACEJS_REPO_URL="https://x-access-token:${ENVITRACEJS_REPO_READ_TOKEN}@github.com/EnviTrace/EnviTraceJS.git"

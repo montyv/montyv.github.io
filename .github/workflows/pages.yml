@@ -19,14 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           lfs: true
 
       - name: Checkout shared EnviTraceJS catalog data
         id: checkout_envitrace
         continue-on-error: true
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         env:
           ENVITRACEJS_REPO_READ_TOKEN: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN }}
         with:
@@ -45,7 +45,7 @@ jobs:
         run: echo "Shared EnviTraceJS catalog checkout was not available in CI; continuing without the shared Monty JSON source."
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -65,21 +65,8 @@ jobs:
       - name: Ensure .nojekyll
         run: touch out/.nojekyll
 
-      - name: List output (debug)
-        run: |
-          echo "PWD: $(pwd)"
-          echo "out/ top-level:"
-          ls -la out || true
-          echo "index.html candidates:"
-          find out -maxdepth 3 -type f -name 'index.html' -print || true
-
       - name: Verify output
         run: test -f out/index.html || test -f out/index/index.html
-
-      - name: List output before upload (debug)
-        run: |
-          echo "Final out/ contents before artifact upload:"
-          ls -la out
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

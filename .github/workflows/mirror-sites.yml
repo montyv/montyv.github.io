@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           lfs: true
 
@@ -44,7 +44,7 @@ jobs:
         if: steps.github_mirror_config.outputs.enabled == 'true'
         id: checkout_envitrace_mirror
         continue-on-error: true
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         env:
           ENVITRACEJS_REPO_READ_TOKEN: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN }}
         with:
@@ -64,7 +64,7 @@ jobs:
 
       - name: Setup Node
         if: steps.github_mirror_config.outputs.enabled == 'true'
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -115,7 +115,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           lfs: true
