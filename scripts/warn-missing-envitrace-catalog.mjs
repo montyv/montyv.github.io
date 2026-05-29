@@ -3,21 +3,26 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dataDir = process.env.MONTY_CATALOG_DATA_DIR
-  ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR)
-  : path.resolve(repoRoot, "..", "EnviTraceJS", "data");
-
 const requiredFiles = [
   "monty publications.json",
   "monty presentations.json",
   "monty reports.json",
 ];
 
-const missingFiles = requiredFiles.filter((fileName) => !fs.existsSync(path.join(dataDir, fileName)));
+const candidateDirs = [
+  path.resolve(repoRoot, "app", "data"),
+  process.env.MONTY_CATALOG_DATA_DIR ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR) : null,
+  path.resolve(repoRoot, "..", "EnviTraceJS", "data"),
+].filter(Boolean);
 
-if (missingFiles.length > 0) {
-  const target = dataDir.replace(/\\/g, "/");
-  const details = missingFiles.join(", ");
+const resolvedDir = candidateDirs.find((candidateDir) => {
+  return requiredFiles.every((fileName) => fs.existsSync(path.join(candidateDir, fileName)));
+});
+
+if (!resolvedDir) {
+  const locations = candidateDirs.map((candidateDir) => candidateDir.replace(/\\/g, "/")).join(", ");
   // eslint-disable-next-line no-console
-  console.warn(`[build] Warning: shared EnviTraceJS catalog data not found at ${target} (${details}). montyv.github.io publications/presentations/reports will build without the shared Monty JSON source.`);
+  console.warn(
+    `[build] Warning: Monty catalog data not found in any configured location (${locations}). montyv.github.io publications/presentations/reports will build without the shared Monty JSON source.`,
+  );
 }

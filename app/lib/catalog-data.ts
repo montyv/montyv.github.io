@@ -349,6 +349,7 @@ export const sortCatalogItems = <T extends CuratedItem>(items: T[]): T[] => {
 const resolveCanonicalCatalogDataPath = (dataFileName: string): ResolvedCatalogDataPath | null => {
   const envDir = process.env.MONTY_CATALOG_DATA_DIR;
   const candidatePaths = [
+    path.resolve(process.cwd(), "app", "data", dataFileName),
     envDir ? path.resolve(envDir, dataFileName) : null,
     path.resolve(process.cwd(), "..", "EnviTraceJS", "data", dataFileName),
   ].filter((value): value is string => Boolean(value));

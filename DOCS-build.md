@@ -43,11 +43,23 @@ When PDF parsing is enabled, the generator tries to extract a better title/autho
 
 Index generation for legacy/PDF helper JSON is **explicit-only**.
 
-The publications, presentations, and reports page builds now read the shared Monty JSON files from the sibling `EnviTraceJS/data/` directory during `npm run build`.
+The canonical Monty JSON files now live in `app/data/` inside this repo:
 
-If the sibling EnviTraceJS repo or any shared JSON file is missing, `npm run build` prints a warning before continuing.
+- `app/data/monty publications.json`
+- `app/data/monty presentations.json`
+- `app/data/monty reports.json`
 
-`npm run sync:catalog` and `npm run sync:catalog:scholar` also write to the shared `EnviTraceJS/data/` Monty JSON files now, not to local `app/data/` copies.
+`npm run build` copies those canonical files to `public/data/` as:
+
+- `public/data/monty-publications.json`
+- `public/data/monty-presentations.json`
+- `public/data/monty-reports.json`
+
+Those public URLs are the fallback source for other repos, including `EnviTraceJS`, when the sibling checkout is not available.
+
+If the local canonical files are missing, `npm run build` prints a warning before continuing.
+
+`npm run sync:catalog` and `npm run sync:catalog:scholar` now write back into the local canonical files in `app/data/`.
 
 - Generate legacy + PDF index JSON files: `npm run generate:indexes`
 - Generate with PDF metadata parsing: `npm run generate:indexes:pdf`
@@ -66,7 +78,6 @@ If the sibling EnviTraceJS repo or any shared JSON file is missing, `npm run bui
 
 - Repository secret `MONTYVESS_GITHUB_PAT`: PAT with contents write access to the external GitHub repo.
 - Repository secret `GITLAB_PUSH_TOKEN`: GitLab token with write access to the target project.
-- Optional repository secret `ENVITRACEJS_REPO_READ_TOKEN`: GitHub token with read access to `EnviTrace/EnviTraceJS` if you want CI builds to include the shared Monty catalog JSON from that private repo instead of falling back to the reduced local build.
 - The workflow currently targets branch `master` on both mirror repositories because `montyvesselinov/montyvesselinov.github.io` and `monty/monty.gitlab.io` both use `master` as their default branch.
 
 ### Required target-repo setup

@@ -10,7 +10,7 @@
     "audit:seo:warn": "node scripts/check-seo-key-templates.mjs --warn",
     "predev": "node scripts/generate-home-sections.mjs",
     "dev": "node scripts/run-next-with-distdir.mjs dev",
-    "prebuild": "node scripts/warn-missing-envitrace-catalog.mjs && node scripts/generate-home-sections.mjs && npm run audit:seo:warn",
+    "prebuild": "node scripts/sync-public-monty-catalog-data.mjs && node scripts/warn-missing-envitrace-catalog.mjs && node scripts/generate-home-sections.mjs && npm run audit:seo:warn",
     "build": "node scripts/run-next-with-distdir.mjs build",
     "start": "npx serve@latest out",
     "preview": "npx serve@latest out",

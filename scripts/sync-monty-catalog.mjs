@@ -3,11 +3,9 @@ import path from "node:path";
 
 const repoRoot = process.cwd();
 
-const SHARED_DATA_DIR = process.env.MONTY_CATALOG_DATA_DIR
-  ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR)
-  : path.resolve(repoRoot, "..", "EnviTraceJS", "data");
-const PUBLICATIONS_FILE = path.join(SHARED_DATA_DIR, "monty publications.json");
-const PRESENTATIONS_FILE = path.join(SHARED_DATA_DIR, "monty presentations.json");
+const CANONICAL_DATA_DIR = path.join(repoRoot, "app", "data");
+const PUBLICATIONS_FILE = path.join(CANONICAL_DATA_DIR, "monty publications.json");
+const PRESENTATIONS_FILE = path.join(CANONICAL_DATA_DIR, "monty presentations.json");
 const PAPERS_DIR = path.join(repoRoot, "public", "papers");
 const PRESENTATIONS_DIR = path.join(repoRoot, "public", "presentations");
 const SCHOLAR_URL = "https://scholar.google.com/citations?hl=en&user=sIFHVvwAAAAJ&view_op=list_works&sortby=pubdate";
@@ -278,6 +276,7 @@ const readJsonArray = async (filePath) => {
 };
 
 const writeJsonArray = async (filePath, entries) => {
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(sortEntries(entries), null, 2) + "\n", "utf8");
 };
 

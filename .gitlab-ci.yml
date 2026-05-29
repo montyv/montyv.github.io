@@ -4,17 +4,9 @@ stages:
   - deploy
 
 variables:
-  NPM_CONFIG_CACHE: "$CI_PROJECT_DIR/.npm"
-
-cache:
   key: "npm-${CI_COMMIT_REF_SLUG}"
   paths:
-    - .npm/
-
-pages:
-  stage: deploy
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - SITE_URL="${SITE_URL:-https://monty.gitlab.io}" npm run build
     - if: '$CI_COMMIT_BRANCH == "main"'
   before_script:
     - apt-get update

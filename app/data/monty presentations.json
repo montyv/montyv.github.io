@@ -1,0 +1,694 @@
+[
+	{
+		"authors": "V.V. Vesselinov, T. Kliphuis",
+		"title": "Machine Learning Estimates of Geothermal and Critical Mineral Prospectivity of the Great Basin",
+		"source": "Stanford Geothermal Workshop",
+		"doi": "10.13140/RG.2.2.11951.19360",
+		"year": 2026,
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.11951.19360",
+		"envitrace_labels": ["geoml", "geotgo", "minerals"],
+		"abstract": "We discusses the use of machine learning to estimate geothermal and critical mineral prospectivity in the Great Basin, integrating geological, geochemical, and geophysical data to support resource assessment. The presentation highlights the application of supervised and unsupervised ML methods to identify prospective locations, extract key features, and inform exploration strategies for geothermal energy and critical minerals in this geologically complex region."
+	},
+	{
+		"authors": "T. Kliphuis, V.V. Vesselinov",
+		"title": "GAIA: Cloud Framework for Geospatial Artificial Intelligence Analyses",
+		"source": "HydroML 2025, University of California, Irvine",
+		"doi": "10.13140/RG.2.2.34045.88806",
+		"year": 2025,
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.34045.88806",
+		"envitrace_labels": ["gaia", "geoml"],
+		"abstract": "Here we introduce GAIA, a cloud platform for geospatial AI analyses, focusing on scalable workflows for processing and interpreting large geospatial datasets in environmental and earth science applications. The presentation covers GAIA's architecture, capabilities for integrating diverse data sources, and examples of its application to problems such as resource assessment, environmental monitoring, and geospatial prediction using machine learning techniques."
+	},
+	{
+		"authors": "V.V. Vesselinov, R. Yang, A. Markowitz, T. Kliphuis",
+		"title": "GeoDAWN & GeoFLIGHT to GeoTGo: From complex data to defensible decisions related to geothermal prospectivity",
+		"source": "Stanford Geothermal Workshop",
+		"doi": "10.13140/RG.2.2.14194.82881",
+		"year": 2025,
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.14194.82881",
+		"envitrace_labels": ["geoml", "geotgo"],
+		"abstract": "We cover the evolution from GeoDAWN and GeoFLIGHT datasets into our platrform for geothermal exploration, GeoTGo. Our presentation highlights workflows that transform complex geothermal datasets into actionable, defensible exploration and development decisions."
+	},
+	{
+		"authors": "R. Yang, A. Markowitz, T. Kliphuis, R. Abuamoud, S. Ben Ayed, V.V. Vesselinov",
+		"title": "UrbanAI Transforming Urban Energy Planning Using Artificial Intelligence",
+		"source": "Machine Learning in Solid Earth Geoscience",
+		"doi": "10.13140/RG.2.2.15584.19201",
+		"year": 2025,
+		"url": "https://www.researchgate.net/doi/10.13140/RG.2.2.15584.19201",
+		"envitrace_labels": ["urbanai", "geoml"],
+		"abstract": "This presentation explores the application of AI and machine learning to urban energy planning, with a focus on integrating geospatial, infrastructure, and environmental data for smarter city-scale energy solutions. We discuss the development of UrbanAI, a platform that leverages AI to analyze complex urban datasets, optimize energy systems, and support sustainable urban development through data-driven decision-making."
+	},
+	{
+		"authors": "V.V. Vesselinov, T. Kliphuis",
+		"title": "When Earth Meets AI",
+		"source": "RealmIQ El Sailon",
+		"year": 2025,
+		"url": "https://montyv.github.io/presentations/vesselinov kliphuis 2025 When Earth meets AI.pdf",
+		"envitrace_labels": ["geoml", "smarttensors"],
+		"abstract": "This presentation reflects on how artificial intelligence can help interpret Earth data and support subsurface decision-making. It connects broad AI concepts to practical geoscience applications, including geothermal prospectivity analysis based on geological, geophysical, and geochemical inputs, with an emphasis on using AI to move from complex data toward more useful Earth-system insight."
+	},
+	{
+		"authors": "V.V. Vesselinov, H. Jasperson, T. Kliphuis",
+		"title": "Laying the groundwork for a greener future: ML for characterizing and managing geologic reservoirs",
+		"year": 2024,
+		"url": "https://montyv.github.io/presentations/vesselinov 2024 Laying the groundwork for a greener future ML for characterizing and managing geologic reservoirs.pdf",
+		"envitrace_labels": ["geoml", "smarttensors"],
+		"abstract": "This presentation discusses how machine learning can support characterization and management of geologic reservoirs used for water supply, geothermal production, carbon sequestration, energy storage, mining, and waste disposal. It highlights unsupervised, supervised, and science-informed ML methods delivered through cloud-based tools to improve reservoir optimization while reducing environmental impacts and decision uncertainty."
+	},
+	{
+		"authors": "T. Kliphuis, H. Jasperson, V.V. Vesselinov",
+		"title": "Mapping geothermal resources using AI/ML",
+		"source": "New Mexico Geological Society Annual Spring Meeting",
+		"doi": "10.56577/SM-2024.2983",
+		"year": 2024,
+		"url": "https://nmgs.nmt.edu/meeting/abstracts/view.cfm?aid=2983",
+		"envitrace_labels": ["geoml", "geotgo"],
+		"abstract": "This work presents GeoTGo, a cloud-based interactive software platform applying supervised, unsupervised, and physics-informed machine learning methods for geothermal exploration and resource characterization. The platform processes diverse geological, geochemical, and geophysical datasets through joint processing workflows, preloaded with predictive models and regional datasets for the Great Basin and New Mexico to facilitate community-based geothermal resource development."
+	},
+	{
+		"authors": "T. Kliphuis, M. Bluehouse, V.V. Vesselinov",
+		"title": "GeoTGO: Equitable and Inclusive Tool for Community-Based Geothermal",
+		"source": "Stanford Geothermal Workshop",
+		"doi": null,
+		"year": 2023,
+		"url": "https://montyv.github.io/presentations/Kliphuis et al 2023 GeoTGO Equitable and Inclusive Tool for Community-Based Geothermal.pdf",
+		"envitrace_labels": ["geoml", "geotgo"],
+		"abstract": "This presentation introduces GeoTGo as an equitable and inclusive tool for community-based geothermal development. The platform combines AI/ML workflows with regional geological, geochemical, and geophysical data in an interactive environment intended to help communities explore geothermal potential, interpret results, and support more transparent local decision-making."
+	},
+	{
+		"authors": "V.V. Vesselinov, T. Kliphuis",
+		"title": "ChemML: Understanding groundwater flow and contaminant transport using machine learning",
+		"source": "American Geophysical Union, San Juan, Puerto Rico",
+		"doi": null,
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Vesselinov & Kliphuis 2022 ChemML Understanding groundwater flow and contaminant transport using machine learning.pdf",
+		"envitrace_labels": ["chemml", "geoml", "waste", "wells"],
+		"abstract": "This presentation introduces ChemML as a machine-learning approach for understanding groundwater flow and contaminant transport. It contrasts supervised, unsupervised, and physics-informed methods and emphasizes unbiased feature extraction together with science-informed modeling for environmental data analysis, diagnostics, and prediction."
+	},
+	{
+		"authors": "M. Ahmmed, V.V. Vesselinov",
+		"title": "Machine learning and a process model to better characterize hidden geothermal resources",
+		"source": "Geothermal Rising Conference (GRC)",
+		"year": 2022,
+		"url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources",
+		"envitrace_labels": ["geoml", "geotgo"],
+		"abstract": "The presentation discusses combining machine learning with process-based modeling to identify and characterize hidden geothermal resources, emphasizing improved exploration targeting and reduced uncertainty.]"
+	},
+	{
+		"authors": "M. Ahmmed, V.V. Vesselinov",
+		"title": "Machine Learning for Small, Uncertain, and Sparse Data Sets",
+		"source": "AGU Fall Meeting",
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Ahmmed%20%26%20Vesselinov%202022%20Machine%20Learning%20for%20Small%2C%20Uncertain%2C%20and%20Sparse%20Data%20Sets.pdf",
+		"envitrace_labels": ["mads"],
+		"abstract": "This presentation addresses strategies and methods for applying machine learning to small, uncertain, or sparse geoscience datasets, with examples from geothermal or environmental applications. It emphasizes techniques for maximizing information extraction, quantifying uncertainty, and improving model robustness in data-limited scenarios common in Earth and environmental sciences."
+	},
+	{
+		"authors": "V.V. Vesselinov, T. Kliphuis",
+		"title": "Novel machine learning methods and tools for geothermal and geochemical problems",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Vesselinov & Kliphuis 2022 Novel machine learning methods and tools for geothermal and geochemical problems.pdf",
+		"envitrace_labels": ["chemml", "geoml", "geotgo"],
+		"abstract": "This presentation surveys machine-learning methods and tools for geothermal and geochemical problems, including supervised, unsupervised, and physics-informed approaches. It emphasizes hidden-feature extraction, categorization, and science-informed prediction as practical tools for analyzing complex geoscience datasets and supporting geothermal and environmental applications."
+	},
+	{
+		"authors": "V.V. Vesselinov, T. Kliphuis",
+		"title": "Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Vesselinov & Kliphuis 2022 Physics-Informed Machine Learning of Geothermal, Geomechanical, Geochemical Process.pdf",
+		"envitrace_labels": ["chemml", "geoml", "geotgo"],
+		"abstract": "This presentation describes physics-informed machine-learning methods for geothermal, geomechanical, and geochemical problems. It positions physics-informed ML alongside supervised and unsupervised approaches and emphasizes embedding scientific knowledge into ML workflows to improve efficiency, robustness, and interpretability for geoscience applications."
+	},
+	{
+		"authors": "W. Fleming, V.V. Vesselinov, A. Goodbody",
+		"title": "Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting, with Applications to the Owyhee and Yellowstone Rivers: Regression Using Climate Indices Derived from SNOTEL Data Using Nonnegative Matrix Factorization with k-Means Clustering",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Fleming et al 2022 Practical Glass-Box Machine Learning for Seasonal Water Supply Forecasting.pdf",
+		"envitrace_labels": ["wefx", "smarttensors"],
+		"abstract": "Hydroclimatic explainability – a straightforward, concise, intuitive, and defensible ‘storyline’ framed around commonly accepted atmospheric and terrestrial hydrologic processes and conditions – is a key requirement for many forms of hydrologic modeling. This includes seasonal water supply forecasts (WSFs), which are the information backbone of the massive water management infrastructure in the mostly dry and increasingly thirsty American West."
+	},
+	{
+		"authors": "E. Jafarov, H. Genet, V.V. Vesselinov, V. Briones, R. Rutter, B. Rogers, S. Natali",
+		"title": "Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2022,
+		"url": "https://montyv.github.io/presentations/Jafarov et al 2022 Toward Automated Data-Model Calibration for the Arctic Terrestrial Ecosystem Model.pdf",
+		"envitrace_labels": ["mads"],
+		"abstract": "Permafrost contains a significant amount of frozen carbon that could release into the atmosphere due to continued warming. Terrestrial Ecosystem Models are effective tools for predicting terrestrial processes driving the permafrost carbon feedbacks to the climate system. Timely and accurate predictions require flexible model-data calibration tools that reduce systematic biases and errors, and facilitate more rapid model advancements and simulations."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "GeoThermalCloud: Cloud Fusion of Big Data and Multi-Physics Models using Machine Learning for Discovery, Exploration and Development of Hidden Geothermal Resources",
+		"source": "Department of Energy, Geothermal Office",
+		"doi": null,
+		"year": 2021,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2021 GeoThermalCloud.pdf",
+		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
+		"abstract": "This presentation introduces GeoThermalCloud as an open-source, cloud-based machine-learning framework for geothermal discovery, exploration, and development. It is designed to integrate diverse geothermal datasets with multi-physics models, identify hidden geothermal signatures, generate labels, prioritize high-value data acquisition, and support lower-risk exploration and production decisions."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "GeoThermalCloud: Fusion of Big Data and Multi-Physics Models",
+		"source": "JuliaCon, Boston, MA",
+		"doi": null,
+		"year": 2021,
+		"url": "https://montyv.github.io/presentations/GeoThermalCloud_JuliaCon2021.pdf",
+		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
+		"abstract": "This JuliaCon presentation describes GeoThermalCloud as a flexible open-source framework for fusing large geothermal datasets with multi-physics models. The workflow uses machine learning to discover hidden geothermal signatures, categorize data, guide data acquisition, address data gaps, and improve geothermal exploration and resource characterization."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Hidden geothermal signatures of the southwest New Mexico",
+		"source": "World Geothermal Congress, Reykjavik, Iceland",
+		"doi": null,
+		"year": 2021,
+		"url": null,
+		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
+		"abstract": "This presentation presents results from applying machine learning to regional datasets to identify hidden geothermal signatures in southwest New Mexico, supporting improved exploration and resource assessment. The workflow integrates geological, geochemical, and geophysical data to extract meaningful patterns and features that indicate geothermal potential in this understudied region."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Machine Learning to Characterize the State of Stress and its Influence on Geothermal Production",
+		"source": "Geothermal Rising Conference",
+		"doi": null,
+		"year": 2021,
+		"url": null,
+		"envitrace_labels": ["geoml", "geotgo", "lapis"],
+		"abstract": "This presentation explores how machine learning can be used to characterize subsurface stress states and their impact on geothermal production, using field data and predictive modeling. It highlights the integration of geological, geophysical, and production data to extract features related to stress conditions and their influence on reservoir performance, with implications for optimizing geothermal energy extraction."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "ML4Geo: Machine Learning for Geosciences",
+		"source": "JuliaCon, Boston, MA",
+		"doi": null,
+		"year": 2021,
+		"url": "https://montyv.github.io/presentations/ML4Geo_JuliaCon2021.pdf",
+		"envitrace_labels": ["geoml"],
+		"abstract": "This presentation introduces the ML4Geo framework or toolkit, demonstrating machine learning applications for oil & gas production data analysis, modeling, and visualization. It covers supervised, unsupervised, and physics-informed ML methods for extracting insights from complex geoscience datasets, with examples related to exploration, characterization, and production optimization."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "SmartTensors: Unsupervised Machine Learning",
+		"source": "JuliaCon, Boston, MA",
+		"doi": null,
+		"year": 2021,
+		"url": "https://montyv.github.io/presentations/SmartTensors_JuliaCon2021.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "Julia-based SmartTensors platform for unsupervised machine learning, focusing on feature extraction, dimensionality reduction, and geoscience applications. The presentation covers the design and implementation of SmartTensors, demonstrating its capabilities for analyzing complex geoscience datasets and extracting meaningful patterns to support geothermal exploration and environmental applications."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Unsupervised and Physics-Informed Machine learning in Geosciences",
+		"source": "Baylor University, Texas",
+		"doi": null,
+		"year": 2021,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2021 Unsupervised and Physics-Informed Machine learning in Geosciences Baylor.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "Our work explores the integration of unsupervised and physics-informed machine learning techniques in geosciences, highlighting applications and case studies related to water resource management, drought prediction, and geothermal resource assessment. We demonstrate how these approaches can extract meaningful patterns from complex geoscience datasets, improve model predictions, and support informed decision-making in the context of environmental challenges and resource management."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning",
+		"source": "Stanford Geothermal Workshop",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2020 Discovering Hidden Geothermal Signatures using Unsupervised Machine Learning LA-UR-20-21322.pdf",
+		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
+		"abstract": "Discovery of hidden geothermal resources is challenging. It requires the mining of large datasets with diverse data attributes representing subsurface hydrogeological and geothermal conditions. The commonly used play fairway analysis approach typically incorporates subject-matter expertise to analyze regional data to estimate geothermal characteristics and favorability. We demonstrate an alternative approach based on machine learning (ML) to process a geothermal dataset from southwest New Mexico (SWNM). We use unsupervised ML to extract hidden geothermal signatures from the data, and then we use these signatures to estimate geothermal favorability. The results are consistent with an existing comprehensive play fairway analysis, and they provide insights into key parameters defining geothermal favorability in the study area. We also discuss a coupling strategy between a process model (Burns equation) and ML to obtain a better understanding about the geothermal conditions in the study area."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Machine learning for geothermal resource analysis and exploration",
+		"source": "XXIII International Conference on Computational Methods in Water Resources (CMWR), Stanford, CA",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2020 Machine Learning for Geothermal Resource Analysis and Exploration CMWR.pdf",
+		"envitrace_labels": ["geoml", "geotgo"],
+		"abstract": "This presentation explores the application of machine learning techniques for geothermal resource analysis and exploration. It covers methods for integrating geological, geochemical, and geophysical data to identify hidden geothermal signatures and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning",
+		"source": "XXIII International Conference on Computational Methods in Water Resources (CMWR)",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2020 Predicting oil and gas production from unconventional tight-rock reservoirs using machine learning CMWR.pdf",
+		"envitrace_labels": ["petroai", "wells"],
+		"abstract": "Machine learning is applied to predict oil and gas production in unconventional tight-rock reservoirs by mapping complex, non-linear relationships between geological properties, completion designs, and historical production data. These data-driven models bypass the extreme computational bottlenecks of traditional physics-based simulations while outperforming conventional decline curve analysis. The presentation covers the development and application of these machine learning models, demonstrating their ability to provide accurate production forecasts and insights into key factors influencing reservoir performance."
+	},
+	{
+		"authors": "M. Mudunuru, V.V. Vesselinov, et al.",
+		"title": "Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration",
+		"source": "Geothermal Workshop, Stanford, CA",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Mudunuru 2020 Site-Scale and Regional-Scale Modeling for Geothermal Resource Analysis and Exploration LA-UR-20-21367.pdf",
+		"envitrace_labels": ["geoml", "geotgo", "mads"],
+		"abstract": "This presentation covers site-scale and regional-scale modeling approaches for geothermal resource analysis and exploration. It discusses the integration of geological, geochemical, and geophysical data with machine learning techniques to identify hidden geothermal signatures and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs",
+		"source": "Machine Learning in Oil & Gas Conference",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning Analyses for Characterization of Energy Production from Unconventional Reservoirs.pdf",
+		"envitrace_labels": ["petroai", "smarttensors", "wells"],
+		"abstract": "This presentation covers unsupervised and physics-informed machine learning analyses for characterizing energy production from unconventional reservoirs. It discusses the integration of geological, geochemical, and geophysical data with machine learning techniques to identify hidden patterns and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data",
+		"source": "Bureau of Economic Geology, University of Austin, Texas",
+		"doi": null,
+		"year": 2020,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2020 Unsupervised and Physics-Informed Machine Learning of Big and Noisy Data Austin.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers unsupervised and physics-informed machine learning analyses for characterizing energy production from unconventional reservoirs. It discusses the integration of geological, geochemical, and geophysical data with machine learning techniques to identify hidden patterns and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 Machine learning analyses for characterization of oil, gas and water production from unconventional tight-rock reservoirs.pdf",
+		"envitrace_labels": ["petroai", "wells"],
+		"abstract": "This presentation covers machine learning analyses for characterizing oil, gas, and water production from unconventional tight-rock reservoirs. It discusses the integration of geological, geochemical, and geophysical data with machine learning techniques to identify hidden patterns and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Machine Learning Analyses of Climate Data and Models",
+		"source": "11th World Congress of European Water Resources Association (EWRA), Madrid, Spain",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 Machine Learning Analyses of Climate Data and Models EWRA.pdf",
+		"envitrace_labels": ["wefx"],
+		"abstract": "This presentation covers machine learning analyses of climate data and models. It discusses the integration of climate datasets with machine learning techniques to identify hidden patterns and assess climate trends and projections. The presentation emphasizes the application of machine learning for climate data analysis, model diagnostics, and improving climate predictions. The work focuses on analyses of climate data and models for US and Europe to extract meaningful insights and support informed decision-making in the context of climate change and its impacts on ground surface tempreture, precipitation, water resources and the environment."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Novel Unsupervised Machine Learning Methods for Data Analytics and Model Diagnostics",
+		"source": "Machine Learning in Solid Earth Geoscience, Santa Fe",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 GeoScienceMLworkshop.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "Discussion of Novel Unsupervised Machine Learning Methods for Data Analytics and Model Diagnostics. The presentations addresses why and when unsupervised Machine Learning (ML) should be applied. It covers the use of unsupervised ML for extraction of hidden features characterizing complex datasets and models, and for categorization of data and models based on the extracted features. The presentation also discusses the use of physics-informed ML to improve the efficiency, robustness, and interpretability of ML analyses. Examples from geothermal, geochemical, and climate applications are used to illustrate the concepts and methods."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics",
+		"source": "M3 NASA DRIVE Workshop, Los Alamos",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 Physics-Informed Machine Learning Methods for Data Analytics and Model Diagnostics.pdf",
+		"envitrace_labels": ["geoml", "mads"],
+		"abstract": "This presentation covers physics-informed machine learning methods for data analytics and model diagnostics. It discusses the integration of physics-based knowledge with machine learning techniques to improve the efficiency, robustness, and interpretability of analyses. Examples from geothermal, geochemical, and climate applications are used to illustrate the concepts and methods."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Unsupervised and Physics-Informed Machine Learning of Big Data",
+		"source": "Workshop: Applications of Big Data and High-Performance Computing in Earth Sciences, AGU Fall Meeting, San Francisco, CA (invited)",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 Unsupervised and Physics-Informed Machine Learning of Big Data.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers unsupervised and physics-informed machine learning analyses for characterizing energy production from unconventional reservoirs. It discusses the integration of geological, geochemical, and geophysical data with machine learning techniques to identify hidden patterns and assess resource potential."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Unsupervised Machine Learning Methods for Feature Extraction",
+		"source": "New Mexico Big Data & Analytics Summit",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/vesselinov 2019 Unsupervised Machine Learning Methods for Feature Extraction LA-UR-19-21450.pdf",
+		"envitrace_labels": ["smarttensors"],
+		"abstract": "This presentation covers unsupervised machine learning methods for feature extraction. It discusses the use of nonnegative matrix and tensor decompositions to identify hidden patterns and extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Unsupervised Machine Learning: Nonnegative Matrix Tensor Decompositions",
+		"source": "MIT, Boston, MA",
+		"doi": null,
+		"year": 2019,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2019 Unsupervised Machine Learning Nonnegative Matrix Tensor Decompositions.pdf",
+		"envitrace_labels": ["smarttensors"],
+		"abstract": "This presentation covers unsupervised machine learning methods for nonnegative matrix and tensor decompositions. It discusses the use of these methods to identify hidden patterns and extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models",
+		"source": "Recent Advances in Machine Learning and Computational Methods for Geoscience, Institute for Mathematics and its Applications, University of Minnesota",
+		"doi": "10.13140/RG.2.2.16024.03848",
+		"year": 2018,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Complex Datasets and Models LA-UR-18-30987.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers unsupervised machine learning methods for extraction of features characterizing complex datasets and models. It discusses why unsupervised machine learning (ML) is important and how it can be applied to identify hidden patterns and extract meaningful features."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models",
+		"source": "AGU Fall meeting",
+		"doi": null,
+		"year": 2018,
+		"url": "https://montyv.github.io/presentations/Vesselinov 2018 Novel Machine Learning Methods for Extraction of Features Characterizing Datasets and Models LA-UR-18-31366.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers novel robust machine learning methods for identification and extraction of unknown features in complex real-world data sets. It discusses the importance of robust methods in handling noisy and incomplete data, and how these methods can be applied to extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, B. Alexandrov",
+		"title": "Novel Robust Machine Learning Methods for Identification and Extraction of Unknown Features in Complex Real-world Data Sets",
+		"source": "Society for Industrial and Applied Mathematics (SIAM) Uncertainty Quantification, Garden Grove, CA (invited)",
+		"doi": null,
+		"year": 2018,
+		"url": null,
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers novel robust machine learning methods for identification and extraction of unknown features in complex real-world data sets. It discusses the importance of robust methods in handling noisy and incomplete data, and how these methods can be applied to extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov, M. Mudunuru, S. Karra, D. O'Malley, B. Alexandrov",
+		"title": "Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Field Data and Simulation Outputs",
+		"source": "Computational Methods in Water Resources (CMWR), Saint-Malo, France",
+		"doi": "10.13140/RG.2.2.27777.92005",
+		"year": 2018,
+		"url": "https://montyv.github.io/presentations/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Field Data and Simulation Outputs cmwr-ML-20180606.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "Demonstration of unsupervised machine learning based on non-negative tensor factorization for analysis of field data and simulation outputs. The presentation covers the application of these methods to extract hidden features and patterns from complex datasets, with examples from geothermal, geochemical, and climate applications."
+	},
+	{
+		"authors": "V.V. Vesselinov, M. Mudunuru, S. Karra, D. O'Malley, B. Alexandrov",
+		"title": "Unsupervised Machine Learning based on Nonnegative Matrix/Tensor Factorization",
+		"source": "World Congress on Computational Mechanics (WCCM) (invited)",
+		"doi": null,
+		"year": 2018,
+		"url": null,
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers unsupervised machine learning methods for nonnegative matrix and tensor decompositions. It discusses the use of these methods to identify hidden patterns and extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, B. Alexandrov",
+		"title": "Unsupervised Machine Learning Based on Tensor Factorization",
+		"source": "International Society for Porous Media (INTERPORE)",
+		"doi": "10.13140/RG.2.2.15195.00807",
+		"year": 2018,
+		"url": "https://montyv.github.io/presentations/Vesselinov OMalley Alexandrov 2018 Unsupervised Machine Learning Based on Tensor Factorization interpore18.pdf",
+		"envitrace_labels": ["smarttensors", "geoml"],
+		"abstract": "This presentation covers unsupervised machine learning methods for tensor factorization. It discusses the use of these methods to identify hidden patterns and extract meaningful features from complex datasets."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
+		"title": "Decision Analyses for Groundwater Remediation",
+		"source": "Waste Management Symposium",
+		"doi": "10.13140/RG.2.2.33273.11367",
+		"year": 2017,
+		"url": "https://montyv.github.io/presentations/vesselinov Decision Analyses for Groundwater Remediation LA-UR-17-21909 wmsym2017.pdf",
+		"envitrace_labels": ["mads", "waste", "wells"],
+		"abstract": "This presentation covers decision analyses for groundwater remediation. It discusses the use of various analytical methods to evaluate and optimize remediation strategies."
+	},
+	{
+		"authors": "Y. Lin, V.V. Vesselinov, D. O'Malley, B. Wohlberg",
+		"title": "Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting",
+		"source": "SIAM Conference on Computational Science and Engineering",
+		"doi": null,
+		"year": 2017,
+		"url": "https://montyv.github.io/presentations/lin Hydraulic Inverse Modeling TV SIAM CSE 2017.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "Inverse modeling seeks model parameters given a set of observed-state variables. For many practical hydrogeological problems, because the data coverage is limited, the inversion can be ill-posed and unstable. To stabilize the inversion, regularization techniques can be employed to eliminate the ill-posedness."
+	},
+	{
+		"authors": "D. O'Malley, V.V. Vesselinov, B. Alexandrov, L. Alexandrov",
+		"title": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
+		"source": "DOE LANL Presentation",
+		"doi": null,
+		"year": 2017,
+		"url": "https://montyv.github.io/presentations/OMalley et al 2017 Nonnegative binary matrix factorization with a D-Wave quantum annealer.pdf",
+		"envitrace_labels": ["smarttensors"],
+		"abstract": "Matrix factorization is a powerful unsupervised machine learning technique that can be used to extract hidden features from complex datasets. In this presentation, we demonstrate the use of a D-Wave quantum annealer to perform nonnegative/binary matrix factorization, which is a specific type of matrix factorization that imposes nonnegativity and binary constraints on the factors. We show how this approach can be applied to analyze complex datasets and extract meaningful features, with examples from geothermal, geochemical, and climate applications."
+	},
+	{
+		"authors": "D. O'Malley, V.V. Vesselinov",
+		"title": "Quo vadis: Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer",
+		"source": "AGU Fall Meeting",
+		"doi": "10.13140/RG.2.2.10161.84320",
+		"year": 2017,
+		"url": "https://montyv.github.io/presentations/OMalley Vesselinov 2017 Quo vadis - Hydrologic inverse analyses using high-performance computing and a D-Wave quantum annealer.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "D-wave quantum annealers are a new class of computational devices that can solve certain optimization problems much faster than classical computers. In this presentation, we explore the potential of using a D-Wave quantum annealer for hydrologic inverse analyses, which are used to estimate model parameters from observed data. We discuss the challenges and opportunities of using quantum annealing for this purpose, and we present preliminary results from applying this approach to a hydrologic inverse problem."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, B. Alexandrov",
+		"title": "Uncertainty quantification and experimental design based on unsupervised machine learning identification of contaminant sources and groundwater types using hydrogeochemical data",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2017,
+		"url": "https://montyv.github.io/presentations/vesselinov et al 2017 Unsupervised Machine Learning based on Nonnegative Factorization agu2017-ML-20171206.pdf",
+		"envitrace_labels": ["chemml", "mads", "waste", "wells", "smarttensors"],
+		"abstract": "This presentation covers uncertainty quantification and experimental design based on unsupervised machine learning identification of contaminant sources and groundwater types using hydrogeochemical data. It discusses the use of nonnegative matrix factorization to identify hidden patterns in hydrogeochemical data, which can be used to classify groundwater types and identify contaminant sources. The presentation also covers how these insights can be used for uncertainty quantification and experimental design in groundwater studies."
+	},
+	{
+		"authors": "J. He, S. Hansen, V.V. Vesselinov",
+		"title": "Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/hansen et al Analysis of Hydrologic Time Series Reconstruction Uncertainty due to Inverse Model Inadequacy AGU 2016.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "This presentation covers the analysis of hydrologic time series reconstruction uncertainty due to inverse model inadequacy. It discusses how inverse model inadequacy can lead to uncertainty in reconstructed time series, and how this uncertainty can be quantified and analyzed."
+	},
+	{
+		"authors": "X. Zhang, V.V. Vesselinov",
+		"title": "Bi-Level Decision Making for Supporting Energy and Water Nexus",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/zhang vesselinov Bi-Level Decision Making for Supporting Energy and Water Nexus AGU 2016.pdf",
+		"envitrace_labels": ["wefx"],
+		"abstract": "This presentation covers bi-level decision making for supporting the energy and water nexus. It discusses the use of decision analysis methods to optimize resource allocation and management strategies in complex systems. We have developed a bi-level decision making framework to address these challenges, especially in the context of energy and water resource management."
+	},
+	{
+		"authors": "D. O'Malley, V.V. Vesselinov",
+		"title": "Groundwater Remediation using Bayesian Information-Gap Decision Theory ",
+		"source": "AGU Fall Meeting",
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/omalley%20vesselinov%20Groundwater%20Remediation%20using%20Bayesian%20Information-Gap%20Decision%20Theory%20AGU%202016.pdf",
+		"envitrace_labels": ["mads", "waste", "wells"],
+		"abstract": "This presentation covers groundwater remediation using Bayesian Information-Gap Decision Theory. It discusses the application of this decision-making framework to evaluate and optimize remediation strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach in groundwater remediation scenarios."
+	},
+	{
+		"authors": "Y. Lin, V.V. Vesselinov, D. O'Malley, B. Wohlberg",
+		"title": "Hydraulic Inverse Modeling using Total-Variation Regularization with Relaxed Variable-Splitting",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/lin et al Hydraulic Inverse Modeling TV AGU 2016.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "Inverse modeling seeks model parameters given a set of observed-state variables. Typically, inverse analyses are applied to characterize aquifer heterogeneity where the hydraulic permeability is estimated throughout the model domain. For many practical hydrogeological problems, because the data coverage is limited, the inversion can be ill-posed and unstable."
+	},
+	{
+		"authors": "Z. Lu, V.V. Vesselinov, H. Lei",
+		"title": "Identifying Aquifer Heterogeneities using the Level Set Method",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/zhiming et al Identifying Aquifer Heterogeneities using the Level Set Method AGU 2016.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "Material interfaces between hydrostatigraphicunits (HSU) with contrasting aquifer parameters (e.g., strata and facies with different hydraulic conductivity) have a great impact on flow and contaminant transport in subsurface. However, the identification of HSU shape in the subsurface is challenging and typically relies on tomographic approaches where a series of steady-state/transient head measurements at spatially distributed observation locations are analyzed using inverse models."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley",
+		"title": "Model Analyses of Complex Systems Behavior using MADS",
+		"source": "AGU Fall Meeting",
+		"doi": "10.13140/RG.2.2.33902.25921",
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/vesselinov omalley MADS LA-UR-16-29120 agu2016.pdf",
+		"envitrace_labels": ["carbon", "mads"],
+		"abstract": "This presentation covers model analyses of complex systems behavior using MADS. It discusses the application of MADS to analyze and understand the behavior of complex systems, with examples from groundwater remediation, energy production, and environmental management."
+	},
+	{
+		"authors": "S. Hansen, C. Haslauer, O. Cirpka, V.V. Vesselinov",
+		"title": "Prediction of Breakthrough Curves for Conservative and Reactive Transport",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/hansen et al Prediction of Breakthrough Curves for Conservative and Reactive Transport AGU 2016.pdf",
+		"envitrace_labels": ["chemml", "wells"],
+		"abstract": "This presentation covers the prediction of breakthrough curves for conservative and reactive transport. It discusses the use of mathematical models and simulations to predict the movement and transformation of contaminants in groundwater systems. The presentation includes case studies and examples to illustrate the application of these models in environmental management."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, B. Alexandrov",
+		"title": "Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity",
+		"source": "AGU Fall Meeting (invited)",
+		"doi": null,
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/vesselinov omalley Reduced Order Models for Decision Analysis and Upscaling of Aquifer Heterogeneity AGU 2016.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "This presentation covers ML-based reduced order models for decision analysis and upscaling of aquifer heterogeneity. It discusses the development and application of reduced order models to simplify complex hydrogeological systems while retaining essential features for decision-making. The presentation includes case studies and examples to illustrate the effectiveness of these models in environmental management."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
+		"title": "ZEM: Integrated Framework for Real-Time Data and Model Analyses for Robust Environmental Management Decision Making",
+		"source": "Waste Management Symposium",
+		"doi": "10.13140/RG.2.2.29917.67041",
+		"year": 2016,
+		"url": "https://montyv.github.io/presentations/vesselinov ZEM LA-UR-16-21469 wmsym2016.pdf",
+		"envitrace_labels": ["mads", "waste"],
+		"abstract": "This presentation covers the ZEM integrated framework for real-time data and model analyses for robust environmental management decision making. ZEM is developed in Julia and Python. It facilitates data management and integration, model execution, and decision analysis in a unified environment. It discusses the development and application of the ZEM framework to support decision-making in complex environmental management scenarios. The presentation includes case studies and examples to illustrate the effectiveness of this approach."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
+		"title": "Model-Assisted Decision Analyses Related to a Chromium Plume at Los Alamos National Laboratory",
+		"source": "Waste Management Symposium",
+		"doi": "10.13140/RG.2.2.23206.78404",
+		"year": 2015,
+		"url": "https://montyv.github.io/presentations/vesselinov wmsym2015_LANL_Cr_BIGDT_LA-UR-15-21965.pdf",
+		"envitrace_labels": ["chemml", "mads", "waste"],
+		"abstract": "This presentation covers model-assisted decision analyses related to a chromium plume at Los Alamos National Laboratory. It discusses the application of decision analysis methods to evaluate and optimize remediation strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach in managing chromium contamination."
+	},
+	{
+		"authors": "J. Bakarji, D. O'Malley, V.V. Vesselinov",
+		"title": "A Social Dynamics Dependent Water Supply Well Contamination Model",
+		"source": "DOE LANL Presentation",
+		"doi": "10.13140/RG.2.2.17963.90407",
+		"year": 2014,
+		"url": "https://montyv.github.io/presentations/Bakarji 2014 Social Dynamics Dependent Water Supply Well Contamination Model LAUR_14-24002.pdf",
+		"envitrace_labels": ["wells", "waste"],
+		"abstract": "This presentation covers a social dynamics dependent water supply well contamination model. It discusses the development and application of a model that considers social dynamics in the context of water supply well contamination. The presentation includes case studies and examples to illustrate the effectiveness of this approach."
+	},
+	{
+		"authors": "D. O'Malley, V.V. Vesselinov",
+		"title": "Bayesian Information-Gap Decision Analysis Applied to a Geologic CO2 Sequestration Problem",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2014,
+		"url": "https://montyv.github.io/presentations/omalley_biguq_LAUR_14-28376.pdf",
+		"envitrace_labels": ["carbon", "mads"],
+		"abstract": "This presentation covers Bayesian Information-Gap Decision Analysis applied to a geologic CO2 sequestration problem. It discusses the application of this decision-making framework to evaluate and optimize sequestration strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach in geologic CO2 sequestration scenarios."
+	},
+	{
+		"authors": "V.V. Vesselinov, B. Alexandrov",
+		"title": "Model-free Source Identification",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2014,
+		"url": "https://montyv.github.io/presentations/vesselinov Blind Source Separation agu2014-LA-UR-14-29163.pdf",
+		"envitrace_labels": ["waste", "smarttensors"],
+		"abstract": "This presentation covers physics-model-free source identification applying ML techniques. It discusses the development and application of methods that do not rely on predefined models to identify sources of contamination. The presentation includes case studies and examples to illustrate the effectiveness of these methods."
+	},
+	{
+		"authors": "J. Cushman, V.V. Vesselinov, D. O'Malley",
+		"title": "Random dispersion coefficients and Tsallis entropy",
+		"source": "AGU Fall Meeting",
+		"doi": null,
+		"year": 2014,
+		"url": "https://montyv.github.io/presentations/omalley_tsallisentropy_LAUR_14-29018.pdf",
+		"envitrace_labels": ["chemml", "mads"],
+		"abstract": "This presentation covers random dispersion coefficients and Tsallis entropy. It discusses the development and application of methods to analyze anomalous dispersion and diffusion processes using Tsallis entropy. The presentation includes case studies and examples to illustrate the effectiveness of these methods."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. Katzman, D. Broxton, K. Birdsell, S. Reneau, D. Vaniman, P. Longmire, J. Fabryka-Martin, J. Heikoop, M. Ding, D. Hickmott, E. Jacobs, T. Goering, D. Harp, P. Mishra",
+		"title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
+		"source": "Waste Management Symposium",
+		"doi": "10.13140/RG.2.2.10414.15686",
+		"year": 2013,
+		"url": "https://montyv.github.io/presentations/vesselinov 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory LA-UR-13-21534.pdf",
+		"envitrace_labels": ["chemml", "mads", "waste"],
+		"abstract": "D-wave quantum annealers are a new class of computational devices that can solve certain optimization problems much faster than classical computers. In this presentation, we explore the potential of using a D-Wave quantum annealer for hydrologic inverse analyses, which are used to estimate model parameters from observed data. We discuss the challenges and opportunities of using quantum annealing for this purpose, and we present preliminary results from applying this approach to a hydrologic inverse problem."
+	},
+	{
+		"authors": "D. O'Malley, V.V. Vesselinov",
+		"title": "What Matters When and Where For Anomalous Dispersion/Diffusion",
+		"source": "AGU Fall Meeting",
+		"year": "2013",
+		"url": "https://montyv.github.io/presentations/omalley_sensitivityanalysis_LAUR_13-29246.pdf",
+		"envitrace_labels": ["chemml", "mads"],
+		"abstract": "This presentation covers the factors that influence anomalous dispersion and diffusion processes. It discusses the development and application of methods to analyze these processes, considering both spatial and temporal variability. The presentation includes case studies and examples to illustrate the effectiveness of these methods."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments",
+		"source": "XIX International Conference on Computational Methods in Water Resources (CMWR 2012)",
+		"doi": null,
+		"year": 2012,
+		"url": "https://montyv.github.io/presentations/LA-UR-12-22187 agni cmwr 20120614.pdf",
+		"envitrace_labels": ["mads", "waste"],
+		"abstract": "This presentation covers the AGNI framework, which couples model analysis tools with high-performance subsurface flow and transport simulators for risk and performance assessments. It discusses the development and application of these tools to evaluate and optimize subsurface management strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "MADS & ASCEM",
+		"source": "AGU Fall Meeting",
+		"year": 2012,
+		"url": "https://montyv.github.io/presentations/vesselinov%20agu20130304mads_ascem_big_split%20LA-UR-12-26681.pdf",
+		"envitrace_labels": ["mads"],
+		"abstract": "This presentation covers the integration of MADS and ASCEM frameworks for environmental modeling. It discusses the development and application of these tools to evaluate and optimize subsurface management strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. Harp, D. Katzman",
+		"title": "Model-driven decision support for monitoring network design based on analysis of data and model uncertainties: methods and applications",
+		"source": "AGU Fall meeting (invited)",
+		"doi": "10.13140/RG.2.2.17125.04321",
+		"year": 2012,
+		"url": "https://montyv.github.io/presentations/vesselinov 2012 Model-driven decision support for monitoring network design based on analysis of data and model uncertainties LA-UR-13-20189.pdf",
+		"envitrace_labels": ["mads", "waste", "wells"],
+		"abstract": "This presentation covers model-driven decision support for monitoring network design based on analysis of data and model uncertainties. It discusses the development and application of methods to evaluate and optimize monitoring strategies under uncertainty. The presentation includes case studies and examples to illustrate the effectiveness of this approach."
+	},
+	{
+		"authors": "L. Leif Zinn-Bjorkman, V.V. Vesselinov",
+		"title": "Numerical Optimization using the Levenberg-Marquardt Algorithm",
+		"source": "DOE LANL Presentations",
+		"doi": "10.13140/RG.2.2.11253.01760",
+		"year": 2011,
+		"url": "https://montyv.github.io/presentations/Leif 2011 Numerical Optimization using the Levenberg-Marquardt Algorithm LA-UR-11-12010.pdf",
+		"envitrace_labels": ["mads"],
+		"abstract": "This presentation covers numerical optimization using the Levenberg-Marquardt algorithm. It discusses the development and application of this algorithm for solving nonlinear least squares problems, with examples from environmental modeling and data analysis."
+	},
+	{
+		"authors": "D. Harp, V.V. Vesselinov",
+		"title": "Recent developments in MADS algorithms: ABAGUS and Squads",
+		"source": "DOE LANL Presentations",
+		"doi": "10.13140/RG.2.2.35579.98082",
+		"year": 2011,
+		"url": "https://montyv.github.io/presentations/Harp Vesselinov 2011 Recent developments in MADS algorithms ABAGUS and Squads.pdf",
+		"envitrace_labels": ["mads"],
+		"abstract": "This presentation covers recent developments in MADS algorithms, specifically ABAGUS and Squads optimization algorithms. It discusses the development and application of these algorithms for optimization problems, with examples from environmental modeling and data analysis."
+	},
+	{
+		"authors": "V.V. Vesselinov, et al.",
+		"title": "Environmental Management Modeling Activities at Los Alamos National Laboratory (LANL)",
+		"source": "Department of Energy Technical Exchange Meeting, Performance Assessment Community of Practice, Hanford",
+		"doi": "10.13140/RG.2.2.12091.87846",
+		"year": 2010,
+		"url": "https://montyv.github.io/presentations/vesselinov%20LANL%20EM%20Modeling%2020100413%20LA-UR%2010-02613.pdf",
+		"envitrace_labels": ["mads", "waste", "wells", "chemml"],
+		"abstract": "This presentation covers environmental management modeling activities at Los Alamos National Laboratory (LANL). It discusses the development and application of models and tools for evaluating and optimizing environmental management strategies. The presentation includes case studies and examples to illustrate the effectiveness of these approaches."
+	},
+	{
+		"authors": "V.V. Vesselinov, D. Harp, R. Koch, K. Birdsell, K. Katzman",
+		"title": "Tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping",
+		"source": "AGU Meeting",
+		"doi": "10.13140/RG.2.2.25513.65126",
+		"year": 2008,
+		"url": "https://montyv.github.io/presentations/vesselinov LA-UR-08-0655 agu08 hydro tomography 20090203.pdf",
+		"envitrace_labels": ["mads", "wells", "chemml"],
+		"abstract": "This presentation covers tomographic inverse estimation of aquifer properties based on pressure variations caused by transient water-supply pumping. It discusses the development and application of methods to estimate aquifer properties using pressure data, with examples from environmental modeling and data analysis."
+	},
+	{
+		"authors": "V.V. Vesselinov",
+		"title": "Uncertainties in Transient Capture-Zone Estimates",
+		"source": "Conference on Computational Methods in Water Resources (CMWR), Copenhagen, Denmark",
+		"doi": null,
+		"year": 2006,
+		"url": "https://montyv.github.io/presentations/vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf",
+		"envitrace_labels": ["mads", "wells"],
+		"abstract": "This presentation covers uncertainties in transient capture-zone estimates. It discusses the development and application of methods to evaluate and quantify uncertainties in capture-zone estimates, with examples from environmental modeling and data analysis."
+	}
+]

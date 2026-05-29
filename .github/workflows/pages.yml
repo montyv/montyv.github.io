@@ -23,27 +23,6 @@ jobs:
         with:
           lfs: true
 
-      - name: Checkout shared EnviTraceJS catalog data
-        id: checkout_envitrace
-        continue-on-error: true
-        uses: actions/checkout@v5
-        env:
-          ENVITRACEJS_REPO_READ_TOKEN: ${{ secrets.ENVITRACEJS_REPO_READ_TOKEN }}
-        with:
-          repository: EnviTrace/EnviTraceJS
-          ref: main
-          path: EnviTraceJS
-          sparse-checkout: |
-            data/monty publications.json
-            data/monty presentations.json
-            data/monty reports.json
-          sparse-checkout-cone-mode: false
-          token: ${{ env.ENVITRACEJS_REPO_READ_TOKEN != '' && env.ENVITRACEJS_REPO_READ_TOKEN || github.token }}
-
-      - name: Warn when shared EnviTraceJS catalog data is unavailable
-        if: steps.checkout_envitrace.outcome == 'failure'
-        run: echo "Shared EnviTraceJS catalog checkout was not available in CI; continuing without the shared Monty JSON source."
-
       - name: Setup Node
         uses: actions/setup-node@v5
         with:
@@ -60,7 +39,6 @@ jobs:
         run: npm run build
         env:
           SITE_URL: https://montyv.github.io
-          MONTY_CATALOG_DATA_DIR: ${{ github.workspace }}/EnviTraceJS/data
 
       - name: Ensure .nojekyll
         run: touch out/.nojekyll
