@@ -21,6 +21,7 @@ pages:
     - 'SITE_URL="${SITE_URL:-https://monty.gitlab.io}" npm run build'
     - test -f out/index.html || test -f out/index/index.html
     - touch out/.nojekyll
+    - find out -type f \( -iname '*.pdf' \) -delete
     - rm -rf public
     - mv out public
   artifacts:
