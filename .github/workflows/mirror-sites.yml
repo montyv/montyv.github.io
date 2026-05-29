@@ -75,10 +75,12 @@ jobs:
         run: |
           set -euo pipefail
           git clone --depth 1 --branch "$TARGET_BRANCH" "https://x-access-token:$TARGET_TOKEN@github.com/$TARGET_REPO.git" published-site
-          rsync -av --delete --exclude '.git' out/ published-site/
+          rsync -av --delete \
+            --exclude '.git' \
+            --exclude '*.pdf' \
+            out/ published-site/
           cd published-site
-          git lfs install --local
-          cp ../.gitattributes .gitattributes
+          find . -type f \( -iname '*.pdf' \) -delete
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
