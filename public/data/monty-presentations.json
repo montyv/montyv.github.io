@@ -1,6 +1,45 @@
 [
   {
 	"authors": "V.V. Vesselinov, T.L. Kliphuis",
+	"title": "Science-informed machine learning for reservoir characterization",
+	"source": "Computational Methods in Water Resources (CMWR), Bologna, Italy",
+	"doi": "",
+	"year": 2026,
+	"url": "https://docs.google.com/presentation/d/15hFlHPLZpW5VH_P8ee8YTVfzSxLeK7iR1dSHlIKKU2k/edit?usp=sharing",
+	"envitrace_labels": [
+		"geoml",
+		"chemml",
+		"geotgo"
+	]
+  },
+  {
+	"authors": "V.V. Vesselinov, T.L. Kliphuis",
+	"title": "BEYOND PROSPECTIVITY MAPS: Multimodal Geospatial AI for Critical Mineral Systems and Geothermal Prospectivity Exploration",
+	"source": "ML4SEG (Machine Learning for Solid Earth Geosciences and Earthquake Physics), Sicily, Italy",
+	"doi": "",
+	"year": 2026,
+	"url": "https://drive.google.com/file/d/1fJtTBBCCsbmxcXRXfATtRSqPhALDDQtu/view?usp=drive_link",
+	"envitrace_labels": [
+		"geoml",
+		"chemml",
+		"geotgo"
+	]
+  },
+  {
+	"authors": "V.V. Vesselinov, T.L. Kliphuis",
+	"title": "Imaging Subsurface Reservoirs for Hydrogen, Geothermal, and Critical Minerals: Multi-Physics Imaging and AI-Assisted Interpretation",
+	"source": "AI for Geological Mapping and Modelling Conference (AIGMM), Utrecht, Netherlands",
+	"doi": "",
+	"year": 2026,
+	"url": "https://drive.google.com/file/d/1hmTFTT53EztTEzTpXWJg0RzkcA0hfWc4/view?usp=drive_link",
+	"envitrace_labels": [
+		"geoml",
+		"chemml",
+		"geotgo"
+	]
+  },
+  {
+	"authors": "V.V. Vesselinov, T.L. Kliphuis",
 	"title": "Machine Learning Estimates of Geothermal and Critical Mineral Prospectivity of the Great Basin",
 	"source": "Stanford Geothermal Workshop",
 	"doi": "10.13140/RG.2.2.11951.19360",
