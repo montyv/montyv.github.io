@@ -19,7 +19,7 @@ const limit = limitArg ? Number(limitArg.split("=")[1]) : Number.POSITIVE_INFINI
 const topics = [
   {
     id: "publications",
-    fileName: "monty publications.json",
+    fileName: "monty-publications.json",
     folderKey: "papers",
     maxPages: 8,
     markers: [/\babstract\b/gi, /\bexecutive summary\b/gi, /\bsummary\b/gi, /\bintroduction\b/gi],

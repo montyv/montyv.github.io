@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const requiredFiles = [
-  "monty publications.json",
+  "monty-publications.json",
   "monty presentations.json",
   "monty reports.json",
 ];

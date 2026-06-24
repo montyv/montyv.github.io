@@ -6,7 +6,7 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 
 const catalogMappings = [
   {
-    source: path.join(repoRoot, "app", "data", "monty publications.json"),
+    source: path.join(repoRoot, "app", "data", "monty-publications.json"),
     target: path.join(repoRoot, "public", "data", "monty-publications.json"),
   },
   {

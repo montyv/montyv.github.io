@@ -19,7 +19,7 @@ import {
   type RawCatalogEntry,
 } from "../../lib/catalog-data";
 
-const DATA_FILE = "monty publications.json";
+const DATA_FILE = "monty-publications.json";
 const PAGE_PATH = "/publications";
 
 const entries = (): RawCatalogEntry[] => loadCanonicalRawCatalogEntries(DATA_FILE);

@@ -7,7 +7,7 @@ This site is a static Next.js export (`output: "export"`).
 Generated indexes are built from:
 
 - `legacy/index.html` (legacy lists)
-- `../EnviTraceJS/data/monty publications.json`, `../EnviTraceJS/data/monty presentations.json`, and `../EnviTraceJS/data/monty reports.json` (shared canonical lists used directly by the Next.js pages)
+- `../EnviTraceJS/data/monty-publications.json`, `../EnviTraceJS/data/monty presentations.json`, and `../EnviTraceJS/data/monty reports.json` (shared canonical lists used directly by the Next.js pages)
 - `app/<topic>/<topic>.content.json` (older curated/manual list; no longer the primary source for publications/presentations pages)
 - `app/<topic>/<topic>.overrides.json` (manual override list)
 - PDFs in `public/<folderKey>/*.pdf`
@@ -45,7 +45,7 @@ Index generation for legacy/PDF helper JSON is **explicit-only**.
 
 The canonical Monty JSON files now live in `app/data/` inside this repo:
 
-- `app/data/monty publications.json`
+- `app/data/monty-publications.json`
 - `app/data/monty presentations.json`
 - `app/data/monty reports.json`
 
