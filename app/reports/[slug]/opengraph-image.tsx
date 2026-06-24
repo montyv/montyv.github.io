@@ -9,7 +9,7 @@ import {
 } from "../../lib/catalog-data";
 import { CATALOG_OG_CONTENT_TYPE, CATALOG_OG_SIZE, buildCatalogOgCard } from "../../lib/catalog-og";
 
-const DATA_FILE = "monty reports.json";
+const DATA_FILE = "monty-reports.json";
 
 const entries = (): RawCatalogEntry[] => loadCanonicalRawCatalogEntries(DATA_FILE);
 

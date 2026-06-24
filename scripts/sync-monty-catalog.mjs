@@ -5,7 +5,7 @@ const repoRoot = process.cwd();
 
 const CANONICAL_DATA_DIR = path.join(repoRoot, "app", "data");
 const PUBLICATIONS_FILE = path.join(CANONICAL_DATA_DIR, "monty-publications.json");
-const PRESENTATIONS_FILE = path.join(CANONICAL_DATA_DIR, "monty presentations.json");
+const PRESENTATIONS_FILE = path.join(CANONICAL_DATA_DIR, "monty-presentations.json");
 const PAPERS_DIR = path.join(repoRoot, "public", "papers");
 const PRESENTATIONS_DIR = path.join(repoRoot, "public", "presentations");
 const SCHOLAR_URL = "https://scholar.google.com/citations?hl=en&user=sIFHVvwAAAAJ&view_op=list_works&sortby=pubdate";

@@ -1,943 +1,1201 @@
 [
-	{
-		"authors": "A. Markowitz, R. Abuaamoud, S. Ben Ayed, A. Rupe, R. Yang, T. Kliphuis, V.V. Vesselinov",
-		"title": "AI-augmented geothermal model for scalable energy uncertainties in buildings",
-		"source": "Scientific Reports",
-		"doi": "10.1038/s41598-026-40837-4",
-		"year": 2026,
-		"url": "https://doi.org/10.1038/s41598-026-40837-4",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work presents a scalable software tool for predicting geothermal energy use in residential buildings under conditions that demand fast, physically informed simulations. Using a reduced-order model benchmarked against EnergyPlus and datasets generated with Latin Hypercube Sampling, Saltelli, and eFast methods, the study applies XGBoost to predict energy usage with high accuracy while preserving computational efficiency."
-	},
-	{
-		"authors": "P. Lara, N.R. Ranasinghe, V.V. Vesselinov, C.W. Johnson",
-		"title": "Deep-Embedded-Clustering of Microseismicity Identifies Multiple Failure Mechanisms at The Geysers Geothermal Field",
-		"source": "Geophysics (submitted)",
-		"doi": "10.22541/essoar.177265440.06972526/v1",
-		"year": 2026,
-		"url": "https://doi.org/10.22541/essoar.177265440.06972526/v1",
-		"envitrace_labels": ["geoml", "geotgo", "lapis"],
-		"abstract": "Enhanced Geothermal Systems regularly produce microseismic activity as fluid injection perturbs the thermo-hydromechanical state of the reservoir. This study applies Deep Embedded Clustering to waveform, spectrogram, and cepstrogram data from the 2011–2012 stimulation of the Prati-32 EGS well at The Geysers, identifying three distinct failure classes and helping relate waveform characteristics to underlying physical mechanisms."
-	},
-	{
-		"authors": "E.E. Jafarov, H. Genet, V.V. Vesselinov, V. Briones, A. Kabeer, A.L. Mullen, B. Maglio, T. Carman, R. Rutter, J. Clein, C.-C. Chang, D. Teber, T. Smith, J.M. Rady, C. Schädel, J.D. Watts, B.M. Rogers, S.M. Natali",
-		"title": "Estimation of above- and below-ground ecosystem parameters for DVM-DOS-TEM v0.7.0 using MADS v1.7.3",
-		"source": "Geoscientific Model Development",
-		"doi": "10.5194/gmd-18-3857-2025",
-		"year": 2025,
-		"url": "https://doi.org/10.5194/gmd-18-3857-2025",
-		"abstract": "This study develops an automated parameter calibration method for the DVM-DOS-TEM ecosystem model designed for high-latitude permafrost regions. Using the MADS software package, the authors calibrate rate-limiting parameters controlling carbon and nitrogen dynamics in boreal forests, demonstrating that hierarchical sequential calibration can effectively recover known parameter values even when initial guesses are perturbed by substantial margins."
-	},
-	{
-		"authors": "T.L. Kliphuis, A. Markowitz, R. Yang, V.V. Vesselinov",
-		"title": "GeoDAWN To GeoTGo: From Complex Data To Decisions Related To Geothermal Prospectivity",
-		"source": "Stanford Geothermal Workshop, Stanford, CA",
-		"doi": null,
-		"year": 2025,
-		"url": "https://montyv.github.io/papers/Kliphuis 2025 GeoDAWN To GeoTGo From Complex Data To Decisions Related To Geothermal",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work presents a geothermal prospectivity workflow that moves from complex heterogeneous datasets to more defensible exploration decisions through physics-informed AI/ML. Building on the GeoTGo platform, it integrates geological, geophysical, geochemical, and structural information to reduce subjectivity, improve transparency, and support scalable community-oriented geothermal resource assessment."
-	},
-	{
-		"authors": "V.V. Vesselinov, H. Jasperson, T.L. Kliphuis",
-		"title": "Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive Geothermal Development",
-		"source": "Stanford Geothermal Workshop, Stanford, CA",
-		"doi": null,
-		"year": 2024,
-		"url": "https://montyv.github.io/papers/Vesselinov 2024 Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work presents machine-learning methods and software tools aimed at supporting community-based, equitable, and inclusive geothermal development. Built around the GeoTGo platform, it integrates diverse geological, geochemical, and geophysical data with interactive analysis workflows to help communities identify, evaluate, and communicate geothermal opportunities in a more transparent and accessible way."
-	},
-	{
-		"authors": "V.V. Vesselinov, T.L. Kliphuis",
-		"title": "ChemML: Physics-Informed AI/ML of Geochemical Datasets for Characterization, Parameterization, and Prediction of Contaminant Transport and Remediation Processes",
-		"source": "DOE",
-		"year": 2023,
-		"url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K5pN4JAAAAAJ&citation_for_view=K5pN4JAAAAAJ:9yKSN-GCB0IC",
-		"envitrace_labels": ["chemml", "geoml", "waste"],
-		"abstract": "This work describes ChemML as a physics-informed AI/ML framework for analyzing geochemical datasets and improving the characterization, parameterization, and prediction of contaminant transport and remediation processes. The approach emphasizes robust, trustworthy, and defensible science-informed models that can overcome limitations of traditional geochemical simulations while supporting cloud-based environmental decision and remediation workflows."
-	},
-	{
-		"authors": "D. O'Malley, S.Y. Greer, A. Pachalieva, W. Hao, D. Harp, V.V. Vesselinov",
-		"title": "DPFEHM: a differentiable subsurface physics simulator",
-		"source": "Journal of Open Source Software",
-		"doi": "10.21105/joss.04560",
-		"year": 2023,
-		"url": "https://doi.org/10.21105/joss.04560",
-		"envitrace_labels": ["carbon", "geoml", "hydrogen"],
-		"abstract": "DPFEHM is a Julia-based simulator for subsurface physics that incorporates automatic differentiation capabilities for efficient modeling of multiphase flow, transport, and wave equation phenomena in hydrogeological systems."
-	},
-	{
-		"authors": "M. Mudunuru, B. Ahmmed, E. Rau, V.V. Vesselinov, S. Karra",
-		"title": "Machine Learning for Geothermal Resource Exploration in Tularosa Basin, New Mexico",
-		"source": "Energies",
-		"doi": "10.3390/en16073098",
-		"year": 2023,
-		"url": "https://montyv.github.io/papers/Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "Geothermal energy is considered an essential renewable resource to generate flexible electricity. Geothermal resource assessments conducted by the U.S. Geological Survey showed that the southwestern basins in the U.S."
-	},
-	{
-		"authors": "K.C. Solander, C.J. Talsma, V.V. Vesselinov",
-		"title": "The drivers and predictability of wildfire re-burns in the western United States (US)",
-		"source": "Environ. Res.: Climate 2",
-		"doi": "10.1088/2752-5295/acb079",
-		"year": 2023,
-		"url": "https://montyv.github.io/papers/Solander et al 2023 The drivers and predictability of wildfire re-burns in the western United States.pdf",
-		"abstract": "Evidence is mounting that the effectiveness of using prescribed burns as a management tactic may be diminishing due to the higher incidence of wildfire re-burns. The development of predictive models of re-burns is thus essential to better understand their primary drivers so that forest management practices can be updated to account for these events."
-	},
-	{
-		"title": "A Progress Report on GeoThermalCloud: Framework An Open-Source Machine Learning Based Tool for Discovery, Exploration, and Development of Hidden Geothermal Resources",
-		"authors": "B. Ahmmed, M.K. Mudunuru, L.P. Frash, V.V. Vesselinov",
-		"source": "Stanford Geothermal Workshop, Stanford, CA",
-		"year": "2022",
-		"url": "https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2023/Ahmmed1.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This progress report presents GeoThermalCloud as an open-source machine-learning framework for geothermal resource discovery, exploration, and development. The platform is designed to analyze large and diverse geothermal datasets, assimilate model simulations, identify hidden geothermal signatures, guide data acquisition, and support lower-risk exploration and production decisions through tools developed under its resource-exploration and enhanced-geothermal-system workflows."
-	},
-	{
-		"authors": "J. Bennett, J. Ogland-Hand, K. Cox, P. Johnson, E. Middleton, A. Pompilio, S. Samal, C. Talsma, V.V. Vesselinov, K. Ellett, R. Middleton",
-		"title": "Beam Me Up SCO2TPRO: A Comparison to the FE/NETL CO2 Saline Storage Cost Model and Updates on Tool Development",
-		"source": "SSRN Electronic Journal",
-		"doi": "10.2139/ssrn.4275200",
-		"year": 2022,
-		"url": "https://doi.org/10.2139/ssrn.4275200",
-		"envitrace_labels": ["carbon"],
-		"abstract": "In order to meet climate goals, carbon capture and storage (CCS) needs to be developed at a large scale. A major factor in developing CCS is where CO2 can be safely stored, and for what cost. To assist with this determination, we have developed the professional version of the Sequestration of CO2 Tool (SCO2TPRO). In this paper, we introduce SCO2TPRO and compare its performance to the FE/NETL CO2 Saline Storage Cost Model. Finally, we present on-going development progress including developing new training data with the STOMP reservoir simulator, advanced reduced order models, and refined geologic inputs."
-	},
-	{
-		"authors": "C.J. Talsma, K.E. Bennett, V.V. Vesselinov",
-		"title": "Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised Machine Learning",
-		"source": "Earth and Space Science",
-		"doi": "10.1029/2021ea002086",
-		"year": 2022,
-		"url": "https://doi.org/10.1029/2021ea002086",
-		"envitrace_labels": ["wefx"],
-		"abstract": "Drought is a major concern in the Colorado River Basin because of the region’s high social and economic dependence on water resources and the uncertainty of future drought under climate change. This study combines Earth System Model climate simulations, the Variable Infiltration Capacity hydrologic model, and an unsupervised NMFk workflow to identify sub-watersheds with important changes in snowpack, snowmelt timing, precipitation, and evapotranspiration."
-	},
-	{
-		"authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
-		"title": "Discovering hidden geothermal signatures using non-negative matrix factorization with customized k-means clustering",
-		"source": "Geothermics",
-		"doi": "10.1016/j.geothermics.2022.102576",
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
-		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
-		"abstract": "Discovery of hidden geothermal resources is challenging. It requires the mining of large datasets with diverse data attributes representing subsurface hydrogeological and geothermal conditions. The commonly used play fairway analysis approach typically incorporates subject-matter expertise to analyze regional data to estimate geothermal characteristics and favorability."
-	},
-	{
-		"authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
-		"title": "GeoThermalCloud: Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources",
-		"source": "Stanford Geothermal Workshop, Stanford, CA",
-		"doi": null,
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Vesselinov 2022 GeoThermalCloud Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This workshop paper presents GeoThermalCloud as an open-source, cloud-based machine-learning framework for geothermal resource discovery, exploration, and development. The platform is designed to fuse diverse geothermal datasets with multi-physics models, discover hidden geothermal signatures, prioritize high-value data acquisition, and reduce the cost and risk of geothermal resource assessment."
-	},
-	{
-		"authors": "M. Mudunuru, V.V. Vesselinov, B. Ahmmed",
-		"title": "GeoThermalCloud: Machine learning for geothermal resource exploration",
-		"source": "Journal of Machine Learning for Modeling and Computing",
-		"doi": "10.1615/JMachLearnModelComput.2022046445",
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work presents GeoThermalCloud as a machine-learning framework for geothermal resource exploration, with an emphasis on discovering blind hydrothermal systems that lack clear surface expression. The study highlights how data-driven methods can reduce the time, cost, and uncertainty associated with conventional exploration by integrating and analyzing diverse geothermal datasets."
-	},
-	{
-		"authors": "H. Wu, D. O'Malley, J.K. Golden, V.V. Vesselinov",
-		"title": "Inverse Analysis with Variational Autoencoders: A Comparison of Shallow and Deep Networks",
-		"source": "Journal of Machine Learning for Modeling and Computing",
-		"doi": "10.1615/JMachLearnModelComput.2022042093",
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "Characterization of reservoir properties, e.g., hydraulic conductivity, is of essential importance in hydrogeology, such as groundwater resources managementand subsurface contaminant Wu et al. remediation. Moreover, spatial heterogeneities of reservoir properties are present from pore to reservoir scale, and understanding the heterogeneity effects on fluid flow is critical (Doughty and Pruess, 2004; Jayne et al., 2019)."
-	},
-	{
-		"authors": "M. Ahmmed, V.V. Vesselinov",
-		"title": "Machine learning and a process model to better characterize hidden geothermal resources",
-		"source": "Geothermal Rising Conference (transactions)",
-		"doi": null,
-		"year": 2022,
-		"url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "The Tularosa Basin in New Mexico has significant geothermal potential. This paper curated data from the Department of Energy's Geothermal Data Repository and analyzed them with a machine learning based framework, GeoThermalCloud (GTC), to find prospective geothermal locations. GTC discovers prospective geothermal locations and finds key parameters defining these prospectivities. Also, we found that these prospectivities are consistent with an existing comprehensive play fairway analysis. Finally, we discussed a coupling strategy between a process model (Burns equation) and GTC to obtain a better understanding about the geothermal conditions in the study area."
-	},
-	{
-		"authors": "B. Ahmmed, V.V. Vesselinov",
-		"title": "Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin",
-		"source": "Renewable Energy",
-		"doi": "10.1016/j.renene.2022.08.024",
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
-		"envitrace_labels": ["chemml", "geoml", "geotgo"],
-		"abstract": "This study identifies geothermal prospects in the Great Basin using shallow groundwater geochemistry as a proxy for geothermal prospectivity. By processing sparse geochemical measurements from more than 14,000 locations, the work shows how machine learning can uncover hidden information in regional chemistry datasets and help prioritize promising areas for geothermal exploration."
-	},
-	{
-		"authors": "V.V. Vesselinov, M. Mudunuru, B. Ahmmed, S. Karra, D. O'Malley",
-		"title": "Machine Learning to Discover, Characterize, and Produce Geothermal Energy",
-		"source": "Machine Learning Applications in Subsurface Energy Resource Management",
-		"doi": "10.1201/9781003207009-6",
-		"year": 2022,
-		"url": "https://doi.org/10.1201/9781003207009-6",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work describes how machine learning can support the discovery, characterization, and production of geothermal energy, an abundant renewable resource with major potential for grid resilience and domestic energy security. It emphasizes the role of data-driven methods in reducing exploration and development risk, improving resource understanding, and supporting more affordable geothermal deployment."
-	},
-	{
-		"authors": "A. Rupe, V.V. Vesselinov, J.P. Crutchfield",
-		"title": "Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems",
-		"source": "New Journal of Physics",
-		"doi": "10.1088/1367-2630/ac95b7",
-		"year": 2022,
-		"url": "https://montyv.github.io/papers/Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf",
-		"abstract": "Only a subset of degrees of freedom are typically accessible or measurable in real-world systems. As a consequence, the proper setting for empirical modeling is that of partially-observed systems. Notably, data-driven models consistently outperform physics-based models for systems with few observable degrees of freedom; e.g."
-	},
-	{
-		"authors": "B. Ahmmed, V.V. Vesselinov, M.K. Mudunuru",
-		"title": "SmartTensors: Unsupervised and physics-informed machine learning framework for the geoscience applications",
-		"source": "Second International Meeting for Applied Geoscience & Energy",
-		"doi": "10.1190/image2022-w8-01.1",
-		"year": 2022,
-		"url": "https://doi.org/10.1190/image2022-w8-01.1",
-		"envitrace_labels": ["geoml", "smarttensors"],
-		"abstract": "SmartTensors is presented as an unsupervised and physics-informed machine learning framework for geoscience applications built around constrained matrix and tensor factorization methods. The platform emphasizes robustness and interpretability and is demonstrated on geothermal prospectivity analysis in the Great Basin, where regional geochemical data are used to infer subsurface reservoir characteristics."
-	},
-	{
-		"authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, S.C. James, V.V. Vesselinov",
-		"title": "A comparative study of machine learning models for predicting the state of reactive mixing",
-		"source": "Journal of Computational Physics",
-		"doi": "10.1016/j.jcp.2021.110147",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
-		"envitrace_labels": ["chemml"],
-		"abstract": "Mixing phenomena are important mechanisms controlling flow, species transport, and reaction processes in fluids and porous media. Accurate predictions of reactive mixing are critical for many Earth and environmental science problems such as contaminant fate and remediation, macroalgae growth, and plankton biomass growth. To investigate the evolution of mixing dynamics under different scenarios (e.g.,anisotropy, fluctuating velocity fields), a finite-element-based numerical model was built to solve the fast, irreversible bimolecular reaction-diffusion equations to simulate a range of reactive-mixing scenarios."
-	},
-	{
-		"authors": "G. Morra, E. Bozdag, M. Knepley, L. Rass, V.V. Vesselinov",
-		"title": "A Tectonic Shift in Analytics and Computing Is Coming",
-		"source": "AGU EOS",
-		"doi": "10.1029/2021EO159258",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf",
-		"abstract": "This article argues that artificial intelligence combined with high-performance computing is poised to change how geoscientists extract knowledge from large and complex datasets. It highlights a broader transition toward data-driven scientific workflows capable of accelerating discovery, interpretation, and decision support across Earth and environmental sciences."
-	},
-	{
-		"authors": "S.W. Fleming, V.V. Vesselinov, A.G. Goodbody",
-		"title": "Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach",
-		"source": "Journal of Hydrology",
-		"doi": "10.1016/j.jhydrol.2021.126327",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
-		"envitrace_labels": ["wefx", "wells"],
-		"abstract": "In the largely dry and increasingly heavily populated western US, operational modeling systems for seasonal river runoff volume forecasting are key elements of the practical water and hydropower management infrastructure. Explainability of model results in terms of known hydroclimatic processes and conditions is a core requirement for these systems."
-	},
-	{
-		"authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
-		"title": "Discovering the Hidden Geothermal Signatures of Southwest New Mexico",
-		"source": "World Geothermal Congress, Reykjavik, Iceland",
-		"doi": null,
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "This work applies unsupervised machine learning to diverse regional datasets to identify hidden geothermal signatures in southwest New Mexico. By mining geological, geochemical, and geophysical information without relying solely on predefined labels, the study aims to reveal patterns associated with concealed geothermal systems and improve regional exploration targeting."
-	},
-	{
-		"authors": "D. O'Malley, J.K. Golden, V.V. Vesselinov",
-		"title": "Learning to regularize with a variational autoencoder for hydrologic inverse analysis",
-		"source": "arXiv",
-		"doi": "arXiv:1906.02401v1",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "Inverse problems often involve matching observational data using a physical model that takes a large number of parameters as input. These problems tend to be under-constrained and require regularization to impose additional structure on the solution in parameter space. A central difficulty in regularization is turning a complex conceptual model of this additional structure into a functional mathematical form to be used in the inverse analysis."
-	},
-	{
-		"authors": "S.W. Fleming, J.R. Watson, A. Ellenson, A.J. Cannon, V.V. Vesselinov",
-		"title": "Machine learning in Earth and environmental science requires education and research policy reforms",
-		"source": "Nature Geoscience",
-		"doi": "10.1038/s41561-021-00865-3",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf",
-		"abstract": "This comment argues that advances in artificial intelligence and machine learning could significantly accelerate discovery and prediction in Earth and environmental science. It also contends that current research funding, training, and educational structures are not yet preparing enough geoscientists to use these tools effectively, and calls for policy and curriculum reforms to build that capacity."
-	},
-	{
-		"authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, V.V. Vesselinov",
-		"title": "Machine Learning to Discover Mineral Trapping Signatures due to CO2 Injection",
-		"source": "International Journal of Greenhouse Gas Control",
-		"doi": "10.1016/j.ijggc.2021.103382",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
-		"envitrace_labels": ["carbon", "chemml"],
-		"abstract": "Mineral trapping is pursued as a geological CO sequestration (GCS) mechanism because it permanently stores CO in solid phases or minerals."
-	},
-	{
-		"authors": "D.L. Siler, J.D. Pepin, V.V. Vesselinov, et al.",
-		"title": "Machine learning to identify geologic factors associated with production in geothermal fields: A case-study using 3D geologic data, Brady geothermal field, Nevada",
-		"source": "Geothermal Energy",
-		"doi": "10.1186/s40517-021-00199-8",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
-		"envitrace_labels": ["geoml", "geotgo"],
-		"abstract": "In this paper, we present an analysis using unsupervised machine learning (ML) to identify the key geologic factors that contribute to the geothermal production in Brady geothermal field. Brady is a hydrothermal system in northwestern Nevada that supports both electricity production and direct use of hydrothermal fluids. Transmissive fluid-flow pathways are relatively rare in the subsurface, but are critical components of hydrothermal systems like Brady and many other types of fluid-flow systems in fractured rock."
-	},
-	{
-		"authors": "M. Mehana, E. Guiltinan, V.V. Vesselinov, R. Middleton, J. Hyman, Q. Kang, H. Viswanathan",
-		"title": "Machine-Learning Predictions of the Shale Wells’ Performance",
-		"source": "Journal of Natural Gas Science and Engineering",
-		"doi": "10.1016/j.jngse.2021.103819",
-		"year": 2021,
-		"url": "https://montyv.github.io/papers/Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
-		"envitrace_labels": ["petroai", "wells"],
-		"abstract": "The ultra-low permeability nature of shale reservoirs leads to an extended linear flow and necessitates horizontal wells with multi-stage engineered fractures to efficiently extract hydrocarbons resources. These artificiallygenerated and naturally-occurring fractures form complex networks that create complex flow regimes which control oil production. These fractures are neither identical nor equally-spaced, which leads to a production profile with a masked onset of the boundary-dominated flow."
-	},
-	{
-		"authors": "V.V. Vesselinov, M.K. Mudunuru, B. Ahmmed, S. Karra, R.S. Middleton",
-		"title": "Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning",
-		"source": "Stanford Geothermal Workshop",
-		"doi": null,
-		"year": 2020,
-		"url": "https://montyv.github.io/papers/Vesselinov 2020 Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning.pdf",
-		"envitrace_labels": ["geoml", "geotgo", "smarttensors"],
-		"abstract": "This work explores unsupervised machine-learning methods for discovering hidden geothermal resource signatures from large, heterogeneous datasets. It emphasizes unbiased feature extraction without heavy dependence on prior labeling and demonstrates how these methods can help characterize geothermal systems and guide exploration decisions in geothermal study areas such as New Mexico and The Geysers."
-	},
-	{
-		"authors": "M.K. Mudunuru, H.S. Viswanathan, J. W. Carey, L. Chen, Q. Kang, S. Karra, V.V. Vesselinov, R.S. Middleton, P.A. Johnson",
-		"title": "Subsurface energy: Flow and reactive-transport in porous and fractured media",
-		"source": "Handbook of Porous Materials (invited), World Scientific Publishers",
-		"doi": "10.1142/9789811223419_0004",
-		"year": 2020,
-		"url": "https://montyv.github.io/papers/Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
-		"envitrace_labels": ["carbon", "chemml", "geoml", "hydrogen"],
-		"abstract": "This work examines how geologic structure, state of stress, and well design affect hydrothermal fluid flow and energy production in geothermal systems. Using the NMFk unsupervised learning workflow within the SmartTensors framework, it identifies the reservoir and engineering parameters that most strongly control production and extracts characteristic energy-production signatures linked to subsurface conditions."
-	},
-	{
-		"authors": "B.S. Alexandrov, V. Stanev, V.V. Vesselinov, K. Rasmussen",
-		"title": "Nonnegative tensor decomposition with custom clustering for microphase separation of block copolymers",
-		"source": "Statistical Analysis and Data Mining",
-		"doi": "10.1002/sam.11407",
-		"year": 2019,
-		"url": "https://montyv.github.io/papers/Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
-		"envitrace_labels": ["smarttensors"],
-		"abstract": "The emerging collections of large and distinct high-dimensional datasets increase the interest in factor analysis based on tensor decomposition [1]. These collected datasets include only directly observable quantities, while the underlying processes are either too complex and cannot be observed directly or are completely unknown. These processes are called latent variables or latent features [2]."
-	},
-	{
-		"authors": "V.V. Vesselinov, M. Mudunuru, S. Karra, D. O'Malley, B.S. Alexandrov",
-		"title": "Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing",
-		"source": "Journal of Computational Physics",
-		"doi": "10.1016/j.jcp.2019.05.039",
-		"year": 2019,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
-		"envitrace_labels": ["chemml", "smarttensors"],
-		"abstract": "Mixing and reaction of species is an important physical phenomena crucial in many applied research areas related not only to flow in porous/fractured media but also to turbulent flows at various scales in groundwater, rivers, lakes, oceans, and the atmosphere [1–10]. A problem of predominant interest is groundwater contaminant remediation."
-	},
-	{
-		"authors": "C.A. Lopez, V.V. Vesselinov, S. Gnanakaran, B.S. Alexandrov",
-		"title": "Unsupervised Machine Learning for Analysis of Coexisting Lipid Phases and Domain Growth in Biological Membranes",
-		"source": "J. Chem. Theory Comput.",
-		"doi": "10.1021/acs.jctc.9b00074",
-		"year": 2019,
-		"url": "https://montyv.github.io/papers/Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
-		"envitrace_labels": ["smarttensors"],
-		"abstract": "Phase separation in mixed lipid systems has been extensively studied both experimentally and theoretically because of its biological importance. A detailed description of such complex systems undoubtedly requires novel mathematical frameworks that are capable of decomposing and categorizing the evolution of thousands if not millions of lipids involved in the phenomenon."
-	},
-	{
-		"authors": "S.K. Hansen, J. He, V.V. Vesselinov",
-		"title": "Characterizing the impact of model error in hydrologic time series recovery inverse problems",
-		"source": "Advances in Water Resources",
-		"doi": "10.1017/j.advwatres.2017.146.R2",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "Hydrologic models are commonly over-smoothed relative to reality, owing to computational limitations and to the difficulty of obtaining accurate high-resolution information. When used in an inversion context, such models may introduce systematic biases which cannot be encapsulated by an unbiased“observation noise”term of the type assumed by standard regularization theory and typical Bayesian formulations."
-	},
-	{
-		"authors": "S.K. Hansen, C.P. Haslauer, O.A. Cirpka, V.V. Vesselinov",
-		"title": "Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2017WR020450",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "It is widely recognized that solute transport in real aquifers is characterized by asymmetric plumes and heavy-tailed breakthrough curves. This behavior may be advection driven (created by neighboring stream tubes with significantly different velocities; e.g., Edery et al., 2014), or diffusion driven (caused by mobileimmobile trapping processes that sever the link between advection and transport; e.g., Haggerty et al., 2000)."
-	},
-	{
-		"authors": "V.G. Stanev, F.L. Iliev, S.K. Hansen, V.V. Vesselinov, B.S. Alexandrov",
-		"title": "Identification of the release sources in advection-diffusion system by machine learning combined with Green function inverse method",
-		"source": "Applied Mathematical Modelling",
-		"doi": "10.1016/j.apm.2018.03.006",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
-		"envitrace_labels": ["chemml", "smarttensors", "waste"],
-		"abstract": "In the last several decades one of the most important research topics in the hydrogeological sciences has been the contaminant transport in subsurface environment [1,2] . The research has been driven by substantial challenges associated with prediction and remediation of contaminant plumes in the environment. Most of these challenges are due to uncertainties associated with contaminant sources (e.g."
-	},
-	{
-		"authors": "Z. Lu, V.V. Vesselinov, H. Lei",
-		"title": "Identifying Arbitrary Parameter Zonation using Multiple Level Set Functions",
-		"source": "Journal of Computational Physics",
-		"doi": "10.1016/j.jcp.2018.03.016",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
-		"envitrace_labels": ["geoml", "wells"],
-		"abstract": "Various inverse models have been developed for identifying heterogeneous structures in subsurface environment [3–5]. It is well-known that the inverse problem is typically ill-posed because of limited data available. To avoid the ill-posed problem, one approach is the zonation method [6,7], in which the model domain is divided into a number of zones as a prior, each of which has a uniform parameter value."
-	},
-	{
-		"authors": "K. Telfeyan, A.A. Migdisov, S. Pandey, V.V. Vesselinov, P.W. Reimus",
-		"title": "Long-term stability of dithionite in alkaline anaerobic aqueous solution",
-		"source": "Applied Geochemistry",
-		"doi": "10.1016/j.apgeochem.2018.12.015",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
-		"envitrace_labels": ["chemml", "waste"],
-		"abstract": "Closed-system experiments were conducted to investigate the decomposition of sodium dithionite in aqueous solutions under varying pH and starting concentrations to simulate the deployment of dithionite as an in-situ redox barrier. Co-determination of dithionite and its degradation products was conducted using UV-Vis spectrometry, iodometric titration, and ion chromatography."
-	},
-	{
-		"authors": "E. Qian, B. Peherstorfer, D. O'Malley, V.V. Vesselinov, K. Wilcox",
-		"title": "Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices",
-		"source": "SIAM Journal on Uncertainty Quantification",
-		"doi": "10.1137/17M1151006",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "Variance-based sensitivity analysis provides a quantitative measure of how uncertainty in a model input contributes to uncertainty in the model output. Such sensitivity analyses arise in a wide variety of applications and are typically computed using Monte Carlo estimation, but the many samples required for Monte Carlo to be sufficiently accurate can make these analyses intractable when the model is expensive."
-	},
-	{
-		"authors": "F.L. Iliev, V.G. Stanev, V.V. Vesselinov, B.S. Alexandrov",
-		"title": "Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals",
-		"source": "PLoS ONE",
-		"doi": "10.1371/journal.pone.0193974",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
-		"envitrace_labels": ["smarttensors"],
-		"abstract": "Factor analysis is broadly used as a powerful unsupervised machine learning tool for reconstruction of hidden features in recorded mixtures of signals. In the case of a linear approximation, the mixtures can be decomposed by a variety of model­free Blind Source Separation (BSS) algorithms. Most of the available BSS algorithms consider an instantaneous mixing of signals, while the case when the mixtures are linear combinations of signals with delays is less explored."
-	},
-	{
-		"authors": "V.V. Vesselinov, B.S. Alexandrov, D. O'Malley",
-		"title": "Nonnegative Tensor Factorization for Contaminant Source Identification",
-		"source": "Journal of Contaminant Hydrology",
-		"doi": "10.1016/j.jconhyd.2018.11.010",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
-		"envitrace_labels": ["chemml", "smarttensors", "waste"],
-		"abstract": "Unsupervised Machine Learning (ML) is becoming increasingly popular for solving various types of data analytics problems including feature extraction, blind source separation, exploratory analyses, model diagnostics, etc. Here, we have developed a new unsupervised ML method based on Nonnegative Tensor Factorization (NTF) for identification of the original groundwater types (including contaminant sources) present in geochemical mixtures observed in an aquifer."
-	},
-	{
-		"authors": "D. O'Malley, V.V. Vesselinov, B.S. Alexandrov, L.B. Alexandrov",
-		"title": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
-		"source": "PlosOne",
-		"doi": "10.1371/journal.pone.0206653",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/OMalley et al 2017 Nonnegative:binary matrix factorization with a D-Wave quantum annealer.pdf",
-		"envitrace_labels": ["smarttensors"],
-		"abstract": "Wavequantumannealersrepresenta novelcomputationalarchitectureandhave attractedsignificantinterest.Muchof thisinteresthasfocusedonthequantumbehaviorof Wavemachines,andtherehavebeenfewpracticalalgorithmsthatusetheD-Wave. Machinelearninghasbeenidentifiedasanareawherequantumannealingmaybeuseful."
-	},
-	{
-		"authors": "Y. Lin, D. O'Malley, V.V. Vesselinov, G.D Guthrie, D. Coblentz",
-		"title": "Randomization in Characterizing the Subsurface",
-		"source": "SIAM News",
-		"doi": null,
-		"year": 2018,
-		"url": "https://www.siam.org/publications/siam-news/articles/randomization-in-characterizing-the-subsurface",
-		"envitrace_labels": ["geoml", "hydrogen", "mads", "minerals"],
-		"abstract": "of matrix . However, a simple computational cost analysis can reveal the significant impacts of the randomized matrix. Assume that the number of model parameters is ; the number of observations is , which yields the size of the Jacobian matrix and the covariance matrix is ."
-	},
-	{
-		"authors": "V.V. Vesselinov, Karra Mudunuru. M., O'Malley S., Alexandrov D.",
-		"title": "Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs",
-		"source": "Computational Methods in Water Resources (CMWR), Saint-Malo, France",
-		"doi": "10.13140/RG.2.2.27777.92005",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
-		"envitrace_labels": ["geoml", "smarttensors"],
-		"abstract": "In general, unsupervised machine learning (ML) methods are powerful tools for data analyses to extract essential features hidden in data. The integration of large datasets, powerful computational capabilities, and affordable data storage has resulted in the widespread use of ML in science, technology, and industry. Here we present applications of ML to characterize (1) reactive transport data observed at groundwater contamination sites, and (2) model simulations representing fast irreversible bimolecular reactions."
-	},
-	{
-		"authors": "V. Stanev, V.V. Vesselinov, A.G. Kusne, G. Antoszewski, I. Takeuchi, B.A. Alexandrov",
-		"title": "Unsupervised Phase Mapping of X-ray Diffraction Data by Nonnegative Matrix Factorization Integrated with Custom Clustering",
-		"source": "Nature Computational Materials",
-		"doi": "10.1038/s41524-018-0099-2",
-		"year": 2018,
-		"url": "https://montyv.github.io/papers/Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
-		"envitrace_labels": ["minerals", "smarttensors"],
-		"abstract": "constraint programming concepts, and use powerful but computationally expensive metrics like dynamic time warping. Several generalizations of NMF techniques, including shiftNMF and convolutional NMF have been used as well. (We discuss some related methods in Materials and Methods section)."
-	},
-	{
-		"authors": "J. Bakarji, V.V. Vesselinov, D. O’Malley",
-		"title": "Agent-based Socio-hydrological Hybrid Modeling for Water Resource Management",
-		"source": "Water Resources Management",
-		"doi": "10.1007/s11269-017-1713-7",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
-		"envitrace_labels": ["mads", "wefx"],
-		"abstract": "This paper presents a simple agent-based socio-hydrological decision framework that couples social behavior with groundwater contamination dynamics. It shows that optimizing around social health risk, rather than contaminant concentration alone, can improve water-management decisions while preserving enough simplicity and flexibility for broader environmental decision-support applications."
-	},
-	{
-		"authors": "S.K. Hansen, S. Pandey, S. Karra, V.V. Vesselinov",
-		"title": "CHROTRAN 1.0: A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers",
-		"source": "Geoscientific Model Development",
-		"doi": "10.5194/gmd-10-4525-2017",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
-		"envitrace_labels": ["chemml", "waste"],
-		"abstract": "Groundwater contamination by heavy metals is a critical environmental problem for which in situ remediation is frequently the only viable treatment option. For such interventions, a multi-dimensional reactive transport model of relevant biogeochemical processes is invaluable. To this end, we developed a model,CHROTRAN, for in situ treatment, which includes full dynamics for five species: a heavy metal to be remediated, an electron donor, biomass, a nontoxic conservative bio-inhibitor, and a biocide."
-	},
-	{
-		"authors": "V.V. Vesselinov, D. O'Malley, B.S. Alexandrov",
-		"title": "Contaminant source identification using semi-supervised machine learning",
-		"source": "Journal of Contaminant Hydrology",
-		"doi": "10.1016/j.jconhyd.2017.11.002",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
-		"envitrace_labels": ["chemml", "smarttensors", "waste"],
-		"abstract": "Identification of the original groundwater types present in geochemical mixtures observed in an aquifer is a challenging but very important task. Frequently, some of the groundwater types are related to different infiltration and/or contamination sources associated with various geochemical signatures and origins."
-	},
-	{
-		"authors": "S.K. Hansen, V.V. Vesselinov, P. Reimus, Z. Lu",
-		"title": "Inferring subsurface heterogeneity from push-drift tracer tests",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2017WR020852R",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "Single-well injection withdrawal (SWIW) tracer tests are commonly performed, and interpretation methodologies have been proposed for inference of many subsurface parameters from their breakthrough curves. This body of interpretive theory generally assumes radially symmetric flow, with particles tracing the same paths on their outbound and inbound journeys and implying last-in-first-out (LIFO) behavior."
-	},
-	{
-		"authors": "X. Zhang, V.V. Vesselinov",
-		"title": "Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus",
-		"source": "Advances in Water Resources",
-		"doi": "10.1016/j.advwatres.2016.12.017",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
-		"envitrace_labels": ["wefx"],
-		"abstract": "This paper develops an integrated modeling framework for planning and managing the water-energy-food nexus under socioeconomic demands and environmental constraints. The WEFO tool is designed to analyze tradeoffs across sectors and identify cost-effective strategies that also account for impacts such as greenhouse-gas emission controls."
-	},
-	{
-		"authors": "Y. Lin, E.B. Le, D. O'Malley, V.V. Vesselinov, T. Bui-Thanh",
-		"title": "Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2016WR020299RRR",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "This paper introduces a randomized geostatistical approach for inverse problems with very large observational datasets. By combining principal-component geostatistical inversion with randomized sketching for data reduction, the method improves computational efficiency and memory use while retaining the information needed for large-scale model calibration."
-	},
-	{
-		"authors": "S.K. Hansen, V.V. Vesselinov",
-		"title": "Local equilibrium and retardation revisited",
-		"source": "Groundwater",
-		"doi": "10.1111/gwat.12551",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
-		"envitrace_labels": ["chemml"],
-		"abstract": "In modeling solute transport with mobile-immobile mass transfer (MIMT), it is common to use an advection-dispersion equation (ADE) with a retardation factor, orretarded ADE. This is commonly referred to as making thelocal equilibrium assumption(LEA). Assuming local equilibrium, Eulerian textbook treatments derive the retarded ADE, ostensibly exactly."
-	},
-	{
-		"authors": "X. Zhang, A.Y. Sun, I.J. Duncan, V.V. Vesselinov",
-		"title": "Two-Stage Fracturing Wastewater Management in Shale Gas Development",
-		"source": "Ind. Eng. Chem. Res.",
-		"doi": "10.1021/acs.iecr.6b03971",
-		"year": 2017,
-		"url": "https://montyv.github.io/papers/Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
-		"envitrace_labels": ["petroai", "waste", "wefx"],
-		"abstract": "Management of shale gas wastewater treatment, disposal, and reuse has become a significant environmental challenge, driven by an ongoing boom in development of U.S. shale gas reservoirs. Systems-analysis based decision support is helpful for effective management of wastewater, and provision of cost-effective decision alternatives from a whole-system perspective."
-	},
-	{
-		"authors": "Y. Lin, D. O'Malley, V.V. Vesselinov",
-		"title": "A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2016WR019028",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "This paper develops a computationally efficient parallel Levenberg-Marquardt method for inverse problems with large observation sets and highly parameterized model spaces. The approach is designed to reduce the computational burden of conventional inverse modeling while preserving the ability to estimate model parameters from large observational datasets."
-	},
-	{
-		"authors": "H. Throckmorton, B. Newman, J. Heikoop, G. Perkins, X. Feng, D. Graham, D. O'Malley, V.V. Vesselinov, J. Young, S. Wullschleger, C. Wilson",
-		"title": "Active layer hydrology in an arctic tundra ecosystem: quantifying water sources and cycling using water stable isotopes",
-		"source": "Hydrological Processes",
-		"doi": "10.1002/hyp.10883",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf",
-		"abstract": "Climate change and thawing permafrost in the Arctic will significantly alter landscape hydro-geomorphology and the distribution of soil moisture, which will have cascading effects on climate feedbacks (CO and CH ) and plant and microbial communities. Fundamental processes critical to predicting active layer hydrology are not well understood."
-	},
-	{
-		"authors": "S.K. Hansen, V.V. Vesselinov",
-		"title": "Contaminant point source localization error estimates as functions of data quantity and model quality",
-		"source": "Journal of Contaminant Hydrology",
-		"doi": "10.1016/j.jconhyd.2016.09.003",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
-		"envitrace_labels": ["chemml", "mads", "waste"],
-		"abstract": "We develop empirically-grounded error envelopes for localization of a point contamination release event in the saturated zone of a previously uncharacterized heterogeneous aquifer into which a number of plumeintercepting wells have been drilled. We assume that flow direction in the aquifer is known exactly and velocity is known to within a factor of two of our best guess from well observations prior to source identification."
-	},
-	{
-		"authors": "M. Grasinger, D. O'Malley, V.V. Vesselinov, S. Karra",
-		"title": "Decision Analysis for Robust CO2 Injection: Application of Bayesian-Information-Gap Decision Theory",
-		"source": "International Journal of Greenhouse Gas Control",
-		"doi": "10.1016/j.ijggc.2016.02.017",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Grasinger et al 2016 Decision analysis for robust CO2 injection Application of Bayesian-Information-Gap Decision Theory.pdf",
-		"envitrace_labels": ["carbon", "mads"],
-		"abstract": "Geological carbon sequestration is the act of capturing carbon dioxide from coal and natural gas power plants or industrial processes and storing it deep in underground geologic formations. This approach has the potential to mitigate global climate change by limiting the emission of greenhouse gases into the atmosphere. The U.S."
-	},
-	{
-		"authors": "X. Zhang, V.V. Vesselinov",
-		"title": "Energy-Water Nexus: Balancing the Tradeoffs between Two-Level Decision Makers",
-		"source": "Applied Energy",
-		"doi": "10.1016/j.apenergy.2016.08.156",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
-		"envitrace_labels": ["wefx"],
-		"abstract": "Energy-water nexus has substantially increased importance in the recent years. Synergistic approaches based on systems-analysis and mathematical models are critical for helping decision makers better understand the interrelationships and tradeoffs between energy and water. In energy-water nexus management, various decision makers with different goals and preferences, which are often conflicting, are involved."
-	},
-	{
-		"authors": "S.K. Hansen, B. Berkowitz, V.V. Vesselinov, D. O'Malley, S. Karra",
-		"title": "Push-pull tracer tests: their information content and use for characterizing non-Fickian, mobile-immobile behavior",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2016WR018769RR",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
-		"envitrace_labels": ["chemml", "wells"],
-		"abstract": "discrete-site 1-D CTRW. This perspective allows us to make statements about what may be invisible (most commonly, the heterogeneous hydraulic conductivity field, orK-field), and what is certainly visible (to wit, mobile-immobile behavior). It is shown how to quantify the latter, and a simple subordination technique is presented for modification of an existing model which captures only heterogeneous advection in order to add the mobile-immobile trapping behavior characterized by the push-pull test."
-	},
-	{
-		"authors": "D. O'Malley, V.V. Vesselinov",
-		"title": "ToQ.jl: A high-level programming language for D-Wave machines based on Julia",
-		"source": "IEEE High Performance Extreme Computing",
-		"doi": "10.1109/HPEC.2016.7761616",
-		"year": 2016,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
-		"envitrace_labels": ["smarttensors"],
-		"abstract": "Quantum computers are becoming more widely available, so it is important to develop tools that enable people to easily program these computers to solve complex problems. To address this issue, we present the design and two applications of ToQ.jl, a high-level programming language for Wave quantum annealing machines."
-	},
-	{
-		"authors": "Z. Lu, V.V. Vesselinov",
-		"title": "Analytical Sensitivity Analysis of Transient Groundwater Flow in a Bounded Model Domain using Adjoint Method",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2014WR016819",
-		"year": 2015,
-		"url": "https://montyv.github.io/papers/Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "Sensitivities of state variables to model parameters are computed to perform various types of model analyses [Saltelli et al., 2000]. These include sensitivity analysis, model inversion, parameter estimation, model selection, uncertainty quantification, data-worth analysis, experimental design, and decision analysis. Typically, in these modeling exercises the estimation of sensitivities comprises the dominant part of the computational effort."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov",
-		"title": "Bayesian-Information-Gap Decision Theory (BIG-DT) with an application to CO2 sequestration",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2015WR017413",
-		"year": 2015,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
-		"envitrace_labels": ["carbon", "mads"],
-		"abstract": "A decision is the end-goal of many scientific efforts. Uncertainty often plays an important role in these decisions. The presence of uncertainty is especially pronounced in earth science applications where models are often inadequate (due to, e.g., geologic heterogeneity) and the decision may have enormous consequences (e.g., deployment of CO sequestration to address climate change)."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
-		"title": "Diffusive mixing and Tsallis entropy",
-		"source": "Physical Review E",
-		"doi": "10.1103/PhysRevE.91.042143",
-		"year": 2015,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf",
-		"abstract": "This study examines diffusive mixing through the lens of Tsallis entropy, a nonadditive alternative to classical Boltzmann-Gibbs entropy for nonergodic systems. It develops a generalized form of Brownian motion that maximizes Tsallis entropy and uses it to connect anomalous diffusion behavior with nonclassical entropy production."
-	},
-	{
-		"authors": "D. A. Barajas-Solano, B. Wohlberg, V.V. Vesselinov, D. M. Tartakovsky",
-		"title": "Linear Functional Minimization for Inverse Modeling",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2014WR016179",
-		"year": 2015,
-		"url": "https://montyv.github.io/papers/Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "Hydraulic and transport properties of subsurface environments, such as hydraulic conductivity, transmissivity, and dispersivity, are often highly heterogeneous. Ubiquitous spatial variability is a product of multiple geological, mechanical, and physicochemical processes that form subsurface environments [Nœtinger et al., 2005;Carrera et al., 2005]."
-	},
-	{
-		"authors": "S.A. Mattis, T.D. Dawson Butler, Estep C.N., Vesselinov D., V.V.",
-		"title": "Parameter estimation and prediction for groundwater contamination based on measure theory",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2015WR017295",
-		"year": 2015,
-		"url": "https://montyv.github.io/papers/Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "we connect the notation and concepts to the model described above. We letKdenote the space of possible (input) parameters for the model (including source parameters) andQbe a map from the parameter spaceKto the output spaceD:ðKÞ.HereDrepresents contaminant concentrations given by the mapQdefined by evaluatingCðx;y;z;tÞat specific points in space-time that depend implicitly on the choice of parameters."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov",
-		"title": "A combined probabilistic/non-probabilistic decision analysis for contaminant remediation",
-		"source": "Journal on Uncertainty Quantification, SIAM/ASA",
-		"doi": "10.1137/140965132",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "Groundwater contaminant remediation poses a significant challenge due in large part to ubiquitous uncertainties and unknowns. A number of remedial options are typically available at a given contamination site. However, choosing the best option is challenging, because it is not typically known beforehand how effective each remediation will be."
-	},
-	{
-		"authors": "V.L. Freedman, X. Chen, S. Finsterle, M. Freshley, I. Gorton, L. Gosink, E. Keating, C. Lansing, Murray C. Moeglein W., G. Pau, E. Porter, S. Purohit, M. Rockhold, K. Schuchardt, C. Sivaramakrishnan, V.V. Vesselinov, S. Waichler",
-		"title": "A high-performance workflow system for subsurface simulation",
-		"source": "Environmental Modelling & Software",
-		"doi": "10.1016/j.envsoft.2014.01.030",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
-		"envitrace_labels": ["geoml", "hydrogen", "mads"],
-		"abstract": "The U.S. Department of Energy (DOE) recently invested in developing a numerical modeling toolset called ASCEM (Advanced Simulation Capability for Environmental Management) to support modeling analyses at legacy waste sites. This investment includes the development of an open-source user environment called Akuna that manages subsurface simulation workflows."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
-		"title": "A Method for Identifying Diffusive Trajectories with Stochastic Model",
-		"source": "Journal of Statistical Physics, Springer",
-		"doi": "10.1007/s10955-014-1035-6",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf",
-		"abstract": "Lagrangian dynamics in mixing processes are frequently observed and simulated. Often particle trajectories are driven by unknown and/or innumerable physical processes and hence are often modeled by stochastic processes. Perhaps the most famous such example was Brown’s observation of the highly irregular motion of pollen grains in water [1]."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov",
-		"title": "Analytical solutions for anomalous dispersion transport",
-		"source": "Advances in Water Resources",
-		"doi": "10.1016/j.advwatres.2014.02.006",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf",
-		"abstract": "Groundwater flow and transport often occur in a highly heterogeneous environment (potentially heterogeneous at multiple spatial scales) and is impacted by geochemical reactions, advection, diffusion, and other pore scale processes."
-	},
-	{
-		"authors": "B. Alexandrov, V.V. Vesselinov",
-		"title": "Blind source separation for groundwater level analysis based on non-negative matrix factorization",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2013WR015037",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
-		"envitrace_labels": ["smarttensors", "wells"],
-		"abstract": "Most site hydrogeological studies include analysis of water-level transients; for example, pumping-test interpretation, evaluation of aquifer recharge, estimation of surface/subsurface water interactions, etc. However, identification of the physical sources causing spatial and temporal variation of aquifer water levels is challenging [cf.Vasco et al., 2000]."
-	},
-	{
-		"authors": "D. O’Malley, V.V. Vesselinov",
-		"title": "Groundwater remediation using the information gap decision theory",
-		"source": "Water Resources Research",
-		"doi": "10.1002/2013WR014718",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "This work applies information-gap decision theory to groundwater remediation design and selection under severe uncertainty. It frames remediation planning as a robustness problem and evaluates how nonprobabilistic uncertainty analysis can support more defensible choices among alternative cleanup actions."
-	},
-	{
-		"authors": "J.M. Heikoop, T.M. Johnson, K.H. Birdsell, P. Longmire, D.D. Hickmott, E.P. Jacobs, D.E. Broxton, D. Katzman, V.V. Vesselinov, M. Ding, D.T. Vaniman, S.L. Reneau, T.J. Goering, J. Glessner, A. Basu",
-		"title": "Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater",
-		"source": "Chemical Geology",
-		"doi": "10.1016/j.chemgeo.2014.02.022",
-		"year": 2014,
-		"url": "https://montyv.github.io/papers/Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
-		"envitrace_labels": ["chemml", "waste"],
-		"abstract": "of Sandia Canyon Phase I Sediment Investigations, LA-UR-07-6019. Los Alamos, New Mexico. LANL, 2009.Investigation Report for Sandia Canyon, LA-UR-09-6450."
-	},
-	{
-		"authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
-		"title": "Robust Decision Analysis for Environmental Management of Groundwater Contamination Sites",
-		"source": "Vulnerability, Uncertainty, and Risk Quantification, Mitigation, and Management",
-		"doi": "10.1061/9780784413609.197",
-		"year": 2014,
-		"url": "http://ascelibrary.org/doi/abs/10.1061/9780784413609.197",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "This paper addresses the severe uncertainty associated with subsurface flow, contaminant transport, and poorly constrained site parameters in groundwater contamination problems. It presents a robust decision-analysis perspective for environmental management and remediation planning when direct observation and characterization of the subsurface are inherently limited."
-	},
-	{
-		"authors": "D.R. Harp, V.V. Vesselinov",
-		"title": "Accounting for the influence of aquifer heterogeneity on spatial propagation of pumping drawdown",
-		"source": "Journal of Water Resource and Hydraulic Engineering",
-		"doi": null,
-		"year": 2013,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 exp.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "It has been previously observed that during a pumping test in heterogeneous media, drawdown data from different time periods collected at a single location produce different estimates of aquifer properties and that Theis type-curve inferences are more variable than late-time Cooper-Jacob inferences. In order to obtain estimates of aquifer properties from highly transient drawdown data using the Theis solution, it is necessary to account for this behavior."
-	},
-	{
-		"authors": "V.V. Vesselinov, D. Katzman, D. Broxton, K. Birdsell, S. Reneau, D. Vaniman, P. Longmire, J. Fabryka-Martin, J. Heikoop, M. Ding, D. Hickmott, E. Jacobs, T. Goering, D.R. Harp, P. Mishra",
-		"title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
-		"source": "Waste Management Symposium, Phoenix, AZ",
-		"doi": null,
-		"year": 2013,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
-		"envitrace_labels": ["chemml", "mads", "waste"],
-		"abstract": "A series of site investigations and decision-support analyses have been performed related to a chromium data and site information, alternative conceptual and numerical models representing governing subsurface processes with different complexity and resolution have been developed. The current conceptual model is supported by multiple lines of evidence based on comprehensive analyses of the available data and modeling results."
-	},
-	{
-		"authors": "V.V. Vesselinov, D. Harp",
-		"title": "Adaptive hybrid optimization strategy for calibration and parameter estimation of physical models",
-		"source": "Computers & Geosciences",
-		"doi": "10.1016/j.cageo.2012.05.027",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "A new adaptive hybrid optimization strategy, entitledsquads, is proposed for complex inverse analysis of computationally intensive physics-based models. Typically, models are calibrated and model parameters are estimated by minimization of the discrepancy between model simulations characterizing the system and existing observations requiring a substantial number of model evaluations.Squadsis designed to be computationally efficient and robust in identification of the global optimum (i.e."
-	},
-	{
-		"authors": "V.V. Vesselinov, G. Pau, . Finsterle",
-		"title": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments",
-		"source": "Computational Methods in Water Resources (CMWR)",
-		"doi": null,
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "Advanced Simulation Capability for Environmental Management (ASCEM) is an emerging state-of-the-art scientific methodological and computational framework for analyzing and predicting subsurface flow and contaminant transport in natural and engineered systems. ASCEM is supported by the U.S. Department of Energy Office of Environmental Management (DOE-EM)."
-	},
-	{
-		"authors": "D. Harp, V.V. Vesselinov",
-		"title": "An agent-based approach to global uncertainty and sensitivity analysis",
-		"source": "Computers & Geosciences",
-		"doi": "10.1016/j.cageo.2011.06.025",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 abagus.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "A novel sampling approach to global uncertainty and sensitivity analyses of modeling results utilizing concepts from agent-based modeling is presented (Agent-Based Analysis of Global Uncertainty and Sensitivity (ABAGUS)). A plausible model parameter space is discretized and sampled by a particle swarm where the particle locations represent unique model parameter sets."
-	},
-	{
-		"authors": "D. Harp, V.V. Vesselinov",
-		"title": "Analysis of hydrogeological structure uncertainty by estimation of hydrogeological acceptance probability of geostatistical models",
-		"source": "Special issue of Uncertainty Quantification (invited), Advances in Water Resources",
-		"doi": "10.1016/j.advwatres.2011.06.007",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 geosampler.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "The following describes a proposed approach to account for the equifinality of solutions that result from comparing observations to flow simulations when using realizations of geostatistical models. We introduce hydrogeological acceptance probability to estimate the propensity of a geostatistical model to produce acceptable realizations with respect to the consistency of their simulations with observations."
-	},
-	{
-		"authors": "D. Harp, V.V. Vesselinov",
-		"title": "Contaminant remediation decision analysis using information gap theory",
-		"source": "Stochastic Environmental Research and Risk Assessment (SERRA)",
-		"doi": "10.1007/s00477-012-0573-1",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "Environmental and earth scientists are frequently required to provide scientifically defensible support in decisionmaking processes related to important environmental problems (e.g. climate change, contaminant migration, carbon sequestration, nuclear waste storage, etc.) (Harrington and Gidley1985; Caselton and Luo1992; Paleologos and Lerche1999; Min et al.2005; Levy2005; Tesfamariam and Sadiq2006; Kentel and Aral2007)."
-	},
-	{
-		"authors": "P.K. Mishra, H.V. Gupta, V.V. Vesselinov",
-		"title": "On simulation and analysis of variable-rate pumping tests",
-		"source": "Ground Water",
-		"doi": "10.1111/j.1745-6584.2012.00961.x",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Mishra et al 2012 Variable Rate GW.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "Analytical solutions for constant-rate pumping tests are widely used to infer aquifer properties. In this note, we implement a methodology that approximates the time-varying pumping record as a series of segments with linearly varying pumping rates. We validate our approach using an analytical solution for a sinusoidally varying pumping test."
-	},
-	{
-		"authors": "P.K. Mishra, V.V. Vesselinov, S.P. Neuman",
-		"title": "Radial flow to a partially penetrating well with storage in an anisotropic confined aquifer",
-		"source": "Journal of Hydrology",
-		"doi": "10.1016/j.jhydrol.2012.05.010",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Mishra et al 2012 Confined aquifer JH.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "This technical note presents an analytical solution for drawdown caused by pumping from a partially penetrating well with wellbore storage in a uniform anisotropic confined aquifer. The solution is used to examine how partial penetration, storage, and anisotropy affect transient drawdown behavior and extends several classical limiting cases in aquifer-test analysis."
-	},
-	{
-		"authors": "P.K. Mishra, V.V. Vesselinov, K.L. Kuhlmna",
-		"title": "Saturated–unsaturated flow in a compressible leaky-unconfined aquifer",
-		"source": "Advances in Water Resources",
-		"doi": "10.1016/j.advwatres.2012.03.007",
-		"year": 2012,
-		"url": "https://montyv.github.io/papers/Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "An analytical solution is developed for three-dimensional flow towards a partially penetrating largediameter well in an unconfined aquifer bounded below by a leaky aquitard of finite or semi-infinite extent. The analytical solution is derived using Laplace and Hankel transforms, then inverted numerically. Existing solutions for flow in leaky unconfined aquifers neglect the unsaturated zone following an assumption of instantaneous drainage due to Neuman."
-	},
-	{
-		"authors": "P.K. Mishra, V.V. Vesselinov",
-		"title": "Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer",
-		"source": "arXiv",
-		"doi": "arXiv:1110.5940",
-		"year": 2011,
-		"url": "https://montyv.github.io/papers/Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "Drawdowns generated by extracting water from a large diameter (e.g. water supply) well are affected by wellbore storage. We present an analytical solution in Laplace transformed space for drawdown in a uniform anisotropic aquifer caused by withdrawing water at a constant rate from a partially penetrating well with storage."
-	},
-	{
-		"authors": "V.V. Vesselinov, D. Harp",
-		"title": "Decision support based on uncertainty quantification of model predictions of contaminant transport",
-		"source": "Computational Methods in Water Resources (CMWR), Barcelona, Spain",
-		"doi": null,
-		"year": 2010,
-		"url": "https://montyv.github.io/papers/Vesselinov & Harp 2010 cmwr decision.pdf",
-		"envitrace_labels": ["mads", "waste"],
-		"abstract": "The process of decision making to protect groundwater resources requires a detailed estimation of uncertainties in model predictions. Various uncertainties associated with model development, such as measurement and computational errors, uncertainties in the conceptual model and model-parameter estimates, simplifications in model setup and numerical representation of governing processes, influence the uncertainties in the model predictions."
-	},
-	{
-		"authors": "D. Harp, V.V. Vesselinov",
-		"title": "Identification of Pumping Influences in Long-Term Water Level Fluctuations",
-		"source": "Ground Water",
-		"doi": "10.1111/j.1745-6584.2010.00725.x",
-		"year": 2010,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 gw.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "Identification of the pumping influences at monitoring wells caused by spatially and temporally variable water supply pumping can be a challenging, yet an important hydrogeological task. The information that can be obtained can be critical for conceptualization of the hydrogeological conditions and indications of the zone of influence of the individual pumping wells."
-	},
-	{
-		"authors": "E. Morales-Casique, S.P. Neuman, V.V. Vesselinov",
-		"title": "Maximum Likelihood Bayesian Averaging of air flow models in unsaturated fractured tuff using Occam and variance windows",
-		"source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
-		"doi": "10.1007/s00477-010-0383-2",
-		"year": 2010,
-		"url": "https://montyv.github.io/papers/Morales et al 2010 MLBA serra.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "of the conditions for each test is presented in Table1. For inverse calibration we selected the cross-hole tests labelled and ; we validated the calibrated models by predicting pressure variations during cross-hole tests, and . During each test air was injected into a given interval and responses were monitored in relatively short intervals (0.5–m) and relatively long intervals (4–42.m) shown in Fig.1."
-	},
-	{
-		"authors": "D. Harp, V.V. Vesselinov",
-		"title": "Stochastic inverse method for estimation of geostatistical representation of hydrogeologic stratigraphy using borehole logs and pressure",
-		"source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
-		"doi": "10.1007/s00477-010-0403-2",
-		"year": 2010,
-		"url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 SERRA.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "of the indicator kriging approach by Journel (1983) provided an alternative to Boolean models, modeling distinct stratigraphic units using indicator functions in a geostatistical framework. Indicator kriging is easily conditioned to observed geologic data and produces more realistic structures based on an inferred or imposed covariance model as opposed to assumed geometric objects utilized in Boolean models."
-	},
-	{
-		"authors": "V.V. Vesselinov",
-		"title": "Uncertainties in Transient Capture-Zone Estimates of Groundwater Supply Wells",
-		"source": "Journal of Contemporary Water Research & Education",
-		"doi": "10.1111/j.1936-704X.2007.mp137001001.x",
-		"year": 2007,
-		"url": "https://doi.org/10.1111/j.1936-704X.2007.mp137001001.x",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "This study examines uncertainty in transient capture-zone estimates for groundwater supply wells and argues that transient analyses provide a more complete assessment than standard steady-state approaches. It also shows that simplified advection-only methods can bias transient capture-zone predictions, with implications for groundwater protection and wellhead management."
-	},
-	{
-		"authors": "V.V. Vesselinov",
-		"title": "Uncertainties In Transient Capture-Zone Estimates",
-		"source": "Computational Methods in Water Resources (CMWR)",
-		"ISBN": "90-5809-124-4",
-		"doi": null,
-		"year": 2006,
-		"url": "https://montyv.github.io/papers/Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
-		"envitrace_labels": ["mads", "wells"],
-		"abstract": "Capture zones of water-supply wells are a widely used analysis tool for protection of groundwater resources. Transient analyses of capture zones provide a more complete assessment than the commonly applied steady-state analyses. Previously, we have demonstrated that advection-only analyses can produce biased transient capture-zone estimates."
-	},
-	{
-		"authors": "E.H. Keating, B.A. Robinson, V.V. Vesselinov",
-		"title": "Development and Application of Numerical Models to Estimate Fluxes through the Regional Aquifer beneath the Pajarito Plateau",
-		"source": "Vadose Zone Journal",
-		"doi": "10.2136/vzj2004.0101",
-		"year": 2005,
-		"url": "https://montyv.github.io/papers/Vrugt et al 2007 VZJ.pdf",
-		"envitrace_labels": ["wells"],
-		"abstract": "the EnKF propagates an ensemble of state vector trajectories in parallel, such that each trajectory represents one realization of generated model replicates. When an output measurement is available, each forecasted ensemble state vector ψ t f is updated by means of a linear updating rule in a manner analogous to the Kalman fi lter. A detailed description of the EnKF method, including the algorithmic details, is found in Evensen (1994) and so will not be repeated here."
-	},
-	{
-		"authors": "J.A. Vrugt, B.A. Robinson, V.V. Vesselinov",
-		"title": "Improved Inverse Modeling in Geophysics: Combined Parameter and State Estimation",
-		"source": "Geophysical Research Letters",
-		"doi": "10.1029/2005GL023940",
-		"year": 2005,
-		"url": "https://montyv.github.io/papers/Vrugt et al 2005 GRL.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "of the models and methods for the FEHM application—A finite element heat-and mass-transfer code,Rep. LA-13307–MS, Los Alamos Natl. Lab., Los Alamos, N."
-	},
-	{
-		"authors": "V.V. Vesselinov",
-		"title": "Estimation of parameter uncertainty using inverse model sensitivities",
-		"source": "Computational Methods in Water Resources (CMWR), Elsevier",
-		"ISBN": "0-444-51839-8",
-		"doi": "10.1016/S0167-5648(04)80139-4",
-		"year": 2004,
-		"url": "https://montyv.github.io/papers/Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
-		"envitrace_labels": ["mads"],
-		"abstract": "Inverse models are widely used in the field of hydrogeology [2-6,10]. One of the most important aspects in the inverse analysis is the evaluation of uncertainty in the estimated parameters. The commonly-used evaluation techniques are obtained from the existing vast body of parameter estimation literature [1] and are generally applicable when the number of calibration targets (observations) are significantly larger than the number of model parameters."
-	}
+  {
+	"authors": "V.V. Vesselinov, T.L. Kliphuis",
+	"title": "Machine Learning Estimates of Geothermal and Critical Mineral Prospectivity of the Great Basin",
+	"source": "Stanford Geothermal Workshop",
+	"doi": "10.13140/RG.2.2.11951.19360",
+	"year": 2026,
+	"url": "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2026/Vesselinov.pdf",
+	"envitrace_labels": [
+		"geoml",
+		"geotgo"
+	]
+  },
+  {
+    "authors": "A. Markowitz, R. Abuaamoud, S. Ben Ayed, A. Rupe, R. Yang, T. Kliphuis, V.V. Vesselinov",
+    "title": "AI-augmented geothermal model for scalable energy uncertainties in buildings",
+    "source": "Scientific Reports",
+    "doi": "10.1038/s41598-026-40837-4",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41598-026-40837-4",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work presents a scalable software tool for predicting geothermal energy use in residential buildings under conditions that demand fast, physically informed simulations. Using a reduced-order model benchmarked against EnergyPlus and datasets generated with Latin Hypercube Sampling, Saltelli, and eFast methods, the study applies XGBoost to predict energy usage with high accuracy while preserving computational efficiency."
+  },
+  {
+    "authors": "P. Lara, N.R. Ranasinghe, V.V. Vesselinov, C.W. Johnson",
+    "title": "Deep-Embedded-Clustering of Microseismicity Identifies Multiple Failure Mechanisms at The Geysers Geothermal Field",
+    "source": "Geophysics (submitted)",
+    "doi": "10.22541/essoar.177265440.06972526/v1",
+    "year": 2026,
+    "url": "https://doi.org/10.22541/essoar.177265440.06972526/v1",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "lapis"
+    ],
+    "abstract": "Enhanced Geothermal Systems regularly produce microseismic activity as fluid injection perturbs the thermo-hydromechanical state of the reservoir. This study applies Deep Embedded Clustering to waveform, spectrogram, and cepstrogram data from the 2011–2012 stimulation of the Prati-32 EGS well at The Geysers, identifying three distinct failure classes and helping relate waveform characteristics to underlying physical mechanisms."
+  },
+  {
+    "authors": "E.E. Jafarov, H. Genet, V.V. Vesselinov, V. Briones, A. Kabeer, A.L. Mullen, B. Maglio, T. Carman, R. Rutter, J. Clein, C.-C. Chang, D. Teber, T. Smith, J.M. Rady, C. Schädel, J.D. Watts, B.M. Rogers, S.M. Natali",
+    "title": "Estimation of above- and below-ground ecosystem parameters for DVM-DOS-TEM v0.7.0 using MADS v1.7.3",
+    "source": "Geoscientific Model Development",
+    "doi": "10.5194/gmd-18-3857-2025",
+    "year": 2025,
+    "url": "https://doi.org/10.5194/gmd-18-3857-2025",
+    "abstract": "This study develops an automated parameter calibration method for the DVM-DOS-TEM ecosystem model designed for high-latitude permafrost regions. Using the MADS software package, the authors calibrate rate-limiting parameters controlling carbon and nitrogen dynamics in boreal forests, demonstrating that hierarchical sequential calibration can effectively recover known parameter values even when initial guesses are perturbed by substantial margins."
+  },
+  {
+    "authors": "T.L. Kliphuis, A. Markowitz, R. Yang, V.V. Vesselinov",
+    "title": "GeoDAWN To GeoTGo: From Complex Data To Decisions Related To Geothermal Prospectivity",
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
+    "doi": null,
+    "year": 2025,
+    "url": "https://montyv.github.io/papers/Kliphuis 2025 GeoDAWN To GeoTGo From Complex Data To Decisions Related To Geothermal",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work presents a geothermal prospectivity workflow that moves from complex heterogeneous datasets to more defensible exploration decisions through physics-informed AI/ML. Building on the GeoTGo platform, it integrates geological, geophysical, geochemical, and structural information to reduce subjectivity, improve transparency, and support scalable community-oriented geothermal resource assessment."
+  },
+  {
+    "authors": "V.V. Vesselinov, H. Jasperson, T.L. Kliphuis",
+    "title": "Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive Geothermal Development",
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
+    "doi": null,
+    "year": 2024,
+    "url": "https://montyv.github.io/papers/Vesselinov 2024 Machine-Learning Methods and Tools Designed for Community-Based Equitable and Inclusive.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work presents machine-learning methods and software tools aimed at supporting community-based, equitable, and inclusive geothermal development. Built around the GeoTGo platform, it integrates diverse geological, geochemical, and geophysical data with interactive analysis workflows to help communities identify, evaluate, and communicate geothermal opportunities in a more transparent and accessible way."
+  },
+  {
+    "authors": "V.V. Vesselinov, T.L. Kliphuis",
+    "title": "ChemML: Physics-Informed AI/ML of Geochemical Datasets for Characterization, Parameterization, and Prediction of Contaminant Transport and Remediation Processes",
+    "source": "DOE",
+    "year": 2023,
+    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K5pN4JAAAAAJ&citation_for_view=K5pN4JAAAAAJ:9yKSN-GCB0IC",
+    "envitrace_labels": [
+      "chemml",
+      "geoml",
+      "waste"
+    ],
+    "abstract": "This work describes ChemML as a physics-informed AI/ML framework for analyzing geochemical datasets and improving the characterization, parameterization, and prediction of contaminant transport and remediation processes. The approach emphasizes robust, trustworthy, and defensible science-informed models that can overcome limitations of traditional geochemical simulations while supporting cloud-based environmental decision and remediation workflows."
+  },
+  {
+    "authors": "D. O'Malley, S.Y. Greer, A. Pachalieva, W. Hao, D. Harp, V.V. Vesselinov",
+    "title": "DPFEHM: a differentiable subsurface physics simulator",
+    "source": "Journal of Open Source Software",
+    "doi": "10.21105/joss.04560",
+    "year": 2023,
+    "url": "https://doi.org/10.21105/joss.04560",
+    "envitrace_labels": [
+      "carbon",
+      "geoml",
+      "hydrogen"
+    ],
+    "abstract": "DPFEHM is a Julia-based simulator for subsurface physics that incorporates automatic differentiation capabilities for efficient modeling of multiphase flow, transport, and wave equation phenomena in hydrogeological systems."
+  },
+  {
+    "authors": "M. Mudunuru, B. Ahmmed, E. Rau, V.V. Vesselinov, S. Karra",
+    "title": "Machine Learning for Geothermal Resource Exploration in Tularosa Basin, New Mexico",
+    "source": "Energies",
+    "doi": "10.3390/en16073098",
+    "year": 2023,
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2023 Machine Learning for Geothermal Resource Exploration in Tularosa Basin.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "Geothermal energy is considered an essential renewable resource to generate flexible electricity. Geothermal resource assessments conducted by the U.S. Geological Survey showed that the southwestern basins in the U.S."
+  },
+  {
+    "authors": "K.C. Solander, C.J. Talsma, V.V. Vesselinov",
+    "title": "The drivers and predictability of wildfire re-burns in the western United States (US)",
+    "source": "Environ. Res.: Climate 2",
+    "doi": "10.1088/2752-5295/acb079",
+    "year": 2023,
+    "url": "https://montyv.github.io/papers/Solander et al 2023 The drivers and predictability of wildfire re-burns in the western United States.pdf",
+    "abstract": "Evidence is mounting that the effectiveness of using prescribed burns as a management tactic may be diminishing due to the higher incidence of wildfire re-burns. The development of predictive models of re-burns is thus essential to better understand their primary drivers so that forest management practices can be updated to account for these events."
+  },
+  {
+    "title": "A Progress Report on GeoThermalCloud: Framework An Open-Source Machine Learning Based Tool for Discovery, Exploration, and Development of Hidden Geothermal Resources",
+    "authors": "B. Ahmmed, M.K. Mudunuru, L.P. Frash, V.V. Vesselinov",
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
+    "year": "2022",
+    "url": "https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2023/Ahmmed1.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This progress report presents GeoThermalCloud as an open-source machine-learning framework for geothermal resource discovery, exploration, and development. The platform is designed to analyze large and diverse geothermal datasets, assimilate model simulations, identify hidden geothermal signatures, guide data acquisition, and support lower-risk exploration and production decisions through tools developed under its resource-exploration and enhanced-geothermal-system workflows."
+  },
+  {
+    "authors": "J. Bennett, J. Ogland-Hand, K. Cox, P. Johnson, E. Middleton, A. Pompilio, S. Samal, C. Talsma, V.V. Vesselinov, K. Ellett, R. Middleton",
+    "title": "Beam Me Up SCO2TPRO: A Comparison to the FE/NETL CO2 Saline Storage Cost Model and Updates on Tool Development",
+    "source": "SSRN Electronic Journal",
+    "doi": "10.2139/ssrn.4275200",
+    "year": 2022,
+    "url": "https://doi.org/10.2139/ssrn.4275200",
+    "envitrace_labels": [
+      "carbon"
+    ],
+    "abstract": "In order to meet climate goals, carbon capture and storage (CCS) needs to be developed at a large scale. A major factor in developing CCS is where CO2 can be safely stored, and for what cost. To assist with this determination, we have developed the professional version of the Sequestration of CO2 Tool (SCO2TPRO). In this paper, we introduce SCO2TPRO and compare its performance to the FE/NETL CO2 Saline Storage Cost Model. Finally, we present on-going development progress including developing new training data with the STOMP reservoir simulator, advanced reduced order models, and refined geologic inputs."
+  },
+  {
+    "authors": "C.J. Talsma, K.E. Bennett, V.V. Vesselinov",
+    "title": "Characterizing Drought Behavior in the Colorado River Basin Using Unsupervised Machine Learning",
+    "source": "Earth and Space Science",
+    "doi": "10.1029/2021ea002086",
+    "year": 2022,
+    "url": "https://doi.org/10.1029/2021ea002086",
+    "envitrace_labels": [
+      "wefx"
+    ],
+    "abstract": "Drought is a major concern in the Colorado River Basin because of the region’s high social and economic dependence on water resources and the uncertainty of future drought under climate change. This study combines Earth System Model climate simulations, the Variable Infiltration Capacity hydrologic model, and an unsupervised NMFk workflow to identify sub-watersheds with important changes in snowpack, snowmelt timing, precipitation, and evapotranspiration."
+  },
+  {
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
+    "title": "Discovering hidden geothermal signatures using non-negative matrix factorization with customized k-means clustering",
+    "source": "Geothermics",
+    "doi": "10.1016/j.geothermics.2022.102576",
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2022 Discovering Hidden Geothermal Signatures using Non-negative Matrix Factorization with Customized k-means Clustering.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "smarttensors"
+    ],
+    "abstract": "Discovery of hidden geothermal resources is challenging. It requires the mining of large datasets with diverse data attributes representing subsurface hydrogeological and geothermal conditions. The commonly used play fairway analysis approach typically incorporates subject-matter expertise to analyze regional data to estimate geothermal characteristics and favorability."
+  },
+  {
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
+    "title": "GeoThermalCloud: Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources",
+    "source": "Stanford Geothermal Workshop, Stanford, CA",
+    "doi": null,
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Vesselinov 2022 GeoThermalCloud Machine Learning for Discovery, Exploration, and Development of Hidden Geothermal Resources.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This workshop paper presents GeoThermalCloud as an open-source, cloud-based machine-learning framework for geothermal resource discovery, exploration, and development. The platform is designed to fuse diverse geothermal datasets with multi-physics models, discover hidden geothermal signatures, prioritize high-value data acquisition, and reduce the cost and risk of geothermal resource assessment."
+  },
+  {
+    "authors": "M. Mudunuru, V.V. Vesselinov, B. Ahmmed",
+    "title": "GeoThermalCloud: Machine learning for geothermal resource exploration",
+    "source": "Journal of Machine Learning for Modeling and Computing",
+    "doi": "10.1615/JMachLearnModelComput.2022046445",
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2022 Geothermalcloud - Machine learning for geothermal resource exploration.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work presents GeoThermalCloud as a machine-learning framework for geothermal resource exploration, with an emphasis on discovering blind hydrothermal systems that lack clear surface expression. The study highlights how data-driven methods can reduce the time, cost, and uncertainty associated with conventional exploration by integrating and analyzing diverse geothermal datasets."
+  },
+  {
+    "authors": "H. Wu, D. O'Malley, J.K. Golden, V.V. Vesselinov",
+    "title": "Inverse Analysis with Variational Autoencoders: A Comparison of Shallow and Deep Networks",
+    "source": "Journal of Machine Learning for Modeling and Computing",
+    "doi": "10.1615/JMachLearnModelComput.2022042093",
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Wu et al 2022 Inverse Analysis with Variational Autoencoders A Comparison of Shallow and Deep Networks.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "Characterization of reservoir properties, e.g., hydraulic conductivity, is of essential importance in hydrogeology, such as groundwater resources managementand subsurface contaminant Wu et al. remediation. Moreover, spatial heterogeneities of reservoir properties are present from pore to reservoir scale, and understanding the heterogeneity effects on fluid flow is critical (Doughty and Pruess, 2004; Jayne et al., 2019)."
+  },
+  {
+    "authors": "M. Ahmmed, V.V. Vesselinov",
+    "title": "Machine learning and a process model to better characterize hidden geothermal resources",
+    "source": "Geothermal Rising Conference (transactions)",
+    "doi": null,
+    "year": 2022,
+    "url": "https://www.researchgate.net/publication/361052032_Machine_learning_and_a_process_model_to_better_characterize_hidden_geothermal_resources",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "The Tularosa Basin in New Mexico has significant geothermal potential. This paper curated data from the Department of Energy's Geothermal Data Repository and analyzed them with a machine learning based framework, GeoThermalCloud (GTC), to find prospective geothermal locations. GTC discovers prospective geothermal locations and finds key parameters defining these prospectivities. Also, we found that these prospectivities are consistent with an existing comprehensive play fairway analysis. Finally, we discussed a coupling strategy between a process model (Burns equation) and GTC to obtain a better understanding about the geothermal conditions in the study area."
+  },
+  {
+    "authors": "B. Ahmmed, V.V. Vesselinov",
+    "title": "Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin",
+    "source": "Renewable Energy",
+    "doi": "10.1016/j.renene.2022.08.024",
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Ahmmed & Vesselinov 2022 Machine learning and shallow groundwater chemistry to identify geothermal prospects in the Great Basin.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This study identifies geothermal prospects in the Great Basin using shallow groundwater geochemistry as a proxy for geothermal prospectivity. By processing sparse geochemical measurements from more than 14,000 locations, the work shows how machine learning can uncover hidden information in regional chemistry datasets and help prioritize promising areas for geothermal exploration."
+  },
+  {
+    "authors": "V.V. Vesselinov, M. Mudunuru, B. Ahmmed, S. Karra, D. O'Malley",
+    "title": "Machine Learning to Discover, Characterize, and Produce Geothermal Energy",
+    "source": "Machine Learning Applications in Subsurface Energy Resource Management",
+    "doi": "10.1201/9781003207009-6",
+    "year": 2022,
+    "url": "https://doi.org/10.1201/9781003207009-6",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work describes how machine learning can support the discovery, characterization, and production of geothermal energy, an abundant renewable resource with major potential for grid resilience and domestic energy security. It emphasizes the role of data-driven methods in reducing exploration and development risk, improving resource understanding, and supporting more affordable geothermal deployment."
+  },
+  {
+    "authors": "A. Rupe, V.V. Vesselinov, J.P. Crutchfield",
+    "title": "Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems",
+    "source": "New Journal of Physics",
+    "doi": "10.1088/1367-2630/ac95b7",
+    "year": 2022,
+    "url": "https://montyv.github.io/papers/Rupe et al 2022 Nonequilibrium statistical mechanics and optimal prediction of partially-observed complex systems.pdf",
+    "abstract": "Only a subset of degrees of freedom are typically accessible or measurable in real-world systems. As a consequence, the proper setting for empirical modeling is that of partially-observed systems. Notably, data-driven models consistently outperform physics-based models for systems with few observable degrees of freedom; e.g."
+  },
+  {
+    "authors": "B. Ahmmed, V.V. Vesselinov, M.K. Mudunuru",
+    "title": "SmartTensors: Unsupervised and physics-informed machine learning framework for the geoscience applications",
+    "source": "Second International Meeting for Applied Geoscience & Energy",
+    "doi": "10.1190/image2022-w8-01.1",
+    "year": 2022,
+    "url": "https://doi.org/10.1190/image2022-w8-01.1",
+    "envitrace_labels": [
+      "geoml",
+      "smarttensors"
+    ],
+    "abstract": "SmartTensors is presented as an unsupervised and physics-informed machine learning framework for geoscience applications built around constrained matrix and tensor factorization methods. The platform emphasizes robustness and interpretability and is demonstrated on geothermal prospectivity analysis in the Great Basin, where regional geochemical data are used to infer subsurface reservoir characteristics."
+  },
+  {
+    "authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, S.C. James, V.V. Vesselinov",
+    "title": "A comparative study of machine learning models for predicting the state of reactive mixing",
+    "source": "Journal of Computational Physics",
+    "doi": "10.1016/j.jcp.2021.110147",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 A comparative study of machine learning models for predicting the state of reactive mixing.pdf",
+    "envitrace_labels": [
+      "chemml"
+    ],
+    "abstract": "Mixing phenomena are important mechanisms controlling flow, species transport, and reaction processes in fluids and porous media. Accurate predictions of reactive mixing are critical for many Earth and environmental science problems such as contaminant fate and remediation, macroalgae growth, and plankton biomass growth. To investigate the evolution of mixing dynamics under different scenarios (e.g.,anisotropy, fluctuating velocity fields), a finite-element-based numerical model was built to solve the fast, irreversible bimolecular reaction-diffusion equations to simulate a range of reactive-mixing scenarios."
+  },
+  {
+    "authors": "G. Morra, E. Bozdag, M. Knepley, L. Rass, V.V. Vesselinov",
+    "title": "A Tectonic Shift in Analytics and Computing Is Coming",
+    "source": "AGU EOS",
+    "doi": "10.1029/2021EO159258",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Morra et al 2021 A Tectonic Shift in Analytics and Computing Is Coming.pdf",
+    "abstract": "This article argues that artificial intelligence combined with high-performance computing is poised to change how geoscientists extract knowledge from large and complex datasets. It highlights a broader transition toward data-driven scientific workflows capable of accelerating discovery, interpretation, and decision support across Earth and environmental sciences."
+  },
+  {
+    "authors": "S.W. Fleming, V.V. Vesselinov, A.G. Goodbody",
+    "title": "Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach",
+    "source": "Journal of Hydrology",
+    "doi": "10.1016/j.jhydrol.2021.126327",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Fleming et al 2021 Augmenting geophysical interpretation of data-driven operational water supply forecast modeling for a western US river using a hybrid machine learning approach.pdf",
+    "envitrace_labels": [
+      "wefx",
+      "wells"
+    ],
+    "abstract": "In the largely dry and increasingly heavily populated western US, operational modeling systems for seasonal river runoff volume forecasting are key elements of the practical water and hydropower management infrastructure. Explainability of model results in terms of known hydroclimatic processes and conditions is a core requirement for these systems."
+  },
+  {
+    "authors": "V.V. Vesselinov, B. Ahmmed, M. Mudunuru, S. Karra, R. Middleton",
+    "title": "Discovering the Hidden Geothermal Signatures of Southwest New Mexico",
+    "source": "World Geothermal Congress, Reykjavik, Iceland",
+    "doi": null,
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2021 Discovering the Hidden Geothermal Signatures of Southwest New Mexico.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "This work applies unsupervised machine learning to diverse regional datasets to identify hidden geothermal signatures in southwest New Mexico. By mining geological, geochemical, and geophysical information without relying solely on predefined labels, the study aims to reveal patterns associated with concealed geothermal systems and improve regional exploration targeting."
+  },
+  {
+    "authors": "D. O'Malley, J.K. Golden, V.V. Vesselinov",
+    "title": "Learning to regularize with a variational autoencoder for hydrologic inverse analysis",
+    "source": "arXiv",
+    "doi": "arXiv:1906.02401v1",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/O G V 2019 Learning to regularize with a variational autoencoder for hydrologic inverse analysis.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "Inverse problems often involve matching observational data using a physical model that takes a large number of parameters as input. These problems tend to be under-constrained and require regularization to impose additional structure on the solution in parameter space. A central difficulty in regularization is turning a complex conceptual model of this additional structure into a functional mathematical form to be used in the inverse analysis."
+  },
+  {
+    "authors": "S.W. Fleming, J.R. Watson, A. Ellenson, A.J. Cannon, V.V. Vesselinov",
+    "title": "Machine learning in Earth and environmental science requires education and research policy reforms",
+    "source": "Nature Geoscience",
+    "doi": "10.1038/s41561-021-00865-3",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Fleming et al 2021 Machine learning in Earth and environmental science requires education and research policy reforms.pdf",
+    "abstract": "This comment argues that advances in artificial intelligence and machine learning could significantly accelerate discovery and prediction in Earth and environmental science. It also contends that current research funding, training, and educational structures are not yet preparing enough geoscientists to use these tools effectively, and calls for policy and curriculum reforms to build that capacity."
+  },
+  {
+    "authors": "B. Ahmmed, M.K. Mudunuru, S. Karra, V.V. Vesselinov",
+    "title": "Machine Learning to Discover Mineral Trapping Signatures due to CO2 Injection",
+    "source": "International Journal of Greenhouse Gas Control",
+    "doi": "10.1016/j.ijggc.2021.103382",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Ahmmed et al 2021 Machine learning to discover mineral trapping signatures due to CO2 injection.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "chemml"
+    ],
+    "abstract": "Mineral trapping is pursued as a geological CO sequestration (GCS) mechanism because it permanently stores CO in solid phases or minerals."
+  },
+  {
+    "authors": "D.L. Siler, J.D. Pepin, V.V. Vesselinov, et al.",
+    "title": "Machine learning to identify geologic factors associated with production in geothermal fields: A case-study using 3D geologic data, Brady geothermal field, Nevada",
+    "source": "Geothermal Energy",
+    "doi": "10.1186/s40517-021-00199-8",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Siler et al 2021 Machine learning to identify geologic factors associated with production in geothermal felds- a case‑study using 3D geologic data, Brady geothermal feld, Nevada.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo"
+    ],
+    "abstract": "In this paper, we present an analysis using unsupervised machine learning (ML) to identify the key geologic factors that contribute to the geothermal production in Brady geothermal field. Brady is a hydrothermal system in northwestern Nevada that supports both electricity production and direct use of hydrothermal fluids. Transmissive fluid-flow pathways are relatively rare in the subsurface, but are critical components of hydrothermal systems like Brady and many other types of fluid-flow systems in fractured rock."
+  },
+  {
+    "authors": "M. Mehana, E. Guiltinan, V.V. Vesselinov, R. Middleton, J. Hyman, Q. Kang, H. Viswanathan",
+    "title": "Machine-Learning Predictions of the Shale Wells’ Performance",
+    "source": "Journal of Natural Gas Science and Engineering",
+    "doi": "10.1016/j.jngse.2021.103819",
+    "year": 2021,
+    "url": "https://montyv.github.io/papers/Mehana et al 2021 Machine-Learning Predictions of the Shale Wells Performance.pdf",
+    "envitrace_labels": [
+      "petroai",
+      "wells"
+    ],
+    "abstract": "The ultra-low permeability nature of shale reservoirs leads to an extended linear flow and necessitates horizontal wells with multi-stage engineered fractures to efficiently extract hydrocarbons resources. These artificiallygenerated and naturally-occurring fractures form complex networks that create complex flow regimes which control oil production. These fractures are neither identical nor equally-spaced, which leads to a production profile with a masked onset of the boundary-dominated flow."
+  },
+  {
+    "authors": "V.V. Vesselinov, M.K. Mudunuru, B. Ahmmed, S. Karra, R.S. Middleton",
+    "title": "Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning",
+    "source": "Stanford Geothermal Workshop",
+    "doi": null,
+    "year": 2020,
+    "url": "https://montyv.github.io/papers/Vesselinov 2020 Discovering Signatures of Hidden Geothermal Resources based on Unsupervised Learning.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "geotgo",
+      "smarttensors"
+    ],
+    "abstract": "This work explores unsupervised machine-learning methods for discovering hidden geothermal resource signatures from large, heterogeneous datasets. It emphasizes unbiased feature extraction without heavy dependence on prior labeling and demonstrates how these methods can help characterize geothermal systems and guide exploration decisions in geothermal study areas such as New Mexico and The Geysers."
+  },
+  {
+    "authors": "M.K. Mudunuru, H.S. Viswanathan, J. W. Carey, L. Chen, Q. Kang, S. Karra, V.V. Vesselinov, R.S. Middleton, P.A. Johnson",
+    "title": "Subsurface energy: Flow and reactive-transport in porous and fractured media",
+    "source": "Handbook of Porous Materials (invited), World Scientific Publishers",
+    "doi": "10.1142/9789811223419_0004",
+    "year": 2020,
+    "url": "https://montyv.github.io/papers/Mudunuru et al 2020 Subsurface energy Flow and reactive-transport in porous and fractured media.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "chemml",
+      "geoml",
+      "hydrogen"
+    ],
+    "abstract": "This work examines how geologic structure, state of stress, and well design affect hydrothermal fluid flow and energy production in geothermal systems. Using the NMFk unsupervised learning workflow within the SmartTensors framework, it identifies the reservoir and engineering parameters that most strongly control production and extracts characteristic energy-production signatures linked to subsurface conditions."
+  },
+  {
+    "authors": "B.S. Alexandrov, V. Stanev, V.V. Vesselinov, K. Rasmussen",
+    "title": "Nonnegative tensor decomposition with custom clustering for microphase separation of block copolymers",
+    "source": "Statistical Analysis and Data Mining",
+    "doi": "10.1002/sam.11407",
+    "year": 2019,
+    "url": "https://montyv.github.io/papers/Alexandrov et al 2019 Nonnegative tensor decomposition with custom clustering formicrophase separation of block copolymers.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ],
+    "abstract": "The emerging collections of large and distinct high-dimensional datasets increase the interest in factor analysis based on tensor decomposition [1]. These collected datasets include only directly observable quantities, while the underlying processes are either too complex and cannot be observed directly or are completely unknown. These processes are called latent variables or latent features [2]."
+  },
+  {
+    "authors": "V.V. Vesselinov, M. Mudunuru, S. Karra, D. O'Malley, B.S. Alexandrov",
+    "title": "Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing",
+    "source": "Journal of Computational Physics",
+    "doi": "10.1016/j.jcp.2019.05.039",
+    "year": 2019,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Unsupervised Machine Learning Based on Non-Negative Tensor Factorization for Analyzing Reactive-Mixing.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors"
+    ],
+    "abstract": "Mixing and reaction of species is an important physical phenomena crucial in many applied research areas related not only to flow in porous/fractured media but also to turbulent flows at various scales in groundwater, rivers, lakes, oceans, and the atmosphere [1–10]. A problem of predominant interest is groundwater contaminant remediation."
+  },
+  {
+    "authors": "C.A. Lopez, V.V. Vesselinov, S. Gnanakaran, B.S. Alexandrov",
+    "title": "Unsupervised Machine Learning for Analysis of Coexisting Lipid Phases and Domain Growth in Biological Membranes",
+    "source": "J. Chem. Theory Comput.",
+    "doi": "10.1021/acs.jctc.9b00074",
+    "year": 2019,
+    "url": "https://montyv.github.io/papers/Lopez et al 2019 Unsupervised Machine Learning for Analysis of Phase Separation in Ternary Lipid Mixture.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ],
+    "abstract": "Phase separation in mixed lipid systems has been extensively studied both experimentally and theoretically because of its biological importance. A detailed description of such complex systems undoubtedly requires novel mathematical frameworks that are capable of decomposing and categorizing the evolution of thousands if not millions of lipids involved in the phenomenon."
+  },
+  {
+    "authors": "S.K. Hansen, J. He, V.V. Vesselinov",
+    "title": "Characterizing the impact of model error in hydrologic time series recovery inverse problems",
+    "source": "Advances in Water Resources",
+    "doi": "10.1017/j.advwatres.2017.146.R2",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Characterizing the impact of model error in hydrologic time series recovery inverse problems.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "Hydrologic models are commonly over-smoothed relative to reality, owing to computational limitations and to the difficulty of obtaining accurate high-resolution information. When used in an inversion context, such models may introduce systematic biases which cannot be encapsulated by an unbiased“observation noise”term of the type assumed by standard regularization theory and typical Bayesian formulations."
+  },
+  {
+    "authors": "S.K. Hansen, C.P. Haslauer, O.A. Cirpka, V.V. Vesselinov",
+    "title": "Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2017WR020450",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Direct Breakthrough Curve Prediction from Statistics of Heterogeneous Conductivity Fields.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "It is widely recognized that solute transport in real aquifers is characterized by asymmetric plumes and heavy-tailed breakthrough curves. This behavior may be advection driven (created by neighboring stream tubes with significantly different velocities; e.g., Edery et al., 2014), or diffusion driven (caused by mobileimmobile trapping processes that sever the link between advection and transport; e.g., Haggerty et al., 2000)."
+  },
+  {
+    "authors": "V.G. Stanev, F.L. Iliev, S.K. Hansen, V.V. Vesselinov, B.S. Alexandrov",
+    "title": "Identification of the release sources in advection-diffusion system by machine learning combined with Green function inverse method",
+    "source": "Applied Mathematical Modelling",
+    "doi": "10.1016/j.apm.2018.03.006",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Stanev et al 2018 Identification of release sources in advection-diffusion system by machine learning combined with Greens function inverse method.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ],
+    "abstract": "In the last several decades one of the most important research topics in the hydrogeological sciences has been the contaminant transport in subsurface environment [1,2] . The research has been driven by substantial challenges associated with prediction and remediation of contaminant plumes in the environment. Most of these challenges are due to uncertainties associated with contaminant sources (e.g."
+  },
+  {
+    "authors": "Z. Lu, V.V. Vesselinov, H. Lei",
+    "title": "Identifying Arbitrary Parameter Zonation using Multiple Level Set Functions",
+    "source": "Journal of Computational Physics",
+    "doi": "10.1016/j.jcp.2018.03.016",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Lu et al 2018 Identifying arbitrary parameter zonation using multiple level set functions.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "wells"
+    ],
+    "abstract": "Various inverse models have been developed for identifying heterogeneous structures in subsurface environment [3–5]. It is well-known that the inverse problem is typically ill-posed because of limited data available. To avoid the ill-posed problem, one approach is the zonation method [6,7], in which the model domain is divided into a number of zones as a prior, each of which has a uniform parameter value."
+  },
+  {
+    "authors": "K. Telfeyan, A.A. Migdisov, S. Pandey, V.V. Vesselinov, P.W. Reimus",
+    "title": "Long-term stability of dithionite in alkaline anaerobic aqueous solution",
+    "source": "Applied Geochemistry",
+    "doi": "10.1016/j.apgeochem.2018.12.015",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Telfeyan et al 2018 Long-term stability of dithionite in alkaline anaerobic aqueous solution.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ],
+    "abstract": "Closed-system experiments were conducted to investigate the decomposition of sodium dithionite in aqueous solutions under varying pH and starting concentrations to simulate the deployment of dithionite as an in-situ redox barrier. Co-determination of dithionite and its degradation products was conducted using UV-Vis spectrometry, iodometric titration, and ion chromatography."
+  },
+  {
+    "authors": "E. Qian, B. Peherstorfer, D. O'Malley, V.V. Vesselinov, K. Wilcox",
+    "title": "Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices",
+    "source": "SIAM Journal on Uncertainty Quantification",
+    "doi": "10.1137/17M1151006",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Qian et al 2018 Multifidelity Monte Carlo Estimation of Variance and Sensitivity Indices.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "Variance-based sensitivity analysis provides a quantitative measure of how uncertainty in a model input contributes to uncertainty in the model output. Such sensitivity analyses arise in a wide variety of applications and are typically computed using Monte Carlo estimation, but the many samples required for Monte Carlo to be sufficiently accurate can make these analyses intractable when the model is expensive."
+  },
+  {
+    "authors": "F.L. Iliev, V.G. Stanev, V.V. Vesselinov, B.S. Alexandrov",
+    "title": "Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals",
+    "source": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0193974",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Iliev et al 2018 Nonnegative Matrix Factorization for identification of unknown number of sources emitting delayed signals.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ],
+    "abstract": "Factor analysis is broadly used as a powerful unsupervised machine learning tool for reconstruction of hidden features in recorded mixtures of signals. In the case of a linear approximation, the mixtures can be decomposed by a variety of model­free Blind Source Separation (BSS) algorithms. Most of the available BSS algorithms consider an instantaneous mixing of signals, while the case when the mixtures are linear combinations of signals with delays is less explored."
+  },
+  {
+    "authors": "V.V. Vesselinov, B.S. Alexandrov, D. O'Malley",
+    "title": "Nonnegative Tensor Factorization for Contaminant Source Identification",
+    "source": "Journal of Contaminant Hydrology",
+    "doi": "10.1016/j.jconhyd.2018.11.010",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2018 Nonnegative Tensor Factorization for Contaminant Source Identification.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ],
+    "abstract": "Unsupervised Machine Learning (ML) is becoming increasingly popular for solving various types of data analytics problems including feature extraction, blind source separation, exploratory analyses, model diagnostics, etc. Here, we have developed a new unsupervised ML method based on Nonnegative Tensor Factorization (NTF) for identification of the original groundwater types (including contaminant sources) present in geochemical mixtures observed in an aquifer."
+  },
+  {
+    "authors": "D. O'Malley, V.V. Vesselinov, B.S. Alexandrov, L.B. Alexandrov",
+    "title": "Nonnegative/binary matrix factorization with a D-Wave quantum annealer",
+    "source": "PlosOne",
+    "doi": "10.1371/journal.pone.0206653",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/OMalley et al 2017 Nonnegative:binary matrix factorization with a D-Wave quantum annealer.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ],
+    "abstract": "Wavequantumannealersrepresenta novelcomputationalarchitectureandhave attractedsignificantinterest.Muchof thisinteresthasfocusedonthequantumbehaviorof Wavemachines,andtherehavebeenfewpracticalalgorithmsthatusetheD-Wave. Machinelearninghasbeenidentifiedasanareawherequantumannealingmaybeuseful."
+  },
+  {
+    "authors": "Y. Lin, D. O'Malley, V.V. Vesselinov, G.D Guthrie, D. Coblentz",
+    "title": "Randomization in Characterizing the Subsurface",
+    "source": "SIAM News",
+    "doi": null,
+    "year": 2018,
+    "url": "https://www.siam.org/publications/siam-news/articles/randomization-in-characterizing-the-subsurface",
+    "envitrace_labels": [
+      "geoml",
+      "hydrogen",
+      "mads",
+      "minerals"
+    ],
+    "abstract": "of matrix . However, a simple computational cost analysis can reveal the significant impacts of the randomized matrix. Assume that the number of model parameters is ; the number of observations is , which yields the size of the Jacobian matrix and the covariance matrix is ."
+  },
+  {
+    "authors": "V.V. Vesselinov, Karra Mudunuru. M., O'Malley S., Alexandrov D.",
+    "title": "Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs",
+    "source": "Computational Methods in Water Resources (CMWR), Saint-Malo, France",
+    "doi": "10.13140/RG.2.2.27777.92005",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/vesselinov et al 2018 Unsupervised Machine Learning Based on Non-negative Tensor Factorization for Analysis of Filed Data and Simulation Outputs cmwr18.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "smarttensors"
+    ],
+    "abstract": "In general, unsupervised machine learning (ML) methods are powerful tools for data analyses to extract essential features hidden in data. The integration of large datasets, powerful computational capabilities, and affordable data storage has resulted in the widespread use of ML in science, technology, and industry. Here we present applications of ML to characterize (1) reactive transport data observed at groundwater contamination sites, and (2) model simulations representing fast irreversible bimolecular reactions."
+  },
+  {
+    "authors": "V. Stanev, V.V. Vesselinov, A.G. Kusne, G. Antoszewski, I. Takeuchi, B.A. Alexandrov",
+    "title": "Unsupervised Phase Mapping of X-ray Diffraction Data by Nonnegative Matrix Factorization Integrated with Custom Clustering",
+    "source": "Nature Computational Materials",
+    "doi": "10.1038/s41524-018-0099-2",
+    "year": 2018,
+    "url": "https://montyv.github.io/papers/Stanev et al 2018 Unsupervised phase mapping of X-ray diffraction data by nonnegative matrix factorization integrated with custom clustering.pdf",
+    "envitrace_labels": [
+      "minerals",
+      "smarttensors"
+    ],
+    "abstract": "constraint programming concepts, and use powerful but computationally expensive metrics like dynamic time warping. Several generalizations of NMF techniques, including shiftNMF and convolutional NMF have been used as well. (We discuss some related methods in Materials and Methods section)."
+  },
+  {
+    "authors": "J. Bakarji, V.V. Vesselinov, D. O’Malley",
+    "title": "Agent-based Socio-hydrological Hybrid Modeling for Water Resource Management",
+    "source": "Water Resources Management",
+    "doi": "10.1007/s11269-017-1713-7",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Bakarji et al 2017 Agent-Based Socio-Hydrological Hybrid Modeling for Water Resource Management.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wefx"
+    ],
+    "abstract": "This paper presents a simple agent-based socio-hydrological decision framework that couples social behavior with groundwater contamination dynamics. It shows that optimizing around social health risk, rather than contaminant concentration alone, can improve water-management decisions while preserving enough simplicity and flexibility for broader environmental decision-support applications."
+  },
+  {
+    "authors": "S.K. Hansen, S. Pandey, S. Karra, V.V. Vesselinov",
+    "title": "CHROTRAN 1.0: A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers",
+    "source": "Geoscientific Model Development",
+    "doi": "10.5194/gmd-10-4525-2017",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Hansen et al 2017 CHROTRAN 1.0 A mathematical and computational model for in situ heavy metal remediation in heterogeneous aquifers.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ],
+    "abstract": "Groundwater contamination by heavy metals is a critical environmental problem for which in situ remediation is frequently the only viable treatment option. For such interventions, a multi-dimensional reactive transport model of relevant biogeochemical processes is invaluable. To this end, we developed a model,CHROTRAN, for in situ treatment, which includes full dynamics for five species: a heavy metal to be remediated, an electron donor, biomass, a nontoxic conservative bio-inhibitor, and a biocide."
+  },
+  {
+    "authors": "V.V. Vesselinov, D. O'Malley, B.S. Alexandrov",
+    "title": "Contaminant source identification using semi-supervised machine learning",
+    "source": "Journal of Contaminant Hydrology",
+    "doi": "10.1016/j.jconhyd.2017.11.002",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Vesselinov 2017 Contaminant source identification using semi-supervised machine learning.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "smarttensors",
+      "waste"
+    ],
+    "abstract": "Identification of the original groundwater types present in geochemical mixtures observed in an aquifer is a challenging but very important task. Frequently, some of the groundwater types are related to different infiltration and/or contamination sources associated with various geochemical signatures and origins."
+  },
+  {
+    "authors": "S.K. Hansen, V.V. Vesselinov, P. Reimus, Z. Lu",
+    "title": "Inferring subsurface heterogeneity from push-drift tracer tests",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2017WR020852R",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Hansen et al 2017 Inferring subsurface heterogeneity from push-drift tracer tests.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "Single-well injection withdrawal (SWIW) tracer tests are commonly performed, and interpretation methodologies have been proposed for inference of many subsurface parameters from their breakthrough curves. This body of interpretive theory generally assumes radially symmetric flow, with particles tracing the same paths on their outbound and inbound journeys and implying last-in-first-out (LIFO) behavior."
+  },
+  {
+    "authors": "X. Zhang, V.V. Vesselinov",
+    "title": "Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus",
+    "source": "Advances in Water Resources",
+    "doi": "10.1016/j.advwatres.2016.12.017",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Zhang Vesselinov Integrated Modeling Approach for Optimal Management of Water, Energy and Food Security Nexus 2017.pdf",
+    "envitrace_labels": [
+      "wefx"
+    ],
+    "abstract": "This paper develops an integrated modeling framework for planning and managing the water-energy-food nexus under socioeconomic demands and environmental constraints. The WEFO tool is designed to analyze tradeoffs across sectors and identify cost-effective strategies that also account for impacts such as greenhouse-gas emission controls."
+  },
+  {
+    "authors": "Y. Lin, E.B. Le, D. O'Malley, V.V. Vesselinov, T. Bui-Thanh",
+    "title": "Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2016WR020299RRR",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Lin et al 2017 Large-Scale Inverse Model Analyses Employing Fast Randomized Data Reduction.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "This paper introduces a randomized geostatistical approach for inverse problems with very large observational datasets. By combining principal-component geostatistical inversion with randomized sketching for data reduction, the method improves computational efficiency and memory use while retaining the information needed for large-scale model calibration."
+  },
+  {
+    "authors": "S.K. Hansen, V.V. Vesselinov",
+    "title": "Local equilibrium and retardation revisited",
+    "source": "Groundwater",
+    "doi": "10.1111/gwat.12551",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Hansen et al 2018 Local Equilibrium and Retardation Revisited.pdf",
+    "envitrace_labels": [
+      "chemml"
+    ],
+    "abstract": "In modeling solute transport with mobile-immobile mass transfer (MIMT), it is common to use an advection-dispersion equation (ADE) with a retardation factor, orretarded ADE. This is commonly referred to as making thelocal equilibrium assumption(LEA). Assuming local equilibrium, Eulerian textbook treatments derive the retarded ADE, ostensibly exactly."
+  },
+  {
+    "authors": "X. Zhang, A.Y. Sun, I.J. Duncan, V.V. Vesselinov",
+    "title": "Two-Stage Fracturing Wastewater Management in Shale Gas Development",
+    "source": "Ind. Eng. Chem. Res.",
+    "doi": "10.1021/acs.iecr.6b03971",
+    "year": 2017,
+    "url": "https://montyv.github.io/papers/Zhang et al 2018 Two-Stage Fracturing Wastewater Management in Shale Gas Development.pdf",
+    "envitrace_labels": [
+      "petroai",
+      "waste",
+      "wefx"
+    ],
+    "abstract": "Management of shale gas wastewater treatment, disposal, and reuse has become a significant environmental challenge, driven by an ongoing boom in development of U.S. shale gas reservoirs. Systems-analysis based decision support is helpful for effective management of wastewater, and provision of cost-effective decision alternatives from a whole-system perspective."
+  },
+  {
+    "authors": "Y. Lin, D. O'Malley, V.V. Vesselinov",
+    "title": "A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2016WR019028",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Lin OMalley Vesselinov A computationally efficient parallel Levenberg-Marquardt algorithm for highly parameterized inverse model analyses 2016.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "This paper develops a computationally efficient parallel Levenberg-Marquardt method for inverse problems with large observation sets and highly parameterized model spaces. The approach is designed to reduce the computational burden of conventional inverse modeling while preserving the ability to estimate model parameters from large observational datasets."
+  },
+  {
+    "authors": "H. Throckmorton, B. Newman, J. Heikoop, G. Perkins, X. Feng, D. Graham, D. O'Malley, V.V. Vesselinov, J. Young, S. Wullschleger, C. Wilson",
+    "title": "Active layer hydrology in an arctic tundra ecosystem: quantifying water sources and cycling using water stable isotopes",
+    "source": "Hydrological Processes",
+    "doi": "10.1002/hyp.10883",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Throckmorton et al 2016 Active layer hydrology in an arctic tundra ecosystem quantifying water source and cycling using water stable isotopes.pdf",
+    "abstract": "Climate change and thawing permafrost in the Arctic will significantly alter landscape hydro-geomorphology and the distribution of soil moisture, which will have cascading effects on climate feedbacks (CO and CH ) and plant and microbial communities. Fundamental processes critical to predicting active layer hydrology are not well understood."
+  },
+  {
+    "authors": "S.K. Hansen, V.V. Vesselinov",
+    "title": "Contaminant point source localization error estimates as functions of data quantity and model quality",
+    "source": "Journal of Contaminant Hydrology",
+    "doi": "10.1016/j.jconhyd.2016.09.003",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Hansen Vesselinov Contaminant point source localization error estimates as functions of data quantity and model quality 2016.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "mads",
+      "waste"
+    ],
+    "abstract": "We develop empirically-grounded error envelopes for localization of a point contamination release event in the saturated zone of a previously uncharacterized heterogeneous aquifer into which a number of plumeintercepting wells have been drilled. We assume that flow direction in the aquifer is known exactly and velocity is known to within a factor of two of our best guess from well observations prior to source identification."
+  },
+  {
+    "authors": "M. Grasinger, D. O'Malley, V.V. Vesselinov, S. Karra",
+    "title": "Decision Analysis for Robust CO2 Injection: Application of Bayesian-Information-Gap Decision Theory",
+    "source": "International Journal of Greenhouse Gas Control",
+    "doi": "10.1016/j.ijggc.2016.02.017",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Grasinger et al 2016 Decision analysis for robust CO2 injection Application of Bayesian-Information-Gap Decision Theory.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "mads"
+    ],
+    "abstract": "Geological carbon sequestration is the act of capturing carbon dioxide from coal and natural gas power plants or industrial processes and storing it deep in underground geologic formations. This approach has the potential to mitigate global climate change by limiting the emission of greenhouse gases into the atmosphere. The U.S."
+  },
+  {
+    "authors": "X. Zhang, V.V. Vesselinov",
+    "title": "Energy-Water Nexus: Balancing the Tradeoffs between Two-Level Decision Makers",
+    "source": "Applied Energy",
+    "doi": "10.1016/j.apenergy.2016.08.156",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Zhang Vesselinov Energy-Water Nexus Balancing the Tradeoffs between Two-Level Decision Makers Applied Energy 2016.pdf",
+    "envitrace_labels": [
+      "wefx"
+    ],
+    "abstract": "Energy-water nexus has substantially increased importance in the recent years. Synergistic approaches based on systems-analysis and mathematical models are critical for helping decision makers better understand the interrelationships and tradeoffs between energy and water. In energy-water nexus management, various decision makers with different goals and preferences, which are often conflicting, are involved."
+  },
+  {
+    "authors": "S.K. Hansen, B. Berkowitz, V.V. Vesselinov, D. O'Malley, S. Karra",
+    "title": "Push-pull tracer tests: their information content and use for characterizing non-Fickian, mobile-immobile behavior",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2016WR018769RR",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/Hansen et al Push-pull tracer tests their information content and use for characterizing non-Fickian, mobile-immobile behavior 2016.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "wells"
+    ],
+    "abstract": "discrete-site 1-D CTRW. This perspective allows us to make statements about what may be invisible (most commonly, the heterogeneous hydraulic conductivity field, orK-field), and what is certainly visible (to wit, mobile-immobile behavior). It is shown how to quantify the latter, and a simple subordination technique is presented for modification of an existing model which captures only heterogeneous advection in order to add the mobile-immobile trapping behavior characterized by the push-pull test."
+  },
+  {
+    "authors": "D. O'Malley, V.V. Vesselinov",
+    "title": "ToQ.jl: A high-level programming language for D-Wave machines based on Julia",
+    "source": "IEEE High Performance Extreme Computing",
+    "doi": "10.1109/HPEC.2016.7761616",
+    "year": 2016,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov ToQ.jl A high-level programming language for D-Wave machines based on Julia 2016.pdf",
+    "envitrace_labels": [
+      "smarttensors"
+    ],
+    "abstract": "Quantum computers are becoming more widely available, so it is important to develop tools that enable people to easily program these computers to solve complex problems. To address this issue, we present the design and two applications of ToQ.jl, a high-level programming language for Wave quantum annealing machines."
+  },
+  {
+    "authors": "Z. Lu, V.V. Vesselinov",
+    "title": "Analytical Sensitivity Analysis of Transient Groundwater Flow in a Bounded Model Domain using Adjoint Method",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2014WR016819",
+    "year": 2015,
+    "url": "https://montyv.github.io/papers/Lu Vesselinov 2015 Analytical sensitivity analysis of transient groundwater flow in a bounded model domain using the adjoint method.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "Sensitivities of state variables to model parameters are computed to perform various types of model analyses [Saltelli et al., 2000]. These include sensitivity analysis, model inversion, parameter estimation, model selection, uncertainty quantification, data-worth analysis, experimental design, and decision analysis. Typically, in these modeling exercises the estimation of sensitivities comprises the dominant part of the computational effort."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov",
+    "title": "Bayesian-Information-Gap Decision Theory (BIG-DT) with an application to CO2 sequestration",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2015WR017413",
+    "year": 2015,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2015 Bayesian information gap decision theory with an application to CO2 sequestration.pdf",
+    "envitrace_labels": [
+      "carbon",
+      "mads"
+    ],
+    "abstract": "A decision is the end-goal of many scientific efforts. Uncertainty often plays an important role in these decisions. The presence of uncertainty is especially pronounced in earth science applications where models are often inadequate (due to, e.g., geologic heterogeneity) and the decision may have enormous consequences (e.g., deployment of CO sequestration to address climate change)."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
+    "title": "Diffusive mixing and Tsallis entropy",
+    "source": "Physical Review E",
+    "doi": "10.1103/PhysRevE.91.042143",
+    "year": 2015,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2015 Diffusive mixing and Tsallis entropy.pdf",
+    "abstract": "This study examines diffusive mixing through the lens of Tsallis entropy, a nonadditive alternative to classical Boltzmann-Gibbs entropy for nonergodic systems. It develops a generalized form of Brownian motion that maximizes Tsallis entropy and uses it to connect anomalous diffusion behavior with nonclassical entropy production."
+  },
+  {
+    "authors": "D. A. Barajas-Solano, B. Wohlberg, V.V. Vesselinov, D. M. Tartakovsky",
+    "title": "Linear Functional Minimization for Inverse Modeling",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2014WR016179",
+    "year": 2015,
+    "url": "https://montyv.github.io/papers/Barajas et al 2015 Linear functional minimization for inverse modeling.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "Hydraulic and transport properties of subsurface environments, such as hydraulic conductivity, transmissivity, and dispersivity, are often highly heterogeneous. Ubiquitous spatial variability is a product of multiple geological, mechanical, and physicochemical processes that form subsurface environments [Nœtinger et al., 2005;Carrera et al., 2005]."
+  },
+  {
+    "authors": "S.A. Mattis, T.D. Dawson Butler, Estep C.N., Vesselinov D., V.V.",
+    "title": "Parameter estimation and prediction for groundwater contamination based on measure theory",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2015WR017295",
+    "year": 2015,
+    "url": "https://montyv.github.io/papers/Mattis et al 2015 Parameter estimation and prediction for groundwatercontamination based on measure theory.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "we connect the notation and concepts to the model described above. We letKdenote the space of possible (input) parameters for the model (including source parameters) andQbe a map from the parameter spaceKto the output spaceD:ðKÞ.HereDrepresents contaminant concentrations given by the mapQdefined by evaluatingCðx;y;z;tÞat specific points in space-time that depend implicitly on the choice of parameters."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov",
+    "title": "A combined probabilistic/non-probabilistic decision analysis for contaminant remediation",
+    "source": "Journal on Uncertainty Quantification, SIAM/ASA",
+    "doi": "10.1137/140965132",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 A Combined Probabilistic Nonprobabilistic Decision Analysis for Contaminant Remediation.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "Groundwater contaminant remediation poses a significant challenge due in large part to ubiquitous uncertainties and unknowns. A number of remedial options are typically available at a given contamination site. However, choosing the best option is challenging, because it is not typically known beforehand how effective each remediation will be."
+  },
+  {
+    "authors": "V.L. Freedman, X. Chen, S. Finsterle, M. Freshley, I. Gorton, L. Gosink, E. Keating, C. Lansing, Murray C. Moeglein W., G. Pau, E. Porter, S. Purohit, M. Rockhold, K. Schuchardt, C. Sivaramakrishnan, V.V. Vesselinov, S. Waichler",
+    "title": "A high-performance workflow system for subsurface simulation",
+    "source": "Environmental Modelling & Software",
+    "doi": "10.1016/j.envsoft.2014.01.030",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/Freedman et al 2014 A high-performance workflow system for subsurface simulation.pdf",
+    "envitrace_labels": [
+      "geoml",
+      "hydrogen",
+      "mads"
+    ],
+    "abstract": "The U.S. Department of Energy (DOE) recently invested in developing a numerical modeling toolset called ASCEM (Advanced Simulation Capability for Environmental Management) to support modeling analyses at legacy waste sites. This investment includes the development of an open-source user environment called Akuna that manages subsurface simulation workflows."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov, J.H. Cushman",
+    "title": "A Method for Identifying Diffusive Trajectories with Stochastic Model",
+    "source": "Journal of Statistical Physics, Springer",
+    "doi": "10.1007/s10955-014-1035-6",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov Cushman 2014 A Method for Identifying Diffusive Trajectories with Stochastic Models.pdf",
+    "abstract": "Lagrangian dynamics in mixing processes are frequently observed and simulated. Often particle trajectories are driven by unknown and/or innumerable physical processes and hence are often modeled by stochastic processes. Perhaps the most famous such example was Brown’s observation of the highly irregular motion of pollen grains in water [1]."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov",
+    "title": "Analytical solutions for anomalous dispersion transport",
+    "source": "Advances in Water Resources",
+    "doi": "10.1016/j.advwatres.2014.02.006",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Analytical solutions for anomalous dispersion transport.pdf",
+    "abstract": "Groundwater flow and transport often occur in a highly heterogeneous environment (potentially heterogeneous at multiple spatial scales) and is impacted by geochemical reactions, advection, diffusion, and other pore scale processes."
+  },
+  {
+    "authors": "B. Alexandrov, V.V. Vesselinov",
+    "title": "Blind source separation for groundwater level analysis based on non-negative matrix factorization",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2013WR015037",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/Alexandrov & Vesselinov 2014 Blind source separation for groundwater pressure analysis based on nonnegative matrix factorization.pdf",
+    "envitrace_labels": [
+      "smarttensors",
+      "wells"
+    ],
+    "abstract": "Most site hydrogeological studies include analysis of water-level transients; for example, pumping-test interpretation, evaluation of aquifer recharge, estimation of surface/subsurface water interactions, etc. However, identification of the physical sources causing spatial and temporal variation of aquifer water levels is challenging [cf.Vasco et al., 2000]."
+  },
+  {
+    "authors": "D. O’Malley, V.V. Vesselinov",
+    "title": "Groundwater remediation using the information gap decision theory",
+    "source": "Water Resources Research",
+    "doi": "10.1002/2013WR014718",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/OMalley Vesselinov 2014 Groundwater remediation using the information gap decision theory.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "This work applies information-gap decision theory to groundwater remediation design and selection under severe uncertainty. It frames remediation planning as a robustness problem and evaluates how nonprobabilistic uncertainty analysis can support more defensible choices among alternative cleanup actions."
+  },
+  {
+    "authors": "J.M. Heikoop, T.M. Johnson, K.H. Birdsell, P. Longmire, D.D. Hickmott, E.P. Jacobs, D.E. Broxton, D. Katzman, V.V. Vesselinov, M. Ding, D.T. Vaniman, S.L. Reneau, T.J. Goering, J. Glessner, A. Basu",
+    "title": "Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater",
+    "source": "Chemical Geology",
+    "doi": "10.1016/j.chemgeo.2014.02.022",
+    "year": 2014,
+    "url": "https://montyv.github.io/papers/Heikoop et al 2014 Isotopic evidence for reduction of anthropogenic hexavalent chromium in Los Alamos National Laboratory groundwater.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "waste"
+    ],
+    "abstract": "of Sandia Canyon Phase I Sediment Investigations, LA-UR-07-6019. Los Alamos, New Mexico. LANL, 2009.Investigation Report for Sandia Canyon, LA-UR-09-6450."
+  },
+  {
+    "authors": "V.V. Vesselinov, D. O'Malley, D. Katzman",
+    "title": "Robust Decision Analysis for Environmental Management of Groundwater Contamination Sites",
+    "source": "Vulnerability, Uncertainty, and Risk Quantification, Mitigation, and Management",
+    "doi": "10.1061/9780784413609.197",
+    "year": 2014,
+    "url": "http://ascelibrary.org/doi/abs/10.1061/9780784413609.197",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "This paper addresses the severe uncertainty associated with subsurface flow, contaminant transport, and poorly constrained site parameters in groundwater contamination problems. It presents a robust decision-analysis perspective for environmental management and remediation planning when direct observation and characterization of the subsurface are inherently limited."
+  },
+  {
+    "authors": "D.R. Harp, V.V. Vesselinov",
+    "title": "Accounting for the influence of aquifer heterogeneity on spatial propagation of pumping drawdown",
+    "source": "Journal of Water Resource and Hydraulic Engineering",
+    "doi": null,
+    "year": 2013,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 exp.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "It has been previously observed that during a pumping test in heterogeneous media, drawdown data from different time periods collected at a single location produce different estimates of aquifer properties and that Theis type-curve inferences are more variable than late-time Cooper-Jacob inferences. In order to obtain estimates of aquifer properties from highly transient drawdown data using the Theis solution, it is necessary to account for this behavior."
+  },
+  {
+    "authors": "V.V. Vesselinov, D. Katzman, D. Broxton, K. Birdsell, S. Reneau, D. Vaniman, P. Longmire, J. Fabryka-Martin, J. Heikoop, M. Ding, D. Hickmott, E. Jacobs, T. Goering, D.R. Harp, P. Mishra",
+    "title": "Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory (LANL)",
+    "source": "Waste Management Symposium, Phoenix, AZ",
+    "doi": null,
+    "year": 2013,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2013 Data and Model-Driven Decision Support for Environmental Management of a Chromium Plume at Los Alamos National Laboratory.pdf",
+    "envitrace_labels": [
+      "chemml",
+      "mads",
+      "waste"
+    ],
+    "abstract": "A series of site investigations and decision-support analyses have been performed related to a chromium data and site information, alternative conceptual and numerical models representing governing subsurface processes with different complexity and resolution have been developed. The current conceptual model is supported by multiple lines of evidence based on comprehensive analyses of the available data and modeling results."
+  },
+  {
+    "authors": "V.V. Vesselinov, D. Harp",
+    "title": "Adaptive hybrid optimization strategy for calibration and parameter estimation of physical models",
+    "source": "Computers & Geosciences",
+    "doi": "10.1016/j.cageo.2012.05.027",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2012 Adaptive hybrid optimization strategy for calibration and parameter estimation of physical process models.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "A new adaptive hybrid optimization strategy, entitledsquads, is proposed for complex inverse analysis of computationally intensive physics-based models. Typically, models are calibrated and model parameters are estimated by minimization of the discrepancy between model simulations characterizing the system and existing observations requiring a substantial number of model evaluations.Squadsis designed to be computationally efficient and robust in identification of the global optimum (i.e."
+  },
+  {
+    "authors": "V.V. Vesselinov, G. Pau, . Finsterle",
+    "title": "AGNI: Coupling Model Analysis Tools and High-Performance Subsurface Flow and Transport Simulators for Risk and Performance Assessments",
+    "source": "Computational Methods in Water Resources (CMWR)",
+    "doi": null,
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Vesselinov et al 2012 Agni - coupling model analysis tools and high-performance subsurface flow and transport simulators for risk and performance assessments.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "Advanced Simulation Capability for Environmental Management (ASCEM) is an emerging state-of-the-art scientific methodological and computational framework for analyzing and predicting subsurface flow and contaminant transport in natural and engineered systems. ASCEM is supported by the U.S. Department of Energy Office of Environmental Management (DOE-EM)."
+  },
+  {
+    "authors": "D. Harp, V.V. Vesselinov",
+    "title": "An agent-based approach to global uncertainty and sensitivity analysis",
+    "source": "Computers & Geosciences",
+    "doi": "10.1016/j.cageo.2011.06.025",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 abagus.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "A novel sampling approach to global uncertainty and sensitivity analyses of modeling results utilizing concepts from agent-based modeling is presented (Agent-Based Analysis of Global Uncertainty and Sensitivity (ABAGUS)). A plausible model parameter space is discretized and sampled by a particle swarm where the particle locations represent unique model parameter sets."
+  },
+  {
+    "authors": "D. Harp, V.V. Vesselinov",
+    "title": "Analysis of hydrogeological structure uncertainty by estimation of hydrogeological acceptance probability of geostatistical models",
+    "source": "Special issue of Uncertainty Quantification (invited), Advances in Water Resources",
+    "doi": "10.1016/j.advwatres.2011.06.007",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2012 geosampler.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "The following describes a proposed approach to account for the equifinality of solutions that result from comparing observations to flow simulations when using realizations of geostatistical models. We introduce hydrogeological acceptance probability to estimate the propensity of a geostatistical model to produce acceptable realizations with respect to the consistency of their simulations with observations."
+  },
+  {
+    "authors": "D. Harp, V.V. Vesselinov",
+    "title": "Contaminant remediation decision analysis using information gap theory",
+    "source": "Stochastic Environmental Research and Risk Assessment (SERRA)",
+    "doi": "10.1007/s00477-012-0573-1",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2013 Contaminant remediation decision analysis using information.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "Environmental and earth scientists are frequently required to provide scientifically defensible support in decisionmaking processes related to important environmental problems (e.g. climate change, contaminant migration, carbon sequestration, nuclear waste storage, etc.) (Harrington and Gidley1985; Caselton and Luo1992; Paleologos and Lerche1999; Min et al.2005; Levy2005; Tesfamariam and Sadiq2006; Kentel and Aral2007)."
+  },
+  {
+    "authors": "P.K. Mishra, H.V. Gupta, V.V. Vesselinov",
+    "title": "On simulation and analysis of variable-rate pumping tests",
+    "source": "Ground Water",
+    "doi": "10.1111/j.1745-6584.2012.00961.x",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Variable Rate GW.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "Analytical solutions for constant-rate pumping tests are widely used to infer aquifer properties. In this note, we implement a methodology that approximates the time-varying pumping record as a series of segments with linearly varying pumping rates. We validate our approach using an analytical solution for a sinusoidally varying pumping test."
+  },
+  {
+    "authors": "P.K. Mishra, V.V. Vesselinov, S.P. Neuman",
+    "title": "Radial flow to a partially penetrating well with storage in an anisotropic confined aquifer",
+    "source": "Journal of Hydrology",
+    "doi": "10.1016/j.jhydrol.2012.05.010",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Confined aquifer JH.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "This technical note presents an analytical solution for drawdown caused by pumping from a partially penetrating well with wellbore storage in a uniform anisotropic confined aquifer. The solution is used to examine how partial penetration, storage, and anisotropy affect transient drawdown behavior and extends several classical limiting cases in aquifer-test analysis."
+  },
+  {
+    "authors": "P.K. Mishra, V.V. Vesselinov, K.L. Kuhlmna",
+    "title": "Saturated–unsaturated flow in a compressible leaky-unconfined aquifer",
+    "source": "Advances in Water Resources",
+    "doi": "10.1016/j.advwatres.2012.03.007",
+    "year": 2012,
+    "url": "https://montyv.github.io/papers/Mishra et al 2012 Leaky-unconfined aquifer AWR.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "An analytical solution is developed for three-dimensional flow towards a partially penetrating largediameter well in an unconfined aquifer bounded below by a leaky aquitard of finite or semi-infinite extent. The analytical solution is derived using Laplace and Hankel transforms, then inverted numerically. Existing solutions for flow in leaky unconfined aquifers neglect the unsaturated zone following an assumption of instantaneous drainage due to Neuman."
+  },
+  {
+    "authors": "P.K. Mishra, V.V. Vesselinov",
+    "title": "Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer",
+    "source": "arXiv",
+    "doi": "arXiv:1110.5940",
+    "year": 2011,
+    "url": "https://montyv.github.io/papers/Mishra & Vesselinov 2011 Unified Analytical Solution for Radial Flow to a Well in a Confined Aquifer.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "Drawdowns generated by extracting water from a large diameter (e.g. water supply) well are affected by wellbore storage. We present an analytical solution in Laplace transformed space for drawdown in a uniform anisotropic aquifer caused by withdrawing water at a constant rate from a partially penetrating well with storage."
+  },
+  {
+    "authors": "V.V. Vesselinov, D. Harp",
+    "title": "Decision support based on uncertainty quantification of model predictions of contaminant transport",
+    "source": "Computational Methods in Water Resources (CMWR), Barcelona, Spain",
+    "doi": null,
+    "year": 2010,
+    "url": "https://montyv.github.io/papers/Vesselinov & Harp 2010 cmwr decision.pdf",
+    "envitrace_labels": [
+      "mads",
+      "waste"
+    ],
+    "abstract": "The process of decision making to protect groundwater resources requires a detailed estimation of uncertainties in model predictions. Various uncertainties associated with model development, such as measurement and computational errors, uncertainties in the conceptual model and model-parameter estimates, simplifications in model setup and numerical representation of governing processes, influence the uncertainties in the model predictions."
+  },
+  {
+    "authors": "D. Harp, V.V. Vesselinov",
+    "title": "Identification of Pumping Influences in Long-Term Water Level Fluctuations",
+    "source": "Ground Water",
+    "doi": "10.1111/j.1745-6584.2010.00725.x",
+    "year": 2010,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 gw.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "Identification of the pumping influences at monitoring wells caused by spatially and temporally variable water supply pumping can be a challenging, yet an important hydrogeological task. The information that can be obtained can be critical for conceptualization of the hydrogeological conditions and indications of the zone of influence of the individual pumping wells."
+  },
+  {
+    "authors": "E. Morales-Casique, S.P. Neuman, V.V. Vesselinov",
+    "title": "Maximum Likelihood Bayesian Averaging of air flow models in unsaturated fractured tuff using Occam and variance windows",
+    "source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
+    "doi": "10.1007/s00477-010-0383-2",
+    "year": 2010,
+    "url": "https://montyv.github.io/papers/Morales et al 2010 MLBA serra.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "of the conditions for each test is presented in Table1. For inverse calibration we selected the cross-hole tests labelled and ; we validated the calibrated models by predicting pressure variations during cross-hole tests, and . During each test air was injected into a given interval and responses were monitored in relatively short intervals (0.5–m) and relatively long intervals (4–42.m) shown in Fig.1."
+  },
+  {
+    "authors": "D. Harp, V.V. Vesselinov",
+    "title": "Stochastic inverse method for estimation of geostatistical representation of hydrogeologic stratigraphy using borehole logs and pressure",
+    "source": "Special issue of Stochastic Environmental Research and Risk Assessment (SERRA) Journal celebrating 70th anniversary of Shlomo P Neuman",
+    "doi": "10.1007/s00477-010-0403-2",
+    "year": 2010,
+    "url": "https://montyv.github.io/papers/Harp & Vesselinov 2010 SERRA.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "of the indicator kriging approach by Journel (1983) provided an alternative to Boolean models, modeling distinct stratigraphic units using indicator functions in a geostatistical framework. Indicator kriging is easily conditioned to observed geologic data and produces more realistic structures based on an inferred or imposed covariance model as opposed to assumed geometric objects utilized in Boolean models."
+  },
+  {
+    "authors": "V.V. Vesselinov",
+    "title": "Uncertainties in Transient Capture-Zone Estimates of Groundwater Supply Wells",
+    "source": "Journal of Contemporary Water Research & Education",
+    "doi": "10.1111/j.1936-704X.2007.mp137001001.x",
+    "year": 2007,
+    "url": "https://doi.org/10.1111/j.1936-704X.2007.mp137001001.x",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "This study examines uncertainty in transient capture-zone estimates for groundwater supply wells and argues that transient analyses provide a more complete assessment than standard steady-state approaches. It also shows that simplified advection-only methods can bias transient capture-zone predictions, with implications for groundwater protection and wellhead management."
+  },
+  {
+    "authors": "V.V. Vesselinov",
+    "title": "Uncertainties In Transient Capture-Zone Estimates",
+    "source": "Computational Methods in Water Resources (CMWR)",
+    "ISBN": "90-5809-124-4",
+    "doi": null,
+    "year": 2006,
+    "url": "https://montyv.github.io/papers/Vesselinov 2006 cmwr06 Uncertainties In Transient Capture-Zone Estimates.pdf",
+    "envitrace_labels": [
+      "mads",
+      "wells"
+    ],
+    "abstract": "Capture zones of water-supply wells are a widely used analysis tool for protection of groundwater resources. Transient analyses of capture zones provide a more complete assessment than the commonly applied steady-state analyses. Previously, we have demonstrated that advection-only analyses can produce biased transient capture-zone estimates."
+  },
+  {
+    "authors": "E.H. Keating, B.A. Robinson, V.V. Vesselinov",
+    "title": "Development and Application of Numerical Models to Estimate Fluxes through the Regional Aquifer beneath the Pajarito Plateau",
+    "source": "Vadose Zone Journal",
+    "doi": "10.2136/vzj2004.0101",
+    "year": 2005,
+    "url": "https://montyv.github.io/papers/Vrugt et al 2007 VZJ.pdf",
+    "envitrace_labels": [
+      "wells"
+    ],
+    "abstract": "the EnKF propagates an ensemble of state vector trajectories in parallel, such that each trajectory represents one realization of generated model replicates. When an output measurement is available, each forecasted ensemble state vector ψ t f is updated by means of a linear updating rule in a manner analogous to the Kalman fi lter. A detailed description of the EnKF method, including the algorithmic details, is found in Evensen (1994) and so will not be repeated here."
+  },
+  {
+    "authors": "J.A. Vrugt, B.A. Robinson, V.V. Vesselinov",
+    "title": "Improved Inverse Modeling in Geophysics: Combined Parameter and State Estimation",
+    "source": "Geophysical Research Letters",
+    "doi": "10.1029/2005GL023940",
+    "year": 2005,
+    "url": "https://montyv.github.io/papers/Vrugt et al 2005 GRL.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "of the models and methods for the FEHM application—A finite element heat-and mass-transfer code,Rep. LA-13307–MS, Los Alamos Natl. Lab., Los Alamos, N."
+  },
+  {
+    "authors": "V.V. Vesselinov",
+    "title": "Estimation of parameter uncertainty using inverse model sensitivities",
+    "source": "Computational Methods in Water Resources (CMWR), Elsevier",
+    "ISBN": "0-444-51839-8",
+    "doi": "10.1016/S0167-5648(04)80139-4",
+    "year": 2004,
+    "url": "https://montyv.github.io/papers/Vesselinov 2004 Estimation of parameter uncertainty using inverse model sensitivities.pdf",
+    "envitrace_labels": [
+      "mads"
+    ],
+    "abstract": "Inverse models are widely used in the field of hydrogeology [2-6,10]. One of the most important aspects in the inverse analysis is the evaluation of uncertainty in the estimated parameters. The commonly-used evaluation techniques are obtained from the existing vast body of parameter estimation literature [1] and are generally applicable when the number of calibration targets (observations) are significantly larger than the number of model parameters."
+  }
 ]

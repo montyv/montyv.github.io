@@ -10,11 +10,11 @@ const catalogMappings = [
     target: path.join(repoRoot, "public", "data", "monty-publications.json"),
   },
   {
-    source: path.join(repoRoot, "app", "data", "monty presentations.json"),
+    source: path.join(repoRoot, "app", "data", "monty-presentations.json"),
     target: path.join(repoRoot, "public", "data", "monty-presentations.json"),
   },
   {
-    source: path.join(repoRoot, "app", "data", "monty reports.json"),
+    source: path.join(repoRoot, "app", "data", "monty-reports.json"),
     target: path.join(repoRoot, "public", "data", "monty-reports.json"),
   },
 ];

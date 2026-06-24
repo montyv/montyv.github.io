@@ -7,7 +7,7 @@ This site is a static Next.js export (`output: "export"`).
 Generated indexes are built from:
 
 - `legacy/index.html` (legacy lists)
-- `../EnviTraceJS/data/monty-publications.json`, `../EnviTraceJS/data/monty presentations.json`, and `../EnviTraceJS/data/monty reports.json` (shared canonical lists used directly by the Next.js pages)
+- `public/data/monty-publications.json`, `public/data/monty-presentations.json`, and `public/data/monty-reports.json` (public canonical lists used directly by the Next.js pages)
 - `app/<topic>/<topic>.content.json` (older curated/manual list; no longer the primary source for publications/presentations pages)
 - `app/<topic>/<topic>.overrides.json` (manual override list)
 - PDFs in `public/<folderKey>/*.pdf`
@@ -43,23 +43,17 @@ When PDF parsing is enabled, the generator tries to extract a better title/autho
 
 Index generation for legacy/PDF helper JSON is **explicit-only**.
 
-The canonical Monty JSON files now live in `app/data/` inside this repo:
-
-- `app/data/monty-publications.json`
-- `app/data/monty presentations.json`
-- `app/data/monty reports.json`
-
-`npm run build` copies those canonical files to `public/data/` as:
+The public Monty JSON files live in `public/data/` inside this repo and are served at `https://montyv.github.io/data/`:
 
 - `public/data/monty-publications.json`
 - `public/data/monty-presentations.json`
 - `public/data/monty-reports.json`
 
-Those public URLs are the fallback source for other repos, including `EnviTraceJS`, when the sibling checkout is not available.
+Tracked mirrors also live in `app/data/` with the same hyphenated filenames so builds can refresh the public folder before export.
 
 If the local canonical files are missing, `npm run build` prints a warning before continuing.
 
-`npm run sync:catalog` and `npm run sync:catalog:scholar` now write back into the local canonical files in `app/data/`.
+`npm run sync:catalog` and `npm run sync:catalog:scholar` write back into the tracked `app/data/` mirrors, and `npm run build` copies them to `public/data/`.
 
 - Generate legacy + PDF index JSON files: `npm run generate:indexes`
 - Generate with PDF metadata parsing: `npm run generate:indexes:pdf`

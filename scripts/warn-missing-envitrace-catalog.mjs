@@ -5,11 +5,12 @@ import { fileURLToPath } from "node:url";
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const requiredFiles = [
   "monty-publications.json",
-  "monty presentations.json",
-  "monty reports.json",
+  "monty-presentations.json",
+  "monty-reports.json",
 ];
 
 const candidateDirs = [
+  path.resolve(repoRoot, "public", "data"),
   path.resolve(repoRoot, "app", "data"),
   process.env.MONTY_CATALOG_DATA_DIR ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR) : null,
   path.resolve(repoRoot, "..", "EnviTraceJS", "data"),

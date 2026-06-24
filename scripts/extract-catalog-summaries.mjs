@@ -6,7 +6,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..");
 const dataDir = process.env.MONTY_CATALOG_DATA_DIR
   ? path.resolve(process.env.MONTY_CATALOG_DATA_DIR)
-  : path.resolve(repoRoot, "..", "EnviTraceJS", "data");
+  : path.resolve(repoRoot, "app", "data");
 
 const args = new Set(process.argv.slice(2));
 const write = args.has("--write");
@@ -26,7 +26,7 @@ const topics = [
   },
   {
     id: "presentations",
-    fileName: "monty presentations.json",
+    fileName: "monty-presentations.json",
     folderKey: "presentations",
     maxPages: 8,
     markers: [/\babstract\b/gi, /\bexecutive summary\b/gi, /\bsummary\b/gi, /\bintroduction\b/gi],

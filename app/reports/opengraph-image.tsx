@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 import { catalogEntryTitle, loadCanonicalRawCatalogEntries } from "../lib/catalog-data";
 import { CATALOG_OG_CONTENT_TYPE, CATALOG_OG_SIZE, buildCatalogOgCard } from "../lib/catalog-og";
 
-const DATA_FILE = "monty reports.json";
+const DATA_FILE = "monty-reports.json";
 
 export const dynamic = "force-static";
 export const alt = "Reports by Velimir V. Vesselinov";

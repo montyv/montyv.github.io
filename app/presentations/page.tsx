@@ -62,10 +62,10 @@ const readGeneratedIndex = (fileName: string, title: string): CuratedIndex => {
 const legacyIndex = readGeneratedIndex("presentations.legacy.generated.json", "Presentations");
 const canonicalIndex = loadCanonicalCatalogIndex({
   title: "Presentations",
-  dataFileName: "monty presentations.json",
+  dataFileName: "monty-presentations.json",
   pdfFolderKey: "presentations",
 });
-const canonicalEntries = loadCanonicalRawCatalogEntries("monty presentations.json");
+const canonicalEntries = loadCanonicalRawCatalogEntries("monty-presentations.json");
 const pdfIndex = readGeneratedIndex("presentations.pdf.generated.json", "Presentations");
 const overridesIndex = overridesData as CuratedIndex;
 const canonicalDetailHrefById = new Map(canonicalEntries.map((entry, index) => [`presentations-data-${index + 1}`, `/presentations/${catalogEntrySlug(entry)}`]));
