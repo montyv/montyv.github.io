@@ -1,0 +1,51 @@
+[
+	{
+		"title": "Fate and Transport Investigations Update for Chromium Contamination from Sandia Canyon",
+		"source": "DOE LANL Report",
+		"year": 2008,
+		"abstract": "Presents updated investigations of chromium contamination in Sandia Canyon, integrating numerical fate-and-transport modeling, laboratory experiments, and field observations. The report refines the conceptual model of chromium migration, summarizes hydrologic, geochemical, and hydrogeological studies, and uses calibrated models to estimate affected aquifer areas, constrain likely chromium entry locations, and guide monitoring-well placement.",
+		"url": "https://montyv.github.io/reports/LA-UR-08-4702-Fate_and_Trans_Cr_Sandia_Jul08.pdf"
+	},
+	{
+		"title": "Pajarito Canyon Investigation Report",
+		"source": "DOE LANL Report",
+		"year": 2008,
+		"abstract": "Summarizes investigations conducted from 2000 to 2008 across the Pajarito watershed to characterize inorganic, organic, and radionuclide contamination in sediment, surface water, groundwater, and biota. The report evaluates contaminant sources, fate and transport, and human-health and ecological risks, concluding that risks are acceptable for current and foreseeable land uses while recommending continued monitoring.",
+		"url": "https://montyv.github.io/reports/LA-UR-08-5852-Paj_Cyn_IR.pdf"
+	},
+	{
+		"title": "Groundwater Level Status Report",
+		"source": "DOE LANL Report",
+		"year": 2008,
+		"abstract": "Summarizes the status of groundwater-level monitoring at Los Alamos National Laboratory in 2008, covering 179 monitoring wells and 12 water-supply wells. It compiles continuous and manual water-level measurements, hydrographs, well construction and location data, and groundwater temperature records to support regulatory compliance and groundwater modeling.",
+		"url": "https://montyv.github.io/reports/LA-14397-PRforWWW.pdf"
+	},
+	{
+		"title": "Decision analysis for addressing groundwater contaminants from the radioactive liquid waste treatment facility released into Mortandad canyon",
+		"source": "DOE LANL Report",
+		"year": 2005,
+		"abstract": "Documents the development and demonstration of analytical tools for a risk-based decision-support system addressing groundwater contaminants from the Radioactive Liquid Waste Treatment Facility in Mortandad Canyon. The report extends conventional corrective-action risk assessment with decision-analysis methods, explicitly quantifies uncertainty, and evaluates alternative actions for reducing exposure risk cost-effectively.",
+		"url": "https://montyv.github.io/reports/LA-UR-05-6397%20Decision%20Analysis-GWContaminants020106.pdf"
+	},
+	{
+		"title": "An alternative conceptual model of groundwater flow and transport in saturated zone beneath the Pajarito Plateau",
+		"source": "DOE LANL Report",
+		"year": 2005,
+		"abstract": "Presents a comprehensive conceptual model of groundwater flow and transport in the saturated zone beneath the Pajarito Plateau, synthesizing earlier studies and available site observations. The report describes recharge, hydrogeologic properties, hydrodynamics, and key uncertainties to frame regional aquifer behavior and its connection to the broader Espanola Basin system.",
+		"url": "https://montyv.github.io/reports/LA-UR-05-6741-conceptual-model-050818-laur.pdf"
+	},
+	{
+		"title": "Logical framework for development and discrimination of alternative conceptual models of saturated groundwater flow beneath the Pajarito Plateau",
+		"source": "DOE LANL Report",
+		"year": 2005,
+		"abstract": "Develops a framework for constructing, comparing, and discriminating among alternative conceptual models of saturated groundwater flow beneath the Pajarito Plateau. The report explains why competing conceptual models are needed, summarizes alternative groundwater-flow interpretations, and links them to hydraulic and geochemical evidence that can reduce uncertainty.",
+		"url": "https://montyv.github.io/reports/LA-UR-05-6876-conceptual-model-logical-framework-050822-laur.pdf"
+	},
+	{
+		"title": "Analysis of Capture Zones of the Buckman Wellfield and a Proposed Horizontal Collector Well North of the Otowi Bridge",
+		"source": "DOE LANL Report",
+		"year": 2002,
+		"abstract": "Analyzes capture zones, water sources, travel times, and dilution factors for the Buckman wellfield and a proposed horizontal collector well near the Rio Grande. Using regional groundwater-flow and transport modeling, the report evaluates whether water originating beneath Los Alamos could reach these supply systems and how mixing and residence times would affect water-quality concerns.",
+		"url": "https://montyv.github.io/reports/LA-UR-02-2750%20buckman-020507.pdf"
+	}
+]
