@@ -441,7 +441,7 @@
     "envitrace_labels": [
       "wefx"
     ],
-    "abstract": "This presentation covers machine learning analyses of climate data and models. It discusses the integration of climate datasets with machine learning techniques to identify hidden patterns and assess climate trends and projections. The presentation emphasizes the application of machine learning for climate data analysis, model diagnostics, and improving climate predictions. The work focuses on analyses of climate data and models for US and Europe to extract meaningful insights and support informed decision-making in the context of climate change and its impacts on ground surface tempreture, precipitation, water resources and the environment."
+    "abstract": "This presentation covers machine learning analyses of climate data and models. It discusses the integration of climate datasets with machine learning techniques to identify hidden patterns and assess climate trends and projections. The presentation emphasizes the application of machine learning for climate data analysis, model diagnostics, and improving climate predictions. The work focuses on analyses of climate data and models for US and Europe to extract meaningful insights and support informed decision-making in the context of climate change and its impacts on ground surface temperature, precipitation, water resources and the environment."
   },
   {
     "authors": "V.V. Vesselinov",
@@ -714,7 +714,7 @@
       "mads",
       "wells"
     ],
-    "abstract": "Material interfaces between hydrostatigraphicunits (HSU) with contrasting aquifer parameters (e.g., strata and facies with different hydraulic conductivity) have a great impact on flow and contaminant transport in subsurface. However, the identification of HSU shape in the subsurface is challenging and typically relies on tomographic approaches where a series of steady-state/transient head measurements at spatially distributed observation locations are analyzed using inverse models."
+    "abstract": "Material interfaces between hydrostatigraphic units (HSU) with contrasting aquifer parameters (e.g., strata and facies with different hydraulic conductivity) have a great impact on flow and contaminant transport in subsurface. However, the identification of HSU shape in the subsurface is challenging and typically relies on tomographic approaches where a series of steady-state/transient head measurements at spatially distributed observation locations are analyzed using inverse models."
   },
   {
     "authors": "V.V. Vesselinov, D. O'Malley",
@@ -957,7 +957,7 @@
     "source": "Conference on Computational Methods in Water Resources (CMWR), Copenhagen, Denmark",
     "doi": null,
     "year": 2006,
-    "url": "https://montyv.github.io/presentations/vesselinov LA-UR-06-2305 cmwr06 transeint capture zone 060622.pdf",
+    "url": "https://montyv.github.io/presentations/vesselinov LA-UR-06-2305 cmwr06 transient capture zone 060622.pdf",
     "envitrace_labels": [
       "mads",
       "wells"
